@@ -1,0 +1,53 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Wed, 14 Sep 2011 00:39:03 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/L8QoJn>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; Uncategorized</title>
+	<atom:link href="http://popdigital.ca/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Thoughts on Virtuality</title>
+		<link>http://popdigital.ca/2011/06/02/thoughts-on-virtuality/</link>
+		<comments>http://popdigital.ca/2011/06/02/thoughts-on-virtuality/#comments</comments>
+		<pubDate>Thu, 02 Jun 2011 19:08:11 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=607</guid>
+		<description><![CDATA[Virtuality is often described by what it is not: “virtuality is not real,” “virtuality is not material; “virtuality is not the physical world,” etc. But it is counter-productive to constantly be defining a concept by what it is not, and thus there is a tremendous need amongst cybernetic theorists to come up with an accurate [...]]]></description>
+			<content:encoded><![CDATA[<p>Virtuality is often described by what it is not: “virtuality is <strong>not</strong> real,” “virtuality is <strong>not</strong> material; “virtuality is <strong>not</strong> the physical world,” etc. But it is counter-productive to constantly be defining a concept by what it is not, and thus there is a tremendous need amongst cybernetic theorists to come up with an accurate and useable definition for virtuality. A unifying definition that umbrellas all of virtuality’s possible meanings is perhaps unreasonable, however. Virtuality is probably something that is better defined within a certain context – such as virtuality within the realm of computer-mediated perception, virtual reality (VR), or hologram technology – because on one level, everything imagined and contained within the mind can be said to be virtual. For this reason, whenever one is dealing with an issue or concept around virtuality, I believe they must explicitly define the context and point-of-view from which it is to be discussed.</p>
+<p>The first thing to consider when trying to develop a working definition for virtuality, is that virtuality is not virtual reality, although by some definitions the two are intricately related. In fact, many people use the phrase virtual reality when virtuality would be more appropriate. For example, Howard Rheingold believes that “VR originated in the initiation ceremonies that presumably took place in the painted caves of the Paleolithic Age” (Ryan, 1995). For Brenda Laurel, “the prototype of VR is ancient Greek theatre when theatre was ritual and not yet representation” (Ryan, 1995). These two examples, I believe, are more appropriately associated with virtuality, as by most definitions, virtual reality refers to a computer-generated environment:</p>
+<blockquote><p>“Virtual Reality: a medium composed of highly interactive computer simulations that sense the user’s position and replace or augment the feedback of one or more senses – giving the feeling of being immersed, or being present in the simulation.” &#8211; (Sherman &amp; Craig, 1995)</p></blockquote>
+<p>Because of the pedantic and oxymoronic nature of the term virtual reality, many people prefer the phrase virtual environment (VE), although virtual reality has still managed to persist in the popular media (Vince, 1998).</p>
+<p>Unlike VR or VE, the concept of virtuality can be said to have existed long before the computer – back to ancient Greek theatre or Paleolithic cave paintings, as in the above examples – for virtuality is a term that lives outside of any given technology. Merriam-Webster On-line defines virtual as “being such in essence or effect though not formally recognized or admitted” (www.m-w.com). Some describe being virtual as “immersion into an alternate reality or point-of-view” (Sherman &amp; Craig, 1995).</p>
+<p>For me, the heart of virtuality is in our perception of the real-virtual dichotomy. There are certain constraints (that may one day be overcome, but for the moment are locked into human existence) that “anchor” us to the physical world: (1) Our mortality, or the knowledge that one day our body will die; (2) The irreversible direction of time; and (3) The sense of preservation stemming from an instinctual avoidance of events that could cause personal injury (Ryan, 1995). As such, we may never completely get away from feelings of being tied, on some level, to the physical and material universe, but we can still relocate ourselves to a virtual existence through our minds and imagination. Virtuality, then, could be described as a way of experiencing a metaphysical world, a bridge to the alternate reality outside of our bodies.</p>
+<p>N. Katherine Hayles (1999), in her book “How We Became Post-Human: Virtual Bodies in Cybernetics, Literature, and Informatics,” offers a different perspective on the real-virtual opposition structure, stating that virtuality plays off the duality of materiality on the one hand and information on the other. She offers the following definition for virtuality: “Virtuality is the cultural perception that material objects are interpenetrated by information patterns” (Hayles, 1999). This definition acknowledges that materiality and information, the real and the virtual, are inextricably intertwined, and that one cannot exist without the other.</p>
+<p>&nbsp;</p>
+<h3>Works Cited:</h3>
+<p>Hayles, N. Katherine. How We Became Post-Human: Virtual Bodies in Cybernetics, Literature, and Informatics. Chicago: University of Chicago Press, 1999.</p>
+<p>Manovich, Lev. “What is Digital Cinema?” http://www-apparitions.ucsd.edu/~manovich/text/digital-cinema.html. Accessed Dec. 5th 2001.</p>
+<p>Ryan, Marie-Laure. “Introduction: From Possible Worlds to Virtual Reality.” Style, Vol. 29, Issue 2, Summer 1995.</p>
+<p>Sherman, William R. and Alan B. Craig. “Literacy in Virtual Reality: a new medium,” Computer Graphics, Vol. 29, No. 4, ACM Press, November 1995.</p>
+<p>Vince, John. Essential Virtual Reality Fast. London: Springer-Verlag London Limited, 1998.</p>
+<p>Viola, Bill. (1982) “Will There Be Condominiums in Data Space?” in Packer, Randall and Ken Jordan, Eds., Multimedia: From Wagner to Virtual Reality. New York: W.W. Norton &amp; Company. 2001.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/02/thoughts-on-virtuality/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/category/uncategorized/feed/ ) in 5.78161 seconds, on Sep 21st, 2011 at 12:39 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 21st, 2011 at 2:39 am UTC -->

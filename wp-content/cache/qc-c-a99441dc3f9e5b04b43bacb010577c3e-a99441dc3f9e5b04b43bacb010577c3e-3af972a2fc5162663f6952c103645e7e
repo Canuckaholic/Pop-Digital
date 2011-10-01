@@ -1,0 +1,59 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Tue, 13 Sep 2011 00:49:56 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/FuQ43l>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; fashion</title>
+	<atom:link href="http://popdigital.ca/tag/fashion/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Website: Allison Wondeland</title>
+		<link>http://popdigital.ca/2011/02/25/allison-wondeland-website/</link>
+		<comments>http://popdigital.ca/2011/02/25/allison-wondeland-website/#comments</comments>
+		<pubDate>Fri, 25 Feb 2011 20:51:08 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[allison wonderland]]></category>
+		<category><![CDATA[fashion]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=378</guid>
+		<description><![CDATA[About: Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &#38; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-381" title="allison_wonderland_558x300" src="http://popdigital.ca/wp-content/uploads/2009/02/allison_wonderland_558x300.jpg" alt="Allison Wonderland" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &amp; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the style-savvy of North America and Japan.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP.</p>
+<h2>URL:</h2>
+<p><a title="Allison Wonderland" href="http://allisonwonderland.ca" target="_blank">allisonwonderland.ca</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/02/25/allison-wondeland-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/fashion/feed/ ) in 0.50628 seconds, on Sep 20th, 2011 at 12:49 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 20th, 2011 at 2:49 am UTC -->

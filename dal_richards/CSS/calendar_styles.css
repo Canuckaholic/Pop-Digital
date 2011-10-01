@@ -1,0 +1,62 @@
+/* NEW Calendar Styles
+*****************************************/
+.eventDate {
+	background-color: #8e060a;
+	color: #FFFFFF;
+	text-align: center;
+}
+.eventDetails {
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+/* OLD Calendar Styles
+*****************************************/
+.EventPast {
+	display: none;	
+}
+
+.EventUpcoming p {
+	margin: 0px;
+	padding: 0px;
+	line-height: 16px;
+}
+
+.EventNow {
+	display: block;
+	position: relative;
+	color: #3d6996;
+	font-size: 130%;
+	margin-top: 15px;
+	border-bottom: 1px solid #2383e6;
+}
+
+.EventToday {
+	font-size: 130%;
+	font-weight: bold;	
+	color: #cccccc;
+}
+
+.EventDate {
+	font-size: 130%;
+	margin-top: 15px;
+}
+
+.EventBand {
+	font-size: 100%;	
+	font-style: italic;
+}
+
+.EventName, .EventVenue {
+	font-size: 100%;	
+}
+
+.EventTime {
+	font-size: 100%;
+	font-weight: bold;	
+}
+
+.EventNotes {	
+	font-size: 100%;
+	font-style: italic;
+}

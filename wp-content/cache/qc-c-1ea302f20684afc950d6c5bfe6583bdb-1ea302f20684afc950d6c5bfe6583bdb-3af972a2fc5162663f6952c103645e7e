@@ -1,0 +1,651 @@
+a:8:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Fri, 16 Sep 2011 06:48:41 GMT";i:2;s:44:"Last-Modified: Fri, 23 Sep 2011 06:48:41 GMT";i:3;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:4;s:16:"Pragma: no-cache";i:5;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:6;s:38:"Content-Type: text/html; charset=UTF-8";i:7;s:42:"Link: <http://is.gd/CfIW6A>; rel=shortlink";}<!--headers--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>Pop Digital - 4/5 - Grabbing the Attention of Audiences Everywhere</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<meta name="description" content="Grabbing the Attention of Audiences Everywhere" />
+
+	<meta name="robots" content="noindex,follow" />
+
+    
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/typography.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/images.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/layouts/2c-r-fixed.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/popdigital/styles/default.css" />
+    <link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/plugins.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/popdigital/style.css" />
+	
+		<link rel="alternate" type="application/rss+xml" href="http://popdigital.ca/feed/" title="Pop Digital Posts RSS feed" />
+	<link rel="alternate" type="application/rss+xml" href="http://popdigital.ca/comments/feed/" title="Pop Digital Comments RSS feed" />
+
+	<link rel="pingback" href="http://popdigital.ca/xmlrpc.php" />
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v0.4.2 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://popdigital.ca/blog/page/4/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='slb_style-css'  href='http://popdigital.ca/wp-content/plugins/simple-lightbox/css/lightbox.css?ver=1.5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://popdigital.ca/wp-content/plugins/contact-form-7/styles.css?ver=2.4.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://popdigital.ca/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/wp-nivo-slider/js/jquery.nivo.slider.pack.js?ver=2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var QCAjax = {
+	ajaxurl: "http://popdigital.ca/wp-admin/admin-ajax.php",
+	nonce: "63281664fa",
+	nextquote: "Next quote&nbsp;&raquo;",
+	loading: "Loading...",
+	error: "Error getting quote",
+	auto_refresh_max: "30",
+	auto_refresh_count: "0"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/quotes-collection/quotes-collection.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/simple-lightbox/js/lib.js?ver=1.5.5.1'></script>
+<style type="text/css">img.nothumb{border:0;margin:0 0 0 2px !important;}</style>
+<!-- Tweet This v1.8.3 b037 mode alpha -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://popdigital.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://popdigital.ca/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Pop Digital' href='http://popdigital.ca/' />
+
+<link rel='shortlink' href='http://is.gd/CfIW6A' />
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/plugins/quotes-collection/quotes-collection.css" />
+	<script type="text/javascript">/* <![CDATA[ */(function($){$(document).ready(function(){SLB.initialize({'validateLinks':false,'autoPlay':false,'slideTime':'6','loop':true,'overlayOpacity':'0.8','animate':true,'captionEnabled':true,'captionSrc':true,'layout':'<div id="slb_container"><div id="imageContainer">{slbContent}<div id="nav_hover">{navPrev}{navNext}</div><div id="loading">{slbLoading}</div></div></div><div id="slb_details" class="clearfix"><div id="imageData"><div id="imageDetails">{dataCaption}{dataNumber}<span id="slb_nav">{navPrev}{navNext}{navSlideControl}</span></div><div id="close">{slbClose}</div></div></div>','altsrc':'slb_src','relAttribute':['slb'],'prefix':'slb','strings':{'closeLink':'close','loadingMsg':'loading','nextLink':'next &raquo;','prevLink':'&laquo; prev','startSlideshow':'start slideshow','stopSlideshow':'stop slideshow','numDisplayPrefix':'Image','numDisplaySeparator':'of'}});})})(jQuery);/* ]]> */</script>
+<!-- WP-SWFObject 2.3 by unijimpe -->
+<script src="http://popdigital.ca/wp-content/plugins/wp-swfobject/2.0/swfobject.js" type="text/javascript"></script>
+<script src='http://popdigital.ca/wp-content/themes/popdigital/js/cufon-yui.js' type='text/javascript'></script>
+	<script src='http://popdigital.ca/wp-content/themes/popdigital/js/Alba_Super_400.font.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+        Cufon.replace('.popText');
+    </script><script type='text/javascript'>
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17960201-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/hoverIntent.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/superfish.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/supersubs.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/thematic-dropdowns.js"></script>
+
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		jQuery.noConflict();
+		/*]]>*/
+	</script>
+
+</head>
+
+<body class="wordpress blogid-1 y2011 m09 d22 h23 blog paged not-singular paged-4 unknown-os unknown-browser">
+
+<div id="wrapper" class="hfeed">   
+
+    <div id="header_wrapper">    
+    <div id="header">
+    
+        <div id="branding">
+	    		
+	    		<div id="blog-title"><span><a href="http://popdigital.ca/" title="Pop Digital" rel="home">Pop Digital</a></span></div>
+	    		
+	    		<h1 id="blog-description">Grabbing the Attention of Audiences Everywhere</h1>
+
+		</div><!--  #branding -->
+	    
+	    <div id="access">
+	    		
+	    	<div class="skip-link"><a href="#content" title="Skip navigation to the content">Skip to content</a></div><!-- .skip-link -->
+	    		
+	    	<div class="menu"><ul class="sf-menu"><li class="page_item page-item-14"><a href="http://popdigital.ca/" title="Home">Home</a></li><li class="page_item page-item-6"><a href="http://popdigital.ca/about/" title="About">About</a><ul class='children'><li class="page_item page-item-748"><a href="http://popdigital.ca/about/meet-the-team/" title="Meet the Team">Meet the Team</a></li></ul></li><li class="page_item page-item-8"><a href="http://popdigital.ca/services/" title="Services">Services</a></li><li class="page_item page-item-12"><a href="http://popdigital.ca/work/" title="Work">Work</a></li><li class="page_item page-item-16 current_page_item"><a href="http://popdigital.ca/blog/" title="Blog">Blog</a></li><li class="page_item page-item-10"><a href="http://popdigital.ca/contact/" title="Contact">Contact</a></li></ul></div>
+	        
+		</div><!-- #access -->
+		
+		
+	</div><!-- #header-->
+    </div><!-- #header_wrapper-->
+       
+    <div id="main">
+    
+		<div id="container">
+	
+				
+			<div id="content">
+
+				
+				<div id="nav-above" class="navigation">
+               		  
+					<div class="nav-previous"><a href="http://popdigital.ca/blog/page/5/" ><span class="meta-nav">&laquo;</span> Older posts</a></div>
+					<div class="nav-next"><a href="http://popdigital.ca/blog/page/3/" >Newer posts <span class="meta-nav">&raquo;</span></a></div>
+										
+				</div>	
+	
+
+				<div id="post-21" class="hentry p1 post publish author-canuckaholic category-web-design category-wordpress tag-thematic tag-wordpress is-full comments-open pings-open y2011 m01 d01 h05 slug-thematic-wordpress-framework"><h2 class="entry-title"><a href="http://popdigital.ca/2011/01/01/thematic-wordpress-framework/" title="Permalink to Introduction to the Thematic WordPress Framework" rel="bookmark">Introduction to the Thematic WordPress Framework</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2011-01-01T12:18:53-0700">January 1, 2011</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p>Great <a title="sitepoint thematic framework" href="http://articles.sitepoint.com/article/beginners-guide-to-the-thematic-framework-for-wordpress" target="_blank">SitePoint article</a> on creating a WordPress child theme based on the <a title="Thematic WordPress framework" href="http://themeshaper.com/thematic/" target="_blank">Thematic framework</a>.</p>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2011/01/01/thematic-wordpress-framework/&text=Introduction+to+the+Thematic+WordPress+Framework&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/web-design/" title="View all posts in Web Design" rel="category tag">Web Design</a>, <a href="http://popdigital.ca/category/web-design/wordpress/" title="View all posts in WordPress" rel="category tag">WordPress</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/thematic/" rel="tag">Thematic</a>, <a href="http://popdigital.ca/tag/wordpress/" rel="tag">WordPress</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link"><a href="http://popdigital.ca/2011/01/01/thematic-wordpress-framework/#comments" title="Comment on Introduction to the Thematic WordPress Framework">Leave a comment</a></span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-568" class="hentry p2 post publish author-canuckaholic category-interactivity-theory category-narrative tag-digital-environments tag-interactivity-digital-media is-full comments-closed pings-closed y2010 m12 d10 h14 alt slug-properties-aesthetics-of-digital-environments"><h2 class="entry-title"><a href="http://popdigital.ca/2010/12/10/properties-aesthetics-of-digital-environments/" title="Permalink to Properties &amp; Aesthetics of Digital Environments" rel="bookmark">Properties &#038; Aesthetics of Digital Environments</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-12-10T21:26:47-0700">December 10, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p>In her book, &#8220;Hamlet on the Holodeck,&#8221; Janet Murray discusses the properties and aesthetics of digital environments. In doing so, she describes a set of parameters that can be used as a framework for analyzing multi-linear narrative works. Murray&#8217;s four properties of digital environments are that they are: 1) Procedural; 2) Participatory; 3) Spatial; and 4) Encyclopedic. Murray&#8217;s three aesthetic pleasures of digital environments are: 1) Immersion; 2) Agency; and 3) Transformation. (Murray, 2000).</p>
+<h2><strong>Properties of Digital Environments:</strong></h2>
+<h3><em>Digital Environments are Procedural:</em></h3>
+<p>In order to have coherency, digital environments have sets of rules that govern a user&#8217;s experience. These rules are not meant to impose limitations, but rather to provide structure to what could otherwise be a chaotic digital landscape. The nature of digital environments is to allow for exploration of new possibilities and creativity.</p>
+<blockquote><p><em>&#8220;[T]he computer can be a compelling medium for storytelling if we can write rules for it that are recognizable as an interpretation of the world.&#8221; (Murray, 2000, pg. 73)</em></p></blockquote>
+<h3><em>Digital Environments are Participatory:</em></h3>
+<p>Even though we are forced to work within a specific set of rules due to the procedural nature of digital environments, they are still quite appealing to us because of the power they imbue to create new experiences. Participation in a digital environment means that the computer is in some way responding to the user – the program is not just displaying what the user inputs, but interacting. Murray uses the computer game Zork as an early example of a participatory story:</p>
+<blockquote><p><em>&#8220;Within Zork&#8217;s fantasy world, players move through dungeon rooms by typing in navigational commands&#8230;, look for objects that can be manipulated&#8230;, solve riddles, and fight off evil trolls.&#8221; (Murray, 2000, pg. 74)</em></p></blockquote>
+<h3><em>Digital Environments are Spatial:</em></h3>
+<blockquote><p><em>&#8220;The computer&#8217;s spatial quality is created by the interactive process of navigation.&#8221; (Murray, 2000, pg. 80)</em></p></blockquote>
+<p>Unlike books or print, digital realms have the ability to represent a space that can be navigated by the ‘reader.’ A multi-linear work with open architecture means that the virtual space is free to be explored by the end-user – there are no specific boundaries guiding the user in a particular direction. Closed architecture is more or less the opposite of open architecture, in that the end-user is forced to navigate a specific path. If the user deviates, obstacles and cul-de-sacs are used to bring the user back to the main path.</p>
+<p>Instead of the word spatial, Lev Manovich uses the term <em>navigable space</em> to refer to 3-D computer-based virtual space in <em>The Language of New Media</em> (Manovich, 2001).</p>
+<h3><em>Digital Environments are Encyclopedic:</em></h3>
+<p>Digital environments are able to store vast amounts of information. This property is similar to stating that digital environments use a database form. In computer science, a database is defined as a structured collection of data, or an organized body of related information, and in digital media, the database has emerged as an effective medium to provide a user efficient access to information (Manovich, 2001, p.215).</p>
+<blockquote><p><em>&#8220;&#8230; creating a work in new media can be understood as the construction of an interface to a database.&#8221; (Manovich, 2001, p.226)</em></p></blockquote>
+<p>There are many different types of databases – hierarchical, network, relational, object-oriented, etc – and they each use different models and algorithms for organizing the data. The OOIC model uses an object-oriented database, which stores complex data structures (objects) in hierarchical classes. An object of one class can inherit properties from classes higher than it in the hierarchy.</p>
+<p><strong> </strong></p>
+<h2><strong>Aesthetics of Digital Environments:</strong></h2>
+<h3><em>Digital Environments are Immersive:</em></h3>
+<blockquote><p><em>&#8220;The experience of being transported to an elaborately simulated place is pleasurable in itself, regardless of the fantasy content. We refer to this experience as immersion.&#8221; (Murray, 2000, pg. 98)</em></p></blockquote>
+<p>One thing that interactive narrative attempts to accomplish is the active creation of belief, rather than just the passive suspension of disbelief.</p>
+<h3><em>Digital Environments can build Agency:</em></h3>
+<blockquote><p><em>&#8220;Agency is the satisfying power to take meaningful action and see the results of our decisions and choices.&#8221; (Murray, 2000, pg. 126)</em></p></blockquote>
+<h3><em>Digital Environments can be Transformative:</em></h3>
+<p>Transformation can happen two ways: the interactor can transform the digital environment, or the digital environment can transform or influence the interactor.</p>
+<p>&nbsp;</p>
+<h4>References:</h4>
+<p>Manovich, Lev. “The Language of New Media.” Cambridge, Mass.: MIT Press. 2001.</p>
+<p>Murray, Janet. “Hamlet on the Holodeck: The Future of Narrative in Cyberspace.” Cambridge, Mass.: MIT Press. 2000.</p>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/12/10/properties-aesthetics-of-digital-environments/&text=Properties+%26+Aesthetics+of+Digital+Environments&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/interactivity-theory/" title="View all posts in Interactivity Theory" rel="category tag">Interactivity Theory</a>, <a href="http://popdigital.ca/category/narrative/" title="View all posts in Narrative" rel="category tag">Narrative</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/digital-environments/" rel="tag">digital environments</a>, <a href="http://popdigital.ca/tag/interactivity-digital-media/" rel="tag">interactivity. digital media</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-315" class="hentry p3 post publish author-canuckaholic category-work-examples tag-fantasy-hockey tag-web-application is-full comments-closed pings-closed y2010 m11 d17 h13 slug-canucks-fantasy-hockey"><h2 class="entry-title"><a href="http://popdigital.ca/2010/11/17/canucks-fantasy-hockey/" title="Permalink to Canucks Fantasy Hockey" rel="bookmark">Canucks Fantasy Hockey</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-11-17T20:20:59-0700">November 17, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-365" title="canucks_fantasy_558x300" src="http://popdigital.ca/wp-content/uploads/2010/03/canucks_fantasy_558x300.jpg" alt="Canucks Fantasy Hockey" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Canucks Fantasy Hockey is a free online game that allows you to play against other Vancouver Canucks fans as you attempt to earn the most points during each of the Vancouver Canucks&#8217; regular season and playoff hockey games. You earn points in each game by first selecting your &#8220;team&#8221; from members of the Vancouver Canucks roster. Canucks players earn points for you by scoring goals, getting assists, giving hits, etc. But you are limited in the number of players that you can choose by a salary cap. Players that typically earn more points will cost more to purchase for your team.</p>
+<div id="attachment_316" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-316" title="Canucks Fantasy Hockey (canucks.com/fantasy)" src="http://popdigital.ca/wp-content/uploads/2011/04/canucks_fantasy_slider-300x105.jpg" alt="Canucks Fantasy Hockey" width="300" height="105" /><p class="wp-caption-text">Canucks Fantasy Hockey (canucks.com/fantasy)</p></div>
+<h2>Type of Project:</h2>
+<p>Web application using LAMP architecture</p>
+<h2>URL:</h2>
+<p><a title="Vancouver Canucks" href="http://canucks.com" target="_blank">canucks.com</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Javascript</li>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>jQuery</li>
+<li>XML</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/11/17/canucks-fantasy-hockey/&text=Canucks+Fantasy+Hockey&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/fantasy-hockey/" rel="tag">fantasy hockey</a>, <a href="http://popdigital.ca/tag/web-application/" rel="tag">web application</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-413" class="hentry p4 post publish author-canuckaholic category-work-examples tag-canucks tag-trivia tag-web-application tag-xml is-full comments-closed pings-closed y2010 m07 d15 h11 alt slug-canucks-trivia"><h2 class="entry-title"><a href="http://popdigital.ca/2010/07/15/canucks-trivia/" title="Permalink to Canucks Trivia" rel="bookmark">Canucks Trivia</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-07-15T18:27:14-0700">July 15, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-414" title="canucks_trivia_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/canucks_trivia_558x300.jpg" alt="Canucks Trivia" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Canucks Trivia tests your knowledge of the Vancouver Canucks, past and present.</p>
+<h2>Type of Project:</h2>
+<p>Web Application. Built using Flash and XML.</p>
+<h2>URL:</h2>
+<p><a title="Vancouver Canucks Trivia" href="http://canucks.com/trivia" target="_blank">canucks.com/trivia</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>XML</li>
+<li>MySQL</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/07/15/canucks-trivia/&text=Canucks+Trivia&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/canucks/" rel="tag">canucks</a>, <a href="http://popdigital.ca/tag/trivia/" rel="tag">trivia</a>, <a href="http://popdigital.ca/tag/web-application/" rel="tag">web application</a>, <a href="http://popdigital.ca/tag/xml/" rel="tag">xml</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-321" class="hentry p5 post publish author-canuckaholic category-work-examples tag-flash-application tag-interactivity is-full comments-closed pings-closed y2010 m03 d01 h13 slug-fins-place"><h2 class="entry-title"><a href="http://popdigital.ca/2010/03/01/fins-place/" title="Permalink to Fin&#8217;s Place" rel="bookmark">Fin&#8217;s Place</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-03-01T20:29:21-0700">March 1, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-384" title="fins_place_558x300" src="http://popdigital.ca/wp-content/uploads/2010/03/fins_place_558x300.jpg" alt="Fin's Place" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Fin, the official mascot of the Vancouver Canucks, has a home on canucks.com. Fin&#8217;s Place is a Flash application where fans can interact with their favourite mascot by reading his blog, watching videos, viewing photos, and more.</p>
+<div id="attachment_322" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-322" title="Fin's Place (canucks.com/fin)" src="http://popdigital.ca/wp-content/uploads/2011/04/fins_place_slider-300x105.jpg" alt="Fin's Place (canucks.com/fin)" width="300" height="105" /><p class="wp-caption-text">Fin&#39;s Place (canucks.com/fin)</p></div>
+<h2>Type of Project:</h2>
+<p>Flash application.</p>
+<h2>URL:</h2>
+<p><a title="Fin's Place" href="http://canucks.com.fin" target="_blank">canucks.com/fin</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Evan Biswanger</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>Interactivity Design</li>
+</ul>
+</div>
+<h3>Evan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/03/01/fins-place/&text=Fin%E2%80%99s+Place&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/flash-application/" rel="tag">flash application</a>, <a href="http://popdigital.ca/tag/interactivity/" rel="tag">interactivity</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-324" class="hentry p6 post publish author-canuckaholic category-work-examples tag-logo-design tag-radio is-full comments-closed pings-closed y2010 m02 d17 h13 alt slug-am730-logo"><h2 class="entry-title"><a href="http://popdigital.ca/2010/02/17/am730-logo/" title="Permalink to AM730 Logo" rel="bookmark">AM730 Logo</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-02-17T20:34:46-0700">February 17, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><a rel="slb[slb_324]" href="http://popdigital.ca/wp-content/uploads/2010/02/am730_558x300.jpg"><img class="alignnone size-full wp-image-389" title="am730_558x300" src="http://popdigital.ca/wp-content/uploads/2010/02/am730_558x300.jpg" alt="AM730" width="558" height="300" /></a></p>
+<h2>About:</h2>
+<p>AM730 is a dedicated traffic station on the AM dial, broadcasting to Greater Vancouver and the Fraser Valley. AM730 is owned by Corus Entertainment Inc.</p>
+<div id="attachment_325" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-325" title="AM730 Logo" src="http://popdigital.ca/wp-content/uploads/2011/04/am730_logo_slider-300x105.jpg" alt="AM730 Logo" width="300" height="105" /><p class="wp-caption-text">AM730 Logo</p></div>
+<h2>Type of Project:</h2>
+<p>Logo design.</p>
+<h2>URL:</h2>
+<p><a title="AM730" href="http://www.am730.ca/" target="_blank">am730.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>Logo Design</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/02/17/am730-logo/&text=AM730+Logo&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/logo-design/" rel="tag">logo design</a>, <a href="http://popdigital.ca/tag/radio/" rel="tag">radio</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-329" class="hentry p7 post publish author-canuckaholic category-work-examples tag-web-design-2 tag-website is-full comments-closed pings-closed y2010 m02 d01 h13 slug-revel-events-website"><h2 class="entry-title"><a href="http://popdigital.ca/2010/02/01/revel-events-website/" title="Permalink to Revel Events Website" rel="bookmark">Revel Events Website</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2010-02-01T20:40:13-0700">February 1, 2010</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-405" title="revelevents_558x300" src="http://popdigital.ca/wp-content/uploads/2010/02/revelevents_558x300.jpg" alt="Revel Events" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Revel Events is an event coordination service based out of Vancouver. Whether you&#8217;re looking to host an intimate gathering or a large-scale event, let Revel Events take on the planning and coordination. The success of any occasion is in the details, and the Revel Events team has the contacts, the resources, and the enthusiasm to make your event an affair to remember.</p>
+<h2>Type of Project:</h2>
+<p>Website.</p>
+<h2>URL:</h2>
+<p><a title="Revel Events" href="http://revelevents.ca" target="_blank">revelevents.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Leah Browne</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<h3>Leah:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2010/02/01/revel-events-website/&text=Revel+Events+Website&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/web-design-2/" rel="tag">web design</a>, <a href="http://popdigital.ca/tag/website/" rel="tag">website</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-371" class="hentry p8 post publish author-canuckaholic category-work-examples tag-rogers-arena tag-web-design-2 tag-website is-full comments-closed pings-closed y2009 m04 d24 h08 alt slug-rogers-arena-website"><h2 class="entry-title"><a href="http://popdigital.ca/2009/04/24/rogers-arena-website/" title="Permalink to Rogers Arena Website" rel="bookmark">Rogers Arena Website</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2009-04-24T15:32:13-0700">April 24, 2009</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-375" title="rogers_arena_558x300" src="http://popdigital.ca/wp-content/uploads/2009/04/rogers_arena_558x300.jpg" alt="Rogers Arena" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Officially opening its doors on September 21, 1995, Rogers Arena has become symbolic of Vancouver’s proud identity, serving as the city’s ambassador and host to the world of sports and entertainment. A staple of downtown Vancouver, Rogers Arena is one of the premier sports and entertainment facilities in all of North America. Highly praised for its comfortable seating and superior sight lines, visitor hospitality lies at the heart of this 475,000 sq. ft. building. Home to the Vancouver Canucks of the National Hockey League, Rogers Arena has hosted numerous national and international events over the years, as well as welcomed a countless number of world renowned personalities including former US President Bill Clinton, HRH Queen Elizabeth II, and His Holiness the Dalai Lama.</p>
+<h2>Type of Project:</h2>
+<p>Website.</p>
+<h2>URL:</h2>
+<p><a title="Rogers Arena" href="http://rogersarena.ca" target="_blank">rogersarena.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Evan Biswanger</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+</ul>
+</div>
+<h3>Evan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2009/04/24/rogers-arena-website/&text=Rogers+Arena+Website&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/rogers-arena/" rel="tag">rogers arena</a>, <a href="http://popdigital.ca/tag/web-design-2/" rel="tag">web design</a>, <a href="http://popdigital.ca/tag/website/" rel="tag">website</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-391" class="hentry p9 post publish author-canuckaholic category-work-examples tag-camp-latona tag-web-design-2 tag-website is-full comments-closed pings-closed y2008 m09 d05 h09 slug-camp-latona-website"><h2 class="entry-title"><a href="http://popdigital.ca/2008/09/05/camp-latona-website/" title="Permalink to Camp Latona Website" rel="bookmark">Camp Latona Website</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2008-09-05T16:04:12-0700">September 5, 2008</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-393" title="camp_latona_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_558x300.jpg" alt="Camp Latona" width="558" height="300" /></p>
+<h2>About:</h2>
+<div id="attachment_392" class="wp-caption alignright" style="width: 310px"><a rel="slb[slb_391]" href="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_slider.jpg"><img class="size-medium wp-image-392" title="camp_latona_slider" src="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_slider-300x105.jpg" alt="Camp Latona Website" width="300" height="105" /></a><p class="wp-caption-text">Camp Latona Website (camplatona.com)</p></div>
+<p>For over fifty years, Camp Latona has been developing the confidence and life skills in our youth to prepare them for their future challenges and success. The Roots of Camp Latona and the spirit by which it operates have remained unchanged over the years. Located on British Columbia’s West Coast, Camp Latona is home to pristine waters, rain forest terrain and abundant wildlife. With 118 Acres of forested land and 3500 feet of shoreline nestled on the North end of Gambier Island, Camp Latona is a true wilderness waterfront within reach of Vancouver and Squamish.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. Uses a custom-built CMS.</p>
+<h2>URL:</h2>
+<p><a title="Camp Latona" href="http://camplatona.com" target="_blank">camplatona.com</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Ryan Castle</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<h3>Ryan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2008/09/05/camp-latona-website/&text=Camp+Latona+Website&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/camp-latona/" rel="tag">camp latona</a>, <a href="http://popdigital.ca/tag/web-design-2/" rel="tag">web design</a>, <a href="http://popdigital.ca/tag/website/" rel="tag">website</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+				<div id="post-409" class="hentry p10 post publish author-canuckaholic category-work-examples tag-coldfusion tag-corus-entertainment tag-web-design-2 tag-website is-full comments-closed pings-closed y2007 m08 d25 h09 alt slug-corus-entertainment-websites"><h2 class="entry-title"><a href="http://popdigital.ca/2007/08/25/corus-entertainment-websites/" title="Permalink to Corus Entertainment Websites" rel="bookmark">Corus Entertainment Websites</a></h2>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2007-08-25T16:39:31-0700">August 25, 2007</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p><img class="alignnone size-full wp-image-410" title="cfox_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/cfox_558x300.jpg" alt="CFOX" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Corus Entertainment Inc. owns and operates 4 radio stations in Vancouver: <a title="CFOX" href="http://cfox.com" target="_blank">CFOX </a>(The Fox), <a title="Rock101" href="http://rock101.com" target="_blank">CFMI </a>(Rock101), <a title="CKNW" href="http://cknw.com" target="_blank">CKNW</a>, and <a title="AM730" href="http://am730.ca" target="_blank">CHMJ </a>(MOJO, AM730). In the middle of 2007 the websites for these stations were all brought under a content management framework provided by Emmis Interactive, but before this, Pop Digital team member Adrian Jones designed and developed for the stations&#8217; websites. Much of his work still lingers on the sites all these years later!</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture was ColdFusion.</p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>ColdFusion</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>Flash</li>
+<li>XML</li>
+<li>Video Editing</li>
+<li>Sound Editing</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2007/08/25/corus-entertainment-websites/&text=Corus+Entertainment+Websites&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+										</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">Posted in <a href="http://popdigital.ca/category/work-examples/" title="View all posts in Work Examples" rel="category tag">Work Examples</a></span> <span class="meta-sep meta-sep-tag-links">|</span><span class="tag-links"> Tagged <a href="http://popdigital.ca/tag/coldfusion/" rel="tag">coldfusion</a>, <a href="http://popdigital.ca/tag/corus-entertainment/" rel="tag">corus entertainment</a>, <a href="http://popdigital.ca/tag/web-design-2/" rel="tag">web design</a>, <a href="http://popdigital.ca/tag/website/" rel="tag">website</a></span> <span class="meta-sep meta-sep-comments-link">|</span> <span class="comments-link comments-closed-link">Comments closed</span></div><!-- .entry-utility -->
+				</div><!-- #post -->
+
+			
+			<div id="nav-below" class="navigation">
+                  
+				<div class="nav-previous"><a href="http://popdigital.ca/blog/page/5/" ><span class="meta-nav">&laquo;</span> Older posts</a></div>
+				<div class="nav-next"><a href="http://popdigital.ca/blog/page/3/" >Newer posts <span class="meta-nav">&raquo;</span></a></div>
+							</div>	
+	
+				
+			</div><!-- #content -->
+		
+			 
+		
+		</div><!-- #container -->
+
+
+<div id="primary" class="aside main-aside">
+	<ul class="xoxo">
+<li id="search-2" class="widgetcontainer widget_search"><h3 class="widgettitle"><label for="s">Search</label></h3>
+
+	<form id="searchform" method="get" action="http://popdigital.ca/">
+		<div>
+			<input id="s" name="s" type="text" value="To search, type and hit enter" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" size="32" tabindex="1" />
+			<input id="searchsubmit" name="searchsubmit" type="submit" value="Search" tabindex="2" />
+		</div>
+	</form></li>		<li id="recent-posts-4" class="widgetcontainer widget_recent_entries">		<h3 class="widgettitle">Recent Blog Posts</h3>
+		<ul>
+				<li><a href="http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/" title="5 Principles of User-Centered Interface Design">5 Principles of User-Centered Interface Design</a></li>
+				<li><a href="http://popdigital.ca/2011/08/17/britton-diamonds/" title="Website: Britton Diamonds">Website: Britton Diamonds</a></li>
+				<li><a href="http://popdigital.ca/2011/08/16/10-essential-apps-for-running-your-business/" title="10 Essential Apps for Running Your Business">10 Essential Apps for Running Your Business</a></li>
+				<li><a href="http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/" title="So you wanna be a User Experience Designer?">So you wanna be a User Experience Designer?</a></li>
+				<li><a href="http://popdigital.ca/2011/07/04/northlands-golf-course/" title="Website: Northlands Golf Course">Website: Northlands Golf Course</a></li>
+				<li><a href="http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/" title="User Experience as Corporate Imperative">User Experience as Corporate Imperative</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/animated-tribute-to-ux-design/" title="Animated Tribute to UX Design">Animated Tribute to UX Design</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/5-principles-of-user-centered-navigation/" title="5 Principles of User-Centered Navigation">5 Principles of User-Centered Navigation</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/5-principles-of-user-centered-design/" title="5 Principles of User-Centered Design">5 Principles of User-Centered Design</a></li>
+				<li><a href="http://popdigital.ca/2011/06/06/myspaces-ux-induced-death/" title="MySpace&#8217;s UX-Induced Death">MySpace&#8217;s UX-Induced Death</a></li>
+				</ul>
+		</li><li id="tag_cloud-3" class="widgetcontainer widget_tag_cloud"><h3 class="widgettitle">Tag Cloud</h3>
+<div class="tagcloud"><a href='http://popdigital.ca/tag/agile/' class='tag-link-18' title='4 topics' style='font-size: 16.615384615385pt;'>Agile</a>
+<a href='http://popdigital.ca/tag/a-list-apart/' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>A List Apart</a>
+<a href='http://popdigital.ca/tag/allison-wonderland/' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>allison wonderland</a>
+<a href='http://popdigital.ca/tag/animation/' class='tag-link-56' title='2 topics' style='font-size: 11.876923076923pt;'>animation</a>
+<a href='http://popdigital.ca/tag/business-tip-2/' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>business tip</a>
+<a href='http://popdigital.ca/tag/camp-latona/' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>camp latona</a>
+<a href='http://popdigital.ca/tag/canucks/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>canucks</a>
+<a href='http://popdigital.ca/tag/cfox/' class='tag-link-54' title='1 topic' style='font-size: 8pt;'>cfox</a>
+<a href='http://popdigital.ca/tag/coldfusion/' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>coldfusion</a>
+<a href='http://popdigital.ca/tag/corus-entertainment/' class='tag-link-46' title='1 topic' style='font-size: 8pt;'>corus entertainment</a>
+<a href='http://popdigital.ca/tag/design/' class='tag-link-31' title='1 topic' style='font-size: 8pt;'>design</a>
+<a href='http://popdigital.ca/tag/experience-design/' class='tag-link-65' title='1 topic' style='font-size: 8pt;'>experience design</a>
+<a href='http://popdigital.ca/tag/fantasy-hockey/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>fantasy hockey</a>
+<a href='http://popdigital.ca/tag/fashion/' class='tag-link-36' title='1 topic' style='font-size: 8pt;'>fashion</a>
+<a href='http://popdigital.ca/tag/flash/' class='tag-link-55' title='2 topics' style='font-size: 11.876923076923pt;'>flash</a>
+<a href='http://popdigital.ca/tag/flash-application/' class='tag-link-41' title='1 topic' style='font-size: 8pt;'>flash application</a>
+<a href='http://popdigital.ca/tag/game-design/' class='tag-link-60' title='1 topic' style='font-size: 8pt;'>game design</a>
+<a href='http://popdigital.ca/tag/game-theory/' class='tag-link-58' title='1 topic' style='font-size: 8pt;'>game theory</a>
+<a href='http://popdigital.ca/tag/graphic-design-2/' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>graphic design</a>
+<a href='http://popdigital.ca/tag/image-editing/' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>image editing</a>
+<a href='http://popdigital.ca/tag/interactivity/' class='tag-link-42' title='5 topics' style='font-size: 18.338461538462pt;'>interactivity</a>
+<a href='http://popdigital.ca/tag/interactivity-theory-2/' class='tag-link-59' title='1 topic' style='font-size: 8pt;'>interactivity theory</a>
+<a href='http://popdigital.ca/tag/interface-design/' class='tag-link-68' title='2 topics' style='font-size: 11.876923076923pt;'>interface design</a>
+<a href='http://popdigital.ca/tag/logo-design/' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>logo design</a>
+<a href='http://popdigital.ca/tag/methodology-2/' class='tag-link-20' title='3 topics' style='font-size: 14.461538461538pt;'>methodology</a>
+<a href='http://popdigital.ca/tag/mysql-2/' class='tag-link-52' title='1 topic' style='font-size: 8pt;'>mysql</a>
+<a href='http://popdigital.ca/tag/narrative-2/' class='tag-link-64' title='3 topics' style='font-size: 14.461538461538pt;'>narrative</a>
+<a href='http://popdigital.ca/tag/non-linear-narrative/' class='tag-link-61' title='1 topic' style='font-size: 8pt;'>non-linear narrative</a>
+<a href='http://popdigital.ca/tag/php-2/' class='tag-link-51' title='1 topic' style='font-size: 8pt;'>php</a>
+<a href='http://popdigital.ca/tag/process/' class='tag-link-30' title='1 topic' style='font-size: 8pt;'>process</a>
+<a href='http://popdigital.ca/tag/radio/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>radio</a>
+<a href='http://popdigital.ca/tag/rhino/' class='tag-link-53' title='1 topic' style='font-size: 8pt;'>rhino</a>
+<a href='http://popdigital.ca/tag/rogers-arena/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>rogers arena</a>
+<a href='http://popdigital.ca/tag/screen-capture/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>screen capture</a>
+<a href='http://popdigital.ca/tag/sitepoint/' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>SitePoint</a>
+<a href='http://popdigital.ca/tag/thematic/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Thematic</a>
+<a href='http://popdigital.ca/tag/trivia/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>trivia</a>
+<a href='http://popdigital.ca/tag/user-experience-design/' class='tag-link-62' title='3 topics' style='font-size: 14.461538461538pt;'>user-experience design</a>
+<a href='http://popdigital.ca/tag/ux/' class='tag-link-29' title='2 topics' style='font-size: 11.876923076923pt;'>UX</a>
+<a href='http://popdigital.ca/tag/vancouver-canucks/' class='tag-link-38' title='1 topic' style='font-size: 8pt;'>vancouver canucks</a>
+<a href='http://popdigital.ca/tag/web-application/' class='tag-link-39' title='3 topics' style='font-size: 14.461538461538pt;'>web application</a>
+<a href='http://popdigital.ca/tag/web-design-2/' class='tag-link-19' title='8 topics' style='font-size: 22pt;'>web design</a>
+<a href='http://popdigital.ca/tag/website/' class='tag-link-34' title='7 topics' style='font-size: 20.923076923077pt;'>website</a>
+<a href='http://popdigital.ca/tag/wordpress/' class='tag-link-10' title='1 topic' style='font-size: 8pt;'>WordPress</a>
+<a href='http://popdigital.ca/tag/xml/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>xml</a></div>
+</li>
+	</ul>
+</div><!-- #primary .aside -->
+
+<div id="secondary" class="aside main-aside">
+	<ul class="xoxo">
+<li id="linkcat-16" class="widgetcontainer widget_links"><h3 class="widgettitle">Useful Links</h3>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.alistapart.com/" title="For People Who Make Websites" target="_blank">A List Apart</a></li>
+<li><a href="http://www.csszengarden.com" target="_blank">CSS Zen Garden</a></li>
+<li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+<li><a href="http://www.sitepoint.com/" target="_blank">SitePoint</a></li>
+<li><a href="http://www.smashingmagazine.com">Smashing Magazine</a></li>
+<li><a href="http://www.webdesignerwall.com" target="_blank">Web Designer Wall</a></li>
+<li><a href="http://www.webmonkey.com" target="_blank">WebMonkey</a></li>
+<li><a href="http://www.wired.com" target="_blank">Wired</a></li>
+
+	</ul>
+</li>
+<li id="rss-links-2" class="widgetcontainer widget_rss-links"><h3 class="widgettitle">RSS Links</h3>
+			<ul>
+				<li><a href="http://popdigital.ca/feed/" title="Pop Digital Posts RSS feed" rel="alternate nofollow" type="application/rss+xml">All posts</a></li>
+				<li><a href="http://popdigital.ca/comments/feed/" title="Pop Digital Comments RSS feed" rel="alternate nofollow" type="application/rss+xml">All comments</a></li>
+			</ul>
+</li>
+	</ul>
+</div><!-- #secondary .aside -->
+
+    </div><!-- #main -->
+    
+        
+
+	<div id="footer_wrapper">
+    <div id="footer">
+    
+        <div id='footerContainer'>
+            <div id='footerNav'><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-756"><a href="http://popdigital.ca/">Home</a></li>
+<li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754"><a href="http://popdigital.ca/about/">About</a></li>
+<li id="menu-item-753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753"><a href="http://popdigital.ca/services/">Services</a></li>
+<li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="http://popdigital.ca/work/">Work</a></li>
+<li id="menu-item-755" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16 current_page_item current_page_parent menu-item-755"><a href="http://popdigital.ca/blog/">Blog</a></li>
+<li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-751"><a href="http://popdigital.ca/contact/">Contact</a></li>
+</ul></div></div>
+            <div id='footerQuotes'><div id="quotescollection_randomquote-0" class="quotescollection_randomquote"><p><q>The first, and by far the most import aspect of web design, is to clarify the purpose of the site.</q> <cite>&mdash;&nbsp;<span class="quotescollection_author">seobook.com</span></cite></p></div></div>
+            <div id='footerLogo'>
+                <a href='http://popdigital.ca' title='Pop Digital homepage'><img src='http://popdigital.ca/wp-content/themes/popdigital/images/layout/pop_digital_icon.png' alt='Pop Digital' /></a>
+            </div><div id='copyright'>copyright &copy; Pop Digital 2011</div>
+		</div><!-- #footerContainer -->            
+            <div id="subsidiary">
+            
+        
+<div id="first" class="aside sub-aside">
+	<ul class="xoxo">
+<li id="tweet-this-4" class="widgetcontainer tweet_this_widget"><h3 class="widgettitle"><a href="http://twitter.com/Adrian_D_Jones" target="_blank">tweet tweet</a></h3>
+<ul class="tweets"><li>A Farewell to CSS3 Gradients? <a href="http://t.co/E2VDgHLR" rel="nofollow">http://t.co/E2VDgHLR</a> <a href="http://search.twitter.com/search?q=%23in" target="_blank">#in</a> <a href="http://twitter.com/Adrian_D_Jones/statuses/116545470079307776" class="timesince" target="_blank">1&nbsp;day&nbsp;ago</a></li></ul></li>
+	</ul>
+</div><!-- #first .aside -->
+            
+            </div><!-- #subsidiary -->
+            
+            
+        <div id="siteinfo">        
+
+    	Powered by <a class="wp-link" href="http://WordPress.org/" title="WordPress" rel="generator">WordPress</a>. Built on the <a class="theme-link" href="http://themeshaper.com/thematic/" title="Thematic Theme Framework" rel="designer">Thematic Theme Framework</a>.    
+		</div><!-- #siteinfo -->
+    
+    	        
+	</div><!-- #footer -->
+    </div><!-- #footer_wrapper -->
+	
+    </div><!-- #wrapper .hfeed -->  
+
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.6'></script>
+<script type='text/javascript'> Cufon.now(); </script>
+	<script type='text/javascript'>
+        jQuery('.workBox img').hover(function () { jQuery(this).fadeTo('fast', 0.4); }, function () { jQuery(this).fadeTo('fast', 1); });
+		jQuery('.website img').hover(function () { jQuery(this).fadeTo('fast', 0.4); }, function () { jQuery(this).fadeTo('fast', 1); });
+    </script>
+</body>
+</html>
+<!-- This Quick Cache file was built for (  popdigital.ca/blog/page/4/ ) in 3.08135 seconds, on Sep 23rd, 2011 at 6:48 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 23rd, 2011 at 8:48 am UTC -->

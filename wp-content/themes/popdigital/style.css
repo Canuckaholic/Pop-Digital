@@ -1,0 +1,406 @@
+/*
+Theme Name: Pop Digital
+Theme URI: http://popdigital.ca/
+Description: Child theme for Thematic. Theme for Pop Digital Creative Agency.
+Author: AJ
+Author URI: http: //popdigital.ca/about/
+Template: thematic
+Version: 1.0
+*/
+
+/* General custom styles */
+.clearFloats {
+	clear: both;
+}
+.divider {
+	clear: both;
+	margin-bottom: 15px;
+}
+.dividerStroke {
+	clear: both;
+	width: 640px;
+	height: 30px;
+	background-image: url("images/divider_stroke.gif");
+	margin: 30px auto;
+}
+.spacer20px {
+	height: 20px;
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.contentDividerBar {
+	background-color: #778093;
+	border-top: 2px solid #333333;
+	height: 28px;
+	width: 100%;
+}
+h1.entry-title {
+	text-transform: none;
+}
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: right;
+}
+.imageFloatRight {
+	float: right;
+	margin: 0 0 5px 10px !important;
+}
+.imageFloatLeft {
+	float: left;
+	margin: 0 10px 5px 0 !important;
+}
+.imageFloatRightFramed {
+	float: right;
+	margin: 0 0 5px 10px !important;
+	border: 1px solid #CCC;
+	padding: 4px;
+	background-color: #F5F5F5;
+}
+.imageFloatLeftFramed {
+	float: left;
+	margin: 0 10px 5px 0 !important;
+	border: 1px solid #CCC;
+	padding: 4px;
+	background-color: #F5F5F5;
+}
+.aside .popText {
+	font-size: 220%;
+	color: #1A3167;
+	margin-bottom: 12px;
+}
+.column .popText, .contentBox .popText {
+	font-size: 220%;
+	color: #1A3167;
+	margin-bottom: 10px;
+}
+.aside h3 a {
+	color: #50689F;
+}
+#subsidiary {
+	position: absolute;
+	top: 35px;
+	right: 120px;
+	color: #2E2E2E !important;
+	display: block;
+	width: 290px;
+	font-size: 11px;
+}
+#subsidiary li {
+	list-style-type: none;
+	color: #d6d6d6;
+}
+#subsidiary ul ul {
+	margin: 0 0 22px 0;
+}
+
+/* Layout custom styles */
+#header_wrapper {
+	background-image: url("images/layout/header_bkg_v2.gif");
+	background-repeat: repeat-x;
+}
+#footer_wrapper {
+	background-image: url("images/layout/footer_bkg_v2.gif");
+	background-repeat: repeat-x;
+}
+#container {
+	margin: 45px 0 45px 20px;
+	background-color: #FFF;
+	border: 1px solid #999;
+	width: 578px;
+	padding: 25px 10px;
+	-moz-box-shadow: 8px 8px 4px #888;
+	-webkit-box-shadow: 8px 8px 4px #888;
+	box-shadow: 8px 8px 4px #888;
+}
+#content {
+    width: 558px;
+}
+.main-aside {
+	right: 20px;
+	width: 258px;
+	margin-top: 45px;
+	background-color: #FFF;
+	-moz-box-shadow: 8px 8px 4px #888;
+	-webkit-box-shadow: 8px 8px 4px #888;
+	box-shadow: 8px 8px 4px #888;
+	overflow: hidden;
+}
+#primary {
+	border: 1px solid #999;
+	padding: 15px 10px;
+}
+#secondary {
+	border: 1px solid #999;
+	padding: 15px 10px;
+	margin-bottom: 45px;
+}
+.contentBox {
+	margin: 42px;
+	background-color: #FFF;
+	padding: 27px 27px 44px 27px;
+	border: 1px solid #999999;
+}
+
+
+/* Homepage custom styles */
+#homepageTopContent {
+	background-image: url("images/home/woman_picture_frame.jpg");
+	width: 940px;
+	height: 703px;
+	position: relative;
+}
+#homepageTopContent #textBox {
+	position: absolute;
+	top: 96px;
+	left: 328px;
+	width: 562px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 28px;
+}
+#homepageTopContent #textBox h1 {
+	font-size: 30px;
+	color: #1a3167;
+	font-weight: bold;
+	margin-bottom: 34px;
+}
+
+#homepageBottomContent {
+	padding: 42px;
+}
+#homepageBottomContent .column {
+	width: 233px;
+	min-height: 700px;
+	float: left;
+	background-color: #FFF;
+	padding: 20px;
+	margin-right: 15px;
+	font-size: 13px;
+	border: 1px solid #999;
+}
+#homepageBottomContent .column.last {
+	margin-right: 0;
+}
+#homepageBottomContent .column ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#homepageBottomContent .column ul li {
+	padding-bottom: 13px;
+	font-size: 15px;
+	background-image: url("images/checkmark.gif");
+	background-repeat: no-repeat;
+	background-position: 2px 0;
+	padding-left: 35px;
+}
+#homepageBottomContent .column .website {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin-bottom: 12px;
+}
+#homepageBottomContent .column .website img {
+	margin-bottom: 4px;
+}
+#homepageBottomContent h3 {
+	margin-bottom: 5px;
+	font-size: 115%;
+}
+
+.moreLink {
+	float: right;
+}
+
+#slider {
+	-moz-box-shadow: 0 6px 4px -4px #333333;
+	-webkit-box-shadow: 0 6px 4px -4px #333333;
+	box-shadow: 0 6px 4px -4px #333333;
+	border: 1px solid #666;
+}
+
+
+/* Pages custom styles */
+#servicesList ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#servicesList ul li {
+	padding-bottom: 10px;
+	font-size: 15px;
+	background-image: url("images/checkmark.gif");
+	background-repeat: no-repeat;
+	background-position: 2px 0;
+	padding-left: 35px;
+}
+.page .entry-content h1 {
+	background: none repeat scroll 0 0 #eef3ff;
+    border-color: #B2B2B2;
+    border-style: dashed;
+	border-top-style: solid;
+    border-width: 1px 0;
+    padding: 0.75em 1em 0.5em;
+	margin: 30px 0 20px;;
+	font-size: 22px;
+}
+.wpcf7 p {
+	margin-bottom: 16px;
+	color: #cc9423;
+}
+.workBox {
+	float: left;
+	margin: 0 5px 10px 0 !important;
+	border: 1px solid #CCC;
+	padding: 4px;
+	background-color: #F5F5F5;
+	text-align: center;
+	width: 250px;
+	position: relative;
+}
+.workBox img {
+	margin-bottom: 5px;
+}
+
+
+/* Post styles */
+#content .column {
+	width: 233px;
+	float: left;
+	margin-right: 15px;
+	font-size: 13px;
+}
+#content .column.last {
+	margin-right: 0;
+}
+#content .column ul {
+	list-style-type: none;
+	margin: 0 0 22px 0;
+	padding: 0;
+}
+#content .column ul li {
+	padding-bottom: 13px;
+	font-size: 15px;
+	background-image: url("images/checkmark.gif");
+	background-repeat: no-repeat;
+	background-position: 2px 0;
+	padding-left: 35px;
+}
+
+.archive-meta {
+	display: none;
+}
+
+.entry-utility {
+	padding-top: 20px;
+	border-top: 1px dashed #CCC;
+	margin-top: 20px;
+}
+.tweetthis {
+	font-size: 75%;
+	margin-top: 10px;
+}
+.tweetthis a {
+	text-decoration: none;
+}
+
+/* Tabs custom styles */
+.ui-tabs .ui-tabs-panel {
+	border: 1px solid #CCC !important;
+	border-top: none !important;
+	background-color: #F7F7F7 !important;
+	padding: 20px 10px !important;
+}
+.ui-corner-all {
+	border-radius: 4px 4px 0 0 !important;
+}
+
+/* Footer custom styles */
+#footerContainer {
+	position: relative;	
+	width: 940px;
+	height: 255px;
+}
+#footerNav .menu-footer-container {
+	margin: 0;
+	padding: 0;
+	line-height: 1.0;
+}
+#footerNav .menu-footer-container ul {
+	list-style-type: none;
+	margin: 0 0 0 30px;
+	padding-top: 4px;
+}
+#footerNav .menu-footer-container li {
+	float: left;
+	position: relative;
+}
+#footerNav .menu-footer-container a {
+	padding: 11px 45px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+}
+#footerNav .menu-footer-container a:link, #footerNav .menu-footer-container a:active, #footerNav .menu-footer-container a:visited {
+	color: #9A7223;
+}
+#footerNav .menu-footer-container a:hover {
+	color: #edc16a;
+}
+#footerLogo {
+	clear: both;
+	text-align: center;
+	width: 940px;
+	top: 23px;
+	position: relative;
+}
+#footerQuotes {
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	color: #d6d6d6;
+	display: block;
+	width: 290px;
+	font-size: 12px;
+}
+#footerQuotes:before, #footerQuotes:after {
+	color: #9A7223;
+	display: block;
+	font-size: 500%;
+	width: 50px;
+}
+#footerQuotes:before {
+	content: '\201C';
+	height: 0;
+	margin-left: -0.5em;
+}
+#footerQuotes:after {
+	content: '\201D';
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 295px;
+}
+
+#footerSocialLinks {
+	position: absolute;
+	bottom: 60px;
+	right: 20px;
+	width: 290px;
+}
+#footerSocialLinks img {
+	float: right;
+	margin-left: 5px;
+}
+
+#copyright {
+	position: relative;
+	float: right;
+	top: 58px;
+	color: #CCC;
+	font-size: 80%;
+	padding-right: 20px;
+}

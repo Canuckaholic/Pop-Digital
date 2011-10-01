@@ -1,0 +1,472 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Tue, 06 Sep 2011 15:39:10 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 01 Sep 2011 04:14:45 GMT";i:6;s:40:"ETag: "c88254fb9d0de83d29450cca301c6016"";i:7;s:42:"Link: <http://is.gd/F3uwfH>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; User-Experience Design</title>
+	<atom:link href="http://popdigital.ca/category/user-experience-design-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 01 Sep 2011 04:14:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>5 Principles of User-Centered Interface Design</title>
+		<link>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/</link>
+		<comments>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/#comments</comments>
+		<pubDate>Fri, 26 Aug 2011 04:22:21 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[interface design]]></category>
+		<category><![CDATA[principles]]></category>
+		<category><![CDATA[user-centered]]></category>
+		<category><![CDATA[user-experience design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=737</guid>
+		<description><![CDATA[Originally published on DesignFestival. &#160; Oh Google Maps&#8230; where would I be without thee? Probably still driving down a back road half way to New Mexico by now. And all I wanted was to go to the corner store. But this isn&#8217;t an article on my lack of navigational skills. It&#8217;s about how we all [...]]]></description>
+			<content:encoded><![CDATA[<p><em>Originally published on <a title="DesignFestival" href="http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/" target="_blank">DesignFestival</a></em>.</p>
+<p>&nbsp;</p>
+<p>Oh Google Maps&#8230; where would I be without thee?</p>
+<p>Probably still driving down a back road half way to New Mexico by now. And all I wanted was to go to the corner store.</p>
+<p>But this isn&#8217;t an article on my lack of navigational skills. It&#8217;s about how we all like to know how to get around without getting lost. And when I&#8217;m using a website, computer program, video game, or anything else that requires me to interface with a piece of software, I also like to know how to get around without getting lost.</p>
+<p>Thankfully, we live in a world where subjects like user-experience design and user-interface design are established enough disciplines that we feel inclined to shorten them to UX/UI design and people still know what we are talking about. Yet it&#8217;s amazing how many times I still find myself on a website and feel my frustration level rising because I can&#8217;t figure out how to do what seems to me should be a simple task. Sometimes I really do want to go to New Mexico, but all I&#8217;m given is directions to the corner store.</p>
+<p>I&#8217;ve outlined below 5 principles of user-centered interface design, principles to help our websites and applications keep us on track. I am most familiar with website and mobile interfaces, but really these principles can be applied to any interface, or anytime someone has a point of contact with a digital or mechanical system. An interface can be a navigation menu, a search field, a dialog box, a selection pointer, a tools palette, a drag-and-drop feature, a web form, a simple button, and so much more. An interface is also the power button on your computer, and the volume knob on your stereo. And the touchscreen of your iPad. Interfaces are the layers through which we humans interact with our machines. In my world of web design, interfaces are so important because regardless of a website&#8217;s content, if someone can&#8217;t navigate easily around your site, that great content may never be found. And the world may never know about the video of your seriously&#8230; cutest&#8230; kitten&#8230; ever.</p>
+<p>Now at first glance the principles below may seem rather obvious. Even so, it never hurts to re-emphasize the obvious when it comes to web design best practices. How many times have you needed to just get a website out the door and been tempted to skip over providing alt attributes for those last couple of images you&#8217;re using? Resist the temptation! And sometimes even things that seem to be obvious turn out to have been not so obvious at first. If this wasn&#8217;t true then all the interfaces out there would be easy to use and there wouldn&#8217;t be any need for people like me to write an article stating the obvious. Okay, you&#8217;ve waited long enough, on to the principles&#8230;</p>
+<h1>Principle #1: Understand Your Users and Support Their Goals</h1>
+<p>Mitchell Kapor wrote a Software Design Manifesto back in 2002, and there is a quote from this paper that I still like to use:</p>
+<p>“If a user interface is designed ‘after the fact’ it is like designing an automobile dashboard after the engine, chassis, and all other components and functions are specified.”</p>
+<p>Now at first glance you might be thinking no big deal, a car&#8217;s dashboard or website&#8217;s interface can be designed once you have all your core components and functionality built. But this will usually get you into trouble. Why? Because your users aren&#8217;t interacting directly with your core components &#8211; they are experiencing your system, and all that it can do for them, through the interfaces that you provide. And if these interfaces are designed after the fact, it&#8217;s almost impossible for them to be able to meet all your users&#8217; goals. In other words, you need to first understand your users &#8211; their needs and objectives &#8211; in order to create an interface that allows them to effectively access your system&#8217;s functionality.</p>
+<p>The important questions to ask then in creating a user-centered interface are: Who are the users? What are the main functions that the user will need? Why is the user using this particular piece of software/hardware and what are their goals? Is the software/hardware accessible by users of different experience levels? What is the most intuitive way that the user could interact with the software/hardware?</p>
+<h1>Principle #2: Make Your Interface Easy to Learn and Enjoyable to Use</h1>
+<p>For the typical iPhone owner, they don&#8217;t care about the brilliance of the software and hardware engineering that went into creating their device, they just know that it is easy and enjoyable to use. Finger swipe, tap, two-finger pinch, slingshot an angry bird. You can bet that Apple never creates anything without first considering how people will interface with their products, and I would guess that a prevailing philosophy of user-centered design at all levels of their product development lifecycle is a big reason for Apple&#8217;s success.</p>
+<p>For websites, creating an interface that is enjoyable to use may seem less obvious, unless you are creating a complex interface for a Flash game, but being enjoyable can be as simple as a navigation structure that is straight-forward and intuitive. Even so, with more and more applications moving to the cloud and our browser becoming our operating system, creating effective, easy and enjoyable interfaces for our web products has never been more important. I recently switched from desktop based wireframing software (Axure, Omnigraffle) to an online application called Lucid Chart, and the transition was seemless because the authors made sure to create a web interface that is easy to use and familiar to those migrating from desktop programs.</p>
+<h1>Principle #3: Remain Consistent</h1>
+<p>An important concept to help the user maintain a sense of spatial orientation, and sanity, is to remain consistent. From the user&#8217;s perspective, this means not only a consistent look and feel to a system&#8217;s interfaces, but also that actions performed on the interface result in expected outcomes. If the same action is repeated, the system needs to respond in a consistent manner.</p>
+<p>I still occasionally come across the odd website that actually changes the order of its nav bar or sub-nav links depending on what page you are on on their site. To me this is the equivalent of switching your car&#8217;s gas and brake pedals depending on whether you are driving on the highway or a side road. Interfaces need to remain consistent so that they can fade into the background and not require any higher level of concentration to use.</p>
+<h1>Principle #4: Form a Dialog with Your Users</h1>
+<p>I like an interface that speaks to me. Not literally speak to me (although that might be nice too), but an interface that uses terms that make sense and gives me feedback when I need it.</p>
+<p>In order to ensure that we don&#8217;t get lost and can always find what we are looking for, it&#8217;s important for an interface to be labeled properly. Everyone understands what a &#8220;home&#8221; button should do in a nav bar, but not every menu label is always this obvious. For example, let&#8217;s say you have a multi-user game on your website that allows people to compete against each other, move up and down leaderboards, chat, form groups, etc. Do you put this game under the &#8220;Multimedia&#8221; or &#8220;Community&#8221; category in your nav if those are your only two options? This is when techniques like card sorting can help you figure out the best navigational structure.</p>
+<p>A feedback mechanism is also crucial for effective interface design: the user needs to feel that their actions have meaning. We are all familiar with filling out and submitting an online form, for example, but have you ever clicked the submit button and just had the page refresh and be presented with the empty form again? Then you are forced to ask if your information went through, was there an error, should I fill out the form again to make sure? Don&#8217;t leave any doubt in your user&#8217;s mind &#8211; give them feedback for their actions. Thank you for your inquiry, someone will get back to you just as soon as we get back from our Starbucks run.</p>
+<h1>Principle #5: Be Problem Free</h1>
+<p>The quickest way to inhibit enjoyment is to create frustration over simple interface and navigation issues. If you&#8217;re like me, testing is never the most fun part of the process, but it is vitally important. It&#8217;s a competitive marketplace out there, and if your system&#8217;s interface has noticeable bugs you risk losing your users, perhaps forever, no matter how good your content is. Interface problems can be more than just software bugs, however, as a poorly designed interface is still a major issue. A good way to test your interface is by watching people use your system in a real-world scenario. Are they able to navigate around and achieve their objectives with relative easy? Is your interface intuitive to both experienced and less experienced computer users?</p>
+<p>I will forgive a website for having small interface problems that may make me shake my head a little, but time is a limited resource, and if too many problems are interfering with the tasks I am trying to accomplish, sorry, but I&#8217;m moving on.</p>
+<h1>Conclusion</h1>
+<p>I have a secret to share. I&#8217;m a sucker for a beautiful looking website. But the truth is, at the end of the day, a site&#8217;s visual aesthetics will more than likely have nothing to do with it&#8217;s success or failure. If a site looks good, my attention is captured and I can take pleasure in the design, but then it quickly boils down to whether the site can do for me what I want it to. Key factors for determining a website&#8217;s success are its usability and utility. Content is king, of course, but content needs to be found and accessed.</p>
+<p>So I hope that you will consider these 5 principles of user-centered interface design on your current and future projects. There are, of course, many more principles than just these five, but that&#8217;s what books on UX design are for. I&#8217;m just hoping to give you some food for thought, or to re-emphasize what you already know, so we can all work towards building a world with better interfaces!</p>
+<p>The great thing about user-centered interface design is that it never sits still. It incorporates so many different disciplines &#8211; hardware and software engineering, ergonomics, psychology, sociology, linguistics, computer science, etc. &#8211; that it is an evolving and ever-growing subject, and to fully grasp the intricacies involved means that we can never stop researching and learning about it.</p>
+<p>Now, about how to get to that corner store in New Mexico&#8230;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So you wanna be a User Experience Designer?</title>
+		<link>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/</link>
+		<comments>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/#comments</comments>
+		<pubDate>Thu, 14 Jul 2011 18:39:16 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[UX design]]></category>
+		<category><![CDATA[whitney hess]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=660</guid>
+		<description><![CDATA[I was fortunate to be able to see Whitney Hess give a talk recently at the Interlink conference in North Vancouver. Her presentation was all about UX design, and afterwards I made sure to check out her blog: Pleasure &#38; Pain. Whitney has two introductory articles on becoming a user-experience designer which I found to [...]]]></description>
+			<content:encoded><![CDATA[<p>I was fortunate to be able to see Whitney Hess give a talk recently at the Interlink conference in North Vancouver. Her presentation was all about UX design, and afterwards I made sure to check out her blog: Pleasure &amp; Pain.</p>
+<p>Whitney has two introductory articles on becoming a user-experience designer which I found to be quite good. Here they are:</p>
+<ol>
+<li><a href="http://whitneyhess.com/blog/2009/06/30/so-you-wanna-be-a-user-experience-designer-step-1-resources/">Step 1: Resources</a></li>
+<li><a href="http://whitneyhess.com/blog/2009/11/23/so-you-wanna-be-a-user-experience-designer-step-2-guiding-principles/">Step 2: Guiding Principles</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>User Experience as Corporate Imperative</title>
+		<link>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/</link>
+		<comments>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/#comments</comments>
+		<pubDate>Wed, 22 Jun 2011 22:04:11 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Business Tips]]></category>
+		<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=633</guid>
+		<description><![CDATA[In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client [...]]]></description>
+			<content:encoded><![CDATA[<p>In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client a few hundred dollars to build them a website. Then, as I so often see, clients wonder why their site isn&#8217;t getting any traffic, ranking on Google, or converting visitors to customers.</p>
+<p>My typical response to questions on why it&#8217;s worth investing real dollars into an online presence (website, social media, mobile, web applications, etc) is that, as professionals, we aren&#8217;t just building them a website, we are building for them a user experience. We are building them a system which incorporates metrics, usability, information architecture, interface design, and managing objectives.</p>
+<p>An interesting article, called <a href="www.hesketh.com/publications/user_experience.pdf">User Experience as Corporate Imperative</a>, lists some compelling stats which I would like to repeat here. The article was written in 2002 and talks about the major browsers being IE and Netscape!, but I believe that the underlying concepts are still very much applicable today.</p>
+<p><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.8px Arial} --></p>
+<ul>
+<li>Approximate 60% of the time, users have difficulty finding the information they are seeking on a website.</li>
+<li>Jakob Nielsen estimates that 90% of websites have poor user-centered design.</li>
+<li>At the time that the article was written, it states that 28% of website transactions result in consumer failure of frustration. 35% of people who experience a negative experience on a website will leave that site for a competitors, most likely never to return. 27% of all web transactions are abandoned on the payment screen, and 75% of shoppers abandon their shopping cart without making a purchase.</li>
+</ul>
+<p>Next step for me is to see if I can find some more recent statistics to see if these numbers have changed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Animated Tribute to UX Design</title>
+		<link>http://popdigital.ca/2011/06/09/animated-tribute-to-ux-design/</link>
+		<comments>http://popdigital.ca/2011/06/09/animated-tribute-to-ux-design/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 20:25:07 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-Experience Design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=627</guid>
+		<description><![CDATA[An enjoyable animated cartoon for UX designers, and anyone who loves them. Part 1 Part 2 &#160;]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright size-full wp-image-628" title="ux_design_animation" src="http://popdigital.ca/wp-content/uploads/2011/06/ux_design_animation.jpg" alt="" width="300" height="169" />An enjoyable animated cartoon for UX designers, and anyone who loves them.</p>
+<p><a href="http://www.uxmag.com/short-news/an-animated-tribute-to-ux-design" target="_blank">Part 1</a></p>
+<p><a href="http://www.uxmag.com/short-news/animated-tribute-to-ux-design-part-2" target="_blank">Part 2</a></p>
+<div class="selfclear">&nbsp;</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/09/animated-tribute-to-ux-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>5 Principles of User-Centered Navigation</title>
+		<link>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-navigation/</link>
+		<comments>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-navigation/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 19:44:49 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[HCI]]></category>
+		<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=618</guid>
+		<description><![CDATA[One of the most important concepts in navigation is that it should be easily learned. If it takes too long to grasp the navigational flow of a program, the user will become frustrated and lose interest. An easily learned navigation structure is the first step in creating user satisfaction. Instructions can be useful, but the [...]]]></description>
+			<content:encoded><![CDATA[<p>One of the most important concepts in navigation is that it should be easily learned. If it takes too long to grasp the navigational flow of a program, the user will become frustrated and lose interest. An easily learned navigation structure is the first step in creating user satisfaction. Instructions can be useful, but the navigation concepts should be intuitive enough that an excessive amount of preparation is not necessary.</p>
+<blockquote><p>&#8220;The interactive artist must strike a balance between the interactor&#8217;s sense of control, which enforces identification, and the richness of the responsive system&#8217;s behaviour, which keep the system from becoming closed.&#8221; &#8211; (Rokeby, 2002)</p></blockquote>
+<p>Another important concept to help the user maintain a sense of spatial orientation is to remain consistent. From the audience perspective, this means not only a consistent look and feel to the physical interfaces, but also that the interactive cinema presentation responds to similar senor data in similar ways. If a user waves their arms, for example, and this is a method of interaction with the piece, the movie should respond in a logical manner, and respond in the same manner if the user repeats the action (unless a sense of abstraction is desired in the particular piece).</p>
+<blockquote><p>&#8220;Because explicit interactivity is still a relatively new feature in artworks, the audience often approaches the works with skepticism. The audience requires proof that the work is interactive&#8230; The proof that will most easily satisfy the audience is predictability (i.e. if one makes the same action twice, the work will respond identically each time). Unfortunately, this test only works for simple interactive devices with no memory and no ability to adapt.&#8221; &#8211; (Rokeby, 2002)</p></blockquote>
+<p>A feedback mechanism is crucial for effective navigation: the user needs to feel that their actions have meaning. For an audience navigating an interactive cinema presentation, feedback could come as sound cues, visual cues, tactile cues, etc. A sound cue could be a noise generated when a user steps into a certain area of the environment. A visual cue could be that when a user steps into a certain area of the environment, not only does a sound play, but the movie changes in response to the user’s position.</p>
+<blockquote><p>&#8220;The issue of who is controlling whom becomes blurred. The intelligence of the human interactors spreads around the whole loop, often coming back in ways they don&#8217;t recognize, causing them to attribute intelligence to the system.&#8221; &#8211; (Rokeby, 1998)</p></blockquote>
+<p>The navigational tools should be based on the goals of the user, meaning that they should appear in context and support the flow of the composition. Also, does the navigational structure support users coming from different technical or cultural backgrounds? Along with meeting the user’s goals, the navigation structure should also be appropriate and support the interactive environment. It is often desirable in an interactive installation to have a transparent interface because it allows the user to participate without having to consider their direct relationship with the underlying system, but no interface can be completely transparent. The most one can hope for is that the interface be so well integrated as to be subconsciously accepted by the interactor as transparent.</p>
+<blockquote><p>&#8220;When an interface is accepted as transparent, the user and his or her world are changed; the transforming characteristics of the interface, no longer contained by a visible apparatus, are incorporated into the user and the user&#8217;s world view.&#8221; &#8211; (Rokeby, 2002)</p></blockquote>
+<p>To summarize, here are 5 principles of user-centered navigation:</p>
+<ol>
+<li>Be easily learned.</li>
+<li>Remain consistent.</li>
+<li>Provide feedback.</li>
+<li>Appear in context.</li>
+<li>Support the user’s goals.</li>
+</ol>
+<h3></h3>
+<h3>Works Citied:</h3>
+<p>Rokeby, David. The Construction of Experience: Interface as Content in &#8220;Digital Illusion: Entertaining the Future with High Technology,&#8221; Clark Dodsworth, Jr., Contributing Editor. ACM Press. 1998.</p>
+<p>Rokeby, David. “Transforming Mirrors.” http://www.interlog.com/~drokeby/mirrorsintro.html. Accessed Dec. 15th 2002.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-navigation/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>5 Principles of User-Centered Design</title>
+		<link>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-design/</link>
+		<comments>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-design/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 19:41:22 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[HCI]]></category>
+		<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=616</guid>
+		<description><![CDATA[As Mitchell Kapor states in his Software Design Manifesto: &#8220;If a user interface is designed ‘after the fact’ it is like designing an automobile dashboard after the engine, chassis, and all other components and functions are specified.&#8221; (Kapor, 2002) The important questions in creating a user-centered design are: Who are the users? What are the [...]]]></description>
+			<content:encoded><![CDATA[<p>As Mitchell Kapor states in his Software Design Manifesto:</p>
+<p>&#8220;If a user interface is designed ‘after the fact’ it is like designing an automobile dashboard after the engine, chassis, and all other components and functions are specified.&#8221; (Kapor, 2002)</p>
+<p>The important questions in creating a user-centered design are: Who are the users? What are the main functions that the user will need? Why is the user using this particular software/hardware? Is the software/hardware accessible by users of different experience levels? What is the most intuitive way that the user could interact with the software/hardware?</p>
+<p>One key issue that designers and programmers alike often forget (or neglect) is that interface design incorporates many different disciplines: hardware and software engineering, ergonomics, psychology, sociology, linguistics, computer science, etc. As such, the second important design consideration is integration of knowledge and experience from all of the HCI-related disciplines.</p>
+<p>The third design consideration is that the system should be thoroughly tested before release to ensure that it contains no bugs that will inhibit its function. The quickest way to inhibit enjoyment is to create frustration over simple interface and navigation issues.</p>
+<p>The fourth design factor is an issue of commodity: the interface and navigation of the interactive cinema model should be well suited to complement the functionality of the system.</p>
+<p>The fifth and final design consideration is less quantifiable, yet important nonetheless. The idea is that the design should be pleasurable to use, incorporating visual and functional aesthetics.</p>
+<p>In summary, here are five principles of user-centered design:</p>
+<ol>
+<li>Be clear on who your users are.</li>
+<li>Integrate the HCI-related disciplines.</li>
+<li>Be free of major bugs.</li>
+<li>Be well suited to the intended purpose.</li>
+<li>Be enjoyable to use.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/09/5-principles-of-user-centered-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MySpace&#8217;s UX-Induced Death</title>
+		<link>http://popdigital.ca/2011/06/06/myspaces-ux-induced-death/</link>
+		<comments>http://popdigital.ca/2011/06/06/myspaces-ux-induced-death/#comments</comments>
+		<pubDate>Mon, 06 Jun 2011 20:11:59 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-Experience Design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=623</guid>
+		<description><![CDATA[A great read on possible reasons behind the failure of MySpace. It brings up an interesting point that good UX design does not necessarily mean giving users exactly what they think they want. It means giving them the tools to do what they want to do, presented in as simple a manner as possible. Excerpt: [...]]]></description>
+			<content:encoded><![CDATA[<p><a title="myspaces-ux-induced-death" href="http://www.uxmag.com/short-news/myspaces-ux-induced-death" target="_blank">A great read on possible reasons behind the failure of MySpace.</a></p>
+<p>It brings up an interesting point that good UX design does not necessarily mean giving users exactly what they <em>think</em> they want. It means giving them the tools to do what they want to do, presented in as simple a manner as possible.</p>
+<p>Excerpt:</p>
+<p>When you have a focus group of grandmas and parents and kids all sitting  in a room together, and you ask them a question like &#8220;would you like to  be able to customize your website?&#8221; most of them are going to think  yeah, that sounds good! without even realizing what that will entail.  The sad thing is, the people who made all those gaudy, flashy, obnoxious  myspace sites liked them, but then they all went to Facebook because  Facebook let them do what they wanted to do with as little bullsh*t as  possible, and it turns out they didn&#8217;t really want what they thought  they wanted.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/06/myspaces-ux-induced-death/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Defining HCI</title>
+		<link>http://popdigital.ca/2011/06/01/defining-hci/</link>
+		<comments>http://popdigital.ca/2011/06/01/defining-hci/#comments</comments>
+		<pubDate>Wed, 01 Jun 2011 18:59:47 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[HCI]]></category>
+		<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=604</guid>
+		<description><![CDATA[Human-computer interaction is a discipline concerned with the design, evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them. Accordingly, the three major elements of HCI research include: New interaction paradigms that enable users to communicate with computers and with others using computers in more effective, [...]]]></description>
+			<content:encoded><![CDATA[<p>Human-computer interaction is a discipline concerned with the design, evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them.</p>
+<h3>Accordingly, the three major elements of HCI research include:</h3>
+<ul>
+<li>New interaction paradigms that enable users to communicate with computers and with others using computers in more effective, human ways.</li>
+<li>Fundamental understanding of the nature of interaction that will enable users to achieve their goals more directly, including a better understanding of the limitations of human information processing.</li>
+<li>Engineering methods for interactive system design and development that will improve the quality and reduce the costs of user interfaces for new systems.</li>
+</ul>
+<h3>Characteristics of Human Computer Interaction:</h3>
+<ol>
+<li>Ubiquitous communication</li>
+<li>High functionality systems</li>
+<li>Mass availability of computer graphics</li>
+<li>Mixed media</li>
+<li>High-bandwidth interaction</li>
+<li>Large and thin displays</li>
+<li>Embedded computation</li>
+<li>Group interfaces</li>
+<li>User Tailorability</li>
+<li>Information Utilities</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/01/defining-hci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Building a Language for an Interactive Experience</title>
+		<link>http://popdigital.ca/2011/05/07/building-a-language-for-an-interactive-experience/</link>
+		<comments>http://popdigital.ca/2011/05/07/building-a-language-for-an-interactive-experience/#comments</comments>
+		<pubDate>Sat, 07 May 2011 21:25:20 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[experience]]></category>
+		<category><![CDATA[interactivity]]></category>
+		<category><![CDATA[language]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=534</guid>
+		<description><![CDATA[ABSTRACT Interactive multimedia systems are often designed and implemented primarily through intuition, and thus a common language for creating an interactive experience is needed for the interactive system developer. This paper discusses building a language for an interactive experience by outlining the steps required, and principles involved in designing an interactive environment. A preliminary language [...]]]></description>
+			<content:encoded><![CDATA[<h1>ABSTRACT</h1>
+<p>Interactive multimedia systems are often designed and implemented primarily through intuition, and thus a common language for creating an interactive experience is needed for the interactive system developer. This paper discusses building a language for an interactive experience by outlining the steps required, and principles involved in designing an interactive environment. A preliminary language is achieved by offering a working definition for interactivity, outlining the steps in the interactive process, and discussing issues around the most important component of the system – the user.</p>
+<h2>Keywords</h2>
+<p>Design, experience, interactive environments, interactivity, multimedia system development, user-centered design.</p>
+<h1>INTRODUCTION</h1>
+<p><em>“A technology is interactive to the degree that it reflects the consequences of our actions or decisions back to us. It follows that an interactive technology is a medium through which we communicate with ourselves&#8230; a mirror.”</em> [13]</p>
+<p>This paper discusses ideas around building a language for an interactive experience. A common language for concepts and approaches to designing interactive environments is needed because “research on multimedia system development shows that contemporary multimedia systems are designed and created primarily by intuition” [14]. To tackle the problem, this paper begins by offering a working definition for interactivity, and then proceeds to outline and discuss the steps in the interactivity feedback process, from capturing and interpreting information in the environment to designing the user experience.</p>
+<h1>A DEFINITION FOR INTERACTIVITY</h1>
+<p>The word interactivity has become a problematic term. It is used extensively to describe works of new media and interactive art, encompassing everything from simple hyperlinks to immersive virtual environments where the user navigates a 3-dimensional space. Interactivity is used to describe the reading of a novel, the menu presented to a user when playing a DVD movie, and the experience players of a Massive Multiplayer Online Game (MMOG) have when they decide to go against the game’s narrative spine and design their own quests. For this reason, interactivity needs to be understood as a term that encompasses many different levels of interaction.</p>
+<p>In discussing the Japanese journalist and curator Itsuo Sakane, David Rokeby discusses how Itsuo considered any art to be interactive if we accept that viewing and interpreting a work of art is a form of participation [13]. This illustrates an important point: even though interactivity is commonly used to refer to participatory digital technologies, its implicit meaning has broader applications.</p>
+<p>Rokeby defines interactive art as a dialogue between the interactor and the digital artwork: “The interactive system responds to the interactor, who in return responds to that response” [13]. This refers to the concept of a ‘feedback loop’ that many people associate with interactive systems, and which I believe is a very effective way of creating agency.</p>
+<p>The extreme view is that a media object cannot be said to be interactive unless both the spectator/interactor and the media object are in some way changed permanently by each other or affected by the exchange [13]. In order for a media object to meet this requirement it would need to have enough intelligence to be able to adapt and grow according to its surroundings and user interactions. Limiting the definition to intelligent media or to where there is mutual transformation is disputable, however, as one can be said to interact with a book or magazine when they pick it up and turn the pages to read it. In a <em>Choose-Your-Own-Adventure</em> book (also called a <em>Gamebook</em>), for example, the user navigates a multi-linear story by choosing to follow particular forking paths – the reader is periodically confronted with a story decision, and is directed to a specific page number based on their choice. A <em>Choose-Your-Own-Adventure</em> book is an analog form and yet is definitely interactive on some level.</p>
+<p>In his article “Against Hypertext,” Eric Zimmerman recognizes the broad usage of the term; he proposes four ‘modes of interactivity’ to help bring some clarity to the discourse [16]:</p>
+<h2>Interpretative Interactivity</h2>
+<p>Interpretative interactivity is cognitive participation with a media object. The interaction is with the ‘content’ of the media, such as the interpreted story from reading a book or watching a movie. This is the level which Itsuo Sakane was referring to, where the interaction is on the level of the “psychological, emotional, hermeneutic, semiotic, reader-response” [16]. In this domain almost anything can be considered to be interactive as long as it involves some form of viewing and interpreting.</p>
+<h2>Utilitarian Interactivity</h2>
+<p>Utilitarian interactivity is functional participation with a media object. This includes interaction with the physical, such as the weight and texture of a book, as well as the functional textual apparatuses, such as a table of contents or index. Although the manipulation of a mouse pointer on a computer screen is on a different level of interactivity, the physical movements of the mouse and button depression by the user fall under this category.</p>
+<h2>Designed Choice Interactivity</h2>
+<p>Designed choice interactivity is explicit participation with a media object. This is interactivity in the sense that it is typically used when referring to new media. Included here are participatory actions such as clicking a hyperlink, working your way through an action-adventure game, experiencing a flight simulator, <em>etc</em>. This is a programmed interactive experience. Designed choice interactivity involves a two-way communication system between the media object and the user, and just as the user has the power to exert authority on the media, the media also has the ability to exert its influence in the exchange. In designed choice interactivity, the user receives feedback from the media object based on their input – but the media is not just reacting, it is also manipulating the user on a functional level (through programmed limitations, constraints, guidance, etc.) and on an emotional level (impacting a user’s psychology). The user is thus transformed (psychologically speaking) by the media object, just as they themselves transform it (via the responsiveness and flexibility of the program).</p>
+<p>When referring to interactivity throughout the rest of this paper, I am referring to designed choice interactivity. Thus, an interactive experience refers to a relationship between a user and a system where the user has agency over the system’s form and/or content, and thus actively contributes to the construction of meaning and/or influences the system’s response(s). A standard novel would therefore not be interactive under this definition because the reader has no control over the book’s form or content, whereas a <em>Choose-Your-Own-Adventure</em> book, while not digital, is still interactive because it allows for the user to co-construct meaning by deciding on their own story path through the branching narrative structure.</p>
+<p><a href="http://popdigital.ca/wp-content/uploads/2011/05/CompositionFlow.jpg"><img class="size-medium wp-image-535 alignright" title="CompositionFlow" src="http://popdigital.ca/wp-content/uploads/2011/05/CompositionFlow-300x191.jpg" alt="" width="300" height="191" /></a></p>
+<h2>Macro-interactivity</h2>
+<p>Macro-interactivity is cultural participation with a media object. Examples of this type of interactivity are fan culture; The Sims Exchange, a website where players of The Sims computer game can download playable game items (such as families, houses, skins, <em>etc</em>.) uploaded to the site by other players; the rise of popularity of the Laura Croft character from the video game Tomb Raider to become a sex symbol; and the in-game communities built up amongst players of Massive Multiplayer Online Games (MMOGs). Macro-interactivity is where “readers appropriate, deconstruct, and reconstruct&#8230; media, participating in and propagating massive narrative worlds” [16].</p>
+<h1>COMPUTER INTELLIGENCE</h1>
+<p>In order to create interactivity, a system for knowledge representation and computer intelligence are needed. The computer must have at least some <em>a priori</em> knowledge about the interactive environment – basic assumptions that allow the program to focus its design. Complementary to the <em>a priori</em> knowledge is the information that the system acquires during runtime – the information-capture and decision-making algorithms are the system’s <em>contextual</em> knowledge. Computer intelligence is expressed by the effectiveness of the system’s algorithms to capture and interpret the sensory data, and to manipulate the system to produce an appropriate response for the user.</p>
+<p>According to Robb Lovell, there are three kinds of abilities that are required for computer intelligence in the interactive arts: Perception, Reasoning, and Dexterity [11]. <em>Perception</em> is how well the computer understands the environment which it is trying to analyze through its sensory mechanisms, which can include video images, infrared sensors, proximity sensors, spoken words, text, UI interactions (such as mouse/keyboard input), <em>etc</em>. <em>Reasoning</em> is the computer’s ability to interpret the sensed information in a meaningful way, and to make decisions based on the acquired data. Finally, <em>dexterity</em> is the computer’s ability to provide a feedback response to the user/performer based on the interaction with the system. Responses involve the electronic manipulation of media, such as changes in lighting, sounds, visuals, robotics, <em>etc</em>.</p>
+<p><em>“The issue of who is controlling whom becomes blurred. The intelligence of the human interactors spreads around the whole loop, often coming back in ways they don’t recognize, causing them to attribute intelligence to the system.”</em> [12]</p>
+<p>In complex, well-designed interactive systems, computer intelligence can facilitate emergent or pseudo-emergent phenomena. Emergent and pseudo-emergent phenomena provide interactive artists with dynamic responses that are generated from the program’s algorithms themselves, and produce results that go beyond the system’s predictable behaviors.</p>
+<h1>THE INTERACTIVITY FEEDBACK LOOP</h1>
+<p>The steps that can be used to build an interactive media space are outlined by Lovell in his paper “A Blueprint for Using a Reactive Performance Space” [8]. Lovell encapsulates these categories in the term <em>media structure</em>. Below is a slightly modified version of Lovell’s media structure; it describes the information feedback loop that occurs between the interactor and the system in an interactive space:</p>
+<ul>
+<li><strong>Action:</strong> The physical phenomena, such as fingers typing on a keyboard or the movement of a person’s limbs, which are used by the system as user input.</li>
+<li><strong>Sensing:</strong> The digitization of the action, captured from a peripheral device such as a keyboard or a camera sensor.</li>
+<li><strong>Processing:</strong> The transformation of the digitized data into meaningful units of information. Processing involves the algorithmic interpretation of the input data.</li>
+<li><strong>Translation:</strong> The transformation of the interpreted information into a response decision based on the system’s control program.</li>
+<li><strong>Generation:</strong> The system’s response to the user, based on the decisions made in the translation stage.</li>
+<li><strong>Presentation: </strong>The part of the system that physically produces the media that the user experiences, such as a computer monitor or projector.</li>
+</ul>
+<p>The next step in this process is the <strong>reaction</strong> of the user to what is presented, which can be treated as an <strong>action</strong>, and thus the feedback loop commences once more.</p>
+<h1>CAPTURE AND ANALYSIS</h1>
+<p>There are generally four categories of media that can be controlled by a computer in an interactive environment: visuals, light, sound, and mechanical systems. Technologies to sense and interpret events that occur within the interactive space include “video-based sensing, tracking systems, sound samplers, pitch detection, and analog sensors (heat, touch, bend, acceleration, etc)” [9]. Below is a discussion on one of these technologies – video-based sensing – as an example of the capture and analysis process.</p>
+<h2>Video-Based Sensing</h2>
+<p><em>“The environment will, as a given, be ambiguous in nature. The information contained within a video image is incomplete and limited, and since this is the computer’s view of the world, its representation of the current state of its surroundings will be unreliable.” </em>[10]</p>
+<p>The task of having the computer understand what is happening in the physical world is a difficult one, for items contained in a scene are just blobs to the computer. Fortunately, these blobs have a location, size, velocity, and other measurable characteristics – characteristics that can be used for interactivity. But the task is never trivial. Special effects filmmakers get around some of the obstacles of video tracking by matching points on a custom-designed wearable suit to a 3-D model in the computer, but this is not practical for a general audience. While computers today cannot approach the level of perception of the human body, they can understand the outside world in a limited way through image processing techniques, through knowledge representation, and through assumptions about the physical environment [10].</p>
+<p>A major conceptual hurdle for artists and programmers dealing with video-based sensing is that a camera does not see the world the way humans do. Distance information is very difficult to measure, and as such, “actions that cut across the camera’s view appear different than actions that move towards or away from the camera” [9]. Lighting is a crucial factor when doing video-based sensing. You need to be very aware, and have as much control as possible, over the lighting conditions of the installation space. How light falls on the people and props in the space determines how they will be seen by the computer.</p>
+<p>Because of the great challenges with live video capture, many interactive installations use programs where “responses are based upon randomized manipulations or heuristic road maps for the computer to follow” [10]. The definitive challenge, then, is to be able to take the interactivity that one step further, to create a reactive space based on highly meaningful user interactions.</p>
+<h3>Video-Based Information Extraction</h3>
+<p>Because of the challenges in getting a computer to interpret a space in the desired manner, the space must be well controlled. This means that no strict rules for interpretation can effectively be established, but rather that each environment is unique, and that video-based sensing is heavily determined by context.</p>
+<p><em>“The person creating the means for a computer to understand part of an environment must make assumptions about the structure and content of the environment in order to create algorithms to extract information for the computer to use.” </em>[9]</p>
+<p><strong>Extraction Techniques:</strong></p>
+<ol>
+<li><strong>Motion:</strong> “Motion is calculated by subtracting successive images from each other, and counting the number of pixels that have changed&#8230; Under constant lighting conditions, motion is the change in surface area of objects in the scene” [9]. An object that is closer to the camera will appear to have more motion than the same object farther away from the camera because being closer to the camera causes many pixels to be affected.<strong></strong></li>
+<li><strong>Presence:</strong> To detect presence is to detect the simple presence or absence of light.<strong></strong></li>
+<li><strong>Background:</strong> A common practice with video-based sensing techniques is to grab a snapshot of the background without any objects in it to use as a baseline for comparisons. This is effective at showing foreground objects more clearly provided the foreground objects are not the same color and intensity of the background.</li>
+<li><strong>Objects:</strong> This technique tries to distinguish single entities within the camera’s view. In order to do this, the objects need to appear different in some way to the computer. The most common methods are by having high contrast objects (e.g. light colored objects against a dark background), or by color tracking. Once an object is identified, it can be measured for traits such as motion, speed, location, etc.</li>
+</ol>
+<p>In an article on human body tracking, Wren <em>et al</em>. describe how they used a combination of color and object detection to build a model for tracking people in an installation space:</p>
+<p><em>“The person model is built by first detecting a large change in the scene, and then building up a multi-blob model of the user over time. The model building process is driven by the distribution of color on the person’s body, with blobs added to account for each differently-colored region. Typically separate blobs are required for the person’s hands, head, feet, shirt and pants.”</em> [15]</p>
+<h1>USER INTERACTION</h1>
+<p><em>“The interpersonal, back-channel communications and ancillary activities of the audience, which currently remain largely unsensed and unprocessed, can be just as important as the primary authored experience”</em> [3]</p>
+<h2>Human-Computer Interaction</h2>
+<p>Human-computer interaction, or HCI, is a discipline concerned with the analysis, design, and implementation of how people interact with computers. HCI is often seen as a remediation of other media, both past and present. The Macintosh’s famous GUI, for example, first introduced in 1984, uses the metaphor of an office desktop for the personal computer user interface – a metaphor that has since been adopted by Windows and become ubiquitous for current Windows and Mac operating systems.</p>
+<p>The study of Human-Computer Interaction is crucial to the development of a successful interface and navigation structure for interactive experiences. A major obstacle to effective design in today’s rapidly changing and expanding digital world is that too often software and hardware engineers fail to adequately address how their audience will interact with their product. One of the most important issues in bridging the gap between man and machine is developing a user interface (UI) that is intuitive and easy to learn. HCI and UI issues are important considerations in the development of an interactive experience.</p>
+<h2>Principles of User Design</h2>
+<p>The following discussion outlines five principles for user design. The first principle is that the design for an interactive system should be user-centered. As Mitchell Kapor states in his “Software Design Manifesto”:</p>
+<p><em>“If a user interface is designed ‘after the fact’ it is like designing an automobile dashboard after the engine, chassis, and all other components and functions are specified”</em> [6]</p>
+<p>The important questions in creating a user-centered design are: Who are the users? What are the main functions that the user will need? Why does a user want to interact with the interactive system? Is the system’s interactivity accessible and understandable by users of different experience levels? What is the most intuitive way that the user could interact with the computer program controlling the environment?</p>
+<p>One key issue that designers and programmers alike often forget (or neglect) is that interface design incorporates many different disciplines: hardware and software engineering, ergonomics, psychology, sociology, linguistics, computer science, etc. As such, the second important design consideration is integration of knowledge and experience from all of the HCI-related disciplines.</p>
+<p>The third design consideration is that the system should be thoroughly tested before release to ensure that it contains no bugs that will inhibit its function. The quickest way to inhibit user enjoyment is to create frustration over simple interface and navigation issues.</p>
+<p>The fourth design factor is an issue of commodity: the interface and navigation of the interactive environment should be well suited to complement the functionality of the system.</p>
+<p>The fifth and final design consideration is less quantifiable, yet important nonetheless. The idea is that the design should be pleasurable to use, incorporating visual, aural, and functional aesthetics.</p>
+<p>In summary, the five principles of user design that should be incorporated into creating an interactive experience are:</p>
+<ol>
+<li>The design should be user-centered.</li>
+<li>It should effectively integrate the HCI-related disciplines.</li>
+<li>The interactive system should be free of major bugs.</li>
+<li>The interface and navigation should be well suited to the functionality of the system, as well as the narrative structure and content.</li>
+<li>The system for interaction should be enjoyable to use.</li>
+</ol>
+<h2>Principles of User Navigation</h2>
+<p>The following discussion outlines five principles for user navigation. One of the most important concepts in navigation is that it should be easily learned – if it takes too long to grasp the navigational flow of a program, the user will become frustrated and lose interest. An easily learned navigation structure is the first step in creating user satisfaction. Instructions can be useful, but the navigation concepts should be intuitive enough that an excessive amount of preparation is not necessary.</p>
+<p><em>“The interactive artist must strike a balance between the interactor’s sense of control, which enforces identification, and the richness of the responsive system’s behaviour, which keeps the system from becoming closed”</em> [13]</p>
+<p>Another important concept to help the user maintain a sense of spatial orientation is to remain consistent. From the audience perspective, this means not only a consistent look and feel to the physical interfaces, but also that the interactive presentation responds to similar senor data in similar ways. If a user waves their arms, for example, and this is a method of interaction with the piece, the system should respond in a logical manner, and respond in the same manner if the user repeats the action (unless, of course, a sense of abstraction, confusion, or mystery is desired in the particular piece).</p>
+<p><em>“The interactor waves his hand to trigger a sound. He then waves again, in a similar manner, to find out if the same sound will be triggered again. If something else is heard, the interactor may conclude that the system does not function well, or that it isn’t really interactive at all.”</em> [5]</p>
+<p>A feedback mechanism is crucial for effective navigation – the user needs to feel that their actions have meaning. For a participant navigating an interactive presentation, feedback could come as sound cues, visual cues, tactile cues, <em>etc</em>. A sound cue could be a noise generated when a user steps into a certain area of the environment. A visual cue could be that when a user steps into a certain area the presentation changes in response to the user’s position.</p>
+<p><em>“[T]he interactor can never have an absolute control over the system. Rather, he enters into an on-going and evolving dialogue, a ‘cybernetic feed-back loop’ without a final resolution.”</em> [5]</p>
+<p>The navigational tools should be based on the goals of the user, meaning that they should appear in context and support the flow of the composition. In interactive storytelling, for example, it is important to have continuous interaction such that the system does not need to pole the participant for input, and where the interactivity is inherent to the story. In order for the user’s experience to be highly immersive, “the user’s interaction should be a smooth and continuous stream of input that influences the story world, much as a rudder steers a boat” [4].</p>
+<p>Does the navigational structure support users coming from different technical or cultural backgrounds? Along with meeting the user’s goals, the navigation structure should also be appropriate and support the interactive environment. It is often desirable in an interactive installation to have a transparent interface because it allows the user to participate without having to consider their direct relationship with the underlying system, but no interface can be completely transparent. The most one can hope for is that the interface be so well integrated as to be subconsciously accepted by the interactor as transparent.</p>
+<p><em>“When an interface is accepted as transparent, the user and his or her world are changed; the transforming characteristics of the interface, no longer contained by a visible apparatus, are incorporated into the user and the user’s world view”</em> [13]</p>
+<p>To summarize, the navigation framework that should be used in designing an interactive experience is based on the idea that the navigation should:</p>
+<ol>
+<li>Be easily learned.</li>
+<li>Remain consistent.</li>
+<li>Provide feedback.</li>
+<li>Appear in context.</li>
+<li>Support the user’s goals.</li>
+</ol>
+<h1>THE USER EXPERIENCE</h1>
+<p>What kind of experience does an author wish a user to have in an interactive environment? What kind of experience does the user themselves wish to have?</p>
+<p><em>“Rather than creating finished works, the interactive artist creates relationships&#8230; Rather than broadcasting content, interactive media have the power to broadcast modes of perception and action.”</em> [13]</p>
+<p>Blom and Chaplin discuss ideas around the experiential body of knowledge [1]; I discuss these ideas below in the context of building a language for an interactive environment.</p>
+<p>The first concept is <em>kinesthetic awareness</em>, meaning that in interactive environments participants have the opportunity to explore meaning behind their own movements. For example, audience members may ask themselves some of the following questions: “What will happen to the system if I twist my body around this way?” “Is there a different effect produced if I move just my head and try to keep the rest of my body still?” “What kind of content produces what kind of effects on my kinesthetic awareness?”</p>
+<p><em>“An interactive system can be seen as giving the user the power to affect the course of the system, or as interfering in the interactor’s subjective process of exploration” </em>[12]</p>
+<p>The second concept in Blom and Chaplin’s theory is <em>phrasing</em>: “All movement contains innate rhythms and phrases which provide the magic ingredients in any of the performing arts” [1]. The third concept is <em>form</em>. Questions the participants could ask themselves include: “What kind of responses will I get from the system if I focus on grouping my body movements into circular patterns?” The fourth concept is <em>relating</em> – this concept is explored by the participant discovering their relationship to the sensors, the presented material, and the medium through which the content is presented. The fifth and final concept is <em>abstraction</em> – because the movements are not in any way choreographed, each time a participant enters the interactive space they create a new narrative, a new unfolding, and a new experience.</p>
+<p>Stephen Levinson talks about how “our thinking is fundamentally spatial” [7]. This concept relates to interactive environments because there is an inherent spatial element to how the user relates to the interface and sensors, especially when the interface is something more than a mouse and keyboard.</p>
+<p><em>“It is just because, for us, spatial knowledge is a matter of higher-level thinking&#8230; that we can be deeply intrigued and tantalized by the artful manipulations of space by which the architect and sculptor play on our minds.” </em>[7]</p>
+<p>An important issue in designing a user-experience for an interactive narrative is what role the audience plays in the story or plot. The story could be designed around a first-person perspective, where all of the story elements are presented from the audience’s point of view, and the audience is a protagonist in the narrative. Some theorists believe, however, that taking a third-person perspective produces the best results. In this case, it is still beneficial to give the participant a role within the narrative to increase the immersive qualities of the experience, but one that only indirectly affects the plot. The idea of staying away from a first-person perspective may seem, at first, to contradict the goal for increased immersion, but there are other interactivity theorists who make a similar argument:</p>
+<p><em>“Most designers of cyber worlds remain committed to creating first-person experiences, which immerse the participant in an unknown world of authored action and consequence, despite the limited success of this form&#8230; [T]he first-person viewpoint loses meaning as soon as the participant steps back to a more distant experience.”</em> [3]</p>
+<h1>INTERACTIVE ENVIRONMENT GUIDELINES</h1>
+<p><em>“Some exciting work has taken place in sensor technology for music applications and in vision algorithms that can, for instance, read sign language. However, no one has unearthed a more general, universal language for gesture, and none may be forthcoming.”</em> [2]</p>
+<p>This paper discusses interactivity for a novice user domain (i.e. not performers). Therefore, there are certain precautions which must be acknowledged:</p>
+<ul>
+<li>You      cannot predict what people are going to do. Therefore, you must build into      the system a certain amount of acceptance that some people won’t be doing      the ‘right’ things. One way to accomplish this is to limit the flexibility      of the interactions.</li>
+<li>If you capture a great deal of subtle variations it’s hard for the audience to know how they are affecting the system; if you have the system respond to larger and fewer variations, the audience understands better. More than 3 or 4 different things happening at the same time is too many for people to understand what affect they are having.</li>
+</ul>
+<p><em>“It is difficult to sense interaction in situations where one is simultaneously affecting all of the parameters&#8230; The constraints provide a frame of reference, a context, within with interaction can be perceived.”</em> [13]</p>
+<ul>
+<li>The      most reliable tracking techniques are based on detecting location, motion,      velocity, and direction of travel. All of these except location are      cyclical, meaning that they can reverse direction rapidly. For cyclical      traits you usually have to average the values to get meaningful results.</li>
+<li>You      need a comfort level for movements and gestures.</li>
+<li>There      is typically a great deal of ambiguity to deal with; context-specific      rules need to be made for each installation space. The more rules and      constraints that are applied to the installation space, however, the      narrower the sensory data flow into the computer.</li>
+</ul>
+<p><em>“By increasing the amount of filtering that is applied in the perceptual process that the interactive system employs, the designer increases the reliability of the resulting information and therefore the unambiguity of control, but at the same time, the richness of that information is reduced”</em> [13]</p>
+<h1>CONCLUSION</h1>
+<p>This paper has outlined concepts and ideas around building a language for an interactive experience. Interactivity in this context refers to designed choice interactivity, which is a relationship between a user and a system where the user has agency over the system’s form and/or content, and thus actively contributes to the construction of meaning and/or influences the system’s response(s).</p>
+<p>The steps in the interactive process can be summarized as: (1) Action; (2) Sensing; (3) Processing; (4) Translation; (5) Generation; and (6) Presentation. The concepts discussed in this paper relate to steps 1 to 4. The <strong>action</strong> step was discussed in the section on user experience, and deals with how the user physically interacts with the system. The <strong>sensing</strong> step was discussed in the section on capture and analysis, and used video-based sensing as an example of the detection and interpretation process. The <strong>processing</strong> and <strong>translation</strong> steps were discussed in the section on user interaction, and deal with how the overall logic of the system’s algorithms should function at the user level.</p>
+<p>The goal of this paper was to provide a preliminary language for interactive system developers for creating an effective interactive user experience. The hope that the principles and processes outlined here can be used towards the creation of a formal methodology for interactivity design.</p>
+<div>
+<h2>REFERENCES</h2>
+<ol>
+<li>Blom,      L.A. &amp; L. Tarin Chaplin. “The Experiential Body of Knowledge,” in <em>The Moment of Movement: Dance      Improvisation</em>. London:      Dance Books, 1988.</li>
+<li>Davenport,      Glorianna. “Smarter Tools for Storytelling: Are the just around the      corner?” <em>IEEE Multimedia</em> Spring      1996: 10-14.</li>
+<li>Davenport,      Glorianna. “Curious Learning, Cultural Bias, and the Learning Curve.” <em>IEEE Multimedia</em> April-June 1998.</li>
+<li>Galyean,      Tinsley A. <em>Narrative Guidance of      Interactivity</em>. Ph.D. Thesis, M.I.T., 1995.</li>
+<li>Huhtamo,      Erkki. “Silicon remembers Ideology, or David Rokeby’s meta-interactive      art.”  <span style="text-decoration: underline;">http://www.interlog.com/~drokeby/erkki.html</span>.      Accessed Jan. 22nd 2003.</li>
+<li>Kapor,      Mitchell. “The Software Design Manifesto.” <a href="http://www.kapor.com/homepages/">http://www.kapor.com/homepages/</a> <span style="text-decoration: underline;">mkapor/Software_Design_Manifesto.html</span>. Accessed Nov. 8th 2002.</li>
+<li>Levinson, S.C.      “Space and Place,” in <em>Some of the      Facts</em> – Exhibition Catalogue for Anthony Gormley at Tate St. Ives,      2001.</li>
+<li>Lovell,      Robb. “A Blueprint for Using a Reactive Performance Space.” <a href="http://www.intelligentstage/">http://www.intelligentstage</a>. <span style="text-decoration: underline;">com/papers/blueprint/Blueprint.html</span>.      Accessed Dec. 15th 2002a.</li>
+<li>Lovell,      Robb. “Video Based Sensing in Reactive Performance Spaces.” <a href="http://www.intelligentstage/">http://www.intelligentstage</a>. <span style="text-decoration: underline;">com/papers/VBS.html</span>.      Accessed Dec. 15th 2002b.</li>
+<li>Lovell,      Robb. “Towards Computer Cognition of Gesture.” Institute for Studies in      the Arts, Arizona       State University.      <a href="http://www.intelligentstage/">http://www.intelligentstage</a>. <span style="text-decoration: underline;">com/papers/gesture%20paper.html</span>.      Accessed Dec. 15th       2002c.</li>
+<li>Lovell,      Robb. “Computer Intelligence in the Theater.” <span style="text-decoration: underline;"><a href="http://www.intelligentstage.com/">http://www.intelligentstage.com/</a>papers/      cit/cit.html</span>. Accessed Dec. 15th 2002d.</li>
+<li>Rokeby,      David. “The Construction of Experience: Interface as Content” in <em>Digital Illusion: Entertaining the      Future with High Technology</em>, Clark Dodsworth, Jr., Contributing      Editor. ACM Press, 1998.</li>
+<li>Rokeby, David. “Transforming Mirrors.” <span style="text-decoration: underline;">http://www.interlog.com/~drokeby/      mirrorsintro.html</span>. Accessed Dec. 15<sup>th</sup> 2002.</li>
+<li>Skov,      M. B., and J. Stage. “Designing Interactive Narrative Systems: Is      Object-Orientation Useful?” <em>Computers      &amp; Graphics</em> Vol. 26 No. 1 2002: 57 – 66.</li>
+<li>Wren,      C. R., Azarbayejani, A., Darrell, T., and A. Pentland. “Pfinder: Real-Time      Tracking of the Human Body.” <em>IEEE      Transactions on Pattern Analysis and Machine Intelligence</em> Vol. 19 No.      7 July 1997: 780-785.</li>
+<li>Zimmerman,      Eric. “Against Hypertext.” American Letters &amp; Commentary Issue #12      2001.</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/07/building-a-language-for-an-interactive-experience/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Action/Interaction</title>
+		<link>http://popdigital.ca/2011/04/28/actioninteraction/</link>
+		<comments>http://popdigital.ca/2011/04/28/actioninteraction/#comments</comments>
+		<pubDate>Thu, 28 Apr 2011 21:19:46 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[HCI]]></category>
+		<category><![CDATA[interface design]]></category>
+		<category><![CDATA[user-experience design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=531</guid>
+		<description><![CDATA[Interaction design is a termed used to describe the design considerations that surface when mediating the interaction between a human and the digital and networked world. “Interaction design” has evolved out of “user-interface design,” and has come to refer to not only the interface issues, but also the entire management of the complex interactions that [...]]]></description>
+			<content:encoded><![CDATA[<p>Interaction design is a termed used to describe the design considerations that surface when mediating the interaction between a human and the digital and networked world. “Interaction design” has evolved out of “user-interface design,” and has come to refer to not only the interface issues, but also the entire management of the complex interactions that take place in a highly networked and digital landscape.</p>
+<p>As a result of networking, society has moved towards services instead of products &#8211; interaction has moved beyond the PC. The networked computer is a social computer. The premise of interaction design is that computers should mediate, not automate, our interaction with digital hardware and software, and as such the author is skeptical of any new technology or program that ignores the nuances of social mediations. Understanding interaction design issues requires going out to look at real people and what they are doing.</p>
+<p>Central to the idea of interaction design is the user’s experience. A digital company’s products or services will ultimately be judged by the quality of the interaction, and the quality of the experience, that they provide. The three main criteria are that the product or service should be: useful, usable and desirable. This point helps to illustrate the fact that even a technically good product or service can fail if it doesn’t provide a high quality of experience. This is why interaction design, and the design of an effective interactive experience, is an important field.</p>
+<p>The study of interaction design is crucial to the development of a successful interface and navigation structure for interactive environments. A major obstacle to effective design in today’s rapidly changing and expanding digital world is that too often software and hardware engineers fail to adequately address how their audience will interact with their product(s).</p>
+<p>In my own research I have made two lists of what I believe to be essential factors for interface and navigation design:</p>
+<p>Principles of User Design:</p>
+<ol>
+<li>The design should be      user-centered.</li>
+<li>It should effectively      integrate the HCI-related disciplines.</li>
+<li>The interactive system      should be free of major bugs.</li>
+<li>The interface and      navigation should be well suited to the functionality of the system, as      well as the narrative structure and content.</li>
+<li>The system for interaction      should be enjoyable to use.</li>
+</ol>
+<p>Principles of User Navigation:</p>
+<ol>
+<li>Be easily learned.</li>
+<li>Remain consistent.</li>
+<li>Provide feedback.</li>
+<li>Appear in context.</li>
+<li>Support the user’s goals.</li>
+</ol>
+<p>I think that the idea of interaction design being built around social mediations is quite an interesting topic. As we come to live more and more in a networked world, it will become increasingly beneficial to have technology that mediates our interactions with other people, and which does not simply automate all of the tasks according to the computer’s “best-guess” software. As humans are such complex machines, I think that it is important to build flexibility into any interaction design to allow for our humanness to be expressed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/04/28/actioninteraction/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/category/user-experience-design-2/feed/ ) in 1.00330 seconds, on Sep 13th, 2011 at 3:39 pm UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 13th, 2011 at 5:39 pm UTC -->

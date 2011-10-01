@@ -1,0 +1,69 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Mon, 12 Sep 2011 05:47:13 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/3s5Rwf>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; corus entertainment</title>
+	<atom:link href="http://popdigital.ca/tag/corus-entertainment/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Corus Entertainment Websites</title>
+		<link>http://popdigital.ca/2007/08/25/corus-entertainment-websites/</link>
+		<comments>http://popdigital.ca/2007/08/25/corus-entertainment-websites/#comments</comments>
+		<pubDate>Sat, 25 Aug 2007 23:39:31 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[coldfusion]]></category>
+		<category><![CDATA[corus entertainment]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=409</guid>
+		<description><![CDATA[About: Corus Entertainment Inc. owns and operates 4 radio stations in Vancouver: CFOX (The Fox), CFMI (Rock101), CKNW, and CHMJ (MOJO, AM730). In the middle of 2007 the websites for these stations were all brought under a content management framework provided by Emmis Interactive, but before this, Pop Digital team member Adrian Jones designed and [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-410" title="cfox_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/cfox_558x300.jpg" alt="CFOX" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Corus Entertainment Inc. owns and operates 4 radio stations in Vancouver: <a title="CFOX" href="http://cfox.com" target="_blank">CFOX </a>(The Fox), <a title="Rock101" href="http://rock101.com" target="_blank">CFMI </a>(Rock101), <a title="CKNW" href="http://cknw.com" target="_blank">CKNW</a>, and <a title="AM730" href="http://am730.ca" target="_blank">CHMJ </a>(MOJO, AM730). In the middle of 2007 the websites for these stations were all brought under a content management framework provided by Emmis Interactive, but before this, Pop Digital team member Adrian Jones designed and developed for the stations&#8217; websites. Much of his work still lingers on the sites all these years later!</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture was ColdFusion.</p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>ColdFusion</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>Flash</li>
+<li>XML</li>
+<li>Video Editing</li>
+<li>Sound Editing</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2007/08/25/corus-entertainment-websites/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/corus-entertainment/feed/ ) in 3.02301 seconds, on Sep 19th, 2011 at 5:47 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 19th, 2011 at 7:47 am UTC -->

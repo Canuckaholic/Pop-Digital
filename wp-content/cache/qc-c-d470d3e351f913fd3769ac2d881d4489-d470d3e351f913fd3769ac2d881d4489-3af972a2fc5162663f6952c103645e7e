@@ -1,0 +1,462 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Fri, 16 Sep 2011 03:30:49 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/LABTGH>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; Work Examples</title>
+	<atom:link href="http://popdigital.ca/category/work-examples/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Website: Britton Diamonds</title>
+		<link>http://popdigital.ca/2011/08/17/britton-diamonds/</link>
+		<comments>http://popdigital.ca/2011/08/17/britton-diamonds/#comments</comments>
+		<pubDate>Thu, 18 Aug 2011 01:09:17 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[britton diamonds]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=692</guid>
+		<description><![CDATA[About: Britton Diamonds is a boutique diamond and jewellery retailer in downtown Vancouver. They were looking at refreshing their website and emphasizing the call-to-action of a visitor phoning or visiting their store. Pop Digital team members worked with Britton Diamonds to display sample inventory, much like an e-commerce storefront, and also created the ability for [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-695" title="britton_diamonds" src="http://popdigital.ca/wp-content/uploads/2011/08/britton_diamonds.jpg" alt="Britton Diamonds" width="558" height="531" /></p>
+<h2>About:</h2>
+<p>Britton Diamonds is a boutique diamond and jewellery retailer in downtown Vancouver. They were looking at refreshing their website and emphasizing the call-to-action of a visitor phoning or visiting their store. Pop Digital team members worked with Britton Diamonds to display sample inventory, much like an e-commerce storefront, and also created the ability for visitors to request a callback based on jewellery they found interested while browsing. The site also features a loose diamond inventory search application.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. CMS is WordPress.</p>
+<h2>URL:</h2>
+<p><a title="Britton Diamonds" href="http://brittondiamonds.com/" target="_blank">brittondiamonds.com</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Database</li>
+<li>WordPress</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/08/17/britton-diamonds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Website: Northlands Golf Course</title>
+		<link>http://popdigital.ca/2011/07/04/northlands-golf-course/</link>
+		<comments>http://popdigital.ca/2011/07/04/northlands-golf-course/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 01:00:35 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[golf]]></category>
+		<category><![CDATA[northlands]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=636</guid>
+		<description><![CDATA[About: Northlands opened for 18 hole public play in 1997 and has earned the reputation of being Metro Vancouver’s Premiere Public Course. Located in North Vancouver, Northlands presents a well formulated mix of challenging holes, friendly scenic downhill vistas and strategically located natural hazards. Type of Project: Website. Underlying server architecture is LAMP. CMS is WordPress. [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-637" title="Northlands Golf Course" src="http://popdigital.ca/wp-content/uploads/2011/07/northlands_screen_558x300.jpg" alt="Northlands Golf Course" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Northlands opened for 18 hole public play in 1997 and has earned the reputation of being Metro Vancouver’s Premiere Public Course. Located in North Vancouver, Northlands presents a well formulated mix of challenging holes, friendly scenic downhill vistas and strategically located natural hazards.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. CMS is WordPress.</p>
+<h2>URL:</h2>
+<p><a title="Northlands Golf Course" href="http://golfnorthlands.com" target="_blank">golfnorthlands.com</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Database</li>
+<li>WordPress</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/07/04/northlands-golf-course/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Website: Countrywide Communications</title>
+		<link>http://popdigital.ca/2011/05/15/countrywide-communications/</link>
+		<comments>http://popdigital.ca/2011/05/15/countrywide-communications/#comments</comments>
+		<pubDate>Mon, 16 May 2011 03:59:46 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=590</guid>
+		<description><![CDATA[About: Countrywide Communications is a TELUS reseller partner with two stores in Maple Ridge. For this project we redesigned their website and set up the phones and rate plans to be displayed on the site from a dynamic data feed. The dynamic content was set up by reading in XML feeds provided by TELUS, parsing [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-594" title="countrycomm_558x300" src="http://popdigital.ca/wp-content/uploads/2011/05/countrycomm_558x300.gif" alt="Countrywide Communications" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Countrywide Communications is a TELUS reseller partner with two stores in Maple Ridge. For this project we redesigned their website and set up the phones and rate plans to be displayed on the site from a dynamic data feed. The dynamic content was set up by reading in XML feeds provided by TELUS, parsing the data into a database, and displaying the resulting content on the site.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. CMS is WordPress.</p>
+<h2>URL:</h2>
+<p><a title="Countrywide Communications" href="http://countrywidecommunications.com/" target="_blank">countrywidecommunications.com</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Database</li>
+<li>WordPress</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/15/countrywide-communications/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Rhino Cup Run 2011</title>
+		<link>http://popdigital.ca/2011/05/05/rhino-cup-run-2011/</link>
+		<comments>http://popdigital.ca/2011/05/05/rhino-cup-run-2011/#comments</comments>
+		<pubDate>Fri, 06 May 2011 03:46:58 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[rhino]]></category>
+		<category><![CDATA[web application]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=463</guid>
+		<description><![CDATA[About: Rhino Cup Run 2011 is a web application built for Rhino Marketing Inc., a partner of the Vancouver Canucks. The application is a hockey pool where people can sign up, make game score predictions for each playoff round, and guess which Canucks players will finish with the most goals, most assists, etc. A winner [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-468" title="rhino_cup_run_558x300" src="http://popdigital.ca/wp-content/uploads/2011/03/rhino_cup_run_558x300.jpg" alt="Rhino Cup Run 2011" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Rhino Cup Run 2011 is a web application built for Rhino Marketing Inc., a partner of the Vancouver Canucks. The application is a hockey pool where people can sign up, make game score predictions for each playoff round, and guess which Canucks players will finish with the most goals, most assists, etc. A winner is declared at the end of each round for the contestant with the highest score.</p>
+<h2>Type of Project:</h2>
+<p>Web Application. Built using a LAMP server architecture.</p>
+<p><strong>URL:</strong> <a title="Rhino Cup Run 2011" href="http://rhino.ca/cuprun2011" target="_blank">rhino.ca/cuprun2011</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Javascript</li>
+<li>MySQL</li>
+</ul>
+</div>
+<h2>Information Architecture Diagrams</h2>
+<div class="workBox"><a title="Sitemap" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunSitemap.pdf" target="_blank"><img title="RhinoCupRunSitemap" src="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunSitemap.gif" alt="RhinoCupRunSitemap" width="250" height="324" /></a><br />
+<a title="Sitemap" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunSitemap.pdf" target="_blank">Sitemap</a></div>
+<div class="workBox"><a title="Activity Diagram" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunActivityDiagram.pdf" target="_blank"><img title="RhinoCupRunActivityDiagram" src="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunActivityDiagram.gif" alt="RhinoCupRunActivityDiagram" width="250" height="324" /></a><br />
+<a title="Activity Diagram" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunActivityDiagram.pdf" target="_blank">Activity Diagram</a></div>
+<div class="workBox"><a title="ERD" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunERD.pdf" target="_blank"><img title="RhinoCupRunERD" src="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunERD.gif" alt="RhinoCupRunERD" width="250" height="324" /></a><br />
+<a title="ERD" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunERD.pdf" target="_blank">ERD</a></div>
+<div class="workBox"><a title="Class Diagram" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunClassDiagram.pdf" target="_blank"><img title="RhinoCupRunClassDiagram" src="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunClassDiagram.gif" alt="RhinoCupRunClassDiagram" width="250" height="324" /></a><br />
+<a title="Class Diagram" href="http://popdigital.ca/wp-content/uploads/2011/03/RhinoCupRunClassDiagram.pdf" target="_blank">Class Diagram</a></div>
+<div class="clearFloats"></div>
+<p><img style="cursor: pointer; z-index: 1000000; position: absolute; padding: 2px; left: 8px; top: 288px;" title="Click to edit this image in Aviary" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAB30lEQVQ4EZVTSy8DURT%2BZjpm6GhL0pKQphYeCZF4hIVEWLDowsaCxMJC8AP8AMI%2FsBQWFhKPxMpGbIgFK6vWe0WoRVOPPihth3vmTm%2FTUuEs7r3zzfnO950zdySw6Nz6%2FKT9v3EyIknSX8idHiZSBRzcA1fP%2BTK%2FFiDiXBdQo%2BdI%2Fp00wklFALI4FRxm2oCl%2FnwypXS7E8gYGZH9YwFSHWvgOUehd0zsPYJ2CqcqI5lK8pdszXmxICIP1fGHueMXLAcS0BQNTW4bemqAu1gGhmElsy2vAKkWkl12F3RNR2UpJwUjKSisYDZEC44SYKqFw2SXlLNkQvuZ%2Bn3cwFkkzYppkCWeKwqQMhWhWAly26RMQV%2BhsQLYvXmHqqgwIMOwbo5ooa%2FWzDUXFxuUXmp5ZgjNhWLjIg67Wo50sRnwNGC%2Bx4mnwxQ%2BmMp0M7tEHjY8Zv%2BU9V%2FtUmG5N9OFg1CCJxJKn2p1IDcowm6jbHiygnaPzXRw%2FgRQF2IG69dAlCSLhNehYKpVx2Iv4PcBUuEQ6Y5P7mdMm1Qj%2BmFg8%2BoVg9thE%2FM6bBiu1zC%2B94a1ixSyv5%2B0cDmaJxtP6jh%2FaADtii0Nt%2BMR3sqQwJxlMXT4AswBp5lGCosU6eIbPNu0KX0BMmqe8Db%2Bbr8AAAAASUVORK5CYII%3D" alt="" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/05/rhino-cup-run-2011/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Website: Allison Wondeland</title>
+		<link>http://popdigital.ca/2011/02/25/allison-wondeland-website/</link>
+		<comments>http://popdigital.ca/2011/02/25/allison-wondeland-website/#comments</comments>
+		<pubDate>Fri, 25 Feb 2011 20:51:08 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[allison wonderland]]></category>
+		<category><![CDATA[fashion]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=378</guid>
+		<description><![CDATA[About: Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &#38; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-381" title="allison_wonderland_558x300" src="http://popdigital.ca/wp-content/uploads/2009/02/allison_wonderland_558x300.jpg" alt="Allison Wonderland" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &amp; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the style-savvy of North America and Japan.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP.</p>
+<h2>URL:</h2>
+<p><a title="Allison Wonderland" href="http://allisonwonderland.ca" target="_blank">allisonwonderland.ca</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/02/25/allison-wondeland-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Vancouver Canucks Website</title>
+		<link>http://popdigital.ca/2011/02/06/vancouver-canucks-website/</link>
+		<comments>http://popdigital.ca/2011/02/06/vancouver-canucks-website/#comments</comments>
+		<pubDate>Mon, 07 Feb 2011 06:13:16 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[vancouver canucks]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=298</guid>
+		<description><![CDATA[About: The official website of the Vancouver Canucks NHL hockey organization. With an average of over 1 million unique visitors per month, canucks.com is consistently the #1 most visited NHL team website. In addition to news, featured stories, exclusive videos, and ticket information, canucks.com also offers fans many other ways to interact with their favourite [...]]]></description>
+			<content:encoded><![CDATA[<p><img title="vancouver_canucks_558x300" src="http://popdigital.ca/wp-content/uploads/2010/04/vancouver_canucks_558x300.jpg" alt="canucks.com" width="558" height="300" /></p>
+<h2>About:</h2>
+<div id="attachment_313" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-313" title="Vancouver Canucks Website (canucks.com)" src="http://popdigital.ca/wp-content/uploads/2010/04/canucks_website_slider-300x105.jpg" alt="Vancouver Canucks Website (canucks.com)" width="300" height="105" /><p class="wp-caption-text">Vancouver Canucks Website (canucks.com)</p></div>
+<p>The official website of the Vancouver Canucks NHL hockey organization. With an average of over 1 million unique visitors per month, canucks.com is consistently the #1 most visited NHL team website. In addition to news, featured stories, exclusive videos, and ticket information, canucks.com also offers fans many other ways to interact with their favourite hockey team, from playing Canucks Fantasy Hockey to testing their hockey knowledge playing Canucks Trivia. Canucks.com also offers a paid fan club membership, as well as an email newsletter club. Additional content features: Flash games, holiday e-cards, contesting, alumni microsite, mobile, social media, Fin&#8217;s Place, grassroots hockey, community partnerships, etc.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is Java. Uses a proprietary CMS.</p>
+<p><strong>URL:</strong> <a title="Vancouver Canucks" href="http://canucks.com" target="_blank">canucks.com</a></p>
+<h2>What We Did:</h2>
+<h3>Adrian Jones:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>AJAX</li>
+<li>jQuery</li>
+<li>Flash</li>
+<li>XML</li>
+<li>JSON</li>
+</ul>
+</div>
+<h3>Ryan Castle:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<h3>Leah Browne:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<p><img style="cursor: pointer; z-index: 1000000; position: absolute; padding: 2px; left: 8px; top: 288px;" title="Click to edit this image in Aviary" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAB30lEQVQ4EZVTSy8DURT%2BZjpm6GhL0pKQphYeCZF4hIVEWLDowsaCxMJC8AP8AMI%2FsBQWFhKPxMpGbIgFK6vWe0WoRVOPPihth3vmTm%2FTUuEs7r3zzfnO950zdySw6Nz6%2FKT9v3EyIknSX8idHiZSBRzcA1fP%2BTK%2FFiDiXBdQo%2BdI%2Fp00wklFALI4FRxm2oCl%2FnwypXS7E8gYGZH9YwFSHWvgOUehd0zsPYJ2CqcqI5lK8pdszXmxICIP1fGHueMXLAcS0BQNTW4bemqAu1gGhmElsy2vAKkWkl12F3RNR2UpJwUjKSisYDZEC44SYKqFw2SXlLNkQvuZ%2Bn3cwFkkzYppkCWeKwqQMhWhWAly26RMQV%2BhsQLYvXmHqqgwIMOwbo5ooa%2FWzDUXFxuUXmp5ZgjNhWLjIg67Wo50sRnwNGC%2Bx4mnwxQ%2BmMp0M7tEHjY8Zv%2BU9V%2FtUmG5N9OFg1CCJxJKn2p1IDcowm6jbHiygnaPzXRw%2FgRQF2IG69dAlCSLhNehYKpVx2Iv4PcBUuEQ6Y5P7mdMm1Qj%2BmFg8%2BoVg9thE%2FM6bBiu1zC%2B94a1ixSyv5%2B0cDmaJxtP6jh%2FaADtii0Nt%2BMR3sqQwJxlMXT4AswBp5lGCosU6eIbPNu0KX0BMmqe8Db%2Bbr8AAAAASUVORK5CYII%3D" alt="" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/02/06/vancouver-canucks-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Canucks Fantasy Hockey</title>
+		<link>http://popdigital.ca/2010/11/17/canucks-fantasy-hockey/</link>
+		<comments>http://popdigital.ca/2010/11/17/canucks-fantasy-hockey/#comments</comments>
+		<pubDate>Thu, 18 Nov 2010 04:20:59 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[fantasy hockey]]></category>
+		<category><![CDATA[web application]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=315</guid>
+		<description><![CDATA[About: Canucks Fantasy Hockey is a free online game that allows you to play against other Vancouver Canucks fans as you attempt to earn the most points during each of the Vancouver Canucks&#8217; regular season and playoff hockey games. You earn points in each game by first selecting your &#8220;team&#8221; from members of the Vancouver [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-365" title="canucks_fantasy_558x300" src="http://popdigital.ca/wp-content/uploads/2010/03/canucks_fantasy_558x300.jpg" alt="Canucks Fantasy Hockey" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Canucks Fantasy Hockey is a free online game that allows you to play against other Vancouver Canucks fans as you attempt to earn the most points during each of the Vancouver Canucks&#8217; regular season and playoff hockey games. You earn points in each game by first selecting your &#8220;team&#8221; from members of the Vancouver Canucks roster. Canucks players earn points for you by scoring goals, getting assists, giving hits, etc. But you are limited in the number of players that you can choose by a salary cap. Players that typically earn more points will cost more to purchase for your team.</p>
+<div id="attachment_316" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-316" title="Canucks Fantasy Hockey (canucks.com/fantasy)" src="http://popdigital.ca/wp-content/uploads/2011/04/canucks_fantasy_slider-300x105.jpg" alt="Canucks Fantasy Hockey" width="300" height="105" /><p class="wp-caption-text">Canucks Fantasy Hockey (canucks.com/fantasy)</p></div>
+<h2>Type of Project:</h2>
+<p>Web application using LAMP architecture</p>
+<h2>URL:</h2>
+<p><a title="Vancouver Canucks" href="http://canucks.com" target="_blank">canucks.com</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Javascript</li>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>jQuery</li>
+<li>XML</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2010/11/17/canucks-fantasy-hockey/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Canucks Trivia</title>
+		<link>http://popdigital.ca/2010/07/15/canucks-trivia/</link>
+		<comments>http://popdigital.ca/2010/07/15/canucks-trivia/#comments</comments>
+		<pubDate>Fri, 16 Jul 2010 01:27:14 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[canucks]]></category>
+		<category><![CDATA[trivia]]></category>
+		<category><![CDATA[web application]]></category>
+		<category><![CDATA[xml]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=413</guid>
+		<description><![CDATA[About: Canucks Trivia tests your knowledge of the Vancouver Canucks, past and present. Type of Project: Web Application. Built using Flash and XML. URL: canucks.com/trivia Pop Digital Team: Adrian Jones Roles: Adrian: HTML/XHTML CSS PHP Flash XML MySQL]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-414" title="canucks_trivia_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/canucks_trivia_558x300.jpg" alt="Canucks Trivia" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Canucks Trivia tests your knowledge of the Vancouver Canucks, past and present.</p>
+<h2>Type of Project:</h2>
+<p>Web Application. Built using Flash and XML.</p>
+<h2>URL:</h2>
+<p><a title="Vancouver Canucks Trivia" href="http://canucks.com/trivia" target="_blank">canucks.com/trivia</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>XML</li>
+<li>MySQL</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2010/07/15/canucks-trivia/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fin&#8217;s Place</title>
+		<link>http://popdigital.ca/2010/03/01/fins-place/</link>
+		<comments>http://popdigital.ca/2010/03/01/fins-place/#comments</comments>
+		<pubDate>Tue, 02 Mar 2010 04:29:21 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[flash application]]></category>
+		<category><![CDATA[interactivity]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=321</guid>
+		<description><![CDATA[About: Fin, the official mascot of the Vancouver Canucks, has a home on canucks.com. Fin&#8217;s Place is a Flash application where fans can interact with their favourite mascot by reading his blog, watching videos, viewing photos, and more. Type of Project: Flash application. URL: canucks.com/fin Pop Digital Team: Adrian Jones Evan Biswanger Roles: Adrian: Flash [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-384" title="fins_place_558x300" src="http://popdigital.ca/wp-content/uploads/2010/03/fins_place_558x300.jpg" alt="Fin's Place" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Fin, the official mascot of the Vancouver Canucks, has a home on canucks.com. Fin&#8217;s Place is a Flash application where fans can interact with their favourite mascot by reading his blog, watching videos, viewing photos, and more.</p>
+<div id="attachment_322" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-322" title="Fin's Place (canucks.com/fin)" src="http://popdigital.ca/wp-content/uploads/2011/04/fins_place_slider-300x105.jpg" alt="Fin's Place (canucks.com/fin)" width="300" height="105" /><p class="wp-caption-text">Fin&#39;s Place (canucks.com/fin)</p></div>
+<h2>Type of Project:</h2>
+<p>Flash application.</p>
+<h2>URL:</h2>
+<p><a title="Fin's Place" href="http://canucks.com.fin" target="_blank">canucks.com/fin</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Evan Biswanger</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>Interactivity Design</li>
+</ul>
+</div>
+<h3>Evan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2010/03/01/fins-place/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AM730 Logo</title>
+		<link>http://popdigital.ca/2010/02/17/am730-logo/</link>
+		<comments>http://popdigital.ca/2010/02/17/am730-logo/#comments</comments>
+		<pubDate>Thu, 18 Feb 2010 04:34:46 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[logo design]]></category>
+		<category><![CDATA[radio]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=324</guid>
+		<description><![CDATA[About: AM730 is a dedicated traffic station on the AM dial, broadcasting to Greater Vancouver and the Fraser Valley. AM730 is owned by Corus Entertainment Inc. Type of Project: Logo design. URL: am730.ca Pop Digital Team: Adrian Jones Roles: Adrian: Logo Design &#160;]]></description>
+			<content:encoded><![CDATA[<p><a href="http://popdigital.ca/wp-content/uploads/2010/02/am730_558x300.jpg"><img class="alignnone size-full wp-image-389" title="am730_558x300" src="http://popdigital.ca/wp-content/uploads/2010/02/am730_558x300.jpg" alt="AM730" width="558" height="300" /></a></p>
+<h2>About:</h2>
+<p>AM730 is a dedicated traffic station on the AM dial, broadcasting to Greater Vancouver and the Fraser Valley. AM730 is owned by Corus Entertainment Inc.</p>
+<div id="attachment_325" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-325" title="AM730 Logo" src="http://popdigital.ca/wp-content/uploads/2011/04/am730_logo_slider-300x105.jpg" alt="AM730 Logo" width="300" height="105" /><p class="wp-caption-text">AM730 Logo</p></div>
+<h2>Type of Project:</h2>
+<p>Logo design.</p>
+<h2>URL:</h2>
+<p><a title="AM730" href="http://www.am730.ca/" target="_blank">am730.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>Logo Design</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2010/02/17/am730-logo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/category/work-examples/feed/ ) in 2.92449 seconds, on Sep 23rd, 2011 at 3:30 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 23rd, 2011 at 5:30 am UTC -->

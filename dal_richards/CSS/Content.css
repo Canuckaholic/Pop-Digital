@@ -1,0 +1,320 @@
+
+
+/* *** IMAGE STYLES *** */
+
+.IMGLeft {
+
+display: block;
+position: relative;
+float: left;
+clear: both;
+padding: 0px 2px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+.IMGRight {
+
+margin: 2px;
+padding: 4px;
+display: block;
+position: relative;
+float: right;
+clear: both;
+padding: 0px 0px 0px 4px;
+margin: 0px 0px 0px 0px;
+}
+
+
+#DalLeader {
+
+margin: 0px -4px 0px 0px;
+margin: 0px 0px 0px 5px;
+
+}
+
+#DalCasino {
+
+margin: -9px 0px 0px 0px;
+padding: 3px 2px 0px 0px;
+}
+
+/* *** TEXT *** */
+
+.ContentP {
+
+font-family: arial, sans-serif;
+display: block;
+font-size: 110%;
+line-height: 120%;
+}
+
+
+.ContentNewsP {
+
+font-family: arial, sans-serif;
+display: block;
+font-size: 110%;
+line-height: 120%;
+margin-left: 4px;
+}
+
+.ContentHeading {
+font-family: arial, sans-serif;
+font-size: 120%;
+line-height: 120%;
+}
+
+.ContentTitle {
+font-family: arial, sans-serif;
+font-size: 140%;
+line-height: 140%;
+}
+
+/* *** DIVS *** */
+
+.HonoursList {
+
+margin: 7px 0px 12px 0px;
+line-height: 13px;
+}
+
+.CDOrderingList li {
+
+padding: 0px 0px 4px 0px;
+font-size: 11px;
+}
+
+
+.CDImageLeft {
+
+display: block;
+position: relative;
+float: left;
+margin: 0px;
+padding: 0px 0px 0px 2px;
+}
+
+.SongListRight {
+display: block;
+position: relative;
+float: left;
+width: 260px;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.Clearer {
+
+display: block;
+position: relative;
+height: 1px;
+clear: both;
+}
+
+.Spacer {
+
+display: block;
+position: relative;
+height: 1px;
+clear: both;
+}
+
+
+#Movie {
+
+display: block;
+position: relative;
+background: transparent url('../Images/smallTV.jpg') top left no-repeat;
+width: 240px;
+
+margin: 15px auto 10px auto;
+padding: 10px 0px 0px 45px;
+}
+
+#Movie h3 {
+
+font-size: 14px;
+font-weight: normal;
+line-height: 14px;
+margin: 0px 0px 4px 0px;
+}
+
+#Movie a {
+
+	margin: 4px 0px 4px 0px;
+}
+
+#Movie p {
+
+	display: block;
+	position: relative;
+	margin: 8px 0px 0px 8px;
+	padding: 0px 0px 10px 25px;
+	line-height: 12px;
+	color: #999;
+	background: url('../Images/Quicktime.jpg') top left no-repeat;
+}
+
+#Movie p a, #Movie p a:visited {
+
+	color: #999;
+	text-decoration: none;
+}
+
+#Movie p a:hover {
+
+	color: #555;
+	text-decoration: underline;
+}
+
+
+/* *** QUOTES *** */
+
+
+.Quote {
+
+display: block;
+position: relative;
+background: #fbfbfb;
+border-top: 1px solid #88bff9;
+border-bottom: 1px solid #88bff9;
+margin: 0px;
+padding: 7px 18px;
+
+}
+
+.QuoteText {
+
+display: inline;
+font-size: 100%;
+font-style: italic;
+color: #3d6996;
+line-height: 140%;
+
+}
+
+.QuoteAuthor {
+
+display: inline;
+font-size: 90%;
+color: #2383e6;
+line-height: 140%;
+}
+
+
+
+/* *** CALENDAR *** */
+
+
+.EventPast {
+
+color: #666666;
+line-height: 140%;
+}
+
+.EventUpcoming {
+
+color: #000000;
+line-height: 140%;
+}
+
+.EventNow {
+
+display: block;
+position: relative;
+color: #3d6996;
+font-size: 140%;
+margin: 22px 0px 0px 0px;
+border-bottom: 1px solid #2383e6;
+}
+
+.EventToday {
+
+font-size: 140%;
+font-weight: bold;
+margin: 0px 0px 0px 8px;
+color: #cccccc;
+}
+
+.EventDate {
+
+font-size: 130%;
+margin: 22px 0px 0px 0px;
+}
+
+.EventBand {
+
+font-size: 100%;
+margin: 0px 0px 8px 2px;
+font-style: italic;
+}
+
+.EventName, .EventVenue {
+
+font-size: 100%;
+margin: 0px;
+}
+
+.EventTime {
+
+font-size: 100%;
+font-weight: bold;
+margin: 1px 0px 0px 0px;
+}
+
+.EventNotes {
+
+margin: 3px 0px 4px 5px;
+font-size: 100%;
+font-style: italic;
+}
+
+/* *** MP3 PLAYER STYLES *** */
+
+.mp3 {
+	display: block;
+	position: relative;
+	background: transparent url('../Images/Speaker.jpg') top left no-repeat;
+	margin: 10px 0px 0px 50px;
+	padding: 4px 0px 0px 45px;
+	height: 60px;
+}
+
+.mp3 h3 {
+
+	font-size: 1.4em;
+	margin: 0px 0px 2px 0px;
+}
+
+.mp3 p {
+	display: block;
+	position: relative;
+	line-height: 1.1em;
+	color: #777;
+	margin: 0px 0px 10px 31px;
+}
+
+
+.mp3Player_Img {
+display: inline;
+width: 20px;
+height: 20px;
+vertical-align: middle;
+padding: 0px 0px 0px 5px;
+margin: 0px;
+}
+
+.mp3Player_Link {
+font-size: 1.1em;
+vertical-align: middle;
+text-decoration: none;
+margin: 0px;
+}
+
+.mp3Player_Playing {
+display: inline;
+vertical-align: middle;
+padding: 0px 0px 0px 10px;
+color: #999;
+font-size: 1.1em;
+}

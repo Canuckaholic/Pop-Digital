@@ -1,0 +1,159 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Sun, 18 Sep 2011 21:14:16 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/Pfn4rO>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; narrative</title>
+	<atom:link href="http://popdigital.ca/tag/narrative-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Interactive Narrative</title>
+		<link>http://popdigital.ca/2011/05/09/interactive-narrative/</link>
+		<comments>http://popdigital.ca/2011/05/09/interactive-narrative/#comments</comments>
+		<pubDate>Tue, 10 May 2011 04:17:09 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[Narrative]]></category>
+		<category><![CDATA[interactivity]]></category>
+		<category><![CDATA[narrative]]></category>
+		<category><![CDATA[non-linear]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=546</guid>
+		<description><![CDATA[What is Narrative? Let&#8217;s begin with a few definitions: &#8220;A narrative is a sign with a signifier (discourse) and a signified (story, mental image, semantic representation). The signifier can have many different semiotic manifestations. It can consist for instance of a verbal act of story-telling (diegetic narration), or of gesture and dialogue performed by actors [...]]]></description>
+			<content:encoded><![CDATA[<h1>What is Narrative?</h1>
+<p>Let&#8217;s begin with a few definitions:</p>
+<blockquote><p>&#8220;A narrative is a sign with a signifier (discourse) and a signified (story, mental image, semantic representation). The signifier can have many different semiotic manifestations. It can consist for instance of a verbal act of story-telling (diegetic narration), or of gesture and dialogue performed by actors (mimetic, or dramatic narration).&#8221; (Ryan, 2001)</p></blockquote>
+<p>The above definition takes a traditional communication theory approach to narrative. Mieke Bal in <em>Narratology: Introduction to the Theory of Narrative</em> defines a narrative as containing an actor and a narrator, a text, story and fabula, and that the plot should consist of &#8220;a series of connected events caused or experienced by actors&#8221; (Bal, 1985, p.8).</p>
+<p>This definition may be slightly too narrow for the purposes of non-linear narrative, but it does bring up the point that for a narrative to be meaningful, it needs to make sense to the reader. This is commonly achieved through solid causality.</p>
+<blockquote><p>&#8220;Narrative representation must be thematically unified and logically coherent. Their elements cannot be freely permuted, because they are held together in a sequence by relations of cause and effect, and because temporal order is meaningful.&#8221; (Ryan, 2001)</p></blockquote>
+<p>This definition tells us that in order for a narrative to be meaningful, it must consist of logically sound cause and effect relationships. I would agree with this for most cases, except for experimental filmmaking, where the artist may, in fact, desire a lack of logic or cause/effect dichotomies. In this case, I would argue that the experimental filmmaker is still producing a narrative, although one outside of conventional definitions.</p>
+<p>What this implies is that on some level, anything can be considered a narrative, whether it is logically coherent or not. It really depends, of course, on the reader&#8217;s interpretation and experience of the work. This makes it difficult to set up rules for the construction of a meaningful narrative for non-linear storytelling. The best that can be accomplished is for the author to make his/her intentions speak through the work itself. If an artist is trying to construct a multi-linear narrative, then it should be apparent in the work itself whether or not the narrative is attempting story development through logical cause/effect relationships.</p>
+<p>A last point on the meaning of narrative is that we need to realize that a narrative constructed from a book is different from a narrative constructed from a movie, and we need to evaluate each according to different criteria of what makes a meaningful narrative. Some types of narrative may work better in a specific medium, as becomes painfully clear when a book is poorly adapted for the movie screen (or vice versa).</p>
+<h1>Why Be Interactive?</h1>
+<p>Interactive media is often perceived as an externalization of the mind, of making one&#8217;s cognitive process a part of the public knowledge domain. As users we enjoy interactive experiences because, if done well, they give us a heightened sense of agency by allowing us to customize our experience.</p>
+<blockquote><p>&#8220;The very principle of hyperlinking, which forms the basis of interactive media, objectifies the process of association, often taken to be central to human thinking&#8221; (Manovich, 2001, p.61)</p></blockquote>
+<p>A major problem with interactive media, however, is that the more interactive the content, the more labor required to create it. A media object with very limited interactivity can actually be less satisfying than had it had no interactivity at all, for hyperlinking is essentially asking the user to follow a set of pre-programmed subjectively existing associations. With a minimal amount of interactivity, the programmer&#8217;s mind is exposed, thus making it harder for the user to mistake the programmer&#8217;s cognitive processes for their own. This is thus an argument that interactive media should be extensively interactive or not interactive at all (in which case it is up to the user&#8217;s imagination to go beyond the embedded content).</p>
+<p>Interactivity does not have to be limited to hyperlinking, of course. Interactive media can involve the capturing and interpretation of body movements, gesture, light sources, proximity sensors, etc. The key obstacle with this kind of &#8220;physical&#8221; interactivity is how to effectively capture the user&#8217;s input and then appropriately and intelligently interpret the signals to produce a meaningful experience.</p>
+<h1>Interactive Narrative</h1>
+<p>It is often considered that one must sacrifice narrative for increased interactivity, or that one must give up some interactivity to preserve effective narrative. But does the lack of linearity diminish the effectiveness of a narrative? Proponents of hypertext do not believe so:</p>
+<blockquote><p>&#8220;In a hypertext environment a lack of linearity does not destroy narrative. In fact, since readers always, but particularly in this environment, fabricate their own structures, sequences or meanings, they have surprisingly little trouble reading a story or reading for a story.&#8221; (Landow, 1997)</p></blockquote>
+<h3>Expanding the Definition of Narrative:</h3>
+<p>Perhaps the first step in determining what an interactive narrative is, and how one can be effectively created, is to expand our idea of narrative. The traditional Aristotelian narrative arc of set-up, complication, development, and resolution, need not be completely disregarded, but perhaps we need to start looking at the arc in a different way. An oblique strategy. Instead of an overarching narrative arc that encompasses the entire story and experience, maybe a multi-linear narrative needs to employ micro-narrative arcs contained within story fragments for it to be effectively constructed.</p>
+<p>Some common approaches to interactive narrative:</p>
+<ol>
+<li><strong>Branching      narrative</strong> &#8211; The story follows forking paths based on user interaction.      Also called <em>branching-type</em> interactivity or <em>menu-based</em> interactivity.      In this case the information used by the computer program to create      interactivity is based on the user&#8217;s cognitive process, rather than body      position, gesture, etc. Because of the exponential process involved in      creating a branching-type narrative, projects that employ this type of      design tend to be limited in their scope of branching paths. While this      may work decently with hypertext or <em>Choose-Your-Own-Adventure</em> novels, it is not generally considered a good approach for multi-linear      visual media (Davenport,      1997).</li>
+<li><strong>Exploratory      narrative</strong> &#8211; The user explores a virtual world, discovering narrative      fragments as they progress, to gradually re-construct the whole story in      their mind.</li>
+<li><strong>Generative      narrative</strong> &#8211; The premise behind generative or automatist storytelling is      that the structure of a story can be an emergent property of the      interaction of the individual with a decentralized storyteller system.</li>
+</ol>
+<p>Chris Crawford (Crawford, 2000) discusses narrative and interactivity using the concept of &#8220;flow&#8221; to refer to the number of choices that are available to the end-user. The number of possible avenues open to pursue determines if the flow will be branching or linear. How many paths is the user allowed to choose from while navigating the interactive work? As Crawford asserts: &#8220;One way to judge the interactive quality of a design is to examine the ratio of accessible states to conceivable states&#8221; (Crawford, 2000). In making a tree diagram of the possible paths available to the end-user through the narrative, a more interactive work would be “bushier” by having more branching paths, and thus more choices.</p>
+<p>The concept of embedded versus emergent narrative, which is analogous to Janet Murray’s open versus closed architecture, is mentioned in Eric Zimmerman’s article “Against Hypertext” (Zimmerman, 2001). An embedded narrative structure means that the content is pre-existing; no new content is created during the user’s interaction that is outside of the non-linear narrative’s program. Here the world is finite and there are a quantifiable number of possibilities available to the end-user. In an emergent structure the rules and procedures of the non-linear narrative allow for unexpected user experiences and content. The world is not finite, and the end-user is able to, at least to some degree, co-construct the narrative. In this scenario the end-user can actually choose not to follow the narrative spine at all, but rather define a personal set of goals. There is a near-infinite number of possibilities available to the end-user. Examples of this kind of emergent narrative environment can be found in Massive Multi-Player Online Games (MMOG), where players can chose to follow the established storyline, or create their own adventures and goals.</p>
+<blockquote><p><em>&#8220;An interactive narrative (which can be also called a </em>hypernarrative<em> in analogy with hypertext) can then be understood as the sum of multiple trajectories through a database.&#8221; (Manovich, 2001, p.227)</em></p></blockquote>
+<p>As discussed in Part 1: What is Narrative?, however, an arbitrary path taken through a multimedia database, giving an arbitrary sequence of database objects, does not necessarily constitute a narrative.</p>
+<blockquote><p>&#8220;It is simply not possible to construct a coherent story out of every permutation of a set of textual fragments, because fragments are implicitly ordered by relations of logical presuppostion, material causality and temporal sequence.&#8221; (Ryan, 2001)</p></blockquote>
+<p>This is why it is so crucial to have effective algorithms that can construct meaningful narratives out of the interaction of the user and the computer. Effectively merging database and narrative will be an important step in the development of new media, for &#8220;a database can support narrative, but there is nothing in the logic of the medium itself that would foster its generation&#8221; (Manovich, 2001, p.228).</p>
+<blockquote><p>&#8220;Given the dominance of the database in computer software and the key role it plays in the computer-based design process, perhaps we can arrive at new kinds of narrative by focusing our attention on how narrative and database can work together.&#8221; (Manovich, 2001, p. 237)</p></blockquote>
+<p>Interestingly enough, cinema could be considered to already be at the intersection between database and narrative. During filming, far more footage is captured than will ever be used in the final movie &#8211; this raw footage could be seen as a database of film. The editor then uses this database of raw footage to construct a unique trajectory, that which will become the completed movie. We have already seen how different trajectories can be followed, for movies are often re-released with different versions (a so called &#8220;Director&#8217;s Cut,&#8221; for example, or a &#8220;cleaned-up&#8221; version for television). When DVD&#8217;s are made they usually contain a special features section which often includes outtakes, deleted scenes, and other footage that did not make it into the theatrical release.</p>
+<p>&nbsp;</p>
+<h4>References:</h4>
+<p>Bal, Mieke. “Narratology: Introduction to the Theory of Narrative.” Toronto: University of Toronto Press, 1985.</p>
+<p>Crawford, Chris. “Understanding Interactivity.” Self-published manuscript, 2000.</p>
+<p>Davenport, Glorianna. “Whose Bits are they Anyway?” IEEE Multimedia, July-September 1997.</p>
+<p>Davenport, G., Evans, R., and M. Halliday. “Orchestrating Digital Micromovies.” <em>Leonardo</em>, v. 26 no. 4, (1993), p. 283 – 288.</p>
+<p>Manovich, Lev. “The Language of New Media.” Cambridge, Mass.: MIT Press. 2001.</p>
+<p>Murray, Janet. “Hamlet on the Holodeck: The Future of Narrative in Cyberspace.” Cambridge, Mass.: MIT Press. 2000.</p>
+<p>Landow, George. “Hypertext 2.0: The Convergence of Contemporary Critical Theory and Technology.” Baltimore: The John Hopkins UP, 1997.</p>
+<p>Ryan, Marie-Laure. “Beyond Myth and Metaphor: The case of narrative in digital media.” <em>International journal of computer game research</em>. Issue 1, July 2001.</p>
+<p>Zimmerman, Eric. “Against Hypertext.” &#8220;American Letters &amp; Commentary&#8221; Issue #12, 2001.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/09/interactive-narrative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Types of Interactivity</title>
+		<link>http://popdigital.ca/2011/05/08/types-of-interactivity/</link>
+		<comments>http://popdigital.ca/2011/05/08/types-of-interactivity/#comments</comments>
+		<pubDate>Mon, 09 May 2011 03:50:35 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[Narrative]]></category>
+		<category><![CDATA[digital media]]></category>
+		<category><![CDATA[interactivity]]></category>
+		<category><![CDATA[narrative]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=557</guid>
+		<description><![CDATA[Lev Manovich refers to the interactivity that uses fixed elements arranged in a branching structure as closed interactivity; interactivity where both the elements and the structure are generated dynamically in real-time based on user interaction he calls open interactivity (Manovich, 2001, p.40). These concepts are similar to the open/closed and emergent/embedded narrative dichotomies mentioned by [...]]]></description>
+			<content:encoded><![CDATA[<p>Lev Manovich refers to the interactivity that uses fixed elements arranged in a branching structure as <em>closed</em> interactivity; interactivity where both the elements and the structure are generated dynamically in real-time based on user interaction he calls <em>open</em> interactivity (Manovich, 2001, p.40). These concepts are similar to the open/closed and emergent/embedded narrative dichotomies mentioned by other authors.</p>
+<p>Marie-Laure Ryan, in her essay &#8220;Beyond Myth and Metaphor,&#8221; breaks the open/closed interactivity dichotomy down even further (Ryan, 2001). Ryan sets up two pairs of opposing concepts: internal/external interactivity, and exploratory/ontological interactivity.</p>
+<ul>
+<li>In      internal interactivity &#8220;the user projects himself as a member of the      fictional world&#8221; (Ryan,      2001). This can be done through an avatar, or by experiencing the world      from a first-person perspective (ex. a first-person shooter video game).      This is a form of personal perspective interactivity.</li>
+<li>In      external interactivity the participant is situated outside of the virtual      world, either by playing a god-like role looking on and controlling from      above, or by navigating a database-like story structure. This is a form of      impersonal perspective interactivity that does not require a concrete      persona.</li>
+<li>In      exploratory interactivity the user is free to move about the virtual      world, exploring all the details, but their activity does not affect the      overall plot in any way. The user simply reveals the story as they      explore.</li>
+<li>In      ontological interactivity the decisions of the user can affect the plot,      such that the story develops from the user&#8217;s interactions.</li>
+</ul>
+<p>Cross-classification of these two dichotomies leads to four combinations for categorizing interactive works. These are not listed in any particular order of effectiveness.</p>
+<ol>
+<li><strong>External/exploratory      interactivity:</strong> Certain “classical” hypertexts fall into this category,      such the &#8220;novels&#8221; of Michael Joyce, Stuart Moulthrop, or Mark      Amerika. The user can choose paths through the virtual space, but the      space itself has no physical narrative setting. This type of interactivity      is exploratory because “the reader’s path of navigation affects not the narrative      events themselves, but only the way in which the global narrative      pattern&#8230; emerges in the mind” (Ryan,      2001).</li>
+<li><strong>Internal/exploratory      interactivity:</strong> In this category, “the user takes a virtual body with      her into the fictional world, but her role in this world is limited to      actions that have no bearing on the narrative events” (Ryan,      2001). Even though the user cannot affect the plot, she is still immersed      in the narrative through a virtual body. She is present on the story’s      stage, if only as an observer. Examples of this type of interactivity are      the computer games <em>Myst, Tomb Raider</em> and <em>Final Fantasy</em>. In      these games the user plays an internal role (ex. Laura Croft in <em>Tomb Raider</em>), but the game is      structured in such a way that the user must follow a fairly linear      narrative path. Deviating from the &#8220;correct&#8221; path simply stalls      the narrative; the story does not progress any further until the user      solves the puzzle/obstacle/mystery.</li>
+<li><strong>External/ontological      interactivity:</strong> In this category the user is outside of the virtual      world, but has some control over the story and the fates of the      characters, such that the story is generated directly through the user&#8217;s      decisions. Typically in this case, because the user is external to the      narrative, &#8220;the individual forking paths in the plot are&#8230; less      interesting than the global pattern of their interconnections&#8221; (Ryan,      2001). Computer games that follow the god approach to user interactivty      usually fall into this category (ex. <em>Black      &amp; White, SimCity, the Sims, Caesar</em>), where the user plays an      omnipotent being controlling the world&#8217;s destiny. Most (if not all) of      these games attempt to immerse the user a little more by giving them a      role to play in the game. For example in <em>Caesar</em> you play a Roman Emperor governing your city, in <em>SimCity</em> you are the mayor. In <em>Black &amp; White</em> you are a god      fighting for power against other gods in the same world as you. This      internalization of the user&#8217;s role places these games somewhere between      external/ontological and internal/ontological.<strong> </strong></li>
+<li><strong>Internal/ontological      interactivity:</strong> In this category the user is internal to the narrative,      and has the ability to control their own fate by making decisions      according to the laws of time and space of the virtual world. If the      Holodeck of the Star Trek universe was ever to be implemented, this is the      category under which it would fall. This category is actually quite broad,      however, as the series of <em>Choose-Your-Own-Adventure</em> books that were      popular a few years back is also an example of this type of interactivity.      Reading these books, the user flips through the first-person text to      follow a branching-type narrative, and ultimately governs the path that      they will take through the different narrative possibilities. A good example      of this type of interactivity that is popular today is the Massive      Multi-Player Online Game (MMOG), where thousands of players interact over      the internet in a shared virtual world. Players are actual characters      (represented by avatars) who travel around and explore the fictional      realm, and who can either choose to follow the inherent storyline      established by the game creators, or diverge from this and create their      own set of goals and activities, thereby creating a completely generative      narrative. In one MMOG, a group of players got together and instead of      following the established game quests, decided to create their own club      (actually called a guild) with no other purpose than to socialize with      each other. For these people, the narrative experience emerged from their      own interactions and relationships.</li>
+</ol>
+<p>I believe that Ryan&#8217;s four categories of interactivity are very useful, although I do have a problem with her treatment of ontological interactivity. According to Ryan&#8217;s framework, a branching-type narrative that has a fixed, and often quite limited, number of possible paths can be in the same category as the Holodeck model, where the experience is completely generated through user interaction, and there are no fixed traversals through the narrative content. For this reason I believe that <em>ontological interactivity</em> needs to be broken down ever further, into <strong>embedded ontological interactivity</strong> and <strong>emergent ontological interactivity </strong>(borrowing from Eric Zimmerman’s terms). Under this framework a <em>Choose-Your-Own-Adventure</em> book would be an example of <em>internal/embedded ontological interactivity</em>, and a Massive Multi-Player Online Game would be an example of <em>internal/emergent ontological interactivity</em>. An example of <em>external/emergent ontological interactivity</em> would be games like the <em>Sims</em>, <em>SimCity</em>, and any other god-game that has a virtually unlimited number of possible narrative paths.</p>
+<p>&nbsp;</p>
+<h4>References:</h4>
+<p>Manovich, Lev. “The Language of New Media.” Cambridge, Mass.: MIT Press. 2001.</p>
+<p>Ryan, Marie-Laure. “Beyond Myth and Metaphor: The case of narrative in digital media.” <em>International journal of computer game research</em>. Issue 1, July 2001.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/08/types-of-interactivity/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Narrative Intelligence</title>
+		<link>http://popdigital.ca/2011/05/01/narrative-intelligence/</link>
+		<comments>http://popdigital.ca/2011/05/01/narrative-intelligence/#comments</comments>
+		<pubDate>Sun, 01 May 2011 21:13:19 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[Narrative]]></category>
+		<category><![CDATA[experience design]]></category>
+		<category><![CDATA[interactivity]]></category>
+		<category><![CDATA[narrative]]></category>
+		<category><![CDATA[storytelling]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=528</guid>
+		<description><![CDATA[Human beings make sense of the world by telling stories. We take life’s events and order them into narratives in order to find meaning within them. This ability to “organize experience into narrative form” is termed by Michael Mateas and Phoebe Sengers as “Narrative Intelligence.” Their paper “Narrative Intelligence” is a discussion of computational storytelling [...]]]></description>
+			<content:encoded><![CDATA[<p>Human beings make sense of the world by telling stories. We take life’s events and order them into narratives in order to find meaning within them. This ability to “organize experience into narrative form” is termed by Michael Mateas and Phoebe Sengers as “Narrative Intelligence.”</p>
+<p>Their paper “<a title="Narrative Intelligence" href="http://users.soe.ucsc.edu/~michaelm/publications/mateas-aaai-symp-ni-1999.pdf" target="_blank">Narrative Intelligence</a>” is a discussion of computational storytelling systems. It begins with a reference back to narrative and AI systems of the ‘70’s, which suffered from being overly knowledge-based and functioned only within a very limited domain. The authors also trace the evolution of human-computer interface design, which follows the following chronology of research:</p>
+<ol>
+<li>Hardware      interface</li>
+<li>Programming      language as interface</li>
+<li>Interactive      terminal as interface</li>
+<li>Interface      as a human/computer dialogue (e.g. GUI’s)</li>
+<li>Interface      as the entire use context</li>
+</ol>
+<p>The authors discuss how narrative design has begun to creep into various fields of computer science. “Narrative has been recognized as a particularly rich constellation of ideas for informing system design.” Computationally-based narrative design has the following streams of influence: art, psychology, cultural studies, literary studies, drama, and humanistic AI.</p>
+<p>A storytelling system can be divided into three major categories: author-centric, story-centric, and character-centric.</p>
+<p>The authors argue that all interactive storytelling systems emphasize the importance of the audience experience. The goal is to provide “audiences with an interesting and pleasurable interactive story experience.”</p>
+<p>I believe that this paper asks some interesting questions about computationally modeling a narrative. As the authors mention, most work so far in interactive drama has been from the autonomous agents approach. These systems usually require strong contextualization for the agents to be “intelligent” and effective. As a narrative based on autonomous agents has both form and content, occurs over time, and, as can now be seen, also requires context, this form of narrative generation is a form of experience design, given the equation <strong>(FORM + CONTENT + CONTEXT) TIME = EXPERIENCE DESIGN.</strong></p>
+<p><strong> </strong></p>
+<p>I propose that maybe, in order to effectively construct a non-linear interactive narrative, we need to re-think our ideas of what a narrative is. The term narrative itself is quite broad, and can be seen as a “family of resemblance concept, a cover term for a rich set of ideas.” What this implies is that on some level, almost anything can be considered a narrative, whether it is logically coherent or not – it depends, of course, on the reader’s interpretation and experience of the work. And thus the need for effectual design of the interactive narrative experience.</p>
+<p>However, although almost anything can be considered a narrative, not everything can be considered meaningful, and thus it is important to recognize the difference between a work with a distinct voice and something that is just bad art.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/01/narrative-intelligence/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/narrative-2/feed/ ) in 6.79169 seconds, on Sep 25th, 2011 at 9:14 pm UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 25th, 2011 at 11:14 pm UTC -->

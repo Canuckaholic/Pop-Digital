@@ -1,0 +1,69 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Mon, 12 Sep 2011 02:13:34 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/xElNci>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; rogers arena</title>
+	<atom:link href="http://popdigital.ca/tag/rogers-arena/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Rogers Arena Website</title>
+		<link>http://popdigital.ca/2009/04/24/rogers-arena-website/</link>
+		<comments>http://popdigital.ca/2009/04/24/rogers-arena-website/#comments</comments>
+		<pubDate>Fri, 24 Apr 2009 22:32:13 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[rogers arena]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=371</guid>
+		<description><![CDATA[About: Officially opening its doors on September 21, 1995, Rogers Arena has become symbolic of Vancouver’s proud identity, serving as the city’s ambassador and host to the world of sports and entertainment. A staple of downtown Vancouver, Rogers Arena is one of the premier sports and entertainment facilities in all of North America. Highly praised [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-375" title="rogers_arena_558x300" src="http://popdigital.ca/wp-content/uploads/2009/04/rogers_arena_558x300.jpg" alt="Rogers Arena" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Officially opening its doors on September 21, 1995, Rogers Arena has become symbolic of Vancouver’s proud identity, serving as the city’s ambassador and host to the world of sports and entertainment. A staple of downtown Vancouver, Rogers Arena is one of the premier sports and entertainment facilities in all of North America. Highly praised for its comfortable seating and superior sight lines, visitor hospitality lies at the heart of this 475,000 sq. ft. building. Home to the Vancouver Canucks of the National Hockey League, Rogers Arena has hosted numerous national and international events over the years, as well as welcomed a countless number of world renowned personalities including former US President Bill Clinton, HRH Queen Elizabeth II, and His Holiness the Dalai Lama.</p>
+<h2>Type of Project:</h2>
+<p>Website.</p>
+<h2>URL:</h2>
+<p><a title="Rogers Arena" href="http://rogersarena.ca" target="_blank">rogersarena.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Evan Biswanger</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+</ul>
+</div>
+<h3>Evan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2009/04/24/rogers-arena-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/rogers-arena/feed/ ) in 4.08613 seconds, on Sep 19th, 2011 at 2:13 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 19th, 2011 at 4:13 am UTC -->

@@ -1,0 +1,24 @@
+a:8:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:2;s:40:"ETag: "99b889a9cd748e8b4eca0eb3758d138d"";i:3;s:38:"Expires: Wed, 11 Jan 1984 05:00:00 GMT";i:4;s:44:"Last-Modified: Fri, 09 Sep 2011 14:11:30 GMT";i:5;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:6;s:16:"Pragma: no-cache";i:7;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; Page not found</title>
+	<atom:link href="http://popdigital.ca/comments/feed" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 01 Sep 2011 04:14:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/comments/feed ) in 0.49408 seconds, on Sep 9th, 2011 at 2:11 pm UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 9th, 2011 at 4:11 pm UTC -->

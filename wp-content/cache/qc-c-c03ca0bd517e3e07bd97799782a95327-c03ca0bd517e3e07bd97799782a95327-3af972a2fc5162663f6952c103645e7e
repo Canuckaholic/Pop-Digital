@@ -1,0 +1,59 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Mon, 12 Sep 2011 00:30:27 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/ZYhROt>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; experience design</title>
+	<atom:link href="http://popdigital.ca/tag/experience-design/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Narrative Intelligence</title>
+		<link>http://popdigital.ca/2011/05/01/narrative-intelligence/</link>
+		<comments>http://popdigital.ca/2011/05/01/narrative-intelligence/#comments</comments>
+		<pubDate>Sun, 01 May 2011 21:13:19 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Interactivity Theory]]></category>
+		<category><![CDATA[Narrative]]></category>
+		<category><![CDATA[experience design]]></category>
+		<category><![CDATA[interactivity]]></category>
+		<category><![CDATA[narrative]]></category>
+		<category><![CDATA[storytelling]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=528</guid>
+		<description><![CDATA[Human beings make sense of the world by telling stories. We take life’s events and order them into narratives in order to find meaning within them. This ability to “organize experience into narrative form” is termed by Michael Mateas and Phoebe Sengers as “Narrative Intelligence.” Their paper “Narrative Intelligence” is a discussion of computational storytelling [...]]]></description>
+			<content:encoded><![CDATA[<p>Human beings make sense of the world by telling stories. We take life’s events and order them into narratives in order to find meaning within them. This ability to “organize experience into narrative form” is termed by Michael Mateas and Phoebe Sengers as “Narrative Intelligence.”</p>
+<p>Their paper “<a title="Narrative Intelligence" href="http://users.soe.ucsc.edu/~michaelm/publications/mateas-aaai-symp-ni-1999.pdf" target="_blank">Narrative Intelligence</a>” is a discussion of computational storytelling systems. It begins with a reference back to narrative and AI systems of the ‘70’s, which suffered from being overly knowledge-based and functioned only within a very limited domain. The authors also trace the evolution of human-computer interface design, which follows the following chronology of research:</p>
+<ol>
+<li>Hardware      interface</li>
+<li>Programming      language as interface</li>
+<li>Interactive      terminal as interface</li>
+<li>Interface      as a human/computer dialogue (e.g. GUI’s)</li>
+<li>Interface      as the entire use context</li>
+</ol>
+<p>The authors discuss how narrative design has begun to creep into various fields of computer science. “Narrative has been recognized as a particularly rich constellation of ideas for informing system design.” Computationally-based narrative design has the following streams of influence: art, psychology, cultural studies, literary studies, drama, and humanistic AI.</p>
+<p>A storytelling system can be divided into three major categories: author-centric, story-centric, and character-centric.</p>
+<p>The authors argue that all interactive storytelling systems emphasize the importance of the audience experience. The goal is to provide “audiences with an interesting and pleasurable interactive story experience.”</p>
+<p>I believe that this paper asks some interesting questions about computationally modeling a narrative. As the authors mention, most work so far in interactive drama has been from the autonomous agents approach. These systems usually require strong contextualization for the agents to be “intelligent” and effective. As a narrative based on autonomous agents has both form and content, occurs over time, and, as can now be seen, also requires context, this form of narrative generation is a form of experience design, given the equation <strong>(FORM + CONTENT + CONTEXT) TIME = EXPERIENCE DESIGN.</strong></p>
+<p><strong> </strong></p>
+<p>I propose that maybe, in order to effectively construct a non-linear interactive narrative, we need to re-think our ideas of what a narrative is. The term narrative itself is quite broad, and can be seen as a “family of resemblance concept, a cover term for a rich set of ideas.” What this implies is that on some level, almost anything can be considered a narrative, whether it is logically coherent or not – it depends, of course, on the reader’s interpretation and experience of the work. And thus the need for effectual design of the interactive narrative experience.</p>
+<p>However, although almost anything can be considered a narrative, not everything can be considered meaningful, and thus it is important to recognize the difference between a work with a distinct voice and something that is just bad art.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/01/narrative-intelligence/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/experience-design/feed/ ) in 2.57245 seconds, on Sep 19th, 2011 at 12:30 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 19th, 2011 at 2:30 am UTC -->

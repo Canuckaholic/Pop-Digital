@@ -1,0 +1,66 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Sat, 17 Sep 2011 04:38:19 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/ZfVcwi>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; golf</title>
+	<atom:link href="http://popdigital.ca/tag/golf/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Website: Northlands Golf Course</title>
+		<link>http://popdigital.ca/2011/07/04/northlands-golf-course/</link>
+		<comments>http://popdigital.ca/2011/07/04/northlands-golf-course/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 01:00:35 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[golf]]></category>
+		<category><![CDATA[northlands]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=636</guid>
+		<description><![CDATA[About: Northlands opened for 18 hole public play in 1997 and has earned the reputation of being Metro Vancouver’s Premiere Public Course. Located in North Vancouver, Northlands presents a well formulated mix of challenging holes, friendly scenic downhill vistas and strategically located natural hazards. Type of Project: Website. Underlying server architecture is LAMP. CMS is WordPress. [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-637" title="Northlands Golf Course" src="http://popdigital.ca/wp-content/uploads/2011/07/northlands_screen_558x300.jpg" alt="Northlands Golf Course" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Northlands opened for 18 hole public play in 1997 and has earned the reputation of being Metro Vancouver’s Premiere Public Course. Located in North Vancouver, Northlands presents a well formulated mix of challenging holes, friendly scenic downhill vistas and strategically located natural hazards.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. CMS is WordPress.</p>
+<h2>URL:</h2>
+<p><a title="Northlands Golf Course" href="http://golfnorthlands.com" target="_blank">golfnorthlands.com</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Database</li>
+<li>WordPress</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/07/04/northlands-golf-course/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/golf/feed/ ) in 3.25676 seconds, on Sep 24th, 2011 at 4:38 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 24th, 2011 at 6:38 am UTC -->

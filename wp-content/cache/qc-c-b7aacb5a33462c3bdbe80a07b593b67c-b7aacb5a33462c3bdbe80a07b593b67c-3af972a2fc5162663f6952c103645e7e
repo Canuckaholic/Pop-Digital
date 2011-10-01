@@ -1,0 +1,46 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Thu, 15 Sep 2011 13:11:40 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/IjXTrm>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; Graphic Design</title>
+	<atom:link href="http://popdigital.ca/category/web-design/graphic-design/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Aviary Suite of Graphic Tools</title>
+		<link>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/</link>
+		<comments>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/#comments</comments>
+		<pubDate>Wed, 09 Mar 2011 20:46:03 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Graphic Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[graphic design]]></category>
+		<category><![CDATA[image editing]]></category>
+		<category><![CDATA[screen capture]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=130</guid>
+		<description><![CDATA[What it is: A free suite of online graphics tools. Where you can get it: aviary.com Say good-bye to Photoshop (well, maybe not good-bye forever). With this powerful set of online creation tools all you need is your browser to perform some pretty advanced image editing techniques, screen captures, color editing, and more. I recommend [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="imageFloatRight" title="aviary_website" src="http://popdigital.ca/wp-content/uploads/2011/03/aviary_website.png" alt="" width="250" height="130" />What it is: A free suite of online graphics tools.<br />
+Where you can get it: <a title="Aviary" href="http://www.aviary.com/" target="_blank">aviary.com</a></p>
+<p>Say good-bye to Photoshop (well, maybe not good-bye forever). With this powerful set of online creation tools all you need is your browser to perform some pretty advanced image editing techniques, screen captures, color editing, and more.</p>
+<p>I recommend installing the <a title="Aviary Firefox Extension" href="https://addons.mozilla.org/en-us/firefox/addon/aviary-screen-capture-quick-la/" target="_blank">Firefox extension</a>, which allows you to perform a screen capture with the click of a button directly in your browser. It also installs a drop-down menu with quick links to Aviary&#8217;s full suite of tools.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/category/web-design/graphic-design/feed/ ) in 4.60621 seconds, on Sep 22nd, 2011 at 1:11 pm UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 22nd, 2011 at 3:11 pm UTC -->

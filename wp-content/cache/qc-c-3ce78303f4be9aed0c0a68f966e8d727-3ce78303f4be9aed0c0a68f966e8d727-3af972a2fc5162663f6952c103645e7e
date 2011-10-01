@@ -1,0 +1,106 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Wed, 21 Sep 2011 01:27:38 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/szJbYu>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; methodology</title>
+	<atom:link href="http://popdigital.ca/tag/methodology-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Best Practices for Adding UX to Agile Development</title>
+		<link>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/</link>
+		<comments>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/#comments</comments>
+		<pubDate>Sun, 22 May 2011 17:35:26 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[UX]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=289</guid>
+		<description><![CDATA[An interesting article on applying Agile methodologies to user experience design. Excerpt from the article&#8230; 12 common practices of agile UXD: Drive: UX practitioners are part of the customer or product owner team Research, model, and design up front &#8211; but only just enough Chunk your design work Use parallel track development to work ahead, [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="imageFloatRight" title="agile_ux_practices" src="http://popdigital.ca/wp-content/uploads/2011/04/agile_ux_practices.gif" alt="Agile UX" width="200" height="160" />An <a title="Twelve emerging best practices for adding UX work to Agile development" href="http://agileproductdesign.com/blog/emerging_best_agile_ux_practice.html" target="_blank">interesting article</a> on applying Agile methodologies to user experience design.</p>
+<p>Excerpt from the article&#8230; 12 common practices of agile UXD:</p>
+<div>
+<ol>
+<li>Drive: UX practitioners are part of the customer or product owner team</li>
+<li>Research, model, and design up front &#8211; but only just enough</li>
+<li>Chunk your design work</li>
+<li>Use parallel track development to work ahead, and follow behind</li>
+<li>Buy design time with complex engineering stories</li>
+<li>Cultivate a user validation group for use for continuous user validation</li>
+<li>Schedule continuous user research in a separate track from development</li>
+<li>Leverage user time for multiple activities</li>
+<li>Use RITE to iterate UI before development</li>
+<li>Prototype in low fidelity</li>
+<li>Treat prototype as specification</li>
+<li>Become a design facilitator</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lean UX: Getting Out Of The Deliverables Business</title>
+		<link>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/</link>
+		<comments>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/#comments</comments>
+		<pubDate>Fri, 11 Mar 2011 20:02:52 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[process]]></category>
+		<category><![CDATA[UX]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=183</guid>
+		<description><![CDATA[Check out this great article on Smashing Magazine on Lean UX, a methodology rooted in Agile. Excerpt: &#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;]]></description>
+			<content:encoded><![CDATA[<p>Check out <a title="Lean UX" href="http://www.smashingmagazine.com/2011/03/07/lean-ux-getting-out-of-the-deliverables-business/" target="_blank">this great article</a> on Smashing Magazine on Lean UX, a methodology rooted in Agile.</p>
+<p>Excerpt:</p>
+<blockquote><p>&#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;</p></blockquote>
+<p><img class="alignnone size-full wp-image-184" title="lean_ux_process" src="http://popdigital.ca/wp-content/uploads/2011/03/lean_ux_process.jpg" alt="Lean UX process" width="500" height="134" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Getting Real About Agile Design</title>
+		<link>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/</link>
+		<comments>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/#comments</comments>
+		<pubDate>Tue, 25 Jan 2011 19:28:53 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[A List Apart]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=60</guid>
+		<description><![CDATA[A great article on Agile design for the web design world, published on A List Apart. An excerpt: &#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset [...]]]></description>
+			<content:encoded><![CDATA[<p>A <a title="Getting Real About Agile Design" href="http://www.alistapart.com/articles/gettingrealaboutagiledesign/" target="_blank">great article on Agile design</a> for the web design world, published on <a title="A List Apart" href="http://www.alistapart.com" target="_blank">A List Apart</a>.</p>
+<p>An excerpt:</p>
+<blockquote><p>&#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset but deprecates elements not suited to the project.&#8221;</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/methodology-2/feed/ ) in 0.62164 seconds, on Sep 28th, 2011 at 1:27 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 28th, 2011 at 3:27 am UTC -->

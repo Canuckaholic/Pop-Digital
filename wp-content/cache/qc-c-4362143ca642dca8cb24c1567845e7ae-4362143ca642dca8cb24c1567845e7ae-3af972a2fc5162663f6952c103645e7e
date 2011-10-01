@@ -1,0 +1,340 @@
+a:8:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Thu, 22 Sep 2011 00:32:15 GMT";i:2;s:44:"Last-Modified: Thu, 29 Sep 2011 00:32:15 GMT";i:3;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:4;s:16:"Pragma: no-cache";i:5;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:6;s:38:"Content-Type: text/html; charset=UTF-8";i:7;s:42:"Link: <http://is.gd/w4R4a2>; rel=shortlink";}<!--headers--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>  Types of Interactivity - Pop Digital</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<meta name="robots" content="index,follow" />
+
+	<link rel="canonical" href="http://popdigital.ca/2011/05/08/types-of-interactivity/" />
+
+    
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/typography.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/images.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/layouts/2c-r-fixed.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/popdigital/styles/default.css" />
+    <link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/thematic/library/styles/plugins.css" />
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/themes/popdigital/style.css" />
+	
+		<link rel="alternate" type="application/rss+xml" href="http://popdigital.ca/feed/" title="Pop Digital Posts RSS feed" />
+	<link rel="alternate" type="application/rss+xml" href="http://popdigital.ca/comments/feed/" title="Pop Digital Comments RSS feed" />
+
+	<link rel="pingback" href="http://popdigital.ca/xmlrpc.php" />
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v0.4.2 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://popdigital.ca/2011/05/08/types-of-interactivity/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='slb_style-css'  href='http://popdigital.ca/wp-content/plugins/simple-lightbox/css/lightbox.css?ver=1.5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://popdigital.ca/wp-content/plugins/contact-form-7/styles.css?ver=2.4.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://popdigital.ca/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/wp-nivo-slider/js/jquery.nivo.slider.pack.js?ver=2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var QCAjax = {
+	ajaxurl: "http://popdigital.ca/wp-admin/admin-ajax.php",
+	nonce: "4d6563d482",
+	nextquote: "Next quote&nbsp;&raquo;",
+	loading: "Loading...",
+	error: "Error getting quote",
+	auto_refresh_max: "30",
+	auto_refresh_count: "0"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/quotes-collection/quotes-collection.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/simple-lightbox/js/lib.js?ver=1.5.5.1'></script>
+<style type="text/css">img.nothumb{border:0;margin:0 0 0 2px !important;}</style>
+<!-- Tweet This v1.8.3 b037 mode alpha -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://popdigital.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://popdigital.ca/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Pop Digital' href='http://popdigital.ca/' />
+<link rel='start' title='FOX TV Commercial &#8211; Minty' href='http://popdigital.ca/2007/05/08/fox-tv-commercial-minty/' />
+<link rel='prev' title='Story vs Game' href='http://popdigital.ca/2011/05/08/story-vs-game/' />
+<link rel='next' title='Interactive Narrative' href='http://popdigital.ca/2011/05/09/interactive-narrative/' />
+
+<link rel='shortlink' href='http://is.gd/w4R4a2' />
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+	<link rel="stylesheet" type="text/css" href="http://popdigital.ca/wp-content/plugins/quotes-collection/quotes-collection.css" />
+	<script type="text/javascript">/* <![CDATA[ */(function($){$(document).ready(function(){SLB.initialize({'validateLinks':false,'autoPlay':false,'slideTime':'6','loop':true,'overlayOpacity':'0.8','animate':true,'captionEnabled':true,'captionSrc':true,'layout':'<div id="slb_container"><div id="imageContainer">{slbContent}<div id="nav_hover">{navPrev}{navNext}</div><div id="loading">{slbLoading}</div></div></div><div id="slb_details" class="clearfix"><div id="imageData"><div id="imageDetails">{dataCaption}{dataNumber}<span id="slb_nav">{navPrev}{navNext}{navSlideControl}</span></div><div id="close">{slbClose}</div></div></div>','altsrc':'slb_src','relAttribute':['slb'],'prefix':'slb','strings':{'closeLink':'close','loadingMsg':'loading','nextLink':'next &raquo;','prevLink':'&laquo; prev','startSlideshow':'start slideshow','stopSlideshow':'stop slideshow','numDisplayPrefix':'Image','numDisplaySeparator':'of'}});})})(jQuery);/* ]]> */</script>
+<!-- WP-SWFObject 2.3 by unijimpe -->
+<script src="http://popdigital.ca/wp-content/plugins/wp-swfobject/2.0/swfobject.js" type="text/javascript"></script>
+<script src='http://popdigital.ca/wp-content/themes/popdigital/js/cufon-yui.js' type='text/javascript'></script>
+	<script src='http://popdigital.ca/wp-content/themes/popdigital/js/Alba_Super_400.font.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+        Cufon.replace('.popText');
+    </script><script type='text/javascript'>
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17960201-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/hoverIntent.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/superfish.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/supersubs.js"></script>
+	<script type="text/javascript" src="http://popdigital.ca/wp-content/themes/thematic/library/scripts/thematic-dropdowns.js"></script>
+
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		jQuery.noConflict();
+		/*]]>*/
+	</script>
+
+</head>
+
+<body class="wordpress blogid-1 y2011 m09 d28 h17 singular slug-types-of-interactivity single postid-557 s-y2011 s-m05 s-d08 s-h13 s-category-interactivity-theory s-category-narrative s-tag-digital-media s-tag-interactivity s-tag-narrative-2 s-author-admin s-comments-closed s-pings-closed unknown-os unknown-browser">
+
+<div id="wrapper" class="hfeed">   
+
+    <div id="header_wrapper">    
+    <div id="header">
+    
+        <div id="branding">
+	    		
+	    		<div id="blog-title"><span><a href="http://popdigital.ca/" title="Pop Digital" rel="home">Pop Digital</a></span></div>
+	    		
+	    		<div id="blog-description">Grabbing the Attention of Audiences Everywhere</div>
+
+		</div><!--  #branding -->
+	    
+	    <div id="access">
+	    		
+	    	<div class="skip-link"><a href="#content" title="Skip navigation to the content">Skip to content</a></div><!-- .skip-link -->
+	    		
+	    	<div class="menu"><ul class="sf-menu"><li class="page_item page-item-14"><a href="http://popdigital.ca/" title="Home">Home</a></li><li class="page_item page-item-6"><a href="http://popdigital.ca/about/" title="About">About</a><ul class='children'><li class="page_item page-item-748"><a href="http://popdigital.ca/about/meet-the-team/" title="Meet the Team">Meet the Team</a></li></ul></li><li class="page_item page-item-8"><a href="http://popdigital.ca/services/" title="Services">Services</a></li><li class="page_item page-item-12"><a href="http://popdigital.ca/work/" title="Work">Work</a></li><li class="page_item page-item-16 current_page_parent"><a href="http://popdigital.ca/blog/" title="Blog">Blog</a></li><li class="page_item page-item-10"><a href="http://popdigital.ca/contact/" title="Contact">Contact</a></li></ul></div>
+	        
+		</div><!-- #access -->
+		
+		
+	</div><!-- #header-->
+    </div><!-- #header_wrapper-->
+       
+    <div id="main">
+    
+		<div id="container">
+			
+						
+			<div id="content">
+		
+    	        
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="http://popdigital.ca/2011/05/08/story-vs-game/" rel="prev"><span class="meta-nav">&laquo;</span> Story vs Game</a></div>
+					<div class="nav-next"><a href="http://popdigital.ca/2011/05/09/interactive-narrative/" rel="next">Interactive Narrative <span class="meta-nav">&raquo;</span></a></div>
+				</div>
+
+			
+				<div id="post-557" class="hentry p1 post publish author-canuckaholic category-interactivity-theory category-narrative tag-digital-media tag-interactivity tag-narrative-2 is-full comments-closed pings-closed y2011 m05 d08 h13 slug-types-of-interactivity"><h1 class="entry-title">Types of Interactivity</h1>
+<div class="entry-meta"><span class="meta-prep meta-prep-author">By </span><span class="author vcard"><a class="url fn n" href="http://popdigital.ca/author/admin/" title="View all posts by Adrian">Adrian</a></span><span class="meta-sep meta-sep-entry-date"> | </span><span class="meta-prep meta-prep-entry-date">Published: </span><span class="entry-date"><abbr class="published" title="2011-05-08T20:50:35-0700">May 8, 2011</abbr></span></div><!-- .entry-meta -->
+					<div class="entry-content">
+<p>Lev Manovich refers to the interactivity that uses fixed elements arranged in a branching structure as <em>closed</em> interactivity; interactivity where both the elements and the structure are generated dynamically in real-time based on user interaction he calls <em>open</em> interactivity (Manovich, 2001, p.40). These concepts are similar to the open/closed and emergent/embedded narrative dichotomies mentioned by other authors.</p>
+<p>Marie-Laure Ryan, in her essay &#8220;Beyond Myth and Metaphor,&#8221; breaks the open/closed interactivity dichotomy down even further (Ryan, 2001). Ryan sets up two pairs of opposing concepts: internal/external interactivity, and exploratory/ontological interactivity.</p>
+<ul>
+<li>In      internal interactivity &#8220;the user projects himself as a member of the      fictional world&#8221; (Ryan,      2001). This can be done through an avatar, or by experiencing the world      from a first-person perspective (ex. a first-person shooter video game).      This is a form of personal perspective interactivity.</li>
+<li>In      external interactivity the participant is situated outside of the virtual      world, either by playing a god-like role looking on and controlling from      above, or by navigating a database-like story structure. This is a form of      impersonal perspective interactivity that does not require a concrete      persona.</li>
+<li>In      exploratory interactivity the user is free to move about the virtual      world, exploring all the details, but their activity does not affect the      overall plot in any way. The user simply reveals the story as they      explore.</li>
+<li>In      ontological interactivity the decisions of the user can affect the plot,      such that the story develops from the user&#8217;s interactions.</li>
+</ul>
+<p>Cross-classification of these two dichotomies leads to four combinations for categorizing interactive works. These are not listed in any particular order of effectiveness.</p>
+<ol>
+<li><strong>External/exploratory      interactivity:</strong> Certain “classical” hypertexts fall into this category,      such the &#8220;novels&#8221; of Michael Joyce, Stuart Moulthrop, or Mark      Amerika. The user can choose paths through the virtual space, but the      space itself has no physical narrative setting. This type of interactivity      is exploratory because “the reader’s path of navigation affects not the narrative      events themselves, but only the way in which the global narrative      pattern&#8230; emerges in the mind” (Ryan,      2001).</li>
+<li><strong>Internal/exploratory      interactivity:</strong> In this category, “the user takes a virtual body with      her into the fictional world, but her role in this world is limited to      actions that have no bearing on the narrative events” (Ryan,      2001). Even though the user cannot affect the plot, she is still immersed      in the narrative through a virtual body. She is present on the story’s      stage, if only as an observer. Examples of this type of interactivity are      the computer games <em>Myst, Tomb Raider</em> and <em>Final Fantasy</em>. In      these games the user plays an internal role (ex. Laura Croft in <em>Tomb Raider</em>), but the game is      structured in such a way that the user must follow a fairly linear      narrative path. Deviating from the &#8220;correct&#8221; path simply stalls      the narrative; the story does not progress any further until the user      solves the puzzle/obstacle/mystery.</li>
+<li><strong>External/ontological      interactivity:</strong> In this category the user is outside of the virtual      world, but has some control over the story and the fates of the      characters, such that the story is generated directly through the user&#8217;s      decisions. Typically in this case, because the user is external to the      narrative, &#8220;the individual forking paths in the plot are&#8230; less      interesting than the global pattern of their interconnections&#8221; (Ryan,      2001). Computer games that follow the god approach to user interactivty      usually fall into this category (ex. <em>Black      &amp; White, SimCity, the Sims, Caesar</em>), where the user plays an      omnipotent being controlling the world&#8217;s destiny. Most (if not all) of      these games attempt to immerse the user a little more by giving them a      role to play in the game. For example in <em>Caesar</em> you play a Roman Emperor governing your city, in <em>SimCity</em> you are the mayor. In <em>Black &amp; White</em> you are a god      fighting for power against other gods in the same world as you. This      internalization of the user&#8217;s role places these games somewhere between      external/ontological and internal/ontological.<strong> </strong></li>
+<li><strong>Internal/ontological      interactivity:</strong> In this category the user is internal to the narrative,      and has the ability to control their own fate by making decisions      according to the laws of time and space of the virtual world. If the      Holodeck of the Star Trek universe was ever to be implemented, this is the      category under which it would fall. This category is actually quite broad,      however, as the series of <em>Choose-Your-Own-Adventure</em> books that were      popular a few years back is also an example of this type of interactivity.      Reading these books, the user flips through the first-person text to      follow a branching-type narrative, and ultimately governs the path that      they will take through the different narrative possibilities. A good example      of this type of interactivity that is popular today is the Massive      Multi-Player Online Game (MMOG), where thousands of players interact over      the internet in a shared virtual world. Players are actual characters      (represented by avatars) who travel around and explore the fictional      realm, and who can either choose to follow the inherent storyline      established by the game creators, or diverge from this and create their      own set of goals and activities, thereby creating a completely generative      narrative. In one MMOG, a group of players got together and instead of      following the established game quests, decided to create their own club      (actually called a guild) with no other purpose than to socialize with      each other. For these people, the narrative experience emerged from their      own interactions and relationships.</li>
+</ol>
+<p>I believe that Ryan&#8217;s four categories of interactivity are very useful, although I do have a problem with her treatment of ontological interactivity. According to Ryan&#8217;s framework, a branching-type narrative that has a fixed, and often quite limited, number of possible paths can be in the same category as the Holodeck model, where the experience is completely generated through user interaction, and there are no fixed traversals through the narrative content. For this reason I believe that <em>ontological interactivity</em> needs to be broken down ever further, into <strong>embedded ontological interactivity</strong> and <strong>emergent ontological interactivity </strong>(borrowing from Eric Zimmerman’s terms). Under this framework a <em>Choose-Your-Own-Adventure</em> book would be an example of <em>internal/embedded ontological interactivity</em>, and a Massive Multi-Player Online Game would be an example of <em>internal/emergent ontological interactivity</em>. An example of <em>external/emergent ontological interactivity</em> would be games like the <em>Sims</em>, <em>SimCity</em>, and any other god-game that has a virtually unlimited number of possible narrative paths.</p>
+<p>&nbsp;</p>
+<h4>References:</h4>
+<p>Manovich, Lev. “The Language of New Media.” Cambridge, Mass.: MIT Press. 2001.</p>
+<p>Ryan, Marie-Laure. “Beyond Myth and Metaphor: The case of narrative in digital media.” <em>International journal of computer game research</em>. Issue 1, July 2001.</p>
+<div class="tweetthis" style="text-align:right;"><p> <a target="_blank" rel="nofollow" class="tt" href="http://twitter.com/share?url=http://popdigital.ca/2011/05/08/types-of-interactivity/&text=Types+of+Interactivity&via=tweetthisplugin&related=richardxthripp%2Ctweetthisplugin" title="Post to Twitter"><img class="nothumb" src="http://popdigital.ca/wp-content/plugins/tweet-this/icons/en/twitter/tt-twitter6.png" alt="Post to Twitter" /></a></p></div>
+											</div><!-- .entry-content -->
+					<div class="entry-utility"><span class="cat-links">This entry was posted in <a href="http://popdigital.ca/category/interactivity-theory/" title="View all posts in Interactivity Theory" rel="category tag">Interactivity Theory</a>, <a href="http://popdigital.ca/category/narrative/" title="View all posts in Narrative" rel="category tag">Narrative</a></span><span class="tag-links">  and tagged <a href="http://popdigital.ca/tag/digital-media/" rel="tag">digital media</a>, <a href="http://popdigital.ca/tag/interactivity/" rel="tag">interactivity</a>, <a href="http://popdigital.ca/tag/narrative-2/" rel="tag">narrative</a></span>. Bookmark the <a href="http://popdigital.ca/2011/05/08/types-of-interactivity/" title="Permalink to Types of Interactivity">permalink</a>. Both comments and trackbacks are currently closed.</div><!-- .entry-utility -->
+				</div><!-- #post -->
+		
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="http://popdigital.ca/2011/05/08/story-vs-game/" rel="prev"><span class="meta-nav">&laquo;</span> Story vs Game</a></div>
+				<div class="nav-next"><a href="http://popdigital.ca/2011/05/09/interactive-narrative/" rel="next">Interactive Narrative <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="comments">
+
+
+
+			</div><!-- #comments -->
+		
+			</div><!-- #content -->
+			
+			 
+			
+		</div><!-- #container -->
+		
+
+<div id="primary" class="aside main-aside">
+	<ul class="xoxo">
+<li id="search-2" class="widgetcontainer widget_search"><h3 class="widgettitle"><label for="s">Search</label></h3>
+
+	<form id="searchform" method="get" action="http://popdigital.ca/">
+		<div>
+			<input id="s" name="s" type="text" value="To search, type and hit enter" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" size="32" tabindex="1" />
+			<input id="searchsubmit" name="searchsubmit" type="submit" value="Search" tabindex="2" />
+		</div>
+	</form></li>		<li id="recent-posts-4" class="widgetcontainer widget_recent_entries">		<h3 class="widgettitle">Recent Blog Posts</h3>
+		<ul>
+				<li><a href="http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/" title="5 Principles of User-Centered Interface Design">5 Principles of User-Centered Interface Design</a></li>
+				<li><a href="http://popdigital.ca/2011/08/17/britton-diamonds/" title="Website: Britton Diamonds">Website: Britton Diamonds</a></li>
+				<li><a href="http://popdigital.ca/2011/08/16/10-essential-apps-for-running-your-business/" title="10 Essential Apps for Running Your Business">10 Essential Apps for Running Your Business</a></li>
+				<li><a href="http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/" title="So you wanna be a User Experience Designer?">So you wanna be a User Experience Designer?</a></li>
+				<li><a href="http://popdigital.ca/2011/07/04/northlands-golf-course/" title="Website: Northlands Golf Course">Website: Northlands Golf Course</a></li>
+				<li><a href="http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/" title="User Experience as Corporate Imperative">User Experience as Corporate Imperative</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/animated-tribute-to-ux-design/" title="Animated Tribute to UX Design">Animated Tribute to UX Design</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/5-principles-of-user-centered-navigation/" title="5 Principles of User-Centered Navigation">5 Principles of User-Centered Navigation</a></li>
+				<li><a href="http://popdigital.ca/2011/06/09/5-principles-of-user-centered-design/" title="5 Principles of User-Centered Design">5 Principles of User-Centered Design</a></li>
+				<li><a href="http://popdigital.ca/2011/06/06/myspaces-ux-induced-death/" title="MySpace&#8217;s UX-Induced Death">MySpace&#8217;s UX-Induced Death</a></li>
+				</ul>
+		</li><li id="tweet-this-2" class="widgetcontainer tweet_this_widget"><h3 class="widgettitle"><a href="http://twitter.com/Adrian_D_Jones" target="_blank">Twitter Updates</a></h3>
+<ul class="tweets"><li>A Farewell to CSS3 Gradients? <a href="http://t.co/E2VDgHLR" rel="nofollow">http://t.co/E2VDgHLR</a> <a href="http://search.twitter.com/search?q=%23in" target="_blank">#in</a> <a href="http://twitter.com/Adrian_D_Jones/statuses/116545470079307776" class="timesince" target="_blank">1&nbsp;week&nbsp;ago</a></li><li>Thinking of getting into iOS development? Here&#039;s a primer on Objective-C. <a href="http://t.co/QrtI7AVg" rel="nofollow">http://t.co/QrtI7AVg</a> <a href="http://search.twitter.com/search?q=%23in" target="_blank">#in</a> <a href="http://twitter.com/Adrian_D_Jones/statuses/116258644991025152" class="timesince" target="_blank">1&nbsp;week&nbsp;ago</a></li><li>The long grind before becoming an overnight success: <a href="http://t.co/MZ5F97b" rel="nofollow">http://t.co/MZ5F97b</a> <a href="http://search.twitter.com/search?q=%23in" target="_blank">#in</a> <a href="http://twitter.com/Adrian_D_Jones/statuses/113642099999653888" class="timesince" target="_blank">2&nbsp;weeks&nbsp;ago</a></li></ul></li><li id="tag_cloud-3" class="widgetcontainer widget_tag_cloud"><h3 class="widgettitle">Tag Cloud</h3>
+<div class="tagcloud"><a href='http://popdigital.ca/tag/agile/' class='tag-link-18' title='4 topics' style='font-size: 16.615384615385pt;'>Agile</a>
+<a href='http://popdigital.ca/tag/a-list-apart/' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>A List Apart</a>
+<a href='http://popdigital.ca/tag/allison-wonderland/' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>allison wonderland</a>
+<a href='http://popdigital.ca/tag/animation/' class='tag-link-56' title='2 topics' style='font-size: 11.876923076923pt;'>animation</a>
+<a href='http://popdigital.ca/tag/business-tip-2/' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>business tip</a>
+<a href='http://popdigital.ca/tag/camp-latona/' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>camp latona</a>
+<a href='http://popdigital.ca/tag/canucks/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>canucks</a>
+<a href='http://popdigital.ca/tag/cfox/' class='tag-link-54' title='1 topic' style='font-size: 8pt;'>cfox</a>
+<a href='http://popdigital.ca/tag/coldfusion/' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>coldfusion</a>
+<a href='http://popdigital.ca/tag/corus-entertainment/' class='tag-link-46' title='1 topic' style='font-size: 8pt;'>corus entertainment</a>
+<a href='http://popdigital.ca/tag/design/' class='tag-link-31' title='1 topic' style='font-size: 8pt;'>design</a>
+<a href='http://popdigital.ca/tag/experience-design/' class='tag-link-65' title='1 topic' style='font-size: 8pt;'>experience design</a>
+<a href='http://popdigital.ca/tag/fantasy-hockey/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>fantasy hockey</a>
+<a href='http://popdigital.ca/tag/fashion/' class='tag-link-36' title='1 topic' style='font-size: 8pt;'>fashion</a>
+<a href='http://popdigital.ca/tag/flash/' class='tag-link-55' title='2 topics' style='font-size: 11.876923076923pt;'>flash</a>
+<a href='http://popdigital.ca/tag/flash-application/' class='tag-link-41' title='1 topic' style='font-size: 8pt;'>flash application</a>
+<a href='http://popdigital.ca/tag/game-design/' class='tag-link-60' title='1 topic' style='font-size: 8pt;'>game design</a>
+<a href='http://popdigital.ca/tag/game-theory/' class='tag-link-58' title='1 topic' style='font-size: 8pt;'>game theory</a>
+<a href='http://popdigital.ca/tag/graphic-design-2/' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>graphic design</a>
+<a href='http://popdigital.ca/tag/image-editing/' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>image editing</a>
+<a href='http://popdigital.ca/tag/interactivity/' class='tag-link-42' title='5 topics' style='font-size: 18.338461538462pt;'>interactivity</a>
+<a href='http://popdigital.ca/tag/interactivity-theory-2/' class='tag-link-59' title='1 topic' style='font-size: 8pt;'>interactivity theory</a>
+<a href='http://popdigital.ca/tag/interface-design/' class='tag-link-68' title='2 topics' style='font-size: 11.876923076923pt;'>interface design</a>
+<a href='http://popdigital.ca/tag/logo-design/' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>logo design</a>
+<a href='http://popdigital.ca/tag/methodology-2/' class='tag-link-20' title='3 topics' style='font-size: 14.461538461538pt;'>methodology</a>
+<a href='http://popdigital.ca/tag/mysql-2/' class='tag-link-52' title='1 topic' style='font-size: 8pt;'>mysql</a>
+<a href='http://popdigital.ca/tag/narrative-2/' class='tag-link-64' title='3 topics' style='font-size: 14.461538461538pt;'>narrative</a>
+<a href='http://popdigital.ca/tag/non-linear-narrative/' class='tag-link-61' title='1 topic' style='font-size: 8pt;'>non-linear narrative</a>
+<a href='http://popdigital.ca/tag/php-2/' class='tag-link-51' title='1 topic' style='font-size: 8pt;'>php</a>
+<a href='http://popdigital.ca/tag/process/' class='tag-link-30' title='1 topic' style='font-size: 8pt;'>process</a>
+<a href='http://popdigital.ca/tag/radio/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>radio</a>
+<a href='http://popdigital.ca/tag/rhino/' class='tag-link-53' title='1 topic' style='font-size: 8pt;'>rhino</a>
+<a href='http://popdigital.ca/tag/rogers-arena/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>rogers arena</a>
+<a href='http://popdigital.ca/tag/screen-capture/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>screen capture</a>
+<a href='http://popdigital.ca/tag/sitepoint/' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>SitePoint</a>
+<a href='http://popdigital.ca/tag/thematic/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Thematic</a>
+<a href='http://popdigital.ca/tag/trivia/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>trivia</a>
+<a href='http://popdigital.ca/tag/user-experience-design/' class='tag-link-62' title='3 topics' style='font-size: 14.461538461538pt;'>user-experience design</a>
+<a href='http://popdigital.ca/tag/ux/' class='tag-link-29' title='2 topics' style='font-size: 11.876923076923pt;'>UX</a>
+<a href='http://popdigital.ca/tag/vancouver-canucks/' class='tag-link-38' title='1 topic' style='font-size: 8pt;'>vancouver canucks</a>
+<a href='http://popdigital.ca/tag/web-application/' class='tag-link-39' title='3 topics' style='font-size: 14.461538461538pt;'>web application</a>
+<a href='http://popdigital.ca/tag/web-design-2/' class='tag-link-19' title='8 topics' style='font-size: 22pt;'>web design</a>
+<a href='http://popdigital.ca/tag/website/' class='tag-link-34' title='7 topics' style='font-size: 20.923076923077pt;'>website</a>
+<a href='http://popdigital.ca/tag/wordpress/' class='tag-link-10' title='1 topic' style='font-size: 8pt;'>WordPress</a>
+<a href='http://popdigital.ca/tag/xml/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>xml</a></div>
+</li>
+	</ul>
+</div><!-- #primary .aside -->
+
+<div id="secondary" class="aside main-aside">
+	<ul class="xoxo">
+<li id="linkcat-16" class="widgetcontainer widget_links"><h3 class="widgettitle">Useful Links</h3>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.alistapart.com/" title="For People Who Make Websites" target="_blank">A List Apart</a></li>
+<li><a href="http://www.csszengarden.com" target="_blank">CSS Zen Garden</a></li>
+<li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+<li><a href="http://www.sitepoint.com/" target="_blank">SitePoint</a></li>
+<li><a href="http://www.smashingmagazine.com">Smashing Magazine</a></li>
+<li><a href="http://www.webdesignerwall.com" target="_blank">Web Designer Wall</a></li>
+<li><a href="http://www.webmonkey.com" target="_blank">WebMonkey</a></li>
+<li><a href="http://www.wired.com" target="_blank">Wired</a></li>
+
+	</ul>
+</li>
+<li id="rss-links-2" class="widgetcontainer widget_rss-links"><h3 class="widgettitle">RSS Links</h3>
+			<ul>
+				<li><a href="http://popdigital.ca/feed/" title="Pop Digital Posts RSS feed" rel="alternate nofollow" type="application/rss+xml">All posts</a></li>
+				<li><a href="http://popdigital.ca/comments/feed/" title="Pop Digital Comments RSS feed" rel="alternate nofollow" type="application/rss+xml">All comments</a></li>
+			</ul>
+</li>
+	</ul>
+</div><!-- #secondary .aside -->
+
+    </div><!-- #main -->
+    
+        
+
+	<div id="footer_wrapper">
+    <div id="footer">
+    
+        <div id='footerContainer'>
+            <div id='footerNav'><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-756"><a href="http://popdigital.ca/">Home</a></li>
+<li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754"><a href="http://popdigital.ca/about/">About</a></li>
+<li id="menu-item-753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753"><a href="http://popdigital.ca/services/">Services</a></li>
+<li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="http://popdigital.ca/work/">Work</a></li>
+<li id="menu-item-755" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-755"><a href="http://popdigital.ca/blog/">Blog</a></li>
+<li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-751"><a href="http://popdigital.ca/contact/">Contact</a></li>
+</ul></div></div>
+            <div id='footerQuotes'><div id="quotescollection_randomquote-0" class="quotescollection_randomquote"><p><q>Quality in web design is the degree of fulfillment of the user’s expectations.</q> <cite>&mdash;&nbsp;<span class="quotescollection_author">ui-patterns.com</span></cite></p></div></div>
+            <div id='footerLogo'>
+                <a href='http://popdigital.ca' title='Pop Digital homepage'><img src='http://popdigital.ca/wp-content/themes/popdigital/images/layout/pop_digital_icon.png' alt='Pop Digital' /></a>
+            </div><div id='copyright'>copyright &copy; Pop Digital 2011</div>
+		</div><!-- #footerContainer -->            
+            <div id="subsidiary">
+            
+        
+<div id="first" class="aside sub-aside">
+	<ul class="xoxo">
+<li id="tweet-this-4" class="widgetcontainer tweet_this_widget"><h3 class="widgettitle"><a href="http://twitter.com/Adrian_D_Jones" target="_blank">tweet tweet</a></h3>
+<ul class="tweets"><li>A Farewell to CSS3 Gradients? <a href="http://t.co/E2VDgHLR" rel="nofollow">http://t.co/E2VDgHLR</a> <a href="http://search.twitter.com/search?q=%23in" target="_blank">#in</a> <a href="http://twitter.com/Adrian_D_Jones/statuses/116545470079307776" class="timesince" target="_blank">1&nbsp;week&nbsp;ago</a></li></ul></li>
+	</ul>
+</div><!-- #first .aside -->
+            
+            </div><!-- #subsidiary -->
+            
+            
+        <div id="siteinfo">        
+
+    	Powered by <a class="wp-link" href="http://WordPress.org/" title="WordPress" rel="generator">WordPress</a>. Built on the <a class="theme-link" href="http://themeshaper.com/thematic/" title="Thematic Theme Framework" rel="designer">Thematic Theme Framework</a>.    
+		</div><!-- #siteinfo -->
+    
+    	        
+	</div><!-- #footer -->
+    </div><!-- #footer_wrapper -->
+	
+    </div><!-- #wrapper .hfeed -->  
+
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52'></script>
+<script type='text/javascript' src='http://popdigital.ca/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.6'></script>
+<script type='text/javascript'> Cufon.now(); </script>
+	<script type='text/javascript'>
+        jQuery('.workBox img').hover(function () { jQuery(this).fadeTo('fast', 0.4); }, function () { jQuery(this).fadeTo('fast', 1); });
+		jQuery('.website img').hover(function () { jQuery(this).fadeTo('fast', 0.4); }, function () { jQuery(this).fadeTo('fast', 1); });
+    </script>
+</body>
+</html>
+<!-- This Quick Cache file was built for (  popdigital.ca/2011/05/08/types-of-interactivity/ ) in 5.58782 seconds, on Sep 29th, 2011 at 12:32 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 29th, 2011 at 2:32 am UTC -->

@@ -1,0 +1,7 @@
+a:7:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:2;s:38:"Expires: Wed, 11 Jan 1984 05:00:00 GMT";i:3;s:44:"Last-Modified: Tue, 27 Sep 2011 05:21:19 GMT";i:4;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:5;s:16:"Pragma: no-cache";i:6;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="utf-8"?>
+<response>
+<error>1</error>
+<message>I really need an ID for this to work.</message>
+</response>
+<!-- This Quick Cache file was built for (  popdigital.ca/wp-trackback.php ) in 0.45529 seconds, on Sep 27th, 2011 at 5:21 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 27th, 2011 at 7:21 am UTC -->

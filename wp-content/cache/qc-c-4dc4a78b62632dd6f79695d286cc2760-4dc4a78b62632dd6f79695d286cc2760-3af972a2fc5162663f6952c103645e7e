@@ -1,0 +1,290 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Sat, 10 Sep 2011 04:05:09 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/F3uwfH>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; Web Design</title>
+	<atom:link href="http://popdigital.ca/category/web-design/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>5 Principles of User-Centered Interface Design</title>
+		<link>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/</link>
+		<comments>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/#comments</comments>
+		<pubDate>Fri, 26 Aug 2011 04:22:21 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[interface design]]></category>
+		<category><![CDATA[principles]]></category>
+		<category><![CDATA[user-centered]]></category>
+		<category><![CDATA[user-experience design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=737</guid>
+		<description><![CDATA[Originally published on DesignFestival. &#160; Oh Google Maps&#8230; where would I be without thee? Probably still driving down a back road half way to New Mexico by now. And all I wanted was to go to the corner store. But this isn&#8217;t an article on my lack of navigational skills. It&#8217;s about how we all [...]]]></description>
+			<content:encoded><![CDATA[<p><em>Originally published on <a title="DesignFestival" href="http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/" target="_blank">DesignFestival</a></em>.</p>
+<p>&nbsp;</p>
+<p>Oh Google Maps&#8230; where would I be without thee?</p>
+<p>Probably still driving down a back road half way to New Mexico by now. And all I wanted was to go to the corner store.</p>
+<p>But this isn&#8217;t an article on my lack of navigational skills. It&#8217;s about how we all like to know how to get around without getting lost. And when I&#8217;m using a website, computer program, video game, or anything else that requires me to interface with a piece of software, I also like to know how to get around without getting lost.</p>
+<p>Thankfully, we live in a world where subjects like user-experience design and user-interface design are established enough disciplines that we feel inclined to shorten them to UX/UI design and people still know what we are talking about. Yet it&#8217;s amazing how many times I still find myself on a website and feel my frustration level rising because I can&#8217;t figure out how to do what seems to me should be a simple task. Sometimes I really do want to go to New Mexico, but all I&#8217;m given is directions to the corner store.</p>
+<p>I&#8217;ve outlined below 5 principles of user-centered interface design, principles to help our websites and applications keep us on track. I am most familiar with website and mobile interfaces, but really these principles can be applied to any interface, or anytime someone has a point of contact with a digital or mechanical system. An interface can be a navigation menu, a search field, a dialog box, a selection pointer, a tools palette, a drag-and-drop feature, a web form, a simple button, and so much more. An interface is also the power button on your computer, and the volume knob on your stereo. And the touchscreen of your iPad. Interfaces are the layers through which we humans interact with our machines. In my world of web design, interfaces are so important because regardless of a website&#8217;s content, if someone can&#8217;t navigate easily around your site, that great content may never be found. And the world may never know about the video of your seriously&#8230; cutest&#8230; kitten&#8230; ever.</p>
+<p>Now at first glance the principles below may seem rather obvious. Even so, it never hurts to re-emphasize the obvious when it comes to web design best practices. How many times have you needed to just get a website out the door and been tempted to skip over providing alt attributes for those last couple of images you&#8217;re using? Resist the temptation! And sometimes even things that seem to be obvious turn out to have been not so obvious at first. If this wasn&#8217;t true then all the interfaces out there would be easy to use and there wouldn&#8217;t be any need for people like me to write an article stating the obvious. Okay, you&#8217;ve waited long enough, on to the principles&#8230;</p>
+<h1>Principle #1: Understand Your Users and Support Their Goals</h1>
+<p>Mitchell Kapor wrote a Software Design Manifesto back in 2002, and there is a quote from this paper that I still like to use:</p>
+<p>“If a user interface is designed ‘after the fact’ it is like designing an automobile dashboard after the engine, chassis, and all other components and functions are specified.”</p>
+<p>Now at first glance you might be thinking no big deal, a car&#8217;s dashboard or website&#8217;s interface can be designed once you have all your core components and functionality built. But this will usually get you into trouble. Why? Because your users aren&#8217;t interacting directly with your core components &#8211; they are experiencing your system, and all that it can do for them, through the interfaces that you provide. And if these interfaces are designed after the fact, it&#8217;s almost impossible for them to be able to meet all your users&#8217; goals. In other words, you need to first understand your users &#8211; their needs and objectives &#8211; in order to create an interface that allows them to effectively access your system&#8217;s functionality.</p>
+<p>The important questions to ask then in creating a user-centered interface are: Who are the users? What are the main functions that the user will need? Why is the user using this particular piece of software/hardware and what are their goals? Is the software/hardware accessible by users of different experience levels? What is the most intuitive way that the user could interact with the software/hardware?</p>
+<h1>Principle #2: Make Your Interface Easy to Learn and Enjoyable to Use</h1>
+<p>For the typical iPhone owner, they don&#8217;t care about the brilliance of the software and hardware engineering that went into creating their device, they just know that it is easy and enjoyable to use. Finger swipe, tap, two-finger pinch, slingshot an angry bird. You can bet that Apple never creates anything without first considering how people will interface with their products, and I would guess that a prevailing philosophy of user-centered design at all levels of their product development lifecycle is a big reason for Apple&#8217;s success.</p>
+<p>For websites, creating an interface that is enjoyable to use may seem less obvious, unless you are creating a complex interface for a Flash game, but being enjoyable can be as simple as a navigation structure that is straight-forward and intuitive. Even so, with more and more applications moving to the cloud and our browser becoming our operating system, creating effective, easy and enjoyable interfaces for our web products has never been more important. I recently switched from desktop based wireframing software (Axure, Omnigraffle) to an online application called Lucid Chart, and the transition was seemless because the authors made sure to create a web interface that is easy to use and familiar to those migrating from desktop programs.</p>
+<h1>Principle #3: Remain Consistent</h1>
+<p>An important concept to help the user maintain a sense of spatial orientation, and sanity, is to remain consistent. From the user&#8217;s perspective, this means not only a consistent look and feel to a system&#8217;s interfaces, but also that actions performed on the interface result in expected outcomes. If the same action is repeated, the system needs to respond in a consistent manner.</p>
+<p>I still occasionally come across the odd website that actually changes the order of its nav bar or sub-nav links depending on what page you are on on their site. To me this is the equivalent of switching your car&#8217;s gas and brake pedals depending on whether you are driving on the highway or a side road. Interfaces need to remain consistent so that they can fade into the background and not require any higher level of concentration to use.</p>
+<h1>Principle #4: Form a Dialog with Your Users</h1>
+<p>I like an interface that speaks to me. Not literally speak to me (although that might be nice too), but an interface that uses terms that make sense and gives me feedback when I need it.</p>
+<p>In order to ensure that we don&#8217;t get lost and can always find what we are looking for, it&#8217;s important for an interface to be labeled properly. Everyone understands what a &#8220;home&#8221; button should do in a nav bar, but not every menu label is always this obvious. For example, let&#8217;s say you have a multi-user game on your website that allows people to compete against each other, move up and down leaderboards, chat, form groups, etc. Do you put this game under the &#8220;Multimedia&#8221; or &#8220;Community&#8221; category in your nav if those are your only two options? This is when techniques like card sorting can help you figure out the best navigational structure.</p>
+<p>A feedback mechanism is also crucial for effective interface design: the user needs to feel that their actions have meaning. We are all familiar with filling out and submitting an online form, for example, but have you ever clicked the submit button and just had the page refresh and be presented with the empty form again? Then you are forced to ask if your information went through, was there an error, should I fill out the form again to make sure? Don&#8217;t leave any doubt in your user&#8217;s mind &#8211; give them feedback for their actions. Thank you for your inquiry, someone will get back to you just as soon as we get back from our Starbucks run.</p>
+<h1>Principle #5: Be Problem Free</h1>
+<p>The quickest way to inhibit enjoyment is to create frustration over simple interface and navigation issues. If you&#8217;re like me, testing is never the most fun part of the process, but it is vitally important. It&#8217;s a competitive marketplace out there, and if your system&#8217;s interface has noticeable bugs you risk losing your users, perhaps forever, no matter how good your content is. Interface problems can be more than just software bugs, however, as a poorly designed interface is still a major issue. A good way to test your interface is by watching people use your system in a real-world scenario. Are they able to navigate around and achieve their objectives with relative easy? Is your interface intuitive to both experienced and less experienced computer users?</p>
+<p>I will forgive a website for having small interface problems that may make me shake my head a little, but time is a limited resource, and if too many problems are interfering with the tasks I am trying to accomplish, sorry, but I&#8217;m moving on.</p>
+<h1>Conclusion</h1>
+<p>I have a secret to share. I&#8217;m a sucker for a beautiful looking website. But the truth is, at the end of the day, a site&#8217;s visual aesthetics will more than likely have nothing to do with it&#8217;s success or failure. If a site looks good, my attention is captured and I can take pleasure in the design, but then it quickly boils down to whether the site can do for me what I want it to. Key factors for determining a website&#8217;s success are its usability and utility. Content is king, of course, but content needs to be found and accessed.</p>
+<p>So I hope that you will consider these 5 principles of user-centered interface design on your current and future projects. There are, of course, many more principles than just these five, but that&#8217;s what books on UX design are for. I&#8217;m just hoping to give you some food for thought, or to re-emphasize what you already know, so we can all work towards building a world with better interfaces!</p>
+<p>The great thing about user-centered interface design is that it never sits still. It incorporates so many different disciplines &#8211; hardware and software engineering, ergonomics, psychology, sociology, linguistics, computer science, etc. &#8211; that it is an evolving and ever-growing subject, and to fully grasp the intricacies involved means that we can never stop researching and learning about it.</p>
+<p>Now, about how to get to that corner store in New Mexico&#8230;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/08/25/5-principles-of-user-centered-interface-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So you wanna be a User Experience Designer?</title>
+		<link>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/</link>
+		<comments>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/#comments</comments>
+		<pubDate>Thu, 14 Jul 2011 18:39:16 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[UX design]]></category>
+		<category><![CDATA[whitney hess]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=660</guid>
+		<description><![CDATA[I was fortunate to be able to see Whitney Hess give a talk recently at the Interlink conference in North Vancouver. Her presentation was all about UX design, and afterwards I made sure to check out her blog: Pleasure &#38; Pain. Whitney has two introductory articles on becoming a user-experience designer which I found to [...]]]></description>
+			<content:encoded><![CDATA[<p>I was fortunate to be able to see Whitney Hess give a talk recently at the Interlink conference in North Vancouver. Her presentation was all about UX design, and afterwards I made sure to check out her blog: Pleasure &amp; Pain.</p>
+<p>Whitney has two introductory articles on becoming a user-experience designer which I found to be quite good. Here they are:</p>
+<ol>
+<li><a href="http://whitneyhess.com/blog/2009/06/30/so-you-wanna-be-a-user-experience-designer-step-1-resources/">Step 1: Resources</a></li>
+<li><a href="http://whitneyhess.com/blog/2009/11/23/so-you-wanna-be-a-user-experience-designer-step-2-guiding-principles/">Step 2: Guiding Principles</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>User Experience as Corporate Imperative</title>
+		<link>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/</link>
+		<comments>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/#comments</comments>
+		<pubDate>Wed, 22 Jun 2011 22:04:11 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Business Tips]]></category>
+		<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=633</guid>
+		<description><![CDATA[In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client [...]]]></description>
+			<content:encoded><![CDATA[<p>In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client a few hundred dollars to build them a website. Then, as I so often see, clients wonder why their site isn&#8217;t getting any traffic, ranking on Google, or converting visitors to customers.</p>
+<p>My typical response to questions on why it&#8217;s worth investing real dollars into an online presence (website, social media, mobile, web applications, etc) is that, as professionals, we aren&#8217;t just building them a website, we are building for them a user experience. We are building them a system which incorporates metrics, usability, information architecture, interface design, and managing objectives.</p>
+<p>An interesting article, called <a href="www.hesketh.com/publications/user_experience.pdf">User Experience as Corporate Imperative</a>, lists some compelling stats which I would like to repeat here. The article was written in 2002 and talks about the major browsers being IE and Netscape!, but I believe that the underlying concepts are still very much applicable today.</p>
+<p><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.8px Arial} --></p>
+<ul>
+<li>Approximate 60% of the time, users have difficulty finding the information they are seeking on a website.</li>
+<li>Jakob Nielsen estimates that 90% of websites have poor user-centered design.</li>
+<li>At the time that the article was written, it states that 28% of website transactions result in consumer failure of frustration. 35% of people who experience a negative experience on a website will leave that site for a competitors, most likely never to return. 27% of all web transactions are abandoned on the payment screen, and 75% of shoppers abandon their shopping cart without making a purchase.</li>
+</ul>
+<p>Next step for me is to see if I can find some more recent statistics to see if these numbers have changed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Best Practices for Adding UX to Agile Development</title>
+		<link>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/</link>
+		<comments>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/#comments</comments>
+		<pubDate>Sun, 22 May 2011 17:35:26 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[UX]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=289</guid>
+		<description><![CDATA[An interesting article on applying Agile methodologies to user experience design. Excerpt from the article&#8230; 12 common practices of agile UXD: Drive: UX practitioners are part of the customer or product owner team Research, model, and design up front &#8211; but only just enough Chunk your design work Use parallel track development to work ahead, [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="imageFloatRight" title="agile_ux_practices" src="http://popdigital.ca/wp-content/uploads/2011/04/agile_ux_practices.gif" alt="Agile UX" width="200" height="160" />An <a title="Twelve emerging best practices for adding UX work to Agile development" href="http://agileproductdesign.com/blog/emerging_best_agile_ux_practice.html" target="_blank">interesting article</a> on applying Agile methodologies to user experience design.</p>
+<p>Excerpt from the article&#8230; 12 common practices of agile UXD:</p>
+<div>
+<ol>
+<li>Drive: UX practitioners are part of the customer or product owner team</li>
+<li>Research, model, and design up front &#8211; but only just enough</li>
+<li>Chunk your design work</li>
+<li>Use parallel track development to work ahead, and follow behind</li>
+<li>Buy design time with complex engineering stories</li>
+<li>Cultivate a user validation group for use for continuous user validation</li>
+<li>Schedule continuous user research in a separate track from development</li>
+<li>Leverage user time for multiple activities</li>
+<li>Use RITE to iterate UI before development</li>
+<li>Prototype in low fidelity</li>
+<li>Treat prototype as specification</li>
+<li>Become a design facilitator</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/05/22/best-practices-for-adding-ux-to-agile-development/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lean UX: Getting Out Of The Deliverables Business</title>
+		<link>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/</link>
+		<comments>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/#comments</comments>
+		<pubDate>Fri, 11 Mar 2011 20:02:52 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[process]]></category>
+		<category><![CDATA[UX]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=183</guid>
+		<description><![CDATA[Check out this great article on Smashing Magazine on Lean UX, a methodology rooted in Agile. Excerpt: &#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;]]></description>
+			<content:encoded><![CDATA[<p>Check out <a title="Lean UX" href="http://www.smashingmagazine.com/2011/03/07/lean-ux-getting-out-of-the-deliverables-business/" target="_blank">this great article</a> on Smashing Magazine on Lean UX, a methodology rooted in Agile.</p>
+<p>Excerpt:</p>
+<blockquote><p>&#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;</p></blockquote>
+<p><img class="alignnone size-full wp-image-184" title="lean_ux_process" src="http://popdigital.ca/wp-content/uploads/2011/03/lean_ux_process.jpg" alt="Lean UX process" width="500" height="134" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Aviary Suite of Graphic Tools</title>
+		<link>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/</link>
+		<comments>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/#comments</comments>
+		<pubDate>Wed, 09 Mar 2011 20:46:03 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Graphic Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[graphic design]]></category>
+		<category><![CDATA[image editing]]></category>
+		<category><![CDATA[screen capture]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=130</guid>
+		<description><![CDATA[What it is: A free suite of online graphics tools. Where you can get it: aviary.com Say good-bye to Photoshop (well, maybe not good-bye forever). With this powerful set of online creation tools all you need is your browser to perform some pretty advanced image editing techniques, screen captures, color editing, and more. I recommend [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="imageFloatRight" title="aviary_website" src="http://popdigital.ca/wp-content/uploads/2011/03/aviary_website.png" alt="" width="250" height="130" />What it is: A free suite of online graphics tools.<br />
+Where you can get it: <a title="Aviary" href="http://www.aviary.com/" target="_blank">aviary.com</a></p>
+<p>Say good-bye to Photoshop (well, maybe not good-bye forever). With this powerful set of online creation tools all you need is your browser to perform some pretty advanced image editing techniques, screen captures, color editing, and more.</p>
+<p>I recommend installing the <a title="Aviary Firefox Extension" href="https://addons.mozilla.org/en-us/firefox/addon/aviary-screen-capture-quick-la/" target="_blank">Firefox extension</a>, which allows you to perform a screen capture with the click of a button directly in your browser. It also installs a drop-down menu with quick links to Aviary&#8217;s full suite of tools.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/09/aviary-suite-of-graphic-tools/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Adding Post Excerpts to your WordPress Static Front Page</title>
+		<link>http://popdigital.ca/2011/03/07/adding-post-excerpts-to-your-wordpress-static-front-page/</link>
+		<comments>http://popdigital.ca/2011/03/07/adding-post-excerpts-to-your-wordpress-static-front-page/#comments</comments>
+		<pubDate>Mon, 07 Mar 2011 17:24:26 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=52</guid>
+		<description><![CDATA[I would have thought that solutions to this scenario would have been all over Google, but alas I had to dig to find snippets of information that eventually allowed me to write the code that I wanted. What I wanted: A list of my top 5 blog posts to appear on my WordPress site&#8217;s static [...]]]></description>
+			<content:encoded><![CDATA[<p>I would have thought that solutions to this scenario would have been all over Google, but alas I had to dig to find snippets of information that eventually allowed me to write the code that I wanted.</p>
+<p><strong>What I wanted:</strong> A list of my top 5 blog posts to appear on my WordPress site&#8217;s static homepage, with the blog&#8217;s title and a small amount of the blog&#8217;s text. I also wanted the &#8220;more&#8221; text to be a link to the actual blog post.</p>
+<p><strong>Solution:</strong></p>
+<p>1. Add the following to your theme&#8217;s functions.php file (inside the &lt;?php &#8230; ?&gt; tags):</p>
+<pre>function home_excerpt_length($length) {
+return 10; // The length of the excerpt text in characters
+}
+
+function home_excerpt_more($more) {
+global $post;
+return ' &lt;a href="'. get_permalink($post-&gt;ID) . '"&gt;[more...]&lt;/a&gt;';
+}</pre>
+<p>2. Add the following to your front-page.php file (or whatever template file you are using) at the spot on the page where you want the blog excerpts to appear:</p>
+<pre>&lt;?php
+query_posts('posts_per_page=5');
+add_filter('excerpt_length', 'home_excerpt_length');
+add_filter('excerpt_more', 'home_excerpt_more');
+if (have_posts()) :
+while (have_posts()) :
+the_post();
+echo "&lt;h3&gt;";
+the_title();
+echo "&lt;/h3&gt;";
+the_excerpt();
+endwhile;
+endif;
+?&gt;</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/07/adding-post-excerpts-to-your-wordpress-static-front-page/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Getting Real About Agile Design</title>
+		<link>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/</link>
+		<comments>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/#comments</comments>
+		<pubDate>Tue, 25 Jan 2011 19:28:53 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[A List Apart]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=60</guid>
+		<description><![CDATA[A great article on Agile design for the web design world, published on A List Apart. An excerpt: &#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset [...]]]></description>
+			<content:encoded><![CDATA[<p>A <a title="Getting Real About Agile Design" href="http://www.alistapart.com/articles/gettingrealaboutagiledesign/" target="_blank">great article on Agile design</a> for the web design world, published on <a title="A List Apart" href="http://www.alistapart.com" target="_blank">A List Apart</a>.</p>
+<p>An excerpt:</p>
+<blockquote><p>&#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset but deprecates elements not suited to the project.&#8221;</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Introduction to the Thematic WordPress Framework</title>
+		<link>http://popdigital.ca/2011/01/01/thematic-wordpress-framework/</link>
+		<comments>http://popdigital.ca/2011/01/01/thematic-wordpress-framework/#comments</comments>
+		<pubDate>Sat, 01 Jan 2011 20:18:53 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[Thematic]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=21</guid>
+		<description><![CDATA[Great SitePoint article on creating a WordPress child theme based on the Thematic framework.]]></description>
+			<content:encoded><![CDATA[<p>Great <a title="sitepoint thematic framework" href="http://articles.sitepoint.com/article/beginners-guide-to-the-thematic-framework-for-wordpress" target="_blank">SitePoint article</a> on creating a WordPress child theme based on the <a title="Thematic WordPress framework" href="http://themeshaper.com/thematic/" target="_blank">Thematic framework</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/01/01/thematic-wordpress-framework/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/category/web-design/feed/ ) in 2.55937 seconds, on Sep 17th, 2011 at 4:05 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 17th, 2011 at 6:05 am UTC -->

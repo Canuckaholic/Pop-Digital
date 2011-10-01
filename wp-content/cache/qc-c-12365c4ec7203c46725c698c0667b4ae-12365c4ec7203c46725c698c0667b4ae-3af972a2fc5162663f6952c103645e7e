@@ -1,0 +1,367 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Fri, 16 Sep 2011 09:44:51 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/sZXZ28>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; web design</title>
+	<atom:link href="http://popdigital.ca/tag/web-design-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>User Experience as Corporate Imperative</title>
+		<link>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/</link>
+		<comments>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/#comments</comments>
+		<pubDate>Wed, 22 Jun 2011 22:04:11 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Business Tips]]></category>
+		<category><![CDATA[User-centered design]]></category>
+		<category><![CDATA[User-Experience Design]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=633</guid>
+		<description><![CDATA[In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client [...]]]></description>
+			<content:encoded><![CDATA[<p>In my experience I have often come across clients, or potential clients, who may question why they need to invest company dollars into a professionally designed and developed website (or application). After all, it is possible for a student to teach themselves the basics, download a few programs from the internet, and charge a client a few hundred dollars to build them a website. Then, as I so often see, clients wonder why their site isn&#8217;t getting any traffic, ranking on Google, or converting visitors to customers.</p>
+<p>My typical response to questions on why it&#8217;s worth investing real dollars into an online presence (website, social media, mobile, web applications, etc) is that, as professionals, we aren&#8217;t just building them a website, we are building for them a user experience. We are building them a system which incorporates metrics, usability, information architecture, interface design, and managing objectives.</p>
+<p>An interesting article, called <a href="www.hesketh.com/publications/user_experience.pdf">User Experience as Corporate Imperative</a>, lists some compelling stats which I would like to repeat here. The article was written in 2002 and talks about the major browsers being IE and Netscape!, but I believe that the underlying concepts are still very much applicable today.</p>
+<p><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.8px Arial} --></p>
+<ul>
+<li>Approximate 60% of the time, users have difficulty finding the information they are seeking on a website.</li>
+<li>Jakob Nielsen estimates that 90% of websites have poor user-centered design.</li>
+<li>At the time that the article was written, it states that 28% of website transactions result in consumer failure of frustration. 35% of people who experience a negative experience on a website will leave that site for a competitors, most likely never to return. 27% of all web transactions are abandoned on the payment screen, and 75% of shoppers abandon their shopping cart without making a purchase.</li>
+</ul>
+<p>Next step for me is to see if I can find some more recent statistics to see if these numbers have changed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/06/22/user-experience-as-corporate-imperative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Website: Allison Wondeland</title>
+		<link>http://popdigital.ca/2011/02/25/allison-wondeland-website/</link>
+		<comments>http://popdigital.ca/2011/02/25/allison-wondeland-website/#comments</comments>
+		<pubDate>Fri, 25 Feb 2011 20:51:08 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[allison wonderland]]></category>
+		<category><![CDATA[fashion]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=378</guid>
+		<description><![CDATA[About: Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &#38; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-381" title="allison_wonderland_558x300" src="http://popdigital.ca/wp-content/uploads/2009/02/allison_wonderland_558x300.jpg" alt="Allison Wonderland" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Allison Wonderland is the website of one of Vancouver&#8217;s premiere fashion designers, Allison Smith. Allison started her own unique line in 1998, following her graduation from Kwantlen College&#8217;s acclaimed Fashion Design &amp; Technology program and several years spent in Montreal&#8217;s rag trade. Since then, Allison Wonderland Clothing has continued to provide satisfaction to the style-savvy of North America and Japan.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP.</p>
+<h2>URL:</h2>
+<p><a title="Allison Wonderland" href="http://allisonwonderland.ca" target="_blank">allisonwonderland.ca</a></p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/02/25/allison-wondeland-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Vancouver Canucks Website</title>
+		<link>http://popdigital.ca/2011/02/06/vancouver-canucks-website/</link>
+		<comments>http://popdigital.ca/2011/02/06/vancouver-canucks-website/#comments</comments>
+		<pubDate>Mon, 07 Feb 2011 06:13:16 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[vancouver canucks]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=298</guid>
+		<description><![CDATA[About: The official website of the Vancouver Canucks NHL hockey organization. With an average of over 1 million unique visitors per month, canucks.com is consistently the #1 most visited NHL team website. In addition to news, featured stories, exclusive videos, and ticket information, canucks.com also offers fans many other ways to interact with their favourite [...]]]></description>
+			<content:encoded><![CDATA[<p><img title="vancouver_canucks_558x300" src="http://popdigital.ca/wp-content/uploads/2010/04/vancouver_canucks_558x300.jpg" alt="canucks.com" width="558" height="300" /></p>
+<h2>About:</h2>
+<div id="attachment_313" class="wp-caption alignright" style="width: 310px"><img class="size-medium wp-image-313" title="Vancouver Canucks Website (canucks.com)" src="http://popdigital.ca/wp-content/uploads/2010/04/canucks_website_slider-300x105.jpg" alt="Vancouver Canucks Website (canucks.com)" width="300" height="105" /><p class="wp-caption-text">Vancouver Canucks Website (canucks.com)</p></div>
+<p>The official website of the Vancouver Canucks NHL hockey organization. With an average of over 1 million unique visitors per month, canucks.com is consistently the #1 most visited NHL team website. In addition to news, featured stories, exclusive videos, and ticket information, canucks.com also offers fans many other ways to interact with their favourite hockey team, from playing Canucks Fantasy Hockey to testing their hockey knowledge playing Canucks Trivia. Canucks.com also offers a paid fan club membership, as well as an email newsletter club. Additional content features: Flash games, holiday e-cards, contesting, alumni microsite, mobile, social media, Fin&#8217;s Place, grassroots hockey, community partnerships, etc.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is Java. Uses a proprietary CMS.</p>
+<p><strong>URL:</strong> <a title="Vancouver Canucks" href="http://canucks.com" target="_blank">canucks.com</a></p>
+<h2>What We Did:</h2>
+<h3>Adrian Jones:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>AJAX</li>
+<li>jQuery</li>
+<li>Flash</li>
+<li>XML</li>
+<li>JSON</li>
+</ul>
+</div>
+<h3>Ryan Castle:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<h3>Leah Browne:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+<p><img style="cursor: pointer; z-index: 1000000; position: absolute; padding: 2px; left: 8px; top: 288px;" title="Click to edit this image in Aviary" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAB30lEQVQ4EZVTSy8DURT%2BZjpm6GhL0pKQphYeCZF4hIVEWLDowsaCxMJC8AP8AMI%2FsBQWFhKPxMpGbIgFK6vWe0WoRVOPPihth3vmTm%2FTUuEs7r3zzfnO950zdySw6Nz6%2FKT9v3EyIknSX8idHiZSBRzcA1fP%2BTK%2FFiDiXBdQo%2BdI%2Fp00wklFALI4FRxm2oCl%2FnwypXS7E8gYGZH9YwFSHWvgOUehd0zsPYJ2CqcqI5lK8pdszXmxICIP1fGHueMXLAcS0BQNTW4bemqAu1gGhmElsy2vAKkWkl12F3RNR2UpJwUjKSisYDZEC44SYKqFw2SXlLNkQvuZ%2Bn3cwFkkzYppkCWeKwqQMhWhWAly26RMQV%2BhsQLYvXmHqqgwIMOwbo5ooa%2FWzDUXFxuUXmp5ZgjNhWLjIg67Wo50sRnwNGC%2Bx4mnwxQ%2BmMp0M7tEHjY8Zv%2BU9V%2FtUmG5N9OFg1CCJxJKn2p1IDcowm6jbHiygnaPzXRw%2FgRQF2IG69dAlCSLhNehYKpVx2Iv4PcBUuEQ6Y5P7mdMm1Qj%2BmFg8%2BoVg9thE%2FM6bBiu1zC%2B94a1ixSyv5%2B0cDmaJxtP6jh%2FaADtii0Nt%2BMR3sqQwJxlMXT4AswBp5lGCosU6eIbPNu0KX0BMmqe8Db%2Bbr8AAAAASUVORK5CYII%3D" alt="" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/02/06/vancouver-canucks-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Getting Real About Agile Design</title>
+		<link>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/</link>
+		<comments>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/#comments</comments>
+		<pubDate>Tue, 25 Jan 2011 19:28:53 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[A List Apart]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=60</guid>
+		<description><![CDATA[A great article on Agile design for the web design world, published on A List Apart. An excerpt: &#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset [...]]]></description>
+			<content:encoded><![CDATA[<p>A <a title="Getting Real About Agile Design" href="http://www.alistapart.com/articles/gettingrealaboutagiledesign/" target="_blank">great article on Agile design</a> for the web design world, published on <a title="A List Apart" href="http://www.alistapart.com" target="_blank">A List Apart</a>.</p>
+<p>An excerpt:</p>
+<blockquote><p>&#8220;Agile is no more &#8220;best practice&#8221; than Python, usability testing, or microformats. It’s just a tool: sometimes appropriate, sometimes not. To this end we see the emergence of post-Agilism, which tries to retain a lower-case-a agile mindset but deprecates elements not suited to the project.&#8221;</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/01/25/getting-real-about-agile-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Revel Events Website</title>
+		<link>http://popdigital.ca/2010/02/01/revel-events-website/</link>
+		<comments>http://popdigital.ca/2010/02/01/revel-events-website/#comments</comments>
+		<pubDate>Tue, 02 Feb 2010 04:40:13 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=329</guid>
+		<description><![CDATA[About: Revel Events is an event coordination service based out of Vancouver. Whether you&#8217;re looking to host an intimate gathering or a large-scale event, let Revel Events take on the planning and coordination. The success of any occasion is in the details, and the Revel Events team has the contacts, the resources, and the enthusiasm [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-405" title="revelevents_558x300" src="http://popdigital.ca/wp-content/uploads/2010/02/revelevents_558x300.jpg" alt="Revel Events" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Revel Events is an event coordination service based out of Vancouver. Whether you&#8217;re looking to host an intimate gathering or a large-scale event, let Revel Events take on the planning and coordination. The success of any occasion is in the details, and the Revel Events team has the contacts, the resources, and the enthusiasm to make your event an affair to remember.</p>
+<h2>Type of Project:</h2>
+<p>Website.</p>
+<h2>URL:</h2>
+<p><a title="Revel Events" href="http://revelevents.ca" target="_blank">revelevents.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Leah Browne</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>Javascript</li>
+<li>jQuery</li>
+</ul>
+</div>
+<h3>Leah:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2010/02/01/revel-events-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Rogers Arena Website</title>
+		<link>http://popdigital.ca/2009/04/24/rogers-arena-website/</link>
+		<comments>http://popdigital.ca/2009/04/24/rogers-arena-website/#comments</comments>
+		<pubDate>Fri, 24 Apr 2009 22:32:13 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[rogers arena]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=371</guid>
+		<description><![CDATA[About: Officially opening its doors on September 21, 1995, Rogers Arena has become symbolic of Vancouver’s proud identity, serving as the city’s ambassador and host to the world of sports and entertainment. A staple of downtown Vancouver, Rogers Arena is one of the premier sports and entertainment facilities in all of North America. Highly praised [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-375" title="rogers_arena_558x300" src="http://popdigital.ca/wp-content/uploads/2009/04/rogers_arena_558x300.jpg" alt="Rogers Arena" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Officially opening its doors on September 21, 1995, Rogers Arena has become symbolic of Vancouver’s proud identity, serving as the city’s ambassador and host to the world of sports and entertainment. A staple of downtown Vancouver, Rogers Arena is one of the premier sports and entertainment facilities in all of North America. Highly praised for its comfortable seating and superior sight lines, visitor hospitality lies at the heart of this 475,000 sq. ft. building. Home to the Vancouver Canucks of the National Hockey League, Rogers Arena has hosted numerous national and international events over the years, as well as welcomed a countless number of world renowned personalities including former US President Bill Clinton, HRH Queen Elizabeth II, and His Holiness the Dalai Lama.</p>
+<h2>Type of Project:</h2>
+<p>Website.</p>
+<h2>URL:</h2>
+<p><a title="Rogers Arena" href="http://rogersarena.ca" target="_blank">rogersarena.ca</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Evan Biswanger</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+</ul>
+</div>
+<h3>Evan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="clearFloats">&nbsp;</div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2009/04/24/rogers-arena-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Camp Latona Website</title>
+		<link>http://popdigital.ca/2008/09/05/camp-latona-website/</link>
+		<comments>http://popdigital.ca/2008/09/05/camp-latona-website/#comments</comments>
+		<pubDate>Fri, 05 Sep 2008 23:04:12 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[camp latona]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=391</guid>
+		<description><![CDATA[About: For over fifty years, Camp Latona has been developing the confidence and life skills in our youth to prepare them for their future challenges and success. The Roots of Camp Latona and the spirit by which it operates have remained unchanged over the years. Located on British Columbia’s West Coast, Camp Latona is home [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-393" title="camp_latona_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_558x300.jpg" alt="Camp Latona" width="558" height="300" /></p>
+<h2>About:</h2>
+<div id="attachment_392" class="wp-caption alignright" style="width: 310px"><a href="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_slider.jpg"><img class="size-medium wp-image-392" title="camp_latona_slider" src="http://popdigital.ca/wp-content/uploads/2011/04/camp_latona_slider-300x105.jpg" alt="Camp Latona Website" width="300" height="105" /></a><p class="wp-caption-text">Camp Latona Website (camplatona.com)</p></div>
+<p>For over fifty years, Camp Latona has been developing the confidence and life skills in our youth to prepare them for their future challenges and success. The Roots of Camp Latona and the spirit by which it operates have remained unchanged over the years. Located on British Columbia’s West Coast, Camp Latona is home to pristine waters, rain forest terrain and abundant wildlife. With 118 Acres of forested land and 3500 feet of shoreline nestled on the North end of Gambier Island, Camp Latona is a true wilderness waterfront within reach of Vancouver and Squamish.</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture is LAMP. Uses a custom-built CMS.</p>
+<h2>URL:</h2>
+<p><a title="Camp Latona" href="http://camplatona.com" target="_blank">camplatona.com</a></p>
+<h2>Pop Digital Team:</h2>
+<p>Adrian Jones<br />
+Ryan Castle</p>
+<h2>Roles:</h2>
+<h3>Adrian:</h3>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>MySQL</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Flash</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<h3>Ryan:</h3>
+<div class="column">
+<ul>
+<li>Graphic Design</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2008/09/05/camp-latona-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Corus Entertainment Websites</title>
+		<link>http://popdigital.ca/2007/08/25/corus-entertainment-websites/</link>
+		<comments>http://popdigital.ca/2007/08/25/corus-entertainment-websites/#comments</comments>
+		<pubDate>Sat, 25 Aug 2007 23:39:31 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Work Examples]]></category>
+		<category><![CDATA[coldfusion]]></category>
+		<category><![CDATA[corus entertainment]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=409</guid>
+		<description><![CDATA[About: Corus Entertainment Inc. owns and operates 4 radio stations in Vancouver: CFOX (The Fox), CFMI (Rock101), CKNW, and CHMJ (MOJO, AM730). In the middle of 2007 the websites for these stations were all brought under a content management framework provided by Emmis Interactive, but before this, Pop Digital team member Adrian Jones designed and [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-410" title="cfox_558x300" src="http://popdigital.ca/wp-content/uploads/2011/04/cfox_558x300.jpg" alt="CFOX" width="558" height="300" /></p>
+<h2>About:</h2>
+<p>Corus Entertainment Inc. owns and operates 4 radio stations in Vancouver: <a title="CFOX" href="http://cfox.com" target="_blank">CFOX </a>(The Fox), <a title="Rock101" href="http://rock101.com" target="_blank">CFMI </a>(Rock101), <a title="CKNW" href="http://cknw.com" target="_blank">CKNW</a>, and <a title="AM730" href="http://am730.ca" target="_blank">CHMJ </a>(MOJO, AM730). In the middle of 2007 the websites for these stations were all brought under a content management framework provided by Emmis Interactive, but before this, Pop Digital team member Adrian Jones designed and developed for the stations&#8217; websites. Much of his work still lingers on the sites all these years later!</p>
+<h2>Type of Project:</h2>
+<p>Website. Underlying server architecture was ColdFusion.</p>
+<h2>What We Did:</h2>
+<div class="column">
+<ul>
+<li>HTML/XHTML</li>
+<li>CSS</li>
+<li>ColdFusion</li>
+<li>Javascript</li>
+<li>Graphic Design</li>
+<li>Layout</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>Information Architecture</li>
+<li>User Experience Design</li>
+<li>Flash</li>
+<li>XML</li>
+<li>Video Editing</li>
+<li>Sound Editing</li>
+</ul>
+</div>
+<div class="clearFloats"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2007/08/25/corus-entertainment-websites/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/web-design-2/feed/ ) in 1.00954 seconds, on Sep 23rd, 2011 at 9:44 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 23rd, 2011 at 11:44 am UTC -->

@@ -1,0 +1,47 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Sat, 17 Sep 2011 07:46:30 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:44:"Last-Modified: Thu, 15 Sep 2011 23:18:17 GMT";i:6;s:40:"ETag: "947b69acaf76b3763bcc7055068c29ac"";i:7;s:42:"Link: <http://is.gd/3z6vWS>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pop Digital &#187; process</title>
+	<atom:link href="http://popdigital.ca/tag/process/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate>Thu, 15 Sep 2011 23:18:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<item>
+		<title>Lean UX: Getting Out Of The Deliverables Business</title>
+		<link>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/</link>
+		<comments>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/#comments</comments>
+		<pubDate>Fri, 11 Mar 2011 20:02:52 +0000</pubDate>
+		<dc:creator>Adrian</dc:creator>
+				<category><![CDATA[Methodology]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[methodology]]></category>
+		<category><![CDATA[process]]></category>
+		<category><![CDATA[UX]]></category>
+
+		<guid isPermaLink="false">http://popdigital.ca/?p=183</guid>
+		<description><![CDATA[Check out this great article on Smashing Magazine on Lean UX, a methodology rooted in Agile. Excerpt: &#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;]]></description>
+			<content:encoded><![CDATA[<p>Check out <a title="Lean UX" href="http://www.smashingmagazine.com/2011/03/07/lean-ux-getting-out-of-the-deliverables-business/" target="_blank">this great article</a> on Smashing Magazine on Lean UX, a methodology rooted in Agile.</p>
+<p>Excerpt:</p>
+<blockquote><p>&#8220;Inspired by Lean and Agile development theories, Lean UX is the practice of bringing the true nature of our work to light faster, with less emphasis on deliverables and greater focus on the actual experience being designed.&#8221;</p></blockquote>
+<p><img class="alignnone size-full wp-image-184" title="lean_ux_process" src="http://popdigital.ca/wp-content/uploads/2011/03/lean_ux_process.jpg" alt="Lean UX process" width="500" height="134" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://popdigital.ca/2011/03/11/lean-ux-getting-out-of-the-deliverables-business/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/tag/process/feed/ ) in 3.42318 seconds, on Sep 24th, 2011 at 7:46 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 24th, 2011 at 9:46 am UTC -->

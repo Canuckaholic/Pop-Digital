@@ -1,0 +1,20 @@
+a:9:{i:0;s:24:"X-Powered-By: PHP/5.2.17";i:1;s:38:"Expires: Sun, 11 Sep 2011 00:47:20 GMT";i:2;s:51:"Cache-Control: no-cache, must-revalidate, max-age=0";i:3;s:16:"Pragma: no-cache";i:4;s:43:"X-Pingback: http://popdigital.ca/xmlrpc.php";i:5;s:19:"Last-Modified:  GMT";i:6;s:40:"ETag: "99b889a9cd748e8b4eca0eb3758d138d"";i:7;s:42:"Link: <http://is.gd/gFZcZk>; rel=shortlink";i:8;s:37:"Content-Type: text/xml; charset=UTF-8";}<!--headers--><?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: So you wanna be a User Experience Designer?</title>
+	<atom:link href="http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/feed/" rel="self" type="application/rss+xml" />
+	<link>http://popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/</link>
+	<description>Grabbing the Attention of Audiences Everywhere</description>
+	<lastBuildDate></lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+</channel>
+</rss>
+<!-- This Quick Cache file was built for (  popdigital.ca/2011/07/14/so-you-wanna-be-a-user-experience-designer/feed/ ) in 3.32149 seconds, on Sep 18th, 2011 at 12:47 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 18th, 2011 at 2:47 am UTC -->
