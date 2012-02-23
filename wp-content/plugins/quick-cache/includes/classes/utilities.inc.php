@@ -9,26 +9,21 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_utilities"))
 	{
 		class c_ws_plugin__qcache_utilities
 			{
-				/*
-				Function evaluates PHP code, and returns the output afterward.
-				*/
 				public static function evl ($code = FALSE)
 					{
 						ob_start (); /* Output buffer. */
 						/**/
-						eval ("?>" . trim ($code));
+						eval("?>" . trim ($code));
 						/**/
 						return ob_get_clean ();
 					}
-				/*
-				Function that buffers ( gets ) function output.
-				*/
+				/**/
 				public static function get ($function = FALSE)
 					{
 						$args = func_get_args ();
@@ -54,9 +49,7 @@ if (!class_exists ("c_ws_plugin__qcache_utilities"))
 						else /* Else return null. */
 							return;
 					}
-				/*
-				Function builds a version checksum for this installation.
-				*/
+				/**/
 				public static function ver_checksum ()
 					{
 						$checksum = WS_PLUGIN__QCACHE_VERSION; /* Software version string. */

@@ -9,7 +9,7 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_purging_routines"))
 	{
@@ -52,12 +52,9 @@ if (!class_exists ("c_ws_plugin__qcache_purging_routines"))
 					{
 						do_action ("ws_plugin__qcache_before_purge_cache_dir", get_defined_vars ());
 						/**/
-						clearstatcache ();
-						@set_time_limit (900);
-						@ignore_user_abort(true);
-						@ini_set ("memory_limit", "256M");
+						clearstatcache () . define ("QUICK_CACHE_ALLOWED", false); /* Cache NOT allowed here. */
 						/**/
-						define ("QUICK_CACHE_ALLOWED", false);
+						@set_time_limit(900) . @ini_set ("memory_limit", apply_filters ("admin_memory_limit", WP_MAX_MEMORY_LIMIT)) . @ignore_user_abort (true);
 						/**/
 						do_action ("ws_plugin__qcache_before_purge_cache_dir_routines", get_defined_vars ());
 						/**/

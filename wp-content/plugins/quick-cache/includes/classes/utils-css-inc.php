@@ -15,9 +15,6 @@ if (!class_exists ("c_ws_plugin__qcache_utils_css"))
 	{
 		class c_ws_plugin__qcache_utils_css
 			{
-				/*
-				Functions that handles CSS compression routines.
-				*/
 				public static function compress_css ($css = FALSE)
 					{
 						$c6 = "/(\:#| #)([A-Z0-9]{6})/i";

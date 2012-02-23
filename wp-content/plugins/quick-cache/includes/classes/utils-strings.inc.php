@@ -9,39 +9,59 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_utils_strings"))
 	{
 		class c_ws_plugin__qcache_utils_strings
 			{
-				/*
-				Function escapes double quotes.
-				*/
-				public static function esc_dq ($string = FALSE)
+				public static function esc_dq ($string = FALSE, $times = FALSE)
 					{
-						return preg_replace ('/"/', '\"', $string);
+						$times = (is_numeric ($times) && $times >= 0) ? (int)$times : 1;
+						/**/
+						return str_replace ('"', str_repeat ("\\", $times) . '"', (string)$string);
 					}
-				/*
-				Function escapes single quotes.
-				*/
-				public static function esc_sq ($string = FALSE)
+				/**/
+				public static function esc_sq ($string = FALSE, $times = FALSE)
 					{
-						return preg_replace ("/'/", "\'", $string);
+						$times = (is_numeric ($times) && $times >= 0) ? (int)$times : 1;
+						/**/
+						return str_replace ("'", str_repeat ("\\", $times) . "'", (string)$string);
 					}
-				/*
-				Function escapes single quotes.
-				*/
-				public static function esc_ds ($string = FALSE)
+				/**/
+				public static function esc_js_sq ($string = FALSE, $times = FALSE)
 					{
-						return preg_replace ('/\$/', '\\\$', $string);
+						$times = (is_numeric ($times) && $times >= 0) ? (int)$times : 1;
+						/**/
+						return str_replace ("'", str_repeat ("\\", $times) . "'", str_replace (array ("\r", "\n"), array ("", '\\n'), str_replace ("\'", "'", (string)$string)));
 					}
-				/*
-				Function that trims deeply.
-				*/
-				public static function trim_deep ($value = FALSE)
+				/**/
+				public static function esc_ds ($string = FALSE, $times = FALSE)
 					{
-						return is_array ($value) ? array_map ('c_ws_plugin__qcache_utils_strings::trim_deep', $value) : trim ($value);
+						$times = (is_numeric ($times) && $times >= 0) ? (int)$times : 1;
+						/**/
+						return str_replace ('$', str_repeat ("\\", $times) . '$', (string)$string);
+					}
+				/**/
+				public static function trim ($value = FALSE, $chars = FALSE, $extra_chars = FALSE)
+					{
+						return c_ws_plugin__qcache_utils_strings::trim_deep ($value, $chars, $extra_chars);
+					}
+				/**/
+				public static function trim_deep ($value = FALSE, $chars = FALSE, $extra_chars = FALSE)
+					{
+						$chars = /* List of chars to be trimmed by this routine. */ (is_string ($chars)) ? $chars : " \t\n\r\0\x0B";
+						$chars = (is_string ($extra_chars) /* Adding additional chars? */) ? $chars . $extra_chars : $chars;
+						/**/
+						if (is_array ($value)) /* Handles all types of arrays.
+						Note, we do NOT use ``array_map()`` here, because multiple args to ``array_map()`` causes a loss of string keys.
+						For further details, see: <http://php.net/manual/en/function.array-map.php>. */
+							{
+								foreach ($value as &$r) /* Reference. */
+									$r = c_ws_plugin__qcache_utils_strings::trim_deep ($r, $chars);
+								return $value; /* Return modified array. */
+							}
+						return trim ((string)$value, $chars);
 					}
 			}
 	}

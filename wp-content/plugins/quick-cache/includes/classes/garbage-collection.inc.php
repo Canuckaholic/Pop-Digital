@@ -9,7 +9,7 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_garbage_collection"))
 	{
@@ -48,7 +48,7 @@ if (!class_exists ("c_ws_plugin__qcache_garbage_collection"))
 						/**/
 						if (function_exists ("wp_cron")) /* If WP-Cron is available. */
 							{
-								wp_clear_scheduled_hook ("ws_plugin__qcache_garbage_collector__schedule");
+								wp_clear_scheduled_hook("ws_plugin__qcache_garbage_collector__schedule");
 								/**/
 								do_action ("ws_plugin__qcache_during_delete_garbage_collector", get_defined_vars ());
 								/**/
@@ -67,12 +67,9 @@ if (!class_exists ("c_ws_plugin__qcache_garbage_collection"))
 					{
 						do_action ("ws_plugin__qcache_before_garbage_collector", get_defined_vars ());
 						/**/
-						clearstatcache ();
-						@set_time_limit (900);
-						@ignore_user_abort(true);
-						@ini_set ("memory_limit", "512M");
+						clearstatcache () . define ("QUICK_CACHE_ALLOWED", false); /* Cache NOT allowed here. */
 						/**/
-						define ("QUICK_CACHE_ALLOWED", false);
+						@set_time_limit(900) . @ini_set ("memory_limit", apply_filters ("admin_memory_limit", WP_MAX_MEMORY_LIMIT)) . @ignore_user_abort (true);
 						/**/
 						do_action ("ws_plugin__qcache_before_garbage_collector_routines", get_defined_vars ());
 						/**/

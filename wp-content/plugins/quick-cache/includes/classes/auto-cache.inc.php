@@ -9,7 +9,7 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 	{
@@ -48,7 +48,7 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 						/**/
 						if (function_exists ("wp_cron")) /* If WP-Cron is available. */
 							{
-								wp_clear_scheduled_hook ("ws_plugin__qcache_auto_cache_engine__schedule");
+								wp_clear_scheduled_hook("ws_plugin__qcache_auto_cache_engine__schedule");
 								/**/
 								do_action ("ws_plugin__qcache_during_delete_auto_cache_engine", get_defined_vars ());
 								/**/
@@ -73,13 +73,11 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 								if ($GLOBALS["WS_PLUGIN__"]["qcache"]["o"]["auto_cache_sitemap_url"] || $GLOBALS["WS_PLUGIN__"]["qcache"]["o"]["auto_cache_additional_urls"])
 									if ($GLOBALS["WS_PLUGIN__"]["qcache"]["o"]["expiration"] >= 3600)
 										{
-											$log = "";
-											clearstatcache ();
-											@set_time_limit (900);
-											@ignore_user_abort(true);
-											@ini_set ("memory_limit", "512M");
+											$log = ""; /* Initialize log to an empty string value here. */
 											/**/
-											define ("QUICK_CACHE_ALLOWED", false);
+											clearstatcache () . define ("QUICK_CACHE_ALLOWED", false); /* Cache NOT allowed here. */
+											/**/
+											@set_time_limit(900) . @ini_set ("memory_limit", apply_filters ("admin_memory_limit", WP_MAX_MEMORY_LIMIT)) . @ignore_user_abort (true);
 											/**/
 											do_action ("ws_plugin__qcache_before_auto_cache_engine_routines", get_defined_vars ());
 											/**/
@@ -91,7 +89,7 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 											/**/
 											if ($mutex && $mutex_method && is_array ($urls = array ())) /* Initializes the array of URLs. */
 												{
-													eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+													eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 													do_action ("ws_plugin__qcache_during_auto_cache_engine_before", get_defined_vars ());
 													unset ($__refs, $__v); /* Unset defined __refs, __v. */
 													/**/
@@ -114,7 +112,7 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 																	$urls[] = $url;
 														}
 													/**/
-													eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+													eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 													do_action ("ws_plugin__qcache_during_auto_cache_engine_before_urls", get_defined_vars ());
 													unset ($__refs, $__v); /* Unset defined __refs, __v. */
 													/**/
@@ -122,9 +120,9 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 														{
 															foreach ($urls as $url) /* Go through URLs now, and attempt to visit each of them; forcing an auto cache. */
 																{
-																	if (($parsed = @parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
+																	if (is_array ($parse = c_ws_plugin__qcache_utils_urls::parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
 																		{
-																			$host_uri = preg_replace ("/^(" . preg_quote ($parsed["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
+																			$host_uri = preg_replace ("/^(" . preg_quote ($parse["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
 																			/**/
 																			list ($cache) = (array)glob (WP_CONTENT_DIR . "/cache/qc-c-*-" . md5 ($host_uri) . "-*"); /* Match md5_2. */
 																			/**/
@@ -144,7 +142,7 @@ if (!class_exists ("c_ws_plugin__qcache_auto_cache"))
 																}
 														}
 													/**/
-													eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+													eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 													do_action ("ws_plugin__qcache_during_auto_cache_engine_before_log", get_defined_vars ());
 													unset ($__refs, $__v); /* Unset defined __refs, __v. */
 													/**/

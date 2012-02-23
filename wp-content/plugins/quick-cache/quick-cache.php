@@ -9,8 +9,8 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 /*
-Version: 110720
-Stable tag: 110720
+Version: 111203
+Stable tag: 111203
 Framework: WS-P-110523
 
 SSL Compatible: yes
@@ -18,9 +18,9 @@ WordPress Compatible: yes
 WP Multisite Compatible: yes
 Multisite Blog Farm Compatible: yes
 
-Tested up to: 3.2.1
-Requires at least: 3.1
-Requires: WordPress® 3.1+, PHP 5.2.3+
+Tested up to: 3.3
+Requires at least: 3.2
+Requires: WordPress® 3.2+, PHP 5.2.3+
 
 Copyright: © 2009 WebSharks, Inc.
 License: GNU General Public License
@@ -28,6 +28,9 @@ Contributors: WebSharks, PriMoThemes
 Author URI: http://www.primothemes.com/
 Author: PriMoThemes.com / WebSharks, Inc.
 Donate link: http://www.primothemes.com/donate/
+
+Text Domain: qcache
+Domain Path: /includes/translations
 
 Plugin Name: Quick Cache
 Forum URI: http://www.primothemes.com/forums/viewforum.php?f=5
@@ -41,14 +44,15 @@ if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
 /*
 Define versions.
 */
-@define ("WS_PLUGIN__QCACHE_VERSION", "110720");
+@define ("WS_PLUGIN__QCACHE_VERSION", "111203");
 @define ("WS_PLUGIN__QCACHE_MIN_PHP_VERSION", "5.2.3");
-@define ("WS_PLUGIN__QCACHE_MIN_WP_VERSION", "3.1");
-@define ("WS_PLUGIN__QCACHE_MIN_PRO_VERSION", "110720");
+@define ("WS_PLUGIN__QCACHE_MIN_WP_VERSION", "3.2");
+@define ("WS_PLUGIN__QCACHE_MIN_PRO_VERSION", "111203");
 /*
-Compatibility checks.
+Several compatibility checks.
+If all pass, load the Quick Cache plugin.
 */
-if (version_compare (PHP_VERSION, WS_PLUGIN__QCACHE_MIN_PHP_VERSION, ">=") && version_compare (get_bloginfo ("version"), WS_PLUGIN__QCACHE_MIN_WP_VERSION, ">=") && basename (dirname (__FILE__)) !== basename (WPMU_PLUGIN_DIR) && !isset ($GLOBALS["WS_PLUGIN__"]["qcache"]))
+if (version_compare (PHP_VERSION, WS_PLUGIN__QCACHE_MIN_PHP_VERSION, ">=") && version_compare (get_bloginfo ("version"), WS_PLUGIN__QCACHE_MIN_WP_VERSION, ">=") && !isset ($GLOBALS["WS_PLUGIN__"]["qcache"]))
 	{
 		$GLOBALS["WS_PLUGIN__"]["qcache"]["l"] = __FILE__;
 		/*
@@ -87,8 +91,12 @@ if (version_compare (PHP_VERSION, WS_PLUGIN__QCACHE_MIN_PHP_VERSION, ">=") && ve
 		/*
 		Hook after loaded.
 		*/
+		do_action("ws_plugin__qcache_loaded");
 		do_action("ws_plugin__qcache_after_loaded");
 	}
+/*
+Else NOT compatible. Do we need admin compatibility errors now?
+*/
 else if (is_admin ()) /* Admin compatibility errors. */
 	{
 		if (!version_compare (PHP_VERSION, WS_PLUGIN__QCACHE_MIN_PHP_VERSION, ">="))
@@ -98,10 +106,6 @@ else if (is_admin ()) /* Admin compatibility errors. */
 		else if (!version_compare (get_bloginfo ("version"), WS_PLUGIN__QCACHE_MIN_WP_VERSION, ">="))
 			{
 				add_action ("all_admin_notices", create_function ('', 'echo \'<div class="error fade"><p>You need WordPress® v\' . WS_PLUGIN__QCACHE_MIN_WP_VERSION . \'+ to use the Quick Cache plugin.</p></div>\';'));
-			}
-		else if (basename (dirname (__FILE__)) === basename (WPMU_PLUGIN_DIR))
-			{
-				add_action ("all_admin_notices", create_function ('', 'echo \'<div class="error fade"><p>The Quick Cache plugin is compatible with WordPress® Multisite. However, the Quick Cache plugin should NOT be in the <code>/\' . basename (WPMU_PLUGIN_DIR) . \'</code> directory. Please move it into the standard <code>/plugins</code> directory, then re-activate.</p></div>\';'));
 			}
 	}
 ?>

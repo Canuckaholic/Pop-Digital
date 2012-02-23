@@ -1,7 +1,7 @@
-=== Quick Cache ( A WP Super Cache Alternative ) ===
+=== Quick Cache ( Speed Without Compromise ) ===
 
-Version: 110720
-Stable tag: 110720
+Version: 111203
+Stable tag: 111203
 Framework: WS-P-110523
 
 SSL Compatible: yes
@@ -9,9 +9,9 @@ WordPress Compatible: yes
 WP Multisite Compatible: yes
 Multisite Blog Farm Compatible: yes
 
-Tested up to: 3.2.1
-Requires at least: 3.1
-Requires: WordPress® 3.1+, PHP 5.2.3+
+Tested up to: 3.3
+Requires at least: 3.2
+Requires: WordPress® 3.2+, PHP 5.2.3+
 
 Copyright: © 2009 WebSharks, Inc.
 License: GNU General Public License
@@ -19,6 +19,9 @@ Contributors: WebSharks, PriMoThemes
 Author URI: http://www.primothemes.com/
 Author: PriMoThemes.com / WebSharks, Inc.
 Donate link: http://www.primothemes.com/donate/
+
+Text Domain: qcache
+Domain Path: /includes/translations
 
 Plugin Name: Quick Cache
 Forum URI: http://www.primothemes.com/forums/viewforum.php?f=5
@@ -65,7 +68,7 @@ The Quick Cache plugin uses configuration options, that you select from the opti
 
 == So Why Does WordPress® Need To Be Cached? ==
 
-To understand how Quick Cache works, first you have to understand what a cached file is, and why it is absolutely necessary for your site and every visitor that comes to it. WordPress® ( by its very definition ) is a database-driven publishing platform. That means you have all these great tools on the back-end of your site to work with, but it also means that every time a Post/Page/Category is accessed on your site, dozens of connections to the database have to be made, and literally thousands of PHP routines run in harmony behind-the-scenes to make everything jive. The problem is, for every request that a browser sends to your site, all of these routines and connections have to be made ( every: yes, every single time ). Geesh, what a waste of processing power, memory, and other system resources. After all, most of the content on your site remains the same for at least a few minutes at a time. If you've been using WordPress® for very long, you've probably noticed that ( on average ) your site does not load up as fast as other sites on the web. Now you know why!
+To understand how Quick Cache works, first you have to understand what a cached file is, and why it is absolutely necessary for your site and every visitor that comes to it. WordPress® ( by its very definition ) is a database-driven publishing platform. That means you have all these great tools on the back-end of your site to work with, but it also means that every time a Post/Page/Category is accessed on your site, dozens of connections to the database have to be made, and literally thousands of PHP routines run in harmony behind-the-scenes to make everything jive. The problem is, for every request that a browser sends to your site, all of these routines and connections have to be made ( yes, every single time ). Geesh, what a waste of processing power, memory, and other system resources. After all, most of the content on your site remains the same for at least a few minutes at a time. If you've been using WordPress® for very long, you've probably noticed that ( on average ) your site does not load up as fast as other sites on the web. Now you know why!
 
 == The Definition Of A Cached File ( From The Wikipedia ) ==
 
@@ -79,7 +82,7 @@ If you care about the speed of your site, Quick Cache is one of those plugins th
 
 == Running Quick Cache On A WordPress® Multisite Installation ==
 
-WordPress® Multisite/Networking is a special version of WordPress®. If Quick Cache is installed under a Multisite/Networking installation, it will be enabled for ALL blogs the same way. The centralized config options for Quick Cache, can only be modified by a Super Administrator operating on the main site. Quick Cache has internal processing routines that prevent configuration changes, including menu displays; for anyone other than a Super Administrator operating on the main site.
+WordPress® Multisite/Networking is a special version of WordPress®. If Quick Cache is installed under a Multisite/Networking installation, it will be enabled for ALL blogs the same way. The centralized config options for Quick Cache, can only be modified by a Super Administrator operating on the Main Site. Quick Cache has internal processing routines that prevent configuration changes, including menu displays; for anyone other than a Super Administrator operating on the Main Site.
 
 == How To Enable GZIP Compression For Even Greater Speeds ==
 
@@ -107,7 +110,7 @@ First of all, make sure that you've enabled Quick Cache. After you activate the 
 There is NOT one! Quick Cache is a MUST HAVE for every WordPress® powered site. In fact, we really can't think of any site running WordPress® that would want to be without it. To put it another way, the WordPress® software itself comes with a built in action reference for an `advanced-cache.php` file, because WordPress® developers realize the importance of such as plugin. The `/wp-content/advanced-cache.php` file is named as such, because the WordPress® developers expect it to be there when caching is enabled by a plugin. If you don't have the `/wp-content/advanced-cache.php` file yet, it is because you have not enabled Quick Cache from the options panel yet.
 
 = So why does WordPress® need to be cached? =
-To understand how Quick Cache works, first you have to understand what a cached file is, and why it is absolutely necessary for your site and every visitor that comes to it. WordPress® ( by its very definition ) is a database-driven publishing platform. That means you have all these great tools on the back-end of your site to work with, but it also means that every time a Post/Page/Category is accessed on your site, dozens of connections to the database have to be made, and literally thousands of PHP routines run in harmony behind-the-scenes to make everything jive. The problem is, for every request that a browser sends to your site, all of these routines and connections have to be made ( every: yes, every single time ). Geesh, what a waste of processing power, memory, and other system resources. After all, most of the content on your site remains the same for at least a few minutes at a time. If you've been using WordPress® for very long, you've probably noticed that ( on average ) your site does not load up as fast as other sites on the web. Now you know why!
+To understand how Quick Cache works, first you have to understand what a cached file is, and why it is absolutely necessary for your site and every visitor that comes to it. WordPress® ( by its very definition ) is a database-driven publishing platform. That means you have all these great tools on the back-end of your site to work with, but it also means that every time a Post/Page/Category is accessed on your site, dozens of connections to the database have to be made, and literally thousands of PHP routines run in harmony behind-the-scenes to make everything jive. The problem is, for every request that a browser sends to your site, all of these routines and connections have to be made ( yes, every single time ). Geesh, what a waste of processing power, memory, and other system resources. After all, most of the content on your site remains the same for at least a few minutes at a time. If you've been using WordPress® for very long, you've probably noticed that ( on average ) your site does not load up as fast as other sites on the web. Now you know why!
 
 In computer science, a cache (pronounced /kash/) is a collection of data duplicating original values stored elsewhere or computed earlier, where the original data is expensive to fetch (owing to longer access time) or to compute, compared to the cost of reading the cache. In other words, a cache is a temporary storage area where frequently accessed data can be stored for rapid access. Once the data is stored in the cache, it can be used in the future by accessing the cached copy rather than re-fetching or recomputing the original data.
 
@@ -184,6 +187,9 @@ When your script finishes execution, Quick Cache will know that it should NOT ca
 If you don't update your site much, you could set this to 1 week ( i.e. 604800 seconds ) and optimize everything even further. The longer the cache expiration time is, the greater your performance gain. Alternatively, the shorter the expiration time, the fresher everything will remain on your site. 3600 ( which is 1 hour ) is the recommended expiration time, it's a good middle ground. That being said, you could set this to just 60 seconds and you would still see huge differences in speed and performance.
 
 == Changelog ==
+
+= 111203 =
+* Updated to support WordPress® v3.3. Backward compatibily remains for WordPress® v3.2.x.
 
 = 110720 =
 * Bug fix. Corrected XSS security issue associated with the handling of ``$_SERVER["REQUEST_URI"]`` inside the comment lines that Quick Cache introduces at the bottom of the source code.

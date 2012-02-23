@@ -143,16 +143,17 @@ table.ws-menu-page-table > tbody > tr
 	{
 		vertical-align: top;
 	}
-/*
-Specifically for the main content area on the left side.
-These CSS selectors address common layout styles.
-*/
 table.ws-menu-page-table td.ws-menu-page-table-l
 	{
 		padding: 0;
 		width: 100%;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l img.ws-menu-page-brand-icon
+table.ws-menu-page-table td.ws-menu-page-table-r
+	{
+		padding: 0;
+		width: auto;
+	}
+table.ws-menu-page-table img.ws-menu-page-brand-icon
 	{
 		border: 0px;
 		float: right;
@@ -161,7 +162,7 @@ table.ws-menu-page-table td.ws-menu-page-table-l img.ws-menu-page-brand-icon
 		margin: 0 0 0 25px;
 		vertical-align: middle;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l img.ws-menu-page-brand-updates
+table.ws-menu-page-table img.ws-menu-page-brand-updates
 	{
 		border: 0px;
 		float: right;
@@ -170,18 +171,18 @@ table.ws-menu-page-table td.ws-menu-page-table-l img.ws-menu-page-brand-updates
 		margin: 0 -153px 0 25px;
 		vertical-align: middle;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l p.submit
+table.ws-menu-page-table p.submit
 	{
 		margin: 0;
 		padding: 0;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l a[rel ~= "external"]
+table.ws-menu-page-table a[rel ~= "external"]
 	{
 		padding-right: 18px;
 		background: url('<?php echo $i; ?>/brand-xlink.png') no-repeat center right;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-groups-show,
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-groups-hide
+table.ws-menu-page-table div.ws-menu-page-groups-show,
+table.ws-menu-page-table div.ws-menu-page-groups-hide
 	{
 		float: right;
 		color: #333333;
@@ -200,12 +201,13 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-groups-hide
 		-webkit-user-select: none;
 		user-select: none;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-groups-hide
+table.ws-menu-page-table div.ws-menu-page-groups-hide
 	{
 		color: #999999;
 		border-color: #999999;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header
+table.ws-menu-page-table div.ws-menu-page-group-header,
+table.ws-menu-page-table div.ws-menu-page-r-group-header
 	{
 		color: #666666;
 		padding: 10px;
@@ -224,7 +226,8 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header
 		-webkit-user-select: none;
 		user-select: none;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header > ins
+table.ws-menu-page-table div.ws-menu-page-group-header > ins,
+table.ws-menu-page-table div.ws-menu-page-r-group-header > ins
 	{
 		width: 22px;
 		height: 22px;
@@ -247,19 +250,24 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header >
 		display: inline !ie<8;
 		margin-top: 0 !ie<8;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header:hover,
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header.open
+table.ws-menu-page-table div.ws-menu-page-group-header:hover,
+table.ws-menu-page-table div.ws-menu-page-group-header.open,
+table.ws-menu-page-table div.ws-menu-page-r-group-header:hover,
+table.ws-menu-page-table div.ws-menu-page-r-group-header.open
 	{
 		color: #164A61;
 		border-color: #666666;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header:hover > ins,
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group-header.open > ins
+table.ws-menu-page-table div.ws-menu-page-group-header:hover > ins,
+table.ws-menu-page-table div.ws-menu-page-group-header.open > ins,
+table.ws-menu-page-table div.ws-menu-page-r-group-header:hover > ins,
+table.ws-menu-page-table div.ws-menu-page-r-group-header.open > ins
 	{
 		color: #FFFFFF;
 		background: #164A61;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group
+table.ws-menu-page-table div.ws-menu-page-group,
+table.ws-menu-page-table div.ws-menu-page-r-group
 	{
 		display: none;
 		margin: -35px 5px 0 5px;
@@ -270,41 +278,37 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group
 		border-radius: 5px;
 		background: #FFFFFF url('<?php echo $i; ?>/brand-gradient-bg.png') repeat-x;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group > div.ws-menu-page-hr
+table.ws-menu-page-table div.ws-menu-page-group > div.ws-menu-page-hr,
+table.ws-menu-page-table div.ws-menu-page-r-group > div.ws-menu-page-hr
 	{
 		background: #666666;
 		margin: 15px 0 15px 0;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr
 	{
 		vertical-align: top;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > th
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > th
 	{
 		width: auto;
 		color: #164A61;
-		padding-bottom: 0;
+		font-size: 115%;
+		padding: 10px 10px 0 0;
+		font-family: 'Georgia', serif;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group > div.ws-menu-page-section table.form-table > tbody > tr > th
-	{
-		padding-left: 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > th.ws-menu-page-th-side
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > th.ws-menu-page-th-side
 	{
 		width: 200px;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td
 	{
 		width: auto;
+		padding: 8px 10px 8px 0;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-group > div.ws-menu-page-section table.form-table > tbody > tr > td
-	{
-		padding-left: 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > input[type = "text"],
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > input[type = "password"],
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > textarea,
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > select
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > input[type = "text"],
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > input[type = "password"],
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > textarea,
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > select
 	{
 		width: 100%; /* 100% does not work across all browsers. */
 		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
@@ -313,36 +317,36 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > input[type = "checkbox"],
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > input[type = "radio"]
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > input[type = "checkbox"],
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > input[type = "radio"]
 	{
 		margin-right: 3px;
 		vertical-align: middle;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > input[type = "button"].ws-menu-page-media-btn
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > input[type = "button"].ws-menu-page-media-btn
 	{
 		float: left;
 		margin: 5px 25px 0 0;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > textarea
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > textarea
 	{
 		font-family: 'Courier New', monospace;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > select
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > select
 	{
 		width: 99.5% !ie<8; /* Required in IE < 8. */
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > ol
-	{
-		margin: 10px 0 10px 20px;
-		list-style: decimal outside;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > ul
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > ul
 	{
 		margin: 10px 0 10px 20px;
 		list-style: disc outside;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.form-table > tbody > tr > td > div.ws-menu-page-scrollbox
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > ol
+	{
+		margin: 10px 0 10px 20px;
+		list-style: decimal outside;
+	}
+table.ws-menu-page-table div.ws-menu-page-group table.form-table > tbody > tr > td > div.ws-menu-page-scrollbox
 	{
 		margin: 1px;
 		padding: 5px;
@@ -356,103 +360,55 @@ table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-section table.
 		border-radius: 4px;
 	}
 /*
-Specifically for the main content area on the left side.
-- Specifically for info pages with readme files.
+Specifically for info pages with readme files.
 These CSS selectors address common layout styles.
 */
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-readme > div.readme > div.section
+div.ws-menu-page-readme > div.readme > div.section
 	{
 		margin: 0 0 20px 0;
 		padding: 0 0 20px 0;
 		border: 0 solid #DDDDDD;
 		border-width: 0 0 1px 0;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-readme > div.readme > div.section > h2
+div.ws-menu-page-readme > div.readme > div.section > h2
 	{
 		margin-top: 0;
 		padding-top: 0;
 		font-size: 150%;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-readme > div.readme > div.section > div.content ul
+div.ws-menu-page-readme > div.readme > div.section > div.content ul
 	{
 		padding: 0;
 		margin: 10px 0 0 25px;
 		list-style: disc outside;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.ws-menu-page-readme > div.readme > div.section > div.content ol
+div.ws-menu-page-readme > div.readme > div.section > div.content ol
 	{
 		padding: 0;
 		margin: 10px 0 0 25px;
 		list-style: decimal outside;
 	}
 /*
-Specifically for the main content area on the left side.
-- Specifically for pages with a FeedBurner block.
-These CSS selectors address common layout styles.
-*/
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock
-	{
-		margin: 0 0 20px 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > ul > li
-	{
-		margin: 25px 0 0 0;
-		padding: 0 0 20px 0;
-		border: 0 solid #DDDDDD;
-		border-width: 0 0 1px 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > ul > li:first-child
-	{
-		margin-top: 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > ul > li > span.headline
-	{
-		font-size: 150%;
-		font-family: 'Georgia', serif;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > ul > li > p.date
-	{
-		font-size: 130%;
-		font-family: 'Georgia', serif;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > ul > li > div > div.feedflare
-	{
-		margin: 10px 0 0 0;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-l div.feedburnerFeedBlock > p.fbsubscribelink
-	{
-		margin: 25px 0 0 0;
-	}
-/*
 Specifically for the right sidebar panel.
 These CSS selectors address common layout styles.
 */
-table.ws-menu-page-table td.ws-menu-page-table-r
+td.ws-menu-page-table-r div.ws-menu-page-mlist,
+td.ws-menu-page-table-r div.ws-menu-page-installation,
+td.ws-menu-page-table-r div.ws-menu-page-tools,
+td.ws-menu-page-table-r div.ws-menu-page-videos,
+td.ws-menu-page-table-r div.ws-menu-page-support,
+td.ws-menu-page-table-r div.ws-menu-page-donations,
+td.ws-menu-page-table-r div.ws-menu-page-others
 	{
-		padding: 0;
-		text-align: right;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-r a[rel ~= "external"]
-	{
-		padding-right: 18px;
-		background: url('<?php echo $i; ?>/brand-xlink.png') no-repeat center right;
-	}
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-mlist,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-installation,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-tools,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-videos,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-support,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-donations,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-others
-	{
+		width: 200px;
 		margin: 0 0 25px 25px;
 	}
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-installation img,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-tools img,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-videos img,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-support img,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-donations img,
-table.ws-menu-page-table td.ws-menu-page-table-r div.ws-menu-page-others img
+td.ws-menu-page-table-r div.ws-menu-page-installation img,
+td.ws-menu-page-table-r div.ws-menu-page-tools img,
+td.ws-menu-page-table-r div.ws-menu-page-videos img,
+td.ws-menu-page-table-r div.ws-menu-page-support img,
+td.ws-menu-page-table-r div.ws-menu-page-donations img,
+td.ws-menu-page-table-r div.ws-menu-page-others img
 	{
 		border: 0;
 		width: 200px;
@@ -463,101 +419,51 @@ Specifically for the right sidebar panel.
 - Specifically for the mailing list box.
 These CSS selectors address common layout styles.
 */
-td.ws-menu-page-table-r div.ws-menu-page-mlist
+div.ws-menu-page-mlist ul
 	{
-		text-align: left;
+		padding: 0;
+		margin: 0 0 0 12px;
+		list-style: square outside;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-feed-animator,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container
+div.ws-menu-page-mlist ul > li
 	{
-		background: #FFFFFF;
-		margin: 0 auto 0 auto;
-		border: 1px solid #CCCCCC;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		border-radius: 5px;
-	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-feed-animator,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header
-	{
-		padding: 10px;
-		color: #666666;
-		cursor: pointer;
-		font-size: 145%;
-		margin-bottom: -7px;
-		position: relative;
-		font-family: 'Georgia', serif;
-		vertical-align: middle;
+		padding: 0;
+		margin: 5px 0 5px 0;
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		user-select: none;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-feed-animator
+div.ws-menu-page-mlist ul > li:first-child
 	{
-		margin: 0 0 15px 0;
+		margin-top: 0;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header > ins
+div.ws-menu-page-mlist a[target = "_blank"]
 	{
-		width: 22px;
-		height: 22px;
-		color: #CCCCCC;
-		font-size: 17px;
-		line-height: 22px;
-		font-weight: bold;
-		text-align: center;
-		margin: -2px 13px 0 0;
-		background: #666666;
-		text-decoration: none;
-		font-family: monospace;
-		vertical-align: middle;
-		border: 1px solid transparent;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		border-radius: 5px;
-		display: inline-block;
-		zoom: 1 !ie<8;
-		display: inline !ie<8;
-		margin-top: 0 !ie<8;
+		padding-right: 18px;
+		background: url('<?php echo $i; ?>/brand-xlink.png') no-repeat center right;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header:hover,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header.open
+div.ws-menu-page-mlist div#creditfooter
 	{
-		color: #164A61;
-		border-color: #666666;
-	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header:hover > ins,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-header.open > ins
-	{
-		color: #FFFFFF;
-		background: #164A61;
-	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container
-	{
-		width: 178px;
 		display: none;
-		margin: 0 auto 0 auto;
-		padding: 20px 10px 10px 10px;
-		background: #FFFFFF url('<?php echo $i; ?>/brand-gradient-bg.png') repeat-x;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-fname,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-lname,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-email,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-groups,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-subs
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-priv
+div.ws-menu-page-mlist div#ws-mlist-div-fname,
+div.ws-menu-page-mlist div#ws-mlist-div-lname,
+div.ws-menu-page-mlist div#ws-mlist-div-email,
+div.ws-menu-page-mlist div#ws-mlist-div-groups,
+div.ws-menu-page-mlist div#ws-mlist-div-subs,
+div.ws-menu-page-mlist div#ws-mlist-div-priv
 	{
 		margin: 0 0 10px 0;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-subs
+div.ws-menu-page-mlist div#ws-mlist-div-subs
 	{
 		margin: 15px 0 0 0;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "text"],
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "password"],
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "submit"],
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container textarea,
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container select
+div.ws-menu-page-mlist input[type = "text"],
+div.ws-menu-page-mlist input[type = "password"],
+div.ws-menu-page-mlist input[type = "submit"],
+div.ws-menu-page-mlist textarea,
+div.ws-menu-page-mlist select
 	{
 		width: 100%; /* 100% does not work across all browsers. */
 		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
@@ -566,33 +472,28 @@ td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container select
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "checkbox"],
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "radio"]
+div.ws-menu-page-mlist input[type = "checkbox"],
+div.ws-menu-page-mlist input[type = "radio"]
 	{
 		margin-right: 3px;
 		vertical-align: middle;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container input[type = "submit"]
+div.ws-menu-page-mlist input[type = "submit"]
 	{
 		width: 100% !ie<8; /* This width required in IE < 8. */
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container select
+div.ws-menu-page-mlist select
 	{
 		width: 99.5% !ie<8; /* Required in IE < 8. */
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-groups > ul > li
+div.ws-menu-page-mlist div#ws-mlist-div-groups > ul,
+div.ws-menu-page-mlist div#ws-mlist-div-groups > ul > li
 	{
 		margin: 0;
 		font-size: 90%;
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		user-select: none;
+		list-style: none;
 	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-subs > ul
-	{
-		margin: 0 auto 0 auto;
-	}
-td.ws-menu-page-table-r div.ws-menu-page-mlist div#ws-mlist-div-container div#ws-mlist-div-priv
+div.ws-menu-page-mlist div#ws-mlist-div-priv
 	{
 		font-size: 80%;
 		margin: 0 0 5px 0;

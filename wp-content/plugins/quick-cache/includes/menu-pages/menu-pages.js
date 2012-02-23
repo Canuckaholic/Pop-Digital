@@ -23,48 +23,6 @@ These routines address common layout styles for menu pages.
 */
 jQuery(document).ready (function($)
 	{
-		$('div#ws-mlist-div-header').click (function()
-			{
-				var $this = $(this), $container = $('div#ws-mlist-div-container');
-				/**/
-				if ($container.css ('display') === 'none')
-					$('ins', $this).html ('-'), $this.addClass ('open'), $container.show ();
-				/**/
-				else /* Otherwise, we hide it. */
-					{
-						$('ins', $this).html ('+'), $this.removeClass ('open');
-						$container.hide ();
-					}
-				/**/
-				return false;
-			});
-		/**/
-		$('form#ws-mlist-form').submit (function()
-			{
-				var errors = ''; /* Intialize string of errors. */
-				/**/
-				if (!$.trim ($('input#ws-mlist-fname').val ()))
-					errors += 'First Name missing, please try again.\n\n';
-				/**/
-				if (!$.trim ($('input#ws-mlist-lname').val ()))
-					errors += 'Last Name missing, please try again.\n\n';
-				/**/
-				if (!$.trim ($('input#ws-mlist-email').val ()))
-					errors += 'Email missing, please try again.\n\n';
-				/**/
-				else if (!$('input#ws-mlist-email').val ().match (/^([a-z_~0-9\+\-]+)(((\.?)([a-z_~0-9\+\-]+))*)(@)([a-z0-9]+)(((-*)([a-z0-9]+))*)(((\.)([a-z0-9]+)(((-*)([a-z0-9]+))*))*)(\.)([a-z]{2,6})$/i))
-					errors += 'Invalid email address, please try again.\n\n';
-				/**/
-				if (errors = $.trim (errors))
-					{
-						alert('— Oops, you missed something: —\n\n' + errors);
-						/**/
-						return false;
-					}
-				/**/
-				return true;
-			});
-		/**/
 		var $groups = $('div.ws-menu-page-group'); /* Query groups. */
 		$groups.each (function(index) /* Go through each group, one at a time. */
 			{
@@ -124,22 +82,35 @@ jQuery(document).ready (function($)
 				return; /* Return for uniformity. */
 			});
 		/**/
-		$('div.ws-menu-page-section:first > h3').css ({'margin-top': '0'});
-		$('div.ws-menu-page-group-header:first').css ({'margin-top': '0'});
-		$('div.ws-menu-page-hr:first').css ({'margin-top': '10px', 'margin-bottom': '20px'});
-		$('div.ws-menu-page-group > div.ws-menu-page-section:first-child > h3').css ({'margin-top': '0'});
-		/**/
 		if ($groups.length > 1) /* We only apply these special margins when there are multiple groups. */
 			{
 				$('div.ws-menu-page-group-header:first').css ({'margin-right': '140px'});
 				$('div.ws-menu-page-group:first').css ({'margin-right': '145px'});
 			}
 		/**/
+		$('div.ws-menu-page-r-group-header').click (function()
+			{
+				var $this = $(this), $group = $this.next ('div.ws-menu-page-r-group');
+				/**/
+				if ($group.css ('display') === 'none')
+					$('ins', $this).html ('-'), $this.addClass ('open'), $group.show ();
+				/**/
+				else /* Otherwise, we hide it. */
+					{
+						$('ins', $this).html ('+'), $this.removeClass ('open');
+						$group.hide ();
+					}
+				/**/
+				return false;
+			});
+		/**/
+		$('div.ws-menu-page-group-header:first, div.ws-menu-page-r-group-header:first').css ({'margin-top': '0'});
+		$('div.ws-menu-page-group > div.ws-menu-page-section:first-child > h3').css ({'margin-top': '0'});
 		$('div.ws-menu-page-readme > div.readme > div.section:last-child').css ({'border-bottom-width': '0'});
 		/**/
 		$('input.ws-menu-page-media-btn').filter (function() /* Only those that have a rel attribute. */
 			{
-				return($(this).attr ('rel')) ? true : false; /* Must have rel targeting an input id. */
+				return ($(this).attr ('rel')) ? true : false; /* Must have rel targeting an input id. */
 			})/**/
 		.click (function() /* Attach click events to media buttons with send_to_editor(). */
 			{
@@ -182,5 +153,31 @@ jQuery(document).ready (function($)
 				tb_show('', './media-upload.php?type=image&TB_iframe=true');
 				/**/
 				return false;
+			});
+		/**/
+		$('form#ws-mlist-form').submit (function()
+			{
+				var errors = ''; /* Intialize string of errors. */
+				/**/
+				if (!$.trim ($('input#ws-mlist-fname').val ()))
+					errors += 'First Name missing, please try again.\n\n';
+				/**/
+				if (!$.trim ($('input#ws-mlist-lname').val ()))
+					errors += 'Last Name missing, please try again.\n\n';
+				/**/
+				if (!$.trim ($('input#ws-mlist-email').val ()))
+					errors += 'Email missing, please try again.\n\n';
+				/**/
+				else if (!$('input#ws-mlist-email').val ().match (/^([a-z_~0-9\+\-]+)(((\.?)([a-z_~0-9\+\-]+))*)(@)([a-z0-9]+)(((-*)([a-z0-9]+))*)(((\.)([a-z0-9]+)(((-*)([a-z0-9]+))*))*)(\.)([a-z]{2,6})$/i))
+					errors += 'Invalid email address, please try again.\n\n';
+				/**/
+				if (errors = $.trim (errors))
+					{
+						alert('— Oops, you missed something: —\n\n' + errors);
+						/**/
+						return false;
+					}
+				/**/
+				return true;
 			});
 	});

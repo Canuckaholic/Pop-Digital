@@ -35,9 +35,9 @@ if (!class_exists ("c_ws_plugin__qcache_clearing_routines"))
 							{
 								if ($id && preg_match ("/^single/", $GLOBALS["WS_PLUGIN__"]["qcache"]["o"]["clear_on_update"]))
 									{
-										if (($url = get_permalink ($id)) && ($parsed = @parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
+										if (($url = get_permalink ($id)) && is_array ($parse = c_ws_plugin__qcache_utils_urls::parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
 											{
-												$host_uri = preg_replace ("/^(" . preg_quote ($parsed["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
+												$host_uri = preg_replace ("/^(" . preg_quote ($parse["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
 												/**/
 												list ($cache) = (array)glob (WP_CONTENT_DIR . "/cache/qc-c-*-" . md5 ($host_uri) . "-*"); /* Match md5_2. */
 												/**/
@@ -64,9 +64,9 @@ if (!class_exists ("c_ws_plugin__qcache_clearing_routines"))
 										/**/
 										if (preg_match ("/^single-fp$/", $GLOBALS["WS_PLUGIN__"]["qcache"]["o"]["clear_on_update"]))
 											{
-												if (($url = site_url ("/")) && ($parsed = @parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
+												if (($url = site_url ("/")) && is_array ($parse = c_ws_plugin__qcache_utils_urls::parse_url ($url)) && ($host_uri = preg_replace ("/^http(s?)\:\/\//i", "", $url)))
 													{
-														$host_uri = preg_replace ("/^(" . preg_quote ($parsed["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
+														$host_uri = preg_replace ("/^(" . preg_quote ($parse["host"], "/") . ")(\:[0-9]+)(\/)/i", "$1$3", $host_uri);
 														/**/
 														list ($cache) = (array)glob (WP_CONTENT_DIR . "/cache/qc-c-*-" . md5 ($host_uri) . "-*"); /* Match md5_2. */
 														/**/
@@ -236,32 +236,32 @@ if (!class_exists ("c_ws_plugin__qcache_clearing_routines"))
 						/**/
 						do_action ("ws_plugin__qcache_before_ajax_clear", get_defined_vars ());
 						/**/
+						status_header (200); /* Send a 200 OK status header. */
+						header ("Content-Type: text/plain; charset=utf-8"); /* Content-Type text/plain with UTF-8. */
+						eval ('while (@ob_end_clean ());'); /* End/clean all output buffers that may or may not exist. */
+						/**/
 						if (($nonce = $_POST["ws_plugin__qcache_ajax_clear"]) && wp_verify_nonce ($nonce, "ws-plugin--qcache-ajax-clear"))
 							{
 								if (is_multisite () && !is_main_site () && is_object ($current_blog) && $current_blog->blog_id)
 									{
 										c_ws_plugin__qcache_purging_routines::purge_cache_dir ($current_blog);
 										/**/
-										header ("Content-Type: text/plain; charset=utf-8");
-										/**/
 										$status = 'Cleared ( this blog )'; /* Indicate "this blog" to the Super Admin. */
 										/**/
-										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').css ('background-image', 'url(\'" . c_ws_plugin__qcache_utils_strings::esc_sq ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"]) . "/images/ajax-clear.png\')');";
+										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').css ('background-image', 'url(\'" . c_ws_plugin__qcache_utils_strings::esc_js_sq ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"], 3) . "/images/ajax-clear.png\')');";
 										echo "setTimeout (function (){ jQuery ('input#ws-plugin--qcache-ajax-clear').val ('Clear Cache'); }, 2000);";
-										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').val ('" . c_ws_plugin__qcache_utils_strings::esc_sq ($status) . "');";
+										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').val ('" . c_ws_plugin__qcache_utils_strings::esc_js_sq ($status) . "');";
 										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').each (function (){ this.blur(); });";
 									}
 								else /* Otherwise, handle this normally. We are NOT in Multisite Mode. */
 									{
 										c_ws_plugin__qcache_purging_routines::purge_cache_dir ();
 										/**/
-										header ("Content-Type: text/plain; charset=utf-8");
-										/**/
 										$status = (is_multisite ()) ? 'Cleared ( all blogs )' : '( Cleared )';
 										/**/
-										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').css ('background-image', 'url(\'" . c_ws_plugin__qcache_utils_strings::esc_sq ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"]) . "/images/ajax-clear.png\')');";
+										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').css ('background-image', 'url(\'" . c_ws_plugin__qcache_utils_strings::esc_js_sq ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"], 3) . "/images/ajax-clear.png\')');";
 										echo "setTimeout (function (){ jQuery ('input#ws-plugin--qcache-ajax-clear').val ('Clear Cache'); }, 2000);";
-										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').val ('" . c_ws_plugin__qcache_utils_strings::esc_sq ($status) . "');";
+										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').val ('" . c_ws_plugin__qcache_utils_strings::esc_js_sq ($status) . "');";
 										echo "jQuery ('input#ws-plugin--qcache-ajax-clear').each (function (){ this.blur(); });";
 									}
 								/**/

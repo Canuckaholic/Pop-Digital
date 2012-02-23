@@ -25,11 +25,15 @@ if (!class_exists ("c_ws_plugin__qcache_admin_css_js_in"))
 						/**/
 						if ($_GET["ws_plugin__qcache_menu_pages_css"] && is_user_logged_in () && current_user_can ("edit_plugins"))
 							{
+								status_header (200); /* 200 OK status header. */
+								/**/
 								header ("Content-Type: text/css; charset=utf-8");
 								header ("Expires: " . gmdate ("D, d M Y H:i:s", strtotime ("-1 week")) . " GMT");
 								header ("Last-Modified: " . gmdate ("D, d M Y H:i:s") . " GMT");
 								header ("Cache-Control: no-cache, must-revalidate, max-age=0");
 								header ("Pragma: no-cache");
+								/**/
+								eval ('while (@ob_end_clean ());'); /* Clean buffers. */
 								/**/
 								$u = $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"];
 								$i = $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/images";
@@ -59,11 +63,15 @@ if (!class_exists ("c_ws_plugin__qcache_admin_css_js_in"))
 						/**/
 						if ($_GET["ws_plugin__qcache_menu_pages_js"] && is_user_logged_in () && current_user_can ("edit_plugins"))
 							{
+								status_header (200); /* 200 OK status header. */
+								/**/
 								header ("Content-Type: text/javascript; charset=utf-8");
 								header ("Expires: " . gmdate ("D, d M Y H:i:s", strtotime ("-1 week")) . " GMT");
 								header ("Last-Modified: " . gmdate ("D, d M Y H:i:s") . " GMT");
 								header ("Cache-Control: no-cache, must-revalidate, max-age=0");
 								header ("Pragma: no-cache");
+								/**/
+								eval ('while (@ob_end_clean ());'); /* Clean buffers. */
 								/**/
 								$u = $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"];
 								$i = $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/images";

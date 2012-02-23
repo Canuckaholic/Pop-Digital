@@ -3,13 +3,13 @@
 Plugin Name: WP-SWFObject
 Plugin URI: http://blog.unijimpe.net/wp-swfobject/
 Description: Allow insert Flash Movies into WordPress blog using SWFObject library. For use this plugin: [SWF]pathtofile, width, height[/SWF].
-Version: 2.3
+Version: 2.4
 Author: Jim Penaloza Calixto 
 Author URI: http://blog.unijimpe.net
 */
 
 // Define Global params
-$wpswf_version	= "2.3";										// version of plugin 
+$wpswf_version	= "2.4";										// version of plugin 
 $wpswf_random	= substr(md5(uniqid(rand(), true)),0,4);		// create unique id for divs
 $wpswf_number	= 0; 											// number of swf into page
 $wpswf_params	= array("swf_version"		=>	"9.0.0",		// array of config options
@@ -18,6 +18,7 @@ $wpswf_params	= array("swf_version"		=>	"9.0.0",		// array of config options
 						"swf_menu"			=>	"false",
 						"swf_quality"		=>	"high",
 						"swf_fullscreen"	=>	"false",
+						"swf_scriptaccess"	=>	"always",
 						"swf_align"			=>	"none",
 						"swf_message"		=>	"This movie requires Flash Player 9",
 						"swf_file"			=>	"v20int",
@@ -29,7 +30,7 @@ $wpswf_params	= array("swf_version"		=>	"9.0.0",		// array of config options
 $wpswf_files	= array(
 						"v15int"			=>	WP_PLUGIN_URL."/wp-swfobject/1.5/swfobject.js",
 						"v20int"			=>	WP_PLUGIN_URL."/wp-swfobject/2.0/swfobject.js",
-						"v20ext"			=>	"http://ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js"
+						"v20ext"			=>	"http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"
 						);
 
 // Define General Options
@@ -39,6 +40,7 @@ add_option("swf_wmode", 		$wpswf_params["swf_wmode"], 		'WMode for Flash Movie.'
 add_option("swf_menu", 			$wpswf_params["swf_menu"], 			'Option for Activate menu for Flash Movie.');
 add_option("swf_quality", 		$wpswf_params["swf_quality"], 		'Default quality for Flash Movie.');
 add_option("swf_fullscreen",	$wpswf_params["swf_fullscreen"],	'If Allow Fullscreen mode for Flash Movie.');
+add_option("swf_scriptaccess",	$wpswf_params["swf_scriptaccess"],	'Controls the ability to perform outbound URL access from SWF file');
 add_option("swf_align", 		$wpswf_params["swf_align"], 		'Align for Flash Movie.');
 add_option("swf_message", 		$wpswf_params["swf_message"], 		'Message for missing player.');
 add_option("swf_file", 			$wpswf_params["swf_file"], 			'File version of SWFObject.');
@@ -153,6 +155,7 @@ function wpswfObject($match) {
 			$writeswf.= "\tvswf.addParam(\"wmode\", \"".$wpswf_config['swf_wmode']."\");\n";
 			$writeswf.= "\tvswf.addParam(\"menu\", \"".$wpswf_config['swf_menu']."\");\n";
 			$writeswf.= "\tvswf.addParam(\"quality\", \"".$wpswf_config['swf_quality']."\");\n";
+			$writeswf.= "\tvswf.addParam(\"allowScriptAccess\", \"".$wpswf_config['swf_scriptaccess']."\");\n";
 			if ($wpswf_config['swf_fullscreen'] == "true") {
 				$writeswf.= "\tvswf.addParam(\"allowFullScreen\", \"".$wpswf_config['swf_fullscreen']."\");\n";
 			}
@@ -174,6 +177,7 @@ function wpswfObject($match) {
 			$writeswf.= "<param name=\"wmode\" value=\"".$wpswf_config['swf_wmode']."\"></param>\n";
 			$writeswf.= "<param name=\"menu\" value=\"".$wpswf_config['swf_menu']."\"></param>\n";
 			$writeswf.= "<param name=\"bgcolor\" value=\"".$wpswf_config['swf_bgcolor']."\"></param>\n";
+			$writeswf.= "<param name=\"allowScriptAccess\" value=\"".$wpswf_config['swf_scriptaccess']."\"></param>\n";
 			if ($wpswf_config['swf_fullscreen'] == "true") {
 				$writeswf.= "<param name=\"allowFullScreen\" value=\"true\"></param>\n"; 
 			}
@@ -203,7 +207,8 @@ function wpswfObject($match) {
 			$wpswf_params = "wmode: \"".$wpswf_config['swf_wmode']."\", ";
 			$wpswf_params.= "menu: \"".$wpswf_config['swf_menu']."\", ";
 			$wpswf_params.= "quality: \"".$wpswf_config['swf_quality']."\", ";
-			$wpswf_params.= "bgcolor: \"".$wpswf_config['swf_bgcolor']."\"";
+			$wpswf_params.= "bgcolor: \"".$wpswf_config['swf_bgcolor']."\", ";
+			$wpswf_params.= "allowScriptAccess: \"".$wpswf_config['swf_scriptaccess']."\"";
 			if ($wpswf_config['swf_fullscreen'] == "true") {
 				$wpswf_params.= ", allowFullScreen: \"".$wpswf_config['swf_fullscreen']."\"";
 			}
@@ -247,7 +252,7 @@ function wpswfOptionsPage() {
 			<h2>WP-SWFObject <sup style='color:#D54E21;font-size:12px;'><?php echo $wpswf_version; ?></sup></h2>
 				<table class="form-table">
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_file">SWFObject Version</label>
 						</th>
 						<td>
@@ -257,29 +262,29 @@ function wpswfOptionsPage() {
 								<option value="v20ext" <?php if ($wpswf_config["swf_file"] == "v20ext") { echo "selected=\"selected\""; } ?>>SWFObject 2.0 (from Google Library)</option>
 								<option value="vxhtml" <?php if ($wpswf_config["swf_file"] == "vxhtml") { echo "selected=\"selected\""; } ?>>XHTML (&lt;object&gt;)</option>
 							</select>
-							<span class="setting-description">Select version of SWFObject.</span>
+							<span class="description">Select version of SWFObject.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_version">Flash Player Version</label>
 						</th>
 						<td>
-							<input type="text" size="16" maxlength="12" name="swf_version" id="swf_version" value="<?php echo $wpswf_config["swf_version"]; ?>" />
-							<span class="setting-description">Enter number of flash version required for flash player.</span>
+							<input type="text" maxlength="12" name="swf_version" id="swf_version" value="<?php echo $wpswf_config["swf_version"]; ?>" class="regular-text" />
+							<span class="description">Enter number of flash version required for flash player.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_bgcolor">Background Color</label>
 						</th>
 						<td>
-							<input type="text" size="16" maxlength="7" name="swf_bgcolor" id="swf_bgcolor" value="<?php echo $wpswf_config["swf_bgcolor"]; ?>" />
-							<span class="setting-description">Enter HEX number for background color for flash movie.</span>
+							<input type="text" maxlength="7" name="swf_bgcolor" id="swf_bgcolor" value="<?php echo $wpswf_config["swf_bgcolor"]; ?>" class="regular-text" />
+							<span class="description">Enter HEX number for background color for flash movie.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_wmode">Window Mode</label>
 						</th>
 						<td>
@@ -288,11 +293,11 @@ function wpswfOptionsPage() {
 								<option value="opaque" <?php if ($wpswf_config["swf_wmode"] == "opaque") { echo "selected=\"selected\""; } ?>>Opaque</option>
 								<option value="transparent" <?php if ($wpswf_config["swf_wmode"] == "transparent") { echo "selected=\"selected\""; } ?>>Transparent</option>
 							</select>
-							<span class="setting-description">Select wmode for movie, by defaul is <strong>window</strong>.</span>
+							<span class="description">Select wmode for movie, by defaul is <strong>window</strong>.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_menu">Show Menu</label>
 						</th>
 						<td>
@@ -300,11 +305,11 @@ function wpswfOptionsPage() {
 								<option value="true" <?php if ($wpswf_config["swf_menu"] == "true") { echo "selected=\"selected\""; } ?>>True</option>
 								<option value="false" <?php if ($wpswf_config["swf_menu"] == "false") { echo "selected=\"selected\""; } ?>>False</option>
 							</select>
-							<span class="setting-description">Select option for show/hide menu.</span>
+							<span class="description">Select option for show/hide menu.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_quality">Quality Movie</label>
 						</th>
 						<td>
@@ -316,11 +321,11 @@ function wpswfOptionsPage() {
 								<option value="high" <?php if ($wpswf_config["swf_quality"] == "high") { echo "selected=\"selected\""; } ?>>High</option>
 								<option value="best" <?php if ($wpswf_config["swf_quality"] == "best") { echo "selected=\"selected\""; } ?>>Best</option>
 							</select>
-							<span class="setting-description">Select quality for flash movie, by default is <strong>hight</strong>.</span>
+							<span class="description">Select quality for flash movie, by default is <strong>hight</strong>.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_fullscreen">Allow Fullscreen</label>
 						</th>
 						<td>
@@ -328,11 +333,24 @@ function wpswfOptionsPage() {
 								<option value="true" <?php if ($wpswf_config["swf_fullscreen"] == "true") { echo "selected=\"selected\""; } ?>>True</option>
 								<option value="false" <?php if ($wpswf_config["swf_fullscreen"] == "false") { echo "selected=\"selected\""; } ?>>False</option>
 							</select>
-							<span class="setting-description">Allow Fullscreen (You must have version >= 9,0,28,0 of Flash Player).</span>
+							<span class="description">Allow Fullscreen (You must have version >= 9,0,28,0 of Flash Player).</span>
+						</td>
+					</tr>
+                    <tr>
+						<th scope="row">
+							<label for="swf_scriptaccess">Allow Script Access</label>
+						</th>
+						<td>
+							<select name="swf_scriptaccess" id="swf_scriptaccess">
+								<option value="always" <?php if ($wpswf_config["swf_scriptaccess"] == "always") { echo "selected=\"selected\""; } ?>>Always</option>
+								<option value="sameDomain" <?php if ($wpswf_config["swf_scriptaccess"] == "sameDomain") { echo "selected=\"selected\""; } ?>>Same Domain</option>
+                                <option value="never" <?php if ($wpswf_config["swf_scriptaccess"] == "never") { echo "selected=\"selected\""; } ?>>Never</option>
+							</select>
+							<span class="description">Controls the ability to perform outbound URL access from SWF file.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_align">Align</label>
 						</th>
 						<td>
@@ -346,25 +364,25 @@ function wpswfOptionsPage() {
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_message">Message Require Flash</label>
 						</th>
 						<td>
-							<input type="text" size="40" name="swf_message" id="swf_message" value="<?php echo $wpswf_config["swf_message"]; ?>" />
-							<span class="setting-description">Enter message for warning missing player.</span>
+							<input type="text" name="swf_message" id="swf_message" value="<?php echo $wpswf_config["swf_message"]; ?>" class="regular-text" />
+							<span class="description">Enter message for warning missing player.</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row" valign="top">
+						<th scope="row">
 							<label for="swf_message">Message iPhone Browser</label>
 						</th>
 						<td>
-							<input type="text" size="40" name="swf_msgiphone" id="swf_msgiphone" value="<?php echo $wpswf_config["swf_msgiphone"]; ?>" />
-							<span class="setting-description">Enter message for iphone Browser.</span>
+							<input type="text" name="swf_msgiphone" id="swf_msgiphone" value="<?php echo $wpswf_config["swf_msgiphone"]; ?>" class="regular-text" />
+							<span class="description">Enter message for iphone Browser.</span>
 						</td>
 					</tr>
 					<tr>
-					    <th scope="row" valign="top">
+					    <th scope="row">
 					  		<label for="swf_align">Show Info (Youtube)</label>
 					    </th>
 					 	<td>
@@ -376,7 +394,7 @@ function wpswfOptionsPage() {
 					 	</td>
 				    </tr>
 					<tr>
-					    <th scope="row" valign="top">
+					    <th scope="row">
 					  		<label for="swf_annotations">Show Annotations (Youtube)</label>
 					    </th>
 					 	<td>
@@ -384,11 +402,11 @@ function wpswfOptionsPage() {
 								<option value="true" <?php if ($wpswf_config["swf_annotations"] == "true") { echo "selected=\"selected\""; } ?>>True</option>
 								<option value="false" <?php if ($wpswf_config["swf_annotations"] == "false") { echo "selected=\"selected\""; } ?>>False</option>
 							</select>
-							<span class="setting-description">Display annotations in Youtube videos.</span>
+							<span class="description">Display annotations in Youtube videos.</span>
 					 	</td>
 				    </tr>
 					<tr>
-					    <th scope="row" valign="top">
+					    <th scope="row">
 					  		<label for="swf_loading">Show Loading</label>
 					    </th>
 					 	<td>
@@ -396,7 +414,7 @@ function wpswfOptionsPage() {
 								<option value="true" <?php if ($wpswf_config["swf_loading"] == "true") { echo "selected=\"selected\""; } ?>>True</option>
 								<option value="false" <?php if ($wpswf_config["swf_loading"] == "false") { echo "selected=\"selected\""; } ?>>False</option>
 							</select>
-							<span class="setting-description">Display Loading for SWFs.</span>
+							<span class="description">Display Loading for SWFs.</span>
 					 	</td>
 				    </tr>
 					</table>
@@ -405,7 +423,7 @@ function wpswfOptionsPage() {
 					</p>
 					<table>
 					<tr>
-						<th width="30%" valign="top" style="padding-top: 10px; text-align:left;" colspan="2">
+						<th width="30%" style="padding-top: 10px; text-align:left;" colspan="2">
 							More Information and Support
 						</th>
 					</tr>
@@ -439,6 +457,7 @@ function wpswfAddheader() {
 }
 
 add_filter('the_content', 'wpswfParse');
+add_filter('widget_text', 'wpswfParse');
 add_action('wp_head', 'wpswfAddheader');
 add_action('admin_menu', 'wpswfAddMenu');
 ?>

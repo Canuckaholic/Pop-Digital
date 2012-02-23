@@ -35,11 +35,11 @@ if (!function_exists ("ws_plugin__qcache_handler"))
 	{
 		function ws_plugin__qcache_handler () /* The Quick Cache handler. */
 			{
-				if (($cache_allowed = QUICK_CACHE_ENABLED) && !(is_multisite () && preg_match ("/\/files\//i", $_SERVER["REQUEST_URI"])))
+				if (($cache_allowed = QUICK_CACHE_ENABLED) && !(is_multisite () && preg_match ("/\/files(?:\/|\?|$)/i", $_SERVER["REQUEST_URI"])))
 					{
 						define ("QUICK_CACHE_TIMER", microtime (true)); /* Start the timer. */
 						/**/
-						define ("QUICK_CACHE_DETECTED_ZLIB_OC", ((@ini_get ("zlib.output_compression") && preg_match ("/^(1|on|yes|true)$/i", ini_get ("zlib.output_compression"))) ? true : false));
+						define ("QUICK_CACHE_DETECTED_ZLIB_OC", ((@ini_get ("zlib.output_compression") && preg_match ("/^(?:1|on|yes|true)$/i", ini_get ("zlib.output_compression"))) ? true : false));
 						/**/
 						define ("QUICK_CACHE_AUTO_CACHE_ENGINE", ($_SERVER["REMOTE_ADDR"] === $_SERVER["SERVER_ADDR"] && preg_match ("/Quick Cache \( Auto-Cache Engine \)/i", $_SERVER["HTTP_USER_AGENT"])));
 						/**/
@@ -62,19 +62,19 @@ if (!function_exists ("ws_plugin__qcache_handler"))
 							{
 								return; /* Return now. Nothing more to do here. */
 							}
-						else if ($_SERVER["REMOTE_ADDR"] === $_SERVER["SERVER_ADDR"] && !QUICK_CACHE_AUTO_CACHE_ENGINE && !preg_match ("/^localhost(\:[0-9]+)?$/i", $_SERVER["HTTP_HOST"]) && (!defined ("LOCALHOST") || !LOCALHOST))
+						else if ($_SERVER["REMOTE_ADDR"] === $_SERVER["SERVER_ADDR"] && !QUICK_CACHE_AUTO_CACHE_ENGINE && stripos ($_SERVER["HTTP_HOST"], "localhost") === false && strpos ($_SERVER["HTTP_HOST"], "127.0.0.1") === false && (!defined ("LOCALHOST") || !LOCALHOST))
 							{
 								return; /* Return now. Nothing more to do here. */
 							}
-						else if (preg_match ("/^(POST|PUT)$/i", $_SERVER["REQUEST_METHOD"]))
+						else if (preg_match ("/^(?:POST|PUT)$/i", $_SERVER["REQUEST_METHOD"]))
 							{
 								return; /* Return now. Nothing more to do here. */
 							}
-						else if (is_admin () || preg_match ("/\/wp-admin\//i", $_SERVER["REQUEST_URI"]))
+						else if (is_admin () || preg_match ("/\/wp-admin(?:\/|\?|$)/", $_SERVER["REQUEST_URI"]))
 							{
 								return; /* Return now. Nothing more to do here. */
 							}
-						else if (preg_match ("/\/(wp-app|wp-signup|wp-register|wp-activate|wp-login|xmlrpc)\.php/", $_SERVER["REQUEST_URI"]))
+						else if (preg_match ("/\/(?:wp-app|wp-signup|wp-register|wp-activate|wp-login|xmlrpc)\.php/", $_SERVER["REQUEST_URI"]))
 							{
 								return; /* Return now. Nothing more to do here. */
 							}
@@ -109,7 +109,7 @@ if (!function_exists ("ws_plugin__qcache_handler"))
 								$logd = (defined ("LOGGED_IN_COOKIE")) ? LOGGED_IN_COOKIE : "wordpress_logged_in_";
 								$test = (defined ("TEST_COOKIE")) ? TEST_COOKIE : "wordpress_test_cookie";
 								/**/
-								$regx = "/^(" . preg_quote ($coma, "/") . "|" . preg_quote ($post, "/") . "|" . preg_quote ($user, "/") . "|" . preg_quote ($pass, "/") . "|" . preg_quote ($auth, "/") . "|" . preg_quote ($seca, "/") . "|" . preg_quote ($logd, "/") . "|" . preg_quote ($test, "/") . ")/";
+								$regx = "/^(?:" . preg_quote ($coma, "/") . "|" . preg_quote ($post, "/") . "|" . preg_quote ($user, "/") . "|" . preg_quote ($pass, "/") . "|" . preg_quote ($auth, "/") . "|" . preg_quote ($seca, "/") . "|" . preg_quote ($logd, "/") . "|" . preg_quote ($test, "/") . ")/";
 								/**/
 								foreach ($_COOKIE as $k => $v)
 									if (preg_match ($regx, $k) && strlen ($v))
@@ -152,7 +152,7 @@ if (!function_exists ("ws_plugin__qcache_handler"))
 							{
 								function ws_plugin__qcache_gzdecode ($data = FALSE) /* See: http://us2.php.net/manual/en/function.readgzfile.php. */
 									{
-										if (function_exists ("zlib_get_coding_type")) /* Are zlib functions available on this site? */
+										if (function_exists ("zlib_get_coding_type")) /* Are ZLIB functions available on this site? */
 											{
 												if (!is_dir (WP_CONTENT_DIR . "/cache"))
 													@mkdir (WP_CONTENT_DIR . "/cache", 0777, true);

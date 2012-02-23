@@ -15,10 +15,6 @@ if (!class_exists ("c_ws_plugin__qcache_admin_css_js"))
 	{
 		class c_ws_plugin__qcache_admin_css_js
 			{
-				/*
-				Function that outputs the css for menu pages.
-				Attach to: add_action("init");
-				*/
 				public static function menu_pages_css ()
 					{
 						if ($_GET["ws_plugin__qcache_menu_pages_css"]) /* Call inner function? */
@@ -26,10 +22,7 @@ if (!class_exists ("c_ws_plugin__qcache_admin_css_js"))
 								return c_ws_plugin__qcache_admin_css_js_in::menu_pages_css ();
 							}
 					}
-				/*
-				Function that outputs the js for menu pages.
-				Attach to: add_action("init");
-				*/
+				/**/
 				public static function menu_pages_js ()
 					{
 						if ($_GET["ws_plugin__qcache_menu_pages_js"]) /* Call inner function? */

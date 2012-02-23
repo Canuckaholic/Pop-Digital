@@ -9,7 +9,7 @@ along with this software. In the main directory, see: /licensing/
 If not, see: <http://www.gnu.org/licenses/>.
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
-	exit ("Do not access this file directly.");
+	exit("Do not access this file directly.");
 /**/
 if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 	{
@@ -24,13 +24,13 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 					{
 						do_action ("ws_plugin__qcache_before_update_all_options", get_defined_vars ()); /* If you use this Hook, be sure to use `wp_verify_nonce()`. */
 						/**/
-						if ($verified || ( ($nonce = $_POST["ws_plugin__qcache_options_save"]) && wp_verify_nonce ($nonce, "ws-plugin--qcache-options-save")))
+						if ($verified || (($nonce = $_POST["ws_plugin__qcache_options_save"]) && wp_verify_nonce ($nonce, "ws-plugin--qcache-options-save")))
 							{
 								if (!is_multisite () || (is_main_site () && is_super_admin ())) /* If Multisite, this MUST be ( Main Site / Super Admin ). */
 									{
 										$options = $GLOBALS["WS_PLUGIN__"]["qcache"]["o"]; /* Here we get all of the existing options. */
-										$new_options = (is_array ($new_options)) ? $new_options : (array)$_POST; /* Force array. */
-										$new_options = c_ws_plugin__qcache_utils_strings::trim_deep (stripslashes_deep ($new_options));
+										$new_options = (is_array ($new_options)) ? $new_options : ((!empty ($_POST)) ? stripslashes_deep ($_POST) : array ());
+										$new_options = c_ws_plugin__qcache_utils_strings::trim_deep ($new_options);
 										/**/
 										foreach ((array)$new_options as $key => $value) /* Looking for relevant keys. */
 											if (preg_match ("/^" . preg_quote ("ws_plugin__qcache_", "/") . "/", $key))
@@ -47,10 +47,10 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 														$options[$key] = $value; /* Overriding a possible existing option. */
 													}
 										/**/
-										$options["options_version"] = (string) ($options["options_version"] + 0.001);
+										$options["options_version"] = (string)($options["options_version"] + 0.001);
 										$options = ws_plugin__qcache_configure_options_and_their_defaults ($options);
 										/**/
-										eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+										eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 										do_action ("ws_plugin__qcache_during_update_all_options", get_defined_vars ());
 										unset ($__refs, $__v); /* Unset defined __refs, __v. */
 										/**/
@@ -194,7 +194,7 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 				*/
 				public static function _add_settings_link ($links = array (), $file = "")
 					{
-						eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+						eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 						do_action ("_ws_plugin__qcache_before_add_settings_link", get_defined_vars ());
 						unset ($__refs, $__v); /* Unset defined __refs, __v. */
 						/**/
@@ -203,7 +203,7 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 								$settings = '<a href="' . esc_attr (admin_url ("/admin.php?page=ws-plugin--qcache-options")) . '">Settings</a>';
 								array_unshift ($links, $settings);
 								/**/
-								eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+								eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 								do_action ("_ws_plugin__qcache_during_add_settings_link", get_defined_vars ());
 								unset ($__refs, $__v); /* Unset defined __refs, __v. */
 							}
@@ -216,34 +216,54 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 				*/
 				public static function _hide_from_plugins_menu ($plugins = FALSE)
 					{
-						eval ('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
+						eval('foreach(array_keys(get_defined_vars())as$__v)$__refs[$__v]=&$$__v;');
 						do_action ("_ws_plugin__qcache_before_hide_from_plugins_menu", get_defined_vars ());
 						unset ($__refs, $__v); /* Unset defined __refs, __v. */
 						/**/
 						foreach ($plugins as $file => $plugin)
 							if (preg_match ("/" . preg_quote ($file, "/") . "$/", $GLOBALS["WS_PLUGIN__"]["qcache"]["l"]))
-								unset ($plugins[$file]);
+								unset($plugins[$file]);
 						/**/
 						return apply_filters ("_ws_plugin__qcache_hide_from_plugins_menu", $plugins, get_defined_vars ());
 					}
 				/*
-				Add header controls to the admin panel.
-				Attach to: add_action("in_admin_header");
+				Adds nodes to the Admin Bar.
+				Attach to: add_action("admin_bar_menu");
 				*/
-				public static function add_admin_header_controls ()
+				public static function add_admin_bar_nodes (&$wp_admin_bar = FALSE)
 					{
-						do_action ("ws_plugin__qcache_before_add_admin_header_controls", get_defined_vars ());
+						do_action ("ws_plugin__qcache_before_add_admin_bar_nodes", get_defined_vars ());
 						/**/
 						if ((!is_multisite () && current_user_can ("edit_plugins")) || (is_multisite () && (is_super_admin () || apply_filters ("ws_plugin__qcache_ms_user_can_see_admin_header_controls", false))))
 							{
-								echo '<form style="float:right; margin:2px 0 0 10px;" onsubmit="return false;">' . "\n";
-								echo '<input type="button" id="ws-plugin--qcache-ajax-clear" style="outline:none; min-width:115px; padding-left:22px; padding-right:5px; background-repeat:no-repeat; background-position:5px center; background-image:url(\'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"])) . '/images/ajax-clear.png\');" value="Clear Cache" title="Clear Cache Manually" onclick="jQuery (this).css (\'background-image\', \'url(\\\'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"])) . '/images/ajax-loader.gif\\\')\'); jQuery.post (ajaxurl, {action: \'ws_plugin__qcache_ajax_clear\', ws_plugin__qcache_ajax_clear: \'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr (wp_create_nonce ("ws-plugin--qcache-ajax-clear"))) . '\'}, function (response){ eval (response); });" />' . "\n";
-								echo '</form>';
-								/**/
-								do_action ("ws_plugin__qcache_during_add_admin_header_controls", get_defined_vars ());
+								if (is_object /* Using the Admin Bar for WordPress® v3.3+. */ ($wp_admin_bar) && version_compare (get_bloginfo ("version"), "3.3-RC1", ">="))
+									{
+										$clear = '<form onsubmit="return false;"><input type="button" id="ws-plugin--qcache-ajax-clear" style="outline:none; min-width:115px; padding-left:22px; padding-right:5px; color:#000000; text-shadow:none; background-repeat:no-repeat; background-position:5px center; background-image:url(\'' . c_ws_plugin__qcache_utils_strings::esc_js_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"])) . '/images/ajax-clear.png\');" value="Clear Cache" title="Clear Cache Manually" onclick="jQuery (this).css (\'background-image\', \'url(\\\'' . c_ws_plugin__qcache_utils_strings::esc_js_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"]), 3) . '/images/ajax-loader.gif\\\')\'); jQuery.post (ajaxurl, {action: \'ws_plugin__qcache_ajax_clear\', ws_plugin__qcache_ajax_clear: \'' . c_ws_plugin__qcache_utils_strings::esc_js_sq (esc_attr (wp_create_nonce ("ws-plugin--qcache-ajax-clear"))) . '\'}, function (response){ eval (response); });" /></form>';
+										$wp_admin_bar->add_node (array ("parent" => "top-secondary", "id" => "ws-plugin--qcache-ajax-clear-menu", "title" => $clear, "meta" => array ("class" => "ws-plugin--qcache-ajax-clear-menu", "tabindex" => -1)));
+									}
+								do_action ("ws_plugin__qcache_during_add_admin_bar_nodes", get_defined_vars ());
 							}
+						do_action ("ws_plugin__qcache_after_add_admin_bar_nodes", get_defined_vars ());
 						/**/
-						do_action ("ws_plugin__qcache_after_add_admin_header_controls", get_defined_vars ());
+						return; /* Return for uniformity. */
+					}
+				/*
+				Adds old items to the admin header.
+				Attach to: add_action("in_admin_header");
+				*/
+				public static function old_admin_header_items /* Backward compatibility. */ ()
+					{
+						do_action ("ws_plugin__qcache_before_old_admin_header_items", get_defined_vars ());
+						/**/
+						if (version_compare /* Backward compatibility with WordPress® v3.2. */ (get_bloginfo ("version"), "3.3-RC1", "<"))
+							/**/
+							if ((!is_multisite () && current_user_can ("edit_plugins")) || (is_multisite () && (is_super_admin () || apply_filters ("ws_plugin__qcache_ms_user_can_see_admin_header_controls", false))))
+								{
+									echo '<form style="float:right; margin:2px 0 0 10px;" onsubmit="return false;"><input type="button" id="ws-plugin--qcache-ajax-clear" style="outline:none; min-width:115px; padding-left:22px; padding-right:5px; background-repeat:no-repeat; background-position:5px center; background-image:url(\'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"])) . '/images/ajax-clear.png\');" value="Clear Cache" title="Clear Cache Manually" onclick="jQuery (this).css (\'background-image\', \'url(\\\'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr ($GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"])) . '/images/ajax-loader.gif\\\')\'); jQuery.post (ajaxurl, {action: \'ws_plugin__qcache_ajax_clear\', ws_plugin__qcache_ajax_clear: \'' . c_ws_plugin__qcache_utils_strings::esc_sq (esc_attr (wp_create_nonce ("ws-plugin--qcache-ajax-clear"))) . '\'}, function (response){ eval (response); });" /></form>';
+									/**/
+									do_action ("ws_plugin__qcache_during_old_admin_header_items", get_defined_vars ());
+								}
+						do_action ("ws_plugin__qcache_after_old_admin_header_items", get_defined_vars ());
 						/**/
 						return; /* Return for uniformity. */
 					}
@@ -257,13 +277,14 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 						/**/
 						if ($_GET["page"] && preg_match ("/ws-plugin--qcache-/", $_GET["page"]))
 							{
-								wp_enqueue_script ("jquery");
-								wp_enqueue_script ("thickbox");
-								wp_enqueue_script ("media-upload");
-								wp_enqueue_script ("jquery-ui-core");
-								wp_enqueue_script ("jquery-json-ps", $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/includes/menu-pages/jquery-json-ps-min.js", array ("jquery"), c_ws_plugin__qcache_utilities::ver_checksum ());
-								wp_enqueue_script ("jquery-ui-effects", $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/includes/menu-pages/jquery-ui-effects.js", array ("jquery", "jquery-ui-core"), c_ws_plugin__qcache_utilities::ver_checksum ());
-								wp_enqueue_script ("ws-plugin--qcache-menu-pages", site_url ("/?ws_plugin__qcache_menu_pages_js=" . urlencode (mt_rand ())), array ("jquery", "thickbox", "media-upload", "jquery-json-ps", "jquery-ui-core", "jquery-ui-effects"), c_ws_plugin__qcache_utilities::ver_checksum ());
+								wp_enqueue_script("jquery");
+								wp_enqueue_script("thickbox");
+								wp_enqueue_script("media-upload");
+								wp_enqueue_script("jquery-ui-core");
+								wp_enqueue_script ("jquery-sprintf", $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/includes/jquery/jquery.sprintf/jquery.sprintf-min.js", array ("jquery"), c_ws_plugin__qcache_utilities::ver_checksum ());
+								wp_enqueue_script ("jquery-json-ps", $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/includes/jquery/jquery.json-ps/jquery.json-ps-min.js", array ("jquery"), c_ws_plugin__qcache_utilities::ver_checksum ());
+								wp_enqueue_script ("jquery-ui-effects", $GLOBALS["WS_PLUGIN__"]["qcache"]["c"]["dir_url"] . "/includes/jquery/jquery.ui-effects/jquery.ui-effects-min.js", array ("jquery", "jquery-ui-core"), c_ws_plugin__qcache_utilities::ver_checksum ());
+								wp_enqueue_script ("ws-plugin--qcache-menu-pages", site_url ("/?ws_plugin__qcache_menu_pages_js=" . urlencode (mt_rand ())), array ("jquery", "thickbox", "media-upload", "jquery-sprintf", "jquery-json-ps", "jquery-ui-core", "jquery-ui-effects"), c_ws_plugin__qcache_utilities::ver_checksum ());
 								/**/
 								do_action ("ws_plugin__qcache_during_add_admin_scripts", get_defined_vars ());
 							}
@@ -282,7 +303,7 @@ if (!class_exists ("c_ws_plugin__qcache_menu_pages"))
 						/**/
 						if ($_GET["page"] && preg_match ("/ws-plugin--qcache-/", $_GET["page"]))
 							{
-								wp_enqueue_style ("thickbox");
+								wp_enqueue_style("thickbox");
 								wp_enqueue_style ("ws-plugin--qcache-menu-pages", site_url ("/?ws_plugin__qcache_menu_pages_css=" . urlencode (mt_rand ())), array ("thickbox"), c_ws_plugin__qcache_utilities::ver_checksum (), "all");
 								/**/
 								do_action ("ws_plugin__qcache_during_add_admin_styles", get_defined_vars ());

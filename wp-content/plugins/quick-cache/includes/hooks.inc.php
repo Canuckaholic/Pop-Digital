@@ -19,9 +19,12 @@ add_action ("init", "c_ws_plugin__qcache_admin_css_js::menu_pages_js", 1);
 add_filter ("status_header", "c_ws_plugin__qcache_status_headers::status", 10, 2);
 /**/
 add_action ("admin_init", "c_ws_plugin__qcache_check_activation::check");
+/**/
 add_action ("admin_print_scripts", "c_ws_plugin__qcache_menu_pages::add_admin_scripts");
 add_action ("admin_print_styles", "c_ws_plugin__qcache_menu_pages::add_admin_styles");
-add_action ("in_admin_header", "c_ws_plugin__qcache_menu_pages::add_admin_header_controls");
+/**/
+add_action ("admin_bar_menu", "c_ws_plugin__qcache_menu_pages::add_admin_bar_nodes");
+add_action ("in_admin_header", "c_ws_plugin__qcache_menu_pages::old_admin_header_items");
 /**/
 add_action ("admin_menu", "c_ws_plugin__qcache_menu_pages::add_admin_options");
 add_action ("network_admin_menu", "c_ws_plugin__qcache_menu_pages::add_network_admin_options");
