@@ -317,6 +317,9 @@ h1.entry-title {
 .ui-corner-all {
 	border-radius: 4px 4px 0 0 !important;
 }
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0.5em 0.7em !important;
+}
 
 /* Footer custom styles */
 #footerContainer {

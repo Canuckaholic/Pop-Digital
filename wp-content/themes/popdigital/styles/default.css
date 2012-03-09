@@ -763,6 +763,7 @@ li.content-column {
     font-size:13px;
     line-height:18px;
     margin-bottom:6px;
+	width: 100%;
 }
 .aside p,
 .aside ul,
