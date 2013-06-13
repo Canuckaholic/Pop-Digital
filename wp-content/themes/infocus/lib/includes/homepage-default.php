@@ -1,0 +1,9 @@
+<h1>Four Reasons to Get inFocus Now!</h1>
+
+<div class="one_fourth"><h6>Solid Code Framework</h6><p><span class="dropcap1">1</span>This theme is built on a solid code frame work and comes with a powerful easy to use intuitive admin panel which allows for tremendous control over your theme's appearance quickly and easily.</p><img style="margin-top:-10px;" src="<?php echo get_template_directory_uri() .'/images/front_infocus.png'; ?>" alt="inFocus"/></div><!-- one_fourth -->
+
+<div class="one_fourth"><h6>Web Standards</h6><p><span class="dropcap1">2</span>Your theme has been coded with web standards in mind. It's been tested in all major browsers, among them Internet Explorer 7 and 8, Firefox, Opera, Google Chrome and Safari.<br /></p><img style="margin-top:-10px;" src="<?php echo get_template_directory_uri() .'/images/front_browsers.png'; ?>" alt="Web Browsers"/></div><!-- one_fourth -->
+
+<div class="one_fourth"><h6>WordPress Enhanced</h6><p><span class="dropcap1">3</span>Get more out of your Wordpress install with 6 custom widgets, contact form, portfolio gallery and 34 custom style shortcodes including Drop Caps, Toggle Box, Button Styles and multiple Div layouts.</p><img style="margin-top:-10px;" src="<?php echo get_template_directory_uri() .'/images/front_wordpress.png'; ?>" alt="Wordpress"/></div><!-- one_fourth -->
+
+<div class="one_fourth last"><h6>Advanced jQuery</h6><p><span class="dropcap1">4</span>Your theme comes with Advanced jQuery scripts that work seamlessly behind the scene to create an impressive and unique user experience. Including Image Preloading and Homepage slider.</p><img style="margin-top:-10px;" src="<?php echo get_template_directory_uri() .'/images/front_jquery.png'; ?>" alt="jQuery"/></div><!-- one_fourth -->

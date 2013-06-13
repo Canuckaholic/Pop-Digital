@@ -1,0 +1,48 @@
+/* ------- 1. Structure ------- */
+#header {background:#7a7a7a url(silver/header.jpg) repeat-x scroll center top;}
+#footer{background:#7a7a7a url(silver/footer.jpg) repeat-x scroll center top;}
+#home_feature{background:#7a7a7a url(silver/home_feature.jpg) repeat-x scroll center top;}
+#home_feature .background {background-image:url(silver/full.jpg);}
+#home_feature.staged .background {background-image:url(silver/stage.jpg);}
+#home_feature.cu3er .background {background-image:url(silver/cu3er.jpg);}
+
+/* ------- 2. Buttons ETC ------- */
+#intro_blurb_title,#intro_blurb_title span{background-color:#7a7a7a ;background-image:url(silver/intro.gif);color:#222;}
+a.button_link,a.button_link:hover,a.button_link:active,a.button_link:active span,a.button_link span,.slider_content a.button,.slider_content a.button:hover{background-image:url(silver/buttons.gif);color:#444;}
+.button:active,.button:hover,.button,.wp-pagenavi span.current,.slider_content a.button{background-image:url(silver/buttons.gif);border-color:#888;color:#333;text-shadow:1px 1px 1px #777777;}
+
+/* ------- 3. Typography ETC ------- */
+#home_feature .slider_full h2, #home_feature .slider_full{color:#eee;}
+#about_the_author img,#footer h3.widgettitle, #footer div.widget li,#sub_footer,#footer p.thanks,table,th,#footer div.widget_categories li a, #footer div.widget_pages li a
+{border-color:#707070;color:#333;}
+#footer a:link, #footer a:visited,#footer .textfield, #footer textarea, #footer
+{color:#333;}
+.url,.contact_widget_email a,.top_metadata a,#blurb p.tweet a,#commentform a,h3.toggle a,.dropcap2,.pullquote_left,.pullquote_right,blockquote,h1,#home_feature h2,h5
+{border-color:#707070;color:#999;}
+#sub_footer,#footer a:hover,a:hover{color:#666;}
+
+/* ------- 4. Images ------- */
+#body_block .search-box,#body_block input.search-go{background-image:url(silver/searchbar.png);}
+#secondary .widget_categories ul li a,#secondary .widget_links ul li a,#secondary .widget_archive ul li a,#secondary .widget_meta ul li a,
+#secondary .widget_pages ul li a,#secondary .widget_recent_entries ul li a,
+.contact_widget_name,.contact_widget_phone,.contact_widget_email,
+ul.arrow_list li,ul.bullet_list li,ul.check_list li,
+h3.toggle,h3.active,#secondary .widget_recent_comments ul li.recentcomments span,#secondary #twitter-widget.webtreats_twitter_widget ul li a
+{background-image:url(silver/mini_icons.png);}
+#body_block .twitter_bird,blockquote,.dropcap1,#spread_the_word span.sprite,#about_the_author span.sprite{background-image:url(silver/sprite.png);}
+#blurb p.tweet{background-image:url(silver/tweet.png);}
+#call_to_action_button{background-image: url(silver/get_started.jpg);}
+.twitter_icon,.reddit_icon,.digg_icon,.stumbleupon_icon,.delicious_icon,.facebook_icon,.linkedin_icon{background-image: url(silver/spread_the_word.png);}
+#default_logo {background-image:url(silver/logo.png);}
+#site_name a {color:#333;text-shadow:1px 1px 1px #777;}
+
+/* ------- 5. Menu ------- */
+.jqueryslidemenu ul li a, .jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{color:#333;text-shadow:1px 1px 1px #777;}
+.jqueryslidemenu ul ul {background-image:url(silver/drop.png);}
+.jqueryslidemenu ul ul.menu_flip {background-image:url(silver/dropR.png);}
+.jqueryslidemenu ul ul ul, .jqueryslidemenu ul ul.menu_flip ul{background-image:url(silver/drop_sub.png);}
+.jqueryslidemenuz ul li ul li a:hover, .jqueryslidemenu ul ul li a:hover, #footer p.thanks{background:#a0a0a0;color:#333;}
+
+/* ------- 6. Preloaders ------- */
+#loading_slider { background:transparent url(silver/slider_loader.gif) no-repeat scroll center top; }
+#contactFormWidget .loadingImgWidgetFt { background:transparent url(silver/loader_widget_ft.gif) no-repeat scroll 0 0;}

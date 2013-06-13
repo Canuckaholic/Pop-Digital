@@ -1,0 +1,45 @@
+/* ------- 1. Structure ------- */
+#header {background:#27201a url(coffee/header.jpg) repeat-x scroll center top;}
+#footer{background:#27201a url(coffee/footer.jpg) repeat-x scroll center top;}
+#home_feature{background:#27201a url(coffee/home_feature.jpg) repeat-x scroll center top;}
+#home_feature .background {background-image:url(coffee/full.jpg);}
+#home_feature.staged .background {background-image:url(coffee/stage.jpg);}
+#home_feature.cu3er .background {background-image:url(coffee/cu3er.jpg);}
+
+/* ------- 2. Buttons ETC ------- */
+#intro_blurb_title,#intro_blurb_title span{background-image:url(coffee/intro.gif);}
+a.button_link,a.button_link:hover,a.button_link:active,a.button_link:active span,a.button_link span,.slider_content a.button,.slider_content a.button:hover{background-image:url(coffee/buttons.gif);}
+.button:active,.button:hover,.button,.wp-pagenavi span.current,.slider_content a.button{border-color:#26211D;background-image:url(coffee/buttons.gif);}
+
+/* ------- 3. Typography ETC ------- */
+#about_the_author img,#footer h3.widgettitle, #footer div.widget li,#sub_footer,#footer p.thanks,table,th,#footer div.widget_categories li a, #footer div.widget_pages li a
+{border-color:#564a41;}
+#footer a:link, #footer a:visited,#footer .textfield, #footer textarea, #footer, #home_feature .slider_full h2, #home_feature .slider_full
+{color:#ddd;}
+.url,#footer a:hover,.contact_widget_email a,.top_metadata a,#blurb p.tweet a,#commentform a,h3.toggle a,.dropcap2,.pullquote_left,.pullquote_right,blockquote,h1,#home_feature h2,h5,.blog_header a,.colored,#secondary .widget_calendar td a,#secondary h3.widgettitle,h3.portfolio a, h2.portfolio a
+{color:#564a41;}
+a:hover,h3.portfolio a:hover,h2.portfolio a:hover,.blog_header a:hover{color:#382F28;}
+
+/* ------- 4. Icons / Sprites ------- */
+#body_block .search-box,#body_block input.search-go{background-image:url(coffee/searchbar.png);}
+#secondary .widget_categories ul li a,#secondary .widget_links ul li a,#secondary .widget_archive ul li a,#secondary .widget_meta ul li a,
+#secondary .widget_pages ul li a,#secondary .widget_recent_entries ul li a,
+.contact_widget_name,.contact_widget_phone,.contact_widget_email,
+ul.arrow_list li,ul.bullet_list li,ul.check_list li,
+h3.toggle,h3.active,#secondary .widget_recent_comments ul li.recentcomments span,#secondary #twitter-widget.webtreats_twitter_widget ul li a
+{background-image:url(coffee/mini_icons.png);}
+#body_block .twitter_bird,blockquote,.dropcap1,#spread_the_word span.sprite,#about_the_author span.sprite{background-image:url(coffee/sprite.png);}
+#blurb p.tweet{background-image:url(coffee/tweet.png);}
+#call_to_action_button{background-image: url(coffee/get_started.jpg);}
+.twitter_icon,.reddit_icon,.digg_icon,.stumbleupon_icon,.delicious_icon,.facebook_icon,.linkedin_icon{background-image: url(coffee/spread_the_word.png);}
+
+/* ------- 5. Menu ------- */
+.jqueryslidemenu ul li a, .jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{color:#ddd;}
+.jqueryslidemenu ul ul {background-image:url(coffee/drop.png);}
+.jqueryslidemenu ul ul.menu_flip {background-image:url(coffee/dropR.png);}
+.jqueryslidemenu ul ul ul, .jqueryslidemenu ul ul.menu_flip ul{background-image:url(coffee/drop_sub.png);}
+.jqueryslidemenuz ul li ul li a:hover, .jqueryslidemenu ul ul li a:hover, #footer p.thanks{background:#382F28;color:#eee;}
+
+/* ------- 6. Preloaders ------- */
+#loading_slider { background:transparent url(coffee/slider_loader.gif) no-repeat scroll center top; }
+#contactFormWidget .loadingImgWidgetFt { background:transparent url(coffee/loader_widget_ft.gif) no-repeat scroll 0 0;}

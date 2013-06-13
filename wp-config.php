@@ -1,4 +1,8 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+
 /**
  * The base configurations of the WordPress.
  *
@@ -16,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'pop1106104051370');
+define('DB_NAME', 'ajones_popdigital');
 
 /** MySQL database username */
-define('DB_USER', 'pop1106104051370');
+define('DB_USER', 'ajones_admin');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'GoDigital123');
+define('DB_PASSWORD', 'Esr_B}=}^KCw');
 
 /** MySQL hostname */
-define('DB_HOST', 'pop1106104051370.db.5050098.hostedresource.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

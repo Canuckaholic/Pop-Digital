@@ -22,16 +22,28 @@ class SLB_Utilities {
 	 * Default plugin headers
 	 * @var array
 	 */
-	var $plugin_headers = array (
-		'Name' => 'Plugin Name',
-		'PluginURI' => 'Plugin URI',
-		'Version' => 'Version',
-		'Description' => 'Description',
-		'Author' => 'Author',
-		'AuthorURI' => 'Author URI',
-		'TextDomain' => 'Text Domain',
-		'DomainPath' => 'Domain Path',
-		'Network' => 'Network',
+	private $plugin_headers = array (
+		'Name'			=> 'Plugin Name',
+		'PluginURI'		=> 'Plugin URI',
+		'Version'		=> 'Version',
+		'Description'	=> 'Description',
+		'Author'		=> 'Author',
+		'AuthorURI'		=> 'Author URI',
+		'TextDomain'	=> 'Text Domain',
+		'DomainPath'	=> 'Domain Path',
+		'Network'		=> 'Network',
+	);
+	
+	
+	/**
+	 * Standard hook priorities
+	 * @var array
+	 */
+	private $priorities = array (
+		'high'							=> 1,
+		'low'							=> 99,
+		'safe'							=> 15,
+		'client_footer_output'			=> 25,
 	);
 	
 	/* Constructors */
@@ -47,11 +59,16 @@ class SLB_Utilities {
 	 * @param string $method Name of method
 	 * @return array Callback array
 	 */
-	function &m(&$obj, $method = '') {
-		if ( $obj == null && isset($this) )
-			$obj =& $this;
-		$arr = array(&$obj, $method);
-		return $arr;
+	function m($obj, $method = '') {
+		if ( is_string($obj) ) {
+			$method = $obj;
+			$obj = null;
+		}
+		if ( !is_object($obj) && isset($this) ) {
+			$obj = $this;
+		}
+		$cb = array($obj, $method);
+		return $cb;
 	}
 	
 	/* Helper Functions */
@@ -148,6 +165,21 @@ class SLB_Utilities {
 	function get_db_prefix() {
 		global $wpdb;
 		return $wpdb->prefix . $this->get_prefix('_');
+	}
+	
+	/*-** Priority **-*/
+	
+	/**
+	 * Retrieve standard priority
+	 * @var string $id Priority ID to retrieve
+	 * @return int Priority
+	 */
+	public function priority($id = null) {
+		$pri = 10;
+		if ( !is_null($id) && array_key_exists($id, $this->priorities) ) {
+			$pri = $this->priorities[$id];
+		}
+		return $pri;
 	}
 	
 	/* Wrapped Values */
@@ -258,7 +290,8 @@ class SLB_Utilities {
 				'file'		=> null,
 				'deps' 		=> array(),
 				'callback'	=> null,
-				'context'	=> array()
+				'context'	=> array(),
+				'enqueue'	=> true,
 			);
 			switch ( $type ) {
 				case 'styles':
@@ -430,47 +463,86 @@ class SLB_Utilities {
 		if ( !is_string($obj) || empty($obj) )
 			$obj = null;
 		//Default data
-		if ( is_array($data) )
+		if ( is_array($data) ) {
 			$data = (object)$data;
+		}
 		//Build expression
 		if ( empty($data) || ( empty($obj) && is_scalar($data) ) ) {
 			$ret = '';
 		} else {
-			$ret = array();
-			//Validate object(s) being extended
 			$c_obj = $this->get_client_object($obj);
-			$sep = '.';
-			$c_obj = trim($c_obj, $sep);
-			//Start with full object
-			$objs = array($c_obj);
-			$offset = 0;
-			$len = strlen($c_obj);
-			//Add segments to array (in reverse)
-			while ( ( $pos = strrpos($c_obj, $sep, $offset) ) && $pos !== false ) {
-				$objs[] = substr($c_obj, 0, $pos);
-				$offset = $pos - $len - 1;
-			}
-			
-			$condition = 'if ( ' . implode(' && ', array_reverse($objs)) . ' ) ';
-			$ret = $condition . '$.extend(' . $c_obj . ', ' . json_encode($data) . ');';
+			$ret = $this->validate_client_object($obj, sprintf('{$.extend(%1$s, %2$s);}', $c_obj, json_encode($data)) );
 			if ( $out )
-				echo $this->build_script_element($ret);
+				echo $this->build_script_element($ret, 'context', true, true);
 		}
 		return $ret;
+	}
+
+	/**
+	 * Validate client object $obj before running command $cmd
+	 * 
+	 * @param string $obj Full object name
+	 * @param string $cmd (optional) Command to wrap in validation
+	 * @return string Command wrapped in validation block
+	 * If no command is specified the validation conditions are returned
+	 */
+	public function validate_client_object($obj, $cmd = null) {
+		//Build condition
+		$sep = '.';
+		$obj = trim( $this->get_client_object($obj) , $sep);
+		$offset = 0;
+		$len = strlen($obj);
+		$pos = $len;
+		$fmt = '(typeof %s != \'undefined\')';
+		$objs = array();
+		//Add segments to array (in reverse)
+		do {
+			$objs[] = sprintf($fmt, substr($obj, 0, $pos));
+			$offset = $pos - $len - 1;
+		} while ( $offset < $len && ( $pos = strrpos($obj, $sep, $offset) ) && $pos !== false );
+		//Format condition
+		$condition = implode(' && ', array_reverse($objs));
+		
+		//Wrap command in validation
+		if ( is_string($cmd) && !empty($cmd) ) {
+			$condition = sprintf('if ( %1$s ) { %2$s }', $condition, $cmd);
+		}
+		return $condition;
 	}
 	
 	/**
 	 * Build client method call
 	 * @uses get_client_object() to generate the body of the method call
 	 * @param string $method Method name
-	 * @param mixed Parameters to pass to method (will be JSON-encoded)
+	 * @param array|string $params (optional) Parameters to pass to method
+	 * @param bool $encode (optional) JSON-encode parameters? (Default: TRUE)
+	 * @param bool $validate (optional) Validate method before calling it?
 	 * @return string Method call
 	 */
-	function call_client_method($method, $params = null) {
-		if ( !$method )
-			return '';
-		$params = ( !is_null($params) ) ? json_encode($params) : '';
-		return $this->get_client_object($method) . '(' . $params. ');';
+	function call_client_method($method, $params = null, $encode = true, $validate = true) {
+		$ret = '';
+		if ( !is_string($method) || empty($method) ) {
+			return $ret;
+		}
+		$encode = !!$encode;
+		$validate = !!$validate;
+		
+		//Build parameters
+		if ( !is_null($params) ) {
+			if ( $encode ) {
+				$params = json_encode($params);	
+			} elseif ( is_array($params) ) {
+				$params = implode(',', $params); 
+			}
+		}
+		if ( !is_string($params) ) {
+			$params = '';	
+		}
+		$ret = sprintf('%s(%s);', $this->get_client_object($method), $params);
+		if ( $validate ) {
+			$ret = $this->validate_client_object($method, $ret);
+		}
+		return $ret;
 	}
 	
 	/*-** WP **-*/
@@ -730,9 +802,20 @@ class SLB_Utilities {
 				 );
 	}
 	
+	/* Class */
+	
 	function is_a($obj, $class_name) {
 		return ( is_object($obj) && is_a($obj, $this->add_prefix_uc($class_name)) ) ? true : false;
 	}
+	
+	/**
+	 * Retrieve name of internal class
+	 * @param string $class Base name of class
+	 * @return string Full name of internal class
+	 */
+	function get_class($class) {
+		return $this->add_prefix_uc($class);
+	} 
 	
 	/* Context */
 	
@@ -748,15 +831,29 @@ class SLB_Utilities {
 			$ctx = array($this->build_context());
 			//Action
 			$action = $this->get_action();
-			if ( !empty($action) )
+			if ( !empty($action) ) {
 				$ctx[] = $this->build_context('action', $action);
+			}
+			//Post type
+			$post_type = $this->get_post_type();
+			if ( !empty($action) ) {
+				$ctx[] = $this->build_context('post-type', $post_type);
+			}
 			//Admin page
 			if ( is_admin() ) {
 				global $pagenow;
 				$pg = $this->strip_file_extension($pagenow);
 				$ctx[] = $this->build_context('page', $pg);
-				if ( !empty($action) )
+				//Query String
+				parse_str($_SERVER['QUERY_STRING'], $qv);
+				if ( isset($qv['page']) ) {
+					$ctx[] = $this->build_context('page', $qv['page']);
+				}
+				//Action
+				if ( !empty($action) ) {
 					$ctx[] = $this->build_context('page', $pg, 'action', $action);
+					$ctx[] = $this->build_context('post-type', $post_type, 'action', $action);
+				}
 			}
 			//User
 			$u = wp_get_current_user();
@@ -808,6 +905,18 @@ class SLB_Utilities {
 				$ret = true;
 		}
 		return $ret;
+	}
+
+	/**
+	 * Output current context to client-side
+	 * @uses `wp_head` action hook
+	 * @uses `admin_head` action hook
+	 * @return void
+	 */
+	function set_client_context() {
+		$ctx = new stdClass();
+		$ctx->context = $this->get_context();
+		$this->extend_client_object($ctx, true);
 	}
 	
 	/**
@@ -1109,6 +1218,21 @@ class SLB_Utilities {
 		if ( empty($dom) )
 			$dom = $this->get_plugin_base(true);
 		return $dom;
+	}
+	
+	/**
+	 * Retrieve current post type based on URL query variables
+	 * @return string|null Current post type
+	 */
+	public function get_post_type() {
+		if ( isset($_GET['post_type']) && !empty($_GET['post_type']) ) {
+			return $_GET['post_type'];
+		}
+		$pt = null;
+		if ( isset($_GET['post']) && is_numeric($_GET['post']) ) {
+			$pt = get_post_type($_GET['post']);
+		}
+		return $pt;
 	}
 	
 	/**
@@ -1491,10 +1615,22 @@ class SLB_Utilities {
 		return $this->build_html_element(array('tag' => 'link', 'wrap' => false, 'attributes' => $attributes));
 	}
 	
+	/**
+	 * Build client-side script element
+	 * 
+	 * @param string $content Script content
+	 * @param string $id (optional) Element ID
+	 * @param bool $wrap_jquery (optional) Wrap commands in jQuery? (Default: Yes)
+	 * @param bool $wait_doc_ready (optional) Wait until document is fully loaded before executing commands? (Default: No)
+	 */
 	function build_script_element($content = '', $id = '', $wrap_jquery = true, $wait_doc_ready = false) {
 		//Stop processing invalid content
-		if ( empty($content) || !is_string($content) )
-			return ''; 
+		if ( is_array($content) && !empty($content) ) {
+			$content = implode(PHP_EOL, $content);	
+		}
+		if ( empty($content) || !is_string($content) ) {
+			return '';
+		}
 		$attributes = array('type' => 'text/javascript');
 		$start = array('/* <![CDATA[ */');
 		$end = array('/* ]]> */');
@@ -1525,7 +1661,7 @@ class SLB_Utilities {
 	 */
 	function build_ext_script_element($url = '') {
 		$attributes = array('src' => $url, 'type' => 'text/javascript');
-		return $this->build_html_element(array('tag' => 'script', 'attributes' => $attributes));
+		return $this->build_html_element(array('tag' => 'script', 'attributes' => $attributes)) . PHP_EOL;
 	}
 	
 	/**
@@ -1543,8 +1679,19 @@ class SLB_Utilities {
 		$el_start = '<';
 		$el_end = '>';
 		$el_close = '/';
-		extract(wp_parse_args($args, $defaults), EXTR_SKIP);
+		$args = wp_parse_args($args, $defaults);
+		//Collect attributes
+		$attr_exclude = array( 'content', 'tag', 'wrap', 'attributes' );
+		$attr_extra = array_diff_key($args, array_fill_keys($attr_exclude, null));
+		if ( count($attr_extra) ) {
+			//Merge attributes
+			$args['attributes'] = wp_parse_args($attr_extra, $args['attributes']);
+			//Remove attributes from top-level arguments
+			$args = array_diff_key($args, $attr_extra);
+		}
+		extract($args, EXTR_SKIP);
 		$content = trim($content);
+		
 		
 		if ( !$wrap && strlen($content) > 0 )
 			$wrap = true;
@@ -1686,5 +1833,71 @@ class SLB_Utilities {
 		if ( isset($_wp_real_parent_file[$parent]) )
 			$parent = $_wp_real_parent_file[$parent];
 		return $parent;
+	}
+	
+	/* Shortcodes */
+	
+	/**
+	 * Generate shortcode to be used in content
+	 * @param string $tag Shortcode tag
+	 * @param array $attr Associative array of attributes
+	 * @return string Shortcode markup
+	 */
+	public function make_shortcode($tag, $attr = array()) {
+		return '[' . $tag . ']';
+	}
+	
+	/**
+	 * Build shortcode regex pattern for specific shortcode
+	 * @uses $shortcode_tags
+	 * @param string $tag Shortcode tag
+	 * @return string Shortcode regex pattern
+	 */
+	public function get_shortcode_regex($tag) {
+		global $shortcode_tags;
+		//Backup shortcodes
+		$tgs_temp = $shortcode_tags;
+		$ret = '';
+		if ( !is_string($tag) || empty($tag) ) {
+			return $ret;
+		}
+		//Modify
+		$shortcode_tags = array( $tag => null );
+		//Build pattern
+		$ret = get_shortcode_regex();
+		//Restore shortcodes
+		$shortcode_tags = $tgs_temp;
+		
+		return $ret;
+	}
+	/**
+	 * Check if content contains shortcode
+	 * @param string $tag Name of shortcode to check for
+	 * @param string $content Content to check for shortcode
+	 * @return bool TRUE if content contains shortcode
+	 */
+	public function has_shortcode($content, $tag) {
+		$ptn = $this->get_shortcode_regex($tag);
+		$ret = ( is_string($content) && preg_match("/$ptn/s", $content) == 1 ) ? true : false;
+		return $ret;
+	}
+	
+	/**
+	 * Add shortcode to content
+	 * @param string $content Content to add shortcode to
+	 * @param bool $in_footer (optional) Add shortcode to head or footer of content (Default: footer)
+	 * @return string Modified content
+	 */
+	public function add_shortcode($content, $tag, $attr = null, $in_footer = true) {
+		if ( !is_string($content) ) {
+			$content = '';
+		}
+		$sc = $this->make_shortcode($tag, $attr);
+		if ( !!$in_footer ) {
+			$content .= $sc;
+		} else {
+			$content = $sc . $content;
+		}
+		return $content;
 	}
 }
