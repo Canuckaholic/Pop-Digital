@@ -1,0 +1,1 @@
+[12-Feb-2014 03:21:45] PHP Fatal error:  Call to undefined function  add_shortcode() in /home4/ajones/public_html/wp-content/themes/method/lib/functions/compatibility.php on line 20

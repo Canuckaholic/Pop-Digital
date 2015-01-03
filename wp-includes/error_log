@@ -1,0 +1,1 @@
+[16-Jul-2013 14:37:51] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/ajones/public_html/wp-includes/registration-functions.php on line 7

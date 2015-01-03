@@ -1,0 +1,1 @@
+[01-Jun-2014 21:42:51 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/ajones/public_html/wp-content/themes/twentyten/search.php on line 10

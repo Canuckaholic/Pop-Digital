@@ -1,0 +1,1 @@
+[30-Jun-2014 11:38:48 America/Chicago] PHP Warning:  readfile(/etc/named.conf): failed to open stream: Permission denied in /home4/ajones/public_html/wp-content/themes/method/lib/scripts/dl-skin.php on line 15

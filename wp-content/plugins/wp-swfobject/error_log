@@ -1,0 +1,2 @@
+[12-Feb-2014 03:22:34] PHP Fatal error:  Call to undefined function  add_option() in /home4/ajones/public_html/wp-content/plugins/wp-swfobject/wp-swfobject.php on line 37
+[03-Jul-2014 21:46:06 America/Chicago] PHP Fatal error:  Call to undefined function add_option() in /home4/ajones/public_html/wp-content/plugins/wp-swfobject/wp-swfobject.php on line 37

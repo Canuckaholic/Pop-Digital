@@ -1,0 +1,2 @@
+[18-Apr-2014 20:59:33] PHP Fatal error:  Call to undefined function  add_action() in /home4/ajones/public_html/wp-content/plugins/hello.php on line 60
+[12-May-2014 09:10:40 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home4/ajones/public_html/wp-content/plugins/hello.php on line 60
