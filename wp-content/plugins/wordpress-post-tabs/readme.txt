@@ -1,33 +1,49 @@
 === WordPress Post Tabs ===
 Contributors: internet techies
-Tags:post, page, tabs, menu, ui-tabs, sections, options, edit, shortcode, navigation, jquery, slider, tabber
+Tags:post, page,tabs,menu,ui-tabs,shortcode,navigation,jquery,slider,tabber,best tabs,
 Donate link: http://www.clickonf5.org/go/donate-wp-plugins/
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.4
+Tested up to: 3.9.2
+Stable tag: 1.6
 License: GPLv2
 
-Add clean and structured tabs to your WordPress Posts and Pages easily through the edit post/page panel.
+Add clean, responsive and structured tabbed content to WordPress Posts and Pages easily through the edit post/page panel.
 
 == Description ==
 
-WordPress Post Tabs is a plugin for WordPress that will help you add as many tabs to your WordPress post or Page. So, say if you want to write some review, you can create various sections of the review post and display them in a tab view, i.e. separate tab for each section. This can be looked as a menu for your individual post, so that your readers can easily notice the distinct sections of your article or post or page. 
+WordPress Post Tabs will help you add tabs to your WordPress post or Page on current theme. For the best utilization of the webpage real estate, tabs are one of the most effective way to show more content in less area. <a href="http://tabbervilla.com/wordpress-post-tabs-pro/" rel="friend" title="Best Responsive Tab Plugin">Best Responsive Tab Plugin</a> developer at TabberVilla built this WordPress Post Tabs Lite version which comes with essential features for a tab plugin. For premium features and designs, you can take a look at the PRO version of WordPress Post Tabs plugin at <a href="http://tabbervilla.com/wordpress-post-tabs-pro/" rel="friend" title="Best Responsive Tab Plugin">TabberVilla</a>.
 
-As you can see the format of gadgets review on PCWorld and CNET where they provide different sections like specifications, user review, full review, shop etc in different tabs. Similar format is visible on different automobile review sites. In fact the tabbing format is useful for movies review and recipes sites. You can use one tab for picture gallery and other tab for detailed review. To make your post more interesting, you can add videos under one tab as well.  
-
-**For more advanced features, upgrade to [WordPress Post Tabs PRO](http://tabbervilla.com/wordpress-post-tabs-pro/)**
-
-=Features:=
+= Features =
 
 * 3 predfined skins/styles, you can easily make your own as well
 * Quicktag to add tabs in post or page content
 * Next Previous Navigation links can be enabled
 * Unlimited number of tab sets can be added to the post/page
+* Load JS only on pages having Tabs
+* Enable - Disable Page Reload on Tab Click
+* Custom Style Box to Apply CSS Changes from Admin Panel
+* Embed YouTube, Vimeo videos, Tables inside Tab Content Area
+
+= <a href="http://tabbervilla.com/wordpress-post-tabs-pro/" rel="friend">Premium</a> Features =
+
+* 12+ Skins and Style
+* Style Editor to Change Tab Title, Content Colors from Admin Panel
+* Advance QuickTag Box with Skin, Width, Location Selector
+* Widget Placeholder to have Popular Posts, Latest Post, Related Posts or any widget inside a tab
+* External Link to Tab Title
+* Nested Tabs i.e. Tabs inside a Tab
+* Linkable Tabs
+* External Link Icon
+* Image beside Tab Title
+* Smooth Scroll to Tab Title
+* Export/Import Setting Values (Helpful in Implementation on Live Site)
+* Prompt Support with Response Time less than 6 Hours
+
+As you can see the format of gadgets review on PCWorld and CNET where they provide different sections like specifications, user review, full review, shop etc in different tabs. Similar format is visible on different automobile review sites. In fact the tabbing format is useful for movies review and recipes sites. You can use one tab for picture gallery and other tab for detailed review. To make your post more interesting, you can add videos under one tab as well.  
+
+**For more advanced features, upgrade to [WordPress Post Tabs PRO](http://tabbervilla.com/wordpress-post-tabs-pro/)**
 
 [Plugin Information and FAQs](http://tabbervilla.com/wordpress-post-tabs/) | 
-[Go PRO!!](http://tabbervilla.com/wordpress-post-tabs-pro/)
-
-**Find advanced and Stylish WordPress Slider Plugins at [SliderVilla](http://www.slidervilla.com/)**
 
 == Installation ==
 
@@ -86,11 +102,17 @@ You can insert images or screenshots of the product.
 [end_wptabset]`
 
 **Do not forget to insert the 'name' attribute for each tab. It is important** 
+
 ** Just remember to put the 'end_tabset' shortcode at the end of all tab contents as shown above.**
+
 * On the 'Post/Page Tabs' Settings on your WordPress admin, you can select your style. Currently there are three styles - default, gray and red. You can add your own styles easily. Please refer the plugin page how to add the custom styles, its just 2 minute work.
+
 * In case you wish to reload the page every time another tab is clicked, you can select that option from the settings page. This would be helpful if you wish to count these pageviews as well.
+
 * If you check the 'Disable loading on all Posts' option, this will disable the plugin on the posts all together and you will get a custom box 'Enable Post/Page Tabs Feature' on your Edit Post panel. Now you can check this checkbox for those posts only where you wish to enable the tabs. This will prevent the loading of the script and style specific to this plugin on all other pages.
+
 * Same as above is the case with 'Disable loading on all Pages', its for pages.
+
 * You can replace the default shortcodes with your own, that are comfortable for you. 
 
 == Screenshots ==
@@ -111,7 +133,31 @@ Please use the contact form in case of any issues while upgrading.
 
 == Changelog ==
 
+Version 1.6 (08/20/2014)
+
+1. New - Set cookie for last active tab.
+2. Fix - Reload on click will scroll page to top of tabs not to content.
+3. Fix - Debug errors.
+
+Version 1.5.1 (06/04/2014)
+
+1. New - Option to choose between prettytitle or default title
+
+Version 1.5 (05/28/2014)
+
+1. New - Added new skin 'Simple Gray'
+2. New - Tab title instead of #tab_number in URL
+3. Fix - Better admin panel
+4. Fix - No 'wp post tabs' link by default
+5. Fix - Debug notifications
+
+
+Version 1.4.1 (04/24/2014)
+
+1. Fix: Quicktag to insert tab shortcode not working in WordPress 3.9 Post Editor 
+
 Version 1.4 (01/08/2013)
+
 1. New - Quick Tag to insert tabs shortcode in content area
 2. New - Assign external links to the tabs
 3. New - Option to open links in new window or the same window of browser

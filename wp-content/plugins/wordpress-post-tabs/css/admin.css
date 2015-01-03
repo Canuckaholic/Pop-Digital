@@ -6,10 +6,10 @@ form#wpts_form{font-family:sans-serif;font-size:100%;color:#666;}
 form#wpts_form label {}
 form#wpts_form input[type="text"] 	{color:#666;border:1px solid #d8d8d8;-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;padding:3px 10px;}
 
-form#wpts_form select {color:#666;border:1px solid #d8d8d8;-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;}
+form#wpts_form select {color:#666;border:1px solid #d8d8d8;-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;text-transform: capitalize;}
 form#wpts_form option{display:block;color:#666;}
 
-form#wpts_form input[type="checkbox"] {background:none;border:0px;width:14px;height:14px;}
+form#wpts_form input[type="checkbox"] {background:none;border:1px solid #999999;width:14px;height:14px;}
 form#wpts_form input[type="radio"]    {background:none;border:0px;width:14px;height:14px;}
 
 input[type="text"]:disabled {opacity: .5;border:1px solid #eee !important;filter: alpha(opacity=50);}
@@ -72,3 +72,60 @@ form#wpts_form label span {color:#ff0000;font-size:85%;}
 	z-index: 1000;
 }
 .wpts_options_time{display:none;}
+/* Heading */
+#poststuff .hndle {
+	font-size: 20px;
+	font-family: tahoma,arial,san-serif;
+}
+.postbox .hndle {
+	font-size: 20px;
+	font-family: tahoma,arial,san-serif;
+	padding: 8px 12px;
+}
+
+/* Table */
+.form-table th {
+ padding: 10px 10px 5px 10px;
+}
+.form-table td {
+ padding: 10px 10px 5px 0;
+}
+.form-table tr.row { 
+		background: #ffffff;
+		
+	}
+.form-table tr.row.even{ 
+		background: #eeeeee;
+	}
+/******************/
+.right_panel {
+	float:left;width:30%;padding-left:20px;max-width: 280px;
+}
+.left_panel {
+	float:left;width:65%;
+}
+.right_panel_link {
+	float:left;width:50%;margin-right:10px;
+}
+.right_panel_img {float:right;width:45%;}
+/* For Responsive Design */
+@media only screen and (max-width: 768px) {
+	.right_panel_link {
+		width:80%;
+	}
+	.right_panel_img {
+		float: left;	
+	}
+}
+.postbox { min-width: 0;}
+
+@media only screen and (max-width: 480px) {
+	.left_panel {
+		width:100%;	
+	}
+	.right_panel {
+		width:100%;padding-left:0px;
+	}
+	.right_panel_img {float:left;width:45%;}
+}
+

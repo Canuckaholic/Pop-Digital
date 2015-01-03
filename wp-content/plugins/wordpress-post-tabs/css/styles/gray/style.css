@@ -78,7 +78,7 @@
 .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em 1em; }
 .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li.ui-state-active { border-bottom-width: 0; }
 .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li.ui-state-active a, .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
-.wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li a, .wordpress-post-tabs-skin-gray .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-state-active a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-nav li a, .wordpress-post-tabs-skin-gray .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-state-active a { cursor: pointer; outline: none; border: none;} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
 .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-panel { padding: 0.2em 0.2em 0; display: block; border-width: 0; background: none; }
 .wordpress-post-tabs-skin-gray .ui-tabs .ui-tabs-hide { position: absolute; left: -10000px; }
 

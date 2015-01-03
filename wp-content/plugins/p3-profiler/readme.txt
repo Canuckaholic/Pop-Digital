@@ -1,9 +1,9 @@
-﻿=== P3 (Plugin Performance Profiler) ===
-Contributors: Godaddy, StarfieldTech
+=== P3 (Plugin Performance Profiler) ===
+Contributors: Godaddy, StarfieldTech, kurtpayne
 Tags: debug, debugging, developer, development, performance, plugin, profiler, speed
 Requires at least: 3.3
-Tested up to: 3.5
-Stable tag: 1.4.1
+Tested up to: 4.1
+Stable tag: 1.5.3.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,29 @@ Manual installation:
 4. Then activate the Plugin from Plugins page.
 
 == Upgrade Notice ==
+= 1.5.3.4 =
+Fixes another CSS issue with overlays and soem browsers
+
+= 1.5.3.3 =
+Fixes a CSS issue with overlays and soem browsers
+
+= 1.5.3.2 =
+Style updates for 4.1
+
+= 1.5.3.1 =
+Fixed logic bug in determining debug_backtrace arguements
+
+= 1.5.3 =
+Improved scanner performance (props askapache). Fixed a CSS conflict in overlays
+
+= 1.5.2 =
+Fixed a race condition in the error detection logic.  Now P3 will auto deactivate 60 seconds after an error if it is not cleared.
+
+= 1.5.1 =
+Fix a bug which broke debug mode and caused scanning to not work properly for some users.
+
+= 1.5.0 =
+Avoid a race condition on NFS systems.  Also fix PHP strict notices and stylesheet conflict with MP6/3.8 admin theme.
 
 = 1.4.1 =
 Fixed 2 php notices and removed a reference to a missing stylesheet.
@@ -136,6 +159,36 @@ add_filter( 'p3_automatic_scan_urls', 'my_p3_auto_scan_pages' );
 </code>
 
 == Changelog ==
+= 1.5.3.4 =
+* Fixes another CSS issue with overlays and soem browsers
+
+= 1.5.3.3 =
+* Fixes a CSS issue with overlays and soem browsers
+
+= 1.5.3.2 =
+* Style Updates for 4.1
+
+= 1.5.3.1 =
+* Fixed logic bug in determining debug_backtrace arguements
+
+= 1.5.3 =
+* Improved scanner performance (props askapache)
+* Fix a CSS conflict in overlays
+
+= 1.5.2 =
+ * Fix a race condition in the error detection logic
+ * Add a notice about WordPress SEO and Jetpack
+
+= 1.5.1 =
+ * Fix a bug which broke debug mode and caused scanning to not work properly for some users.
+
+= 1.5.0 =
+ * Fixed a CSS compatibility issue between WordPress 3.8 / MP6 and jQuery UI (props mintfactory)
+
+= 1.4.2 =
+ * Fixed a php short tag. Props Dean Taylor
+ * Fixed an E_STRICT notice. Props Dean Taylor
+ * Fixed an issue with debug_backtrace that broke with php 5.2.4. Props tobbykanin
 
 = 1.4.1 =
  * Fixed a logged php notice during uninstall

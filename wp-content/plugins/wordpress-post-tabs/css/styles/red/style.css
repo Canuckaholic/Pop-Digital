@@ -35,7 +35,7 @@
 .wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 0; margin: 1px .2em 0 0;padding: 0; white-space: nowrap; }
 .wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
 .wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li.ui-state-active a, .wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li.ui-state-disabled a,.wordpress-post-tabs-skin-red  .ui-tabs .ui-tabs-nav li.ui-tabs-loading a { cursor: text; }
-.wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li a, .wordpress-post-tabs-skin-red .ui-tabs-collapsible .ui-tabs-nav li.ui-state-active a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-nav li a, .wordpress-post-tabs-skin-red .ui-tabs-collapsible .ui-tabs-nav li.ui-state-active a { cursor: pointer; outline: none; border: none; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
 .wordpress-post-tabs-skin-red .ui-tabs .ui-tabs-panel { display: block; border: 0; padding: 1em 1.4em; background: none; }
 
 /* Component containers
@@ -96,7 +96,7 @@
 
 /*Start - Link*/
 .wordpress-post-tabs-skin-red .wpts_ext {list-style: none; float: left; position: relative; top: 0; margin: 1px .2em 0 0;padding: 0; white-space: nowrap; border: 1px solid #d8dcdf; background: #eeeeee url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #004276;}
-.wordpress-post-tabs-skin-red .wpts_ext a{ float: left; text-decoration: none; padding: .5em 1em; color: #004276;}
+.wordpress-post-tabs-skin-red .wpts_ext a , .wordpress-post-tabs-skin-red .wpts_ext a:visited{ float: left; text-decoration: none; padding: .5em 1em; color: #004276;}
 /*End - Link CSS*/
 
 /*Top Tabs */

@@ -3,13 +3,13 @@
 Plugin Name: WordPress Post Tabs
 Plugin URI: http://tabbervilla.com/wordpress-post-tabs/
 Description: WordPress Post Tabs will help you to easily display your WordPress Post or Page sections in structured tabs, so that if you are writing some review post, you can add distinct tabs representing each section of the review like overview, specifications, performance, final rating and so on. Watch Live Demo at <a href="http://tabbervilla.com/wordpress-post-tabs/">Plugin Page</a>.
-Version: 1.4	
+Version: 1.6
 Author: Internet Techies
 Author URI: http://www.clickonf5.org
-WordPress version supported: 3.0 and above
+WordPress version supported: 3.5 and above
 */
 
-/*  Copyright 2010-2013  TabberVilla.com  (email : tedeshpa@gmail.com)
+/*  Copyright 2010-2014  TabberVilla.com  (email : tedeshpa@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -28,6 +28,34 @@ WordPress version supported: 3.0 and above
 if ( ! defined( 'WPTS_PRO_ACTIVE' ) ):
 if ( ! defined( 'WPTS_PLUGIN_BASENAME' ) )
 	define( 'WPTS_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+define("WPTS_VER","1.6",false);
+define('WPTS_URLPATH', trailingslashit( WP_PLUGIN_URL . '/' . plugin_basename( dirname(__FILE__) ) ) );
+global $default_tab_settings, $wpts,$wpts_db_version;
+$wpts_db_version='1.6'; //current version of WordPress Post Tabs database 
+$default_tab_settings=array('speed' => '1',
+	                   'transition' => '',
+					   'pages' => '1',
+					   'posts' => '1',
+					   'stylesheet' => 'default',
+					   'reload' => '0',
+					   'tab_code' => 'wptab',
+					   'tab_end_code' => 'end_wptabset',
+					   'support' => '0', 
+					   'fade' => '0', 
+					   'jquerynoload' => '0',
+					   'disable_cookies'=>'0',
+					   'showtitle' =>'0',
+					   'linktarget' =>'0',
+					   'nav'=>'0',
+					   'next_text'=>'Next &#187;',
+					   'prev_text'=>'&#171; Prev',
+					   'enable_everywhere'=>'0',
+					   'disable_fouc'=>'0',
+					   'prettylinks'=>'0',
+					   'enablecookie' => '0',
+					   'css'=>''
+					   );
+$wpts = get_option('wpts_options');
 function wpts_url( $path = '' ) {
 	global $wp_version;
 	if ( version_compare( $wp_version, '2.8', '<' ) ) { // Using WordPress 2.7
@@ -41,62 +69,65 @@ function wpts_url( $path = '' ) {
 }
 //on activation, your WordPress Post Tabs options will be populated. Here a single option is used which is actually an array of multiple options
 function activate_wpts() {
-	$wpts_opts1 = get_option('wpts_options');
-	if(isset($wpts_opts1) and $wpts_opts1['speed']=='1'){
-		$pages=$wpts_opts1['pages'];
-		$posts=$wpts_opts1['posts'];
-		if(empty($pages) or !isset($pages)) {
-		  $wpts_opts1['pages']='0';
+	global $default_tab_settings,$wpts_db_version;
+	$installed_ver = get_site_option( 'wpts_db_version' );
+	if( $installed_ver != $wpts_db_version ) {
+		$wpts_opts1 = get_option('wpts_options');
+		$speed=(isset($wpts_opts1['speed'])?$wpts_opts1['speed']:'');
+		if(isset($wpts_opts1) and $speed=='1'){
+			$pages=$wpts_opts1['pages'];
+			$posts=$wpts_opts1['posts'];
+			if(empty($pages) or !isset($pages)) {
+			  $wpts_opts1['pages']='0';
+			}
+			if(empty($posts) or !isset($posts)) {
+			  $wpts_opts1['posts']='0';
+			}
 		}
-		if(empty($posts) or !isset($posts)) {
-		  $wpts_opts1['posts']='0';
+		$wpts_opts2 = $default_tab_settings;
+		if ($wpts_opts1) {
+			$wpts = $wpts_opts1 + $wpts_opts2;
+			update_option('wpts_options',$wpts);
 		}
-	}
-	$wpts_opts2 =array('speed' => '1',
-	                   'transition' => '',
-					   'pages' => '1',
-					   'posts' => '1',
-					   'stylesheet' => 'default',
-					   'reload' => '0',
-					   'tab_code' => 'wptab',
-					   'tab_end_code' => 'end_wptabset',
-					   'support' => '1', 
-					   'fade' => '0', 
-					   'jquerynoload' => '0',
-					   'disable_cookies'=>'0',
-					   'showtitle' =>'0',
-					   'linktarget' =>'0',
-					   'nav'=>'0',
-					   'next_text'=>'Next &#187;',
-					   'prev_text'=>'&#171; Prev',
-					   'enable_everywhere'=>'0',
-					   'disable_fouc'=>'0',
-					   'css'=>''
-					   );
-	if ($wpts_opts1) {
-	    $wpts = $wpts_opts1 + $wpts_opts2;
-		update_option('wpts_options',$wpts);
-	}
-	else {
-		$wpts_opts1 = array();	
-		$wpts = $wpts_opts1 + $wpts_opts2;
-		add_option('wpts_options',$wpts);		
+		else {
+			$wpts_opts1 = array();	
+			$wpts = $wpts_opts1 + $wpts_opts2;
+			add_option('wpts_options',$wpts);		
+		}
+		update_site_option( 'wpts_db_version', $wpts_db_version );
 	}
 }
 
 register_activation_hook( __FILE__, 'activate_wpts' );
-global $wpts;
-$wpts = get_option('wpts_options');
-define("WPTS_VER","1.4",false);
-define('WPTS_URLPATH', trailingslashit( WP_PLUGIN_URL . '/' . plugin_basename( dirname(__FILE__) ) ) );
-include_once (dirname (__FILE__) . '/tinymce/tinymce.php');
+
+/* Added for auto update - start */
+function wpts_update_db_check() {
+    global $wpts_db_version;
+    if (get_site_option('wpts_db_version') != $wpts_db_version) {
+        activate_wpts();
+    }
+}
+add_action('plugins_loaded', 'wpts_update_db_check');
+/* Added for auto update - end */
+
+require_once (dirname (__FILE__) . '/tinymce/tinymce.php');
 
 function wpts_wp_init() {
-    global $post,$wpts;
+    global $post,$wpts,$default_tab_settings;
+	foreach($default_tab_settings as $key=>$value){
+		if(!isset($wpts[$key])) $wpts[$key]='';
+	}
 	if(is_singular() or $wpts['enable_everywhere'] == '1') { 
 		$enablewpts = get_post_meta($post->ID, 'enablewpts', true);
-		if( (is_page() and ((!empty($enablewpts) and $enablewpts=='1') or  $wpts['pages'] != '0'  ) ) 
-			or (is_single() and ((!empty($enablewpts) and $enablewpts=='1') or $wpts['posts'] != '0'  ) ) or $wpts['enable_everywhere'] == '1' ) 
+		if(isset($wpts['posts']))$wpposts=$wpts['posts'];
+		else $wpposts='';
+		if(isset($wpts['pages']))$wppages=$wpts['pages'];
+		else $wppages='';
+		// check whether cookie is set for last active tab
+		if(isset($wpts['enablecookie'])) $enablecookie = $wpts['enablecookie'];
+		else $enablecookie = '0';
+		if( (is_page() and ((!empty($enablewpts) and $enablewpts=='1') or  $wppages != '0'  ) ) 
+			or (is_single() and ((!empty($enablewpts) and $enablewpts=='1') or $wpposts != '0'  ) ) or $wpts['enable_everywhere'] == '1' ) 
 		{
 			$css="css/styles/".$wpts['stylesheet'].'/style.css';
 			wp_enqueue_style( 'wpts_ui_css', wpts_url( $css ),false, WPTS_VER, 'all'); 
@@ -107,6 +138,9 @@ function wpts_wp_init() {
 			else{
 				wp_enqueue_script('jquery-ui-tabs', false, array('jquery','jquery-ui-core'), WPTS_VER, true);
 			}
+			if($enablecookie == '1') wp_enqueue_script('jquery-cookie', wpts_plugin_url( 'js/jquery.cookie.js' ), array('jquery'), WPTS_VER, true);
+			// JS added			
+			wp_enqueue_script('jquery-posttabs', wpts_plugin_url( 'js/jquery.posttabs.js' ), array('jquery'), WPTS_VER, true);
 			global $wpts_count,$wpts_tab_count,$wpts_content,$wpts_prev_post;
 			$wpts_count=0;
 			$wpts_tab_count=0;
@@ -150,26 +184,28 @@ function wpts_old_custom_box() {
   echo "</div></div></fieldset></div>\n";
 }
 function wpts_add_custom_box() {
-	if( function_exists( 'add_meta_box' ) ) {
-		add_meta_box( 'wpts_box1', __( 'Post Tabs' ), 'wpts_edit_custom_box', 'post', 'side','high' );
-		//add_meta_box( $id,   $title,     $callback,   $page, $context, $priority ); 
-		add_meta_box( 'wpts_box2', __( 'Page Tabs' ), 'wpts_edit_custom_box', 'page', 'advanced' );
-	} else {
-		add_action('dbx_post_advanced', 'myplugin_old_custom_box' );
-		add_action('dbx_page_advanced', 'myplugin_old_custom_box' );
-	}
+	add_meta_box( 'wpts_box1', __( 'Post Tabs' ), 'wpts_edit_custom_box', 'post', 'side','high' );
+	//add_meta_box( $id,   $title,     $callback,   $page, $context, $priority ); 
+	add_meta_box( 'wpts_box2', __( 'Page Tabs' ), 'wpts_edit_custom_box', 'page', 'advanced' );
 }
 /* Use the admin_menu action to define the custom boxes */
 add_action('admin_menu', 'wpts_add_custom_box');
 
 function wpts_savepost(){
 	global $post;
-	$post_id = $post->ID;
+	if(isset($post))$post_id = $post->ID;
+	else $post_id = '';
 	// verify this came from the our screen and with proper authorization,
 	  // because save_post can be triggered at other times
-	  if ( !wp_verify_nonce( $_POST['enablewpts_noncename'], plugin_basename(__FILE__) )) {
-		return $post_id;
-	  }
+	if(isset($_POST['enablewpts_noncename'])){	  
+		if ( !wp_verify_nonce( $_POST['enablewpts_noncename'], plugin_basename(__FILE__) )) {
+			return $post_id;
+		}	
+	}
+	else{
+		return $post_id;		
+	}
+	
 	  // verify if this is an auto save routine. If it is our form has not been submitted, so we dont want
 	  // to do anything
 	  if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) 
@@ -215,11 +251,15 @@ function wpts_end_shortcode($atts) {
  if(is_feed()){
    return null;
  }
- global $wpts,$post;
+ global $wpts,$default_tab_settings,$post;
  global $wpts_content,$wpts_tab_count,$wpts_count,$wpts_prev_post;
- 
+ $data_selected = '';
  $post_id = $post->ID;
- 
+
+foreach($default_tab_settings as $key=>$value){
+		if(!isset($wpts[$key])) $wpts[$key]='';
+	} 
+
  if($wpts_prev_post!=$post_id){$wpts_count=0;}
 
 	if(is_singular() or $wpts['enable_everywhere'] == '1') {
@@ -228,11 +268,6 @@ function wpts_end_shortcode($atts) {
 			$tab_content = '<ul>';
 			$tab_i=0;
 			for($i=0;$i<$wpts_tab_count;$i++) {
-			    if($wpts['reload']=='1') {
-			     $onclick = 'onclick="return wptReload(\'tabs-'.$post_id.'-'.$wpts_count.'-'.$i.'\')"'; }
-				else {
-				 $onclick = '';
-				}
 				$pageurl="http://" . $_SERVER['HTTP_HOST']  . $_SERVER['REQUEST_URI'];
 				$link = $wpts_content[$i]['link'];
 				if ($wpts['showtitle'] == '1') {
@@ -247,10 +282,20 @@ function wpts_end_shortcode($atts) {
 				else {
 					$linktarget = '';
 				}
+				//name specific links
+				if($wpts['prettylinks']=='1'){				
+					$linkhref=preg_replace('/<[^>]*>/', '', $wpts_content[$i]['name']);				
+					$linkhref=preg_replace('/\W/', '-', $linkhref);
+					if(isset($wpts_content['id']) and is_array($wpts_content['id'])){if(in_array($linkhref,$wpts_content['id']))$linkhref.=$wpts_count;}
+				}
+				else{
+					$linkhref='tabs-'.$post_id.'-'.$wpts_count.'-'.$i;
+				}
+				
 				if(!empty($link)) {
-					$tab_content = $tab_content.'<span class="wpts_ext"><a href="'.$wpts_content[$i]['link'] .'" '.$onclick .' '.$linktitle .$linktarget. '>'.$wpts_content[$i]['name'].'</a></span>';}
+					$tab_content = $tab_content.'<span class="wpts_ext"><a href="'.$wpts_content[$i]['link'] .'" '.$linktitle .$linktarget. '>'.$wpts_content[$i]['name'].'</a></span>';}
 				else {
-					$tab_content = $tab_content.'<li><a href="'.$pageurl.'#tabs-'.$post_id.'-'.$wpts_count.'-'.$i.'" '.$onclick .' '.$linktitle .$linktarget.'>'.$wpts_content[$i]['name'].'</a></li>';
+					$tab_content = $tab_content.'<li><a href="'.$pageurl.'#'.$linkhref.'" '.$linktitle .$linktarget.'>'.$wpts_content[$i]['name'].'</a></li>';
 					//Selected tab by default
 					$selected=$wpts_content[$i]['selected'];
 					if($selected=='1')$data_selected=$tab_i;
@@ -262,11 +307,26 @@ function wpts_end_shortcode($atts) {
 			$tab_html='';
 			for($i=0;$i<$wpts_tab_count;$i++) {
 				$link_html = $wpts_content[$i]['link'];
+				
+				//name specific links
+				if($wpts['prettylinks']=='1'){	
+					$linkhref=preg_replace('/<[^>]*>/', '', $wpts_content[$i]['name']);				
+					$linkhref=preg_replace('/\W/', '-', $linkhref);
+					if(isset($wpts_content['id']) and is_array($wpts_content['id'])){
+						if(in_array($linkhref,$wpts_content['id']))$linkhref.=$wpts_count;
+						else $wpts_content['id'][]=$linkhref;
+					}				
+					else $wpts_content['id'][]=$linkhref;
+				}
+				else {
+					$linkhref='tabs-'.$post_id.'-'.$wpts_count.'-'.$i;
+				}
+				
 				if(!empty($link_html)) {
 					$tab_html.=''; 
 				}
 				else {
-					$tab_html.='<div id="tabs-'.$post_id.'-'.$wpts_count.'-'.$i.'"><p>'.$wpts_content[$i]['content'].'</p></div>';
+					$tab_html.='<div id="'.$linkhref.'"><p>'.$wpts_content[$i]['content'].'</p></div>';
 				}
 				$tab_html=preg_replace("/<p[^>]*>[\s|&nbsp;]*<\/p>/", '', $tab_html);
 			}
@@ -280,6 +340,7 @@ function wpts_end_shortcode($atts) {
 		$script = '';
 
 		global $post;
+		$wpts_stylesheet = $wpts['stylesheet'];
 		$post_id = $post->ID;
 		$enablewpts = get_post_meta($post->ID, 'enablewpts', true);
 		if( (!empty($enablewpts) and $enablewpts=='1') or $wpts['posts'] != '0'  ) 	{  
@@ -288,9 +349,6 @@ function wpts_end_shortcode($atts) {
 				jQuery(document).ready(function(){ jQuery(".wpts-hide .wordpress-post-tabs").css({"display" : "block"}); });';}
 			else {$hide='';}
 			$script = $script.'<script type="text/javascript">
-			if (typeof wptReload != "function"){
-				function wptReload(ar){	location.href=location.href.split(/\?|#/)[0] + "#" + ar; location.reload(true);return false;}
-			}
 			'.$hide.'
 			jQuery(function() {';
 			if($wpts_count and $wpts_count!=0){ 
@@ -303,38 +361,33 @@ function wpts_end_shortcode($atts) {
 				   $cookie = '';
 				}	*/
 				$tab_name='tabs_'.$post_id.'_'.$i;
-				
-				$script = $script.'var $'.$tab_name.' = jQuery("#tabs_'.$post_id.'_'.$i.'").tabs().addClass( "ui-tabs-horizontal-top ui-helper-clearfix" );';
-				 
+				$fade='0';
 				if(isset($wpts['fade']) and $wpts['fade']=='1'){ 
-					$script = $script.'jQuery("#tabs_'.$post_id.'_'.$i.'").tabs({ fx: { opacity: "toggle" } });';
+					$fade='1';
 				}
-				//Active tab
-				if( $data_selected and !empty($data_selected) ) $script = $script.'$'.$tab_name.'.tabs("option", "active", '. $data_selected .');';
-				if(isset($wpts['nav']) and $wpts['nav']=='1') {
-				   $script = $script.' var wpts_j=0;
-				   jQuery("#tabs_'.$post_id.'_'.$i.' .ui-tabs-panel").each(function(wpts_j){
-						  var totalSize = jQuery("#tabs_'.$post_id.'_'.$i.' .ui-tabs-panel").size();
-						  if (wpts_j < (totalSize-1)) {
-							  var wpts_next = wpts_j + 1;
-								  jQuery(this).append("<a href=\'#\' class=\'wpts-next-tab wpts-mover\' rel=\'" + wpts_next + "\'>'.$wpts['next_text'].'</a>");
-						  }
-						  if (wpts_j >= 1) {
-							  var wpts_prev = wpts_j - 1;
-								  jQuery(this).append("<a href=\'#\' class=\'wpts-prev-tab wpts-mover\' rel=\'" + wpts_prev + "\'>'.$wpts['prev_text'].'</a>");
-						  }
-				   });
-				   
-					jQuery(".wpts-next-tab, .wpts-prev-tab").click(function() {
-					   $'.$tab_name.'.tabs("option", "active", jQuery(this).attr("rel"));
-					   return false;
-				   })';
-			  } 
-			  
-			 }
-		
+				$sel = '';
+				if( $data_selected != "" ) $sel = $data_selected;
+				$reload = '0';
+				if(isset($wpts['reload']) and $wpts['reload']=='1') $reload = '1';
+				$nav = '0';
+				if(isset($wpts['nav']) and $wpts['nav']=='1') $nav = '1';
+				$next='';$prev='';
+				if(isset($wpts['next_text'])) $next = $wpts['next_text'];
+				if(isset($wpts['prev_text'])) $prev = $wpts['prev_text'];
+				$enablecookie = '';
+				if(isset($wpts['enablecookie'])) $enablecookie = $wpts['enablecookie'];
+				$script=$script.'jQuery( "#'.$tab_name.'" ).posttabs({ tabname : "'.$tab_name.'",
+					fade 	: "'.$fade.'",
+					active	: "'.$sel.'",
+					reload	: "'.$reload.'",
+					nav	: "'.$nav.'",
+					nexttext: "'.$next.'",
+					prevtext: "'.$prev.'",
+					enablecookie:"'.$enablecookie.'"
+				});';
+			}
+			$script=apply_filters('wpts_tabjs',$script,'$'.$tab_name,$wpts_stylesheet);
 			$script = $script.'})';
-		
 			$script = $script.'</script> ';
 			$line_breaks = array("\r\n", "\n", "\r");
 			$script = str_replace($line_breaks, "", $script);
@@ -393,7 +446,7 @@ function wpts_plugin_action_links( $links, $file ) {
 // function for adding settings page to wp-admin
 function wpts_settings() {
     // Add a new submenu under Options:
-    add_options_page('WP Post Tabs', 'WP Post Tabs', 9, basename(__FILE__), 'wpts_settings_page');
+    add_options_page('WP Post Tabs', 'WP Post Tabs', 'manage_options', basename(__FILE__), 'wpts_settings_page');
 }
 
 function wpts_admin_head() {?>
@@ -414,14 +467,6 @@ add_action('wp_footer', 'wpts_custom_css');
 add_action('admin_footer', 'wpts_custom_css');
 
 function wpts_plugin_url( $path = '' ) {
-	global $wp_version;
-	if ( version_compare( $wp_version, '2.8', '<' ) ) { // Using WordPress 2.7
-		$folder = dirname( plugin_basename( __FILE__ ) );
-		if ( '.' != $folder )
-			$path = path_join( ltrim( $folder, '/' ), $path );
-
-		return plugins_url( $path );
-	}
 	return plugins_url( $path, __FILE__ );
 }
 
@@ -430,9 +475,9 @@ function wpts_admin_scripts() {
   // Settings page only
 	if ( isset($_GET['page']) && 'wordpress-post-tabs.php' == $_GET['page'] ) {
 	wp_enqueue_script('jquery', false, false, false, false);
-	wp_enqueue_script( 'wpts_admin_js', wpts_plugin_url( 'js/admin.js' ),	array('jquery'), WPTSPRO_VER, false);
+	wp_enqueue_script( 'wpts_admin_js', wpts_plugin_url( 'js/admin.js' ),	array('jquery'), WPTS_VER, false);
 	wp_enqueue_style( 'wpts_admin_css', wpts_plugin_url( 'css/admin.css' ),
-		false, WPTSPRO_VER, 'all');
+		false, WPTS_VER, 'all');
 	}
   }
 }
@@ -452,7 +497,7 @@ function wpts_settings_page() {
 ?>
 <div class="wrap">
 
-<div style="width:65%;margin-top: 15px;">
+<div style="width:65%;margin-top: 15px;margin-bottom: 20px;">
 	<div style="float:right;"><strong style="color:#ccc;font-size:9px;">powered by</strong> <a style="margin-left:5px;" href="http://tabbervilla.com/" target="_blank" rel="nofollow"><img src="<?php echo wpts_plugin_url('images/tabbervilla.png');?>" width="120"/></a> </div>
 	<h2 style="font-size:26px;">WordPress Post Tabs</h2>
 </div>
@@ -460,7 +505,7 @@ function wpts_settings_page() {
 <form  method="post" action="options.php" id="wpts_form">
 <div id="poststuff" class="metabox-holder has-right-sidebar"> 
 
-<div  style="float:left;width:65%;" id="wpts_form">
+<div  class="left_panel" id="wpts_form">
 <?php
 settings_fields('wpts-group');
 $wpts = get_option('wpts_options');
@@ -469,10 +514,10 @@ $wpts = get_option('wpts_options');
 <div class="postbox">
 <h3 class="hndle"><?php _e('Basic Settings','wpts'); ?></h2>
 
-<div style="padding:10px">
+<div>
 <table class="form-table">
 
-<tr valign="top">
+<tr valign="top" class="row">
 <th scope="row"><label for="wpts_options[stylesheet]"><?php _e('Skin/Style','wpts'); ?></label></th>  
 <td><select name="wpts_options[stylesheet]" id="wpts_stylesheet" >
 
@@ -481,7 +526,7 @@ $directory = WP_PLUGIN_DIR.'/'.str_replace(basename( __FILE__),"",plugin_basenam
 if ($handle = opendir($directory)) {
     while (false !== ($file = readdir($handle))) { 
      if($file != '.' and $file != '..') { ?>
-      <option value="<?php echo $file;?>" <?php if ($wpts['stylesheet'] == $file){ echo "selected";}?> ><?php echo $file;?></option>
+      <option value="<?php echo $file;?>" <?php if ($wpts['stylesheet'] == $file){ echo "selected";}?> ><?php echo str_replace("_"," ",$file);?></option>
  <?php  } }
     closedir($handle);
 }
@@ -490,12 +535,12 @@ if ($handle = opendir($directory)) {
 </td>
 </tr>
 
-<tr valign="top"> 
+<tr valign="top" class="row even"> 
 <th scope="row"><label for="wpts_options[fade]"><?php _e('\'Fade\' effect','wpts'); ?></label></th> 
 <td><input name="wpts_options[fade]" type="checkbox" id="wpts_options_fade" value="1" <?php checked("1", $wpts['fade']); ?> /></td> 
 </tr>  
 
-<tr valign="top"> 
+<tr valign="top" class="row"> 
 <th scope="row"><label for="wpts_options[enable_everywhere]"><?php _e('Enable tabs Sitewide','wpts'); ?></label></th> 
 <td><input name="wpts_options[enable_everywhere]" type="checkbox" id="wpts_options_enable_everywhere" value="1" <?php checked("1", $wpts['enable_everywhere']); ?> />
 <span class="moreInfo">
@@ -507,7 +552,32 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr> 
 
-<tr valign="top"> 
+<tr valign="top" class="row even"> 
+<th scope="row"><label for="wpts_options[enablecookie]"><?php _e('Enable Cookie for last active tab','wpts'); ?></label></th> 
+<td><input name="wpts_options[enablecookie]" type="checkbox" id="wpts_options_enablecookie" value="1" <?php checked("1", $wpts['enablecookie']); ?> />
+<span class="moreInfo">
+	&nbsp; <span class="trigger"> ? </span>
+	<div class="tooltip">
+	<?php _e('If checked last active tab will open by default','wpts'); ?>
+
+	</div>
+</span>
+</td> 
+</tr>
+
+<tr valign="top" class="row"> 
+<th scope="row"><label for="wpts_options[prettylinks]"><?php _e('Enable prettylinks for tab #','wpts'); ?></label></th> 
+<td><input name="wpts_options[prettylinks]" type="checkbox" id="wpts_options_prettylinks" value="1" <?php checked("1", $wpts['prettylinks']); ?> />
+<span class="moreInfo">
+	&nbsp; <span class="trigger"> ? </span>
+	<div class="tooltip">
+	<?php _e('If checked the tab names will be used as tab # urls instead of #tab-112-...','wpts'); ?>
+	</div>
+</span>
+</td> 
+</tr>
+
+<tr valign="top" class="row even"> 
 <th scope="row"><label for="wpts_options[nav]"><?php _e('Navigation','wpts'); ?></label></th> 
 <td><input name="wpts_options[nav]" type="checkbox" id="wpts_options_nav" value="1" <?php checked("1", $wpts['nav']); ?> />
 <span class="moreInfo">
@@ -519,18 +589,18 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr> 
 
-<tr valign="top">
+<tr valign="top" class="row">
 <th scope="row"><label for="wpts_options[next_text]"><?php _e('\'Next\' navigation text','wpts'); ?></label></th>
 <td><input type="text" name="wpts_options[next_text]" id="wpts_options_next_text" class="regular-text code" value="<?php echo $wpts['next_text']; ?>" />
 </td>
 </tr>
 
-<tr valign="top">
+<tr valign="top" class="row even">
 <th scope="row"><label for="wpts_options[prev_text]"><?php _e('\'Prev\' navigation text','wpts'); ?></label></th>
 <td><input type="text" name="wpts_options[prev_text]" id="wpts_options_prev_text" class="regular-text code" value="<?php echo $wpts['prev_text']; ?>" /></td>
 </tr> 
 
-<tr valign="top"> 
+<tr valign="top" class="row"> 
 <th scope="row"><label for="wpts_options[linktarget]"><?php _e('Open tab links in New window','wpts'); ?> </label></th> 
 <td><input name="wpts_options[linktarget]" type="checkbox" id="wpts_options_linktarget" value="1" <?php checked("1", $wpts['linktarget']); ?> />
 <span class="moreInfo">
@@ -542,7 +612,7 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr>
 
-<tr valign="top"> 
+<tr valign="top" class="row even"> 
 <th scope="row"><label for="wpts_options[reload]"><?php _e('Reload on click','wpts'); ?></label></th> 
 <td><input name="wpts_options[reload]" type="checkbox" id="wpts_options_reload" value="1"  <?php checked("1", $wpts['reload']); ?> />
 <span class="moreInfo">
@@ -554,7 +624,7 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr> 
 
-<tr valign="top"> 
+<tr valign="top" class="row"> 
 <th scope="row"><label for="wpts_options[showtitle]"><?php _e('Title Attribute for tab links','wpts'); ?></label></th> 
 <td><input name="wpts_options[showtitle]" type="checkbox" id="wpts_options_showtitle" value="1" <?php checked("1", $wpts['showtitle']); ?> />
 <span class="moreInfo">
@@ -566,7 +636,7 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr>
 
-<tr valign="top"> 
+<tr valign="top" class="row even"> 
 <th scope="row"><label for="wpts_options[disable_fouc]"><?php _e('Disable FOUC','wpts'); ?></label></th> 
 <td><input name="wpts_options[disable_fouc]" type="checkbox" id="wpts_options_disable_fouc" value="1" <?php checked("1", $wpts['disable_fouc']); ?> />
 <span class="moreInfo">
@@ -578,7 +648,7 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr> 
 
-<tr valign="top"> 
+<tr valign="top" class="row"> 
 <th scope="row"><label for="wpts_options[jquerynoload]"><?php _e('Disable \'jquery\'','wpts'); ?></label></th> 
 <td><input name="wpts_options[jquerynoload]" type="checkbox" id="wpts_options_jquerynoload" value="1" <?php checked("1", $wpts['jquerynoload']); ?> />
 <span class="moreInfo">
@@ -590,7 +660,7 @@ if ($handle = opendir($directory)) {
 </td> 
 </tr> 
 </table> 
-<p class="submit">
+<p class="submit" style="padding-left:10px;">
 <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
 </p>
 </div>
@@ -598,7 +668,7 @@ if ($handle = opendir($directory)) {
 
 
 <div class="postbox">
-<h3 class="hndle" style="font-size: 18px;"><?php _e('Advance Options','wpts'); ?></h2>
+<h3 class="hndle" style="font-size: 18px;"><?php _e('Advanced Options','wpts'); ?></h2>
  
 <h3 style="background: #CCC; color: #222;margin: 20px 0;"><?php _e('Disable Plugin Resources','wpts'); ?> </h3> 
 
@@ -648,9 +718,11 @@ if ($handle = opendir($directory)) {
 </tr> 
 
 </table>
+</div>
+
 
 <h3 style="background: #CCC; color: #222;margin: 20px 0;"><?php _e('Miscellaneous','wpts'); ?> </h3> 
-
+<div style="padding:10px">
 <table class="form-table"> 
 
 <tr valign="top">
@@ -684,14 +756,14 @@ if ($handle = opendir($directory)) {
 
 </div>
 
-<div style="float:left;width:255px;padding-left:20px;"> 
+<div class="right_panel"> 
 
 			<div class="postbox"> 
 			  <h3 class="hndle"><span><?php _e('About this Plugin:','wpts'); ?></span></h3> 
 			  <div class="inside">
 			  
 			  
-			  <div style="float:left;width:50%;margin-right:10px">
+			  <div class="right_panel_link">
                 <ul>
                 <li><a href="http://tabbervilla.com/wordpress-post-tabs/" title="<?php _e('WordPress Post Tabs Homepage','wpts'); ?>" ><?php _e('Plugin Homepage','wpts'); ?></a></li>
                 <li><a href="http://keencodes.com/" title="<?php _e('WordPress Post Tabs Author Page','wpts'); ?>" ><?php _e('About the Author','wpts'); ?></a></li>
@@ -701,12 +773,8 @@ if ($handle = opendir($directory)) {
                 </ul> 
 			  </div>	
 			  
-			  <div style="float:right;width:45%;">
-				<div style="margin-top:10px;margin-bottom:5px;float:right;">
-			    <a href="http://tabbervilla.com/" target="_blank" rel="nofollow"><img src="<?php echo wpts_plugin_url('images/tabbervilla.png');?>" width="100%"/></a>
-				</div>
-				<div class="clear"></div>
-				<a style="margin-top:10px;float:right;" href="http://www.clickonf5.org/go/donate-wp-plugins/" target="_blank" rel="nofollow"><img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" width="100%"/></a>
+			  <div class="right_panel_img">
+				<a style="margin-top:20px;float:right;" href="http://www.clickonf5.org/go/donate-wp-plugins/" target="_blank" rel="nofollow"><img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" width="100%"/></a>
 			  </div>
 			  <div class="clear"></div>
 				
@@ -721,28 +789,7 @@ if ($handle = opendir($directory)) {
 				</div>
 
 
-           <div class="postbox"> 
-				<h3 class="hndle"><span></span><?php _e('Recommended WP Sliders','wpts'); ?></h3>
-     		  <div class="inside">
-				<div style="margin:10px auto;">
-							<a href="http://slidervilla.com/" title="Premium WordPress Slider Plugins" target="_blank"><img src="<?php echo wpts_plugin_url('images/slidervilla-ad1.jpg');?>" alt="Premium WordPress Slider Plugins" width="100%" /></a>
-				</div>
-				<p><a href="http://slidervilla.com/" title="Recommended WordPress Sliders" target="_blank">SliderVilla slider plugins</a> are feature rich and stylish plugins to embed a nice looking featured content slider in your existing or new theme template. 100% customization options available on WordPress Settings page of the plugin.</p>
-						<p><strong>Stylish Sliders, <a href="http://slidervilla.com/blog/testimonials/" target="_blank">Happy Customers</a>!</strong></p>
-                        <p><a href="http://slidervilla.com/" title="Recommended WordPress Sliders" target="_blank">For more info visit SliderVilla</a></p>
-            </div></div>
-                
-     
-     		<div class="postbox"> 
-			  <h3 class="hndle"><span></span><?php _e('Recommended Themes','wpts'); ?></h3> 
-			  <div class="inside">
-                     <div style="margin:10px 5px">
-                        <a href="http://slidervilla.com/go/elegantthemes/" title="Recommended WordPress Themes" target="_blank"><img src="<?php echo wpts_plugin_url('images/elegantthemes.gif');?>" alt="Recommended WordPress Themes" width="100%"/></a>
-                        <p><a href="http://slidervilla.com/go/elegantthemes/" title="Recommended WordPress Themes" target="_blank">Elegant Themes</a> are attractive, compatible, affordable, SEO optimized WordPress Themes and have best support in community.</p>
-                        <p><strong>Beautiful themes, Great support!</strong></p>
-                        <p><a href="http://slidervilla.com/go/elegantthemes/" title="Recommended WordPress Themes" target="_blank">For more info visit ElegantThemes</a></p>
-                     </div>
-               </div></div>
+          
 </div> <!--end of poststuff -->
 </form>
 

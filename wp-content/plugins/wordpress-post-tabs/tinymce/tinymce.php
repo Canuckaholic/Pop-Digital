@@ -1,5 +1,4 @@
 <?php
-
 /**
  * add_wpts_button
  * 

@@ -4,7 +4,7 @@ Plugin Name: P3 (Plugin Performance Profiler)
 Plugin URI: http://support.godaddy.com/godaddy/wordpress-p3-plugin/
 Description: See which plugins are slowing down your site.  Create a profile of your WordPress site's plugins' performance by measuring their impact on your site's load time.
 Author: GoDaddy.com
-Version: 1.4.1
+Version: 1.5.3.4
 Author URI: http://www.godaddy.com/
 Text Domain: p3-profiler
 Domain Path: /languages
@@ -24,6 +24,8 @@ load_plugin_textdomain( 'p3-profiler', false, plugin_basename( P3_PATH ) . '/lan
 
 // Plugin slug
 define( 'P3_PLUGIN_SLUG', 'p3-profiler' );
+
+define( 'P3_VERSION', '1.5.3.4' );
 
 /**************************************************************************/
 /**        AUTOLOADING                                                   **/
@@ -53,7 +55,7 @@ require_once P3_PATH . '/start-profile.php';
 /**************************************************************************/
 
 // Ajax actions
-if ( is_admin() && 'admin-ajax.php' == end( explode( '/', $_SERVER['PHP_SELF'] ) ) ) {
+if ( is_admin() && defined( 'DOING_AJAX' ) && DOING_AJAX ) {
 
 	add_action( 'admin_init', array( 'P3_Profiler_Plugin_Admin', 'set_path' ) );
 	add_action( 'wp_ajax_p3_start_scan', array( 'P3_Profiler_Plugin_Admin', 'ajax_start_scan' ) );
@@ -63,10 +65,10 @@ if ( is_admin() && 'admin-ajax.php' == end( explode( '/', $_SERVER['PHP_SELF'] )
 
 // Admin hooks
 } elseif ( is_admin() ) {
-		
+
 	// Show the 'Profiler' option under the 'Plugins' menu
 	add_action( 'admin_menu', array( 'P3_Profiler_Plugin', 'tools_menu' ) );
-	
+
 	// Show the 'Profile now' link on the plugins table
 	add_action( 'plugin_action_links', array( 'P3_Profiler_Plugin', 'add_settings_link'), 10, 2 );
 
@@ -79,6 +81,27 @@ if ( is_admin() && 'admin-ajax.php' == end( explode( '/', $_SERVER['PHP_SELF'] )
 		// Show any notices
 		add_action( 'admin_notices', array( 'P3_Profiler_Plugin_Admin', 'show_notices' ) );
 	}
+
+	function p3_plugin_disclaimers( $profile ) {
+		$disclaimed_plugins = array(
+			'jetpack',
+			'wordpress-seo',
+		);
+
+		if ( $detected = array_intersect( $disclaimed_plugins, $profile->get_raw_plugin_list() ) ) {
+			?>
+			<div class="updated inline">
+				<p><?php printf( __( 'Some plugins may show artificially high results.  <a href="%s">More info</a>', 'p3-profiler' ), admin_url( 'tools.php?page=p3-profiler&p3_action=help#q17' ) ); ?></p>
+				<ul style="list-style: initial; margin-left: 1.5em;">
+				<?php foreach ( $detected as $plugin ) : ?>
+					<li><?php echo $profile->get_plugin_name( $plugin ); ?></li>
+				<?php endforeach; ?>
+				</ul>
+			</div>
+			<?php
+		}
+	}
+	add_action( 'p3_runtime_by_plugin_notifications', 'p3_plugin_disclaimers' );
 
 // Remove the admin bar when in profiling mode
 } elseif ( defined( 'WPP_PROFILING_STARTED' ) || isset( $_GET['P3_HIDE_ADMIN_BAR'] ) ) {
@@ -94,8 +117,8 @@ if ( function_exists( 'is_multisite' ) && is_multisite() ) {
 
 /**
  * Autoloader ... very little logic needed
- * @param string $className 
- * @return 
+ * @param string $className
+ * @return
  */
 function p3_profiler_autoload( $className ) {
 	switch ( $className ) {
