@@ -1,3 +1,0 @@
-[25-May-2014 01:40:02 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/ajones/public_html/wp-content/themes/twentyeleven/index.php on line 15
-[28-May-2014 21:28:33 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/ajones/public_html/wp-content/themes/twentyeleven/tag.php on line 10
-[30-May-2014 22:43:01 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/ajones/public_html/wp-content/themes/twentyeleven/404.php on line 10
