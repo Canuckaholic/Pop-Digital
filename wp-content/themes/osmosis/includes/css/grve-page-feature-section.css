@@ -1,0 +1,138 @@
+.grve-image-item.postbox h3,
+.grve-map-item.postbox h3 {
+	cursor: default;
+}
+
+.grve-slider-item-minimal {
+	display: inline-block;
+    width: 150px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #F5F5F5;
+	margin: 5px;
+	cursor: move;
+}
+
+
+.grve-title {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.grve-feature-slider-item-delete-button,
+.grve-slider-item-delete-button,
+.grve-image-item-delete-button,
+.grve-map-item-delete-button,
+.grve-open-slider-modal,
+.grve-open-video-modal,
+.grve-open-image-modal,
+.grve-open-map-modal,
+.grve-button-spacer {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 3px;
+}
+
+.grve-button-spacer {
+    width: 10px;
+}
+
+.grve-setting {
+    padding-bottom: 10px;
+}
+.grve-setting label {
+    display: inline-block;
+    width: 43%;
+}
+.grve-setting input[type="text"],
+.grve-setting select {
+    display: inline-block;
+    margin: 0;
+    width: 55%;
+}
+.grve-thumb,
+.grve-image-setting,
+.grve-slide-setting,
+.grve-map-setting {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grve-thumb,
+.grve-upload-replace-image,
+.grve-thumb-container {
+    height: 120px;
+    width: 120px;
+}
+.grve-slider-settings,
+.grve-image-settings {
+	height: 120px;
+}
+
+.grve-upload-replace-image {
+	background: url("../images/add.png") no-repeat scroll center center #F5F5F5;
+    color: #F5F5F5;
+	cursor: pointer;
+	margin-right: 2px;
+	float: left;
+	border: solid 1px #DFDFDF;
+}
+.grve-thumb-container {
+	background: url("../images/spinner.gif") no-repeat scroll center center #F5F5F5;
+	margin-right: 2px;
+	float: left;
+	border: solid 1px #DFDFDF;
+}
+.grve-upload-slider-button,
+.grve-upload-feature-slider-button,
+.grve-upload-image-button,
+.grve-upload-multi-map-point {
+	float: left;
+}
+.grve-action-spinner,
+.grve-modal-spinner {
+	background: url("../images/spinner.gif") no-repeat scroll 0 0 / 20px 20px rgba(0, 0, 0, 0);
+	vertical-align: middle;
+    display: none;
+    float: left;
+    height: 20px;
+    margin: 2px 5px 0;
+    opacity: 0.7;
+    width: 20px;
+}
+
+.grve-modal-spinner {
+	float: right;
+	margin: 7px 5px 0;
+}
+
+
+.grve-image-setting,
+.grve-slide-setting,
+.grve-map-setting {
+    width: 90%;
+}
+
+.grve-slide-setting li {
+    float: left;
+    padding: 0 1%;
+    width: 30.3333%;
+}
+
+.grve-image-setting li,
+.grve-map-setting li {
+    float: left;
+    padding: 0 1%;
+    width: 70%;
+}
+.grve-inner-field {
+	padding-left: 20px;
+}
+.grve-inner-field label {
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 870px) {
+	.grve-slide-setting li,
+	.grve-slide-setting {
+		width: 100%;
+	}
+}

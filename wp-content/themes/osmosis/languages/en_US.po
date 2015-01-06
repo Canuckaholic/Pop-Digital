@@ -1,0 +1,6320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osmosis v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-29 21:07:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:4
+#@ osmosis
+msgid "This page cannot be opened directly!"
+msgstr ""
+
+#: comments.php:10
+#@ osmosis
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:29
+#: includes/grve-blog-functions.php:149
+#: includes/grve-blog-functions.php:473
+#: includes/grve-vce-functions.php:29
+#: single.php:20
+#@ osmosis
+msgid "no comments"
+msgstr ""
+
+#: comments.php:29
+#: includes/grve-blog-functions.php:149
+#: includes/grve-blog-functions.php:473
+#: includes/grve-vce-functions.php:33
+#: single.php:20
+#@ osmosis
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:29
+#: includes/grve-blog-functions.php:149
+#: includes/grve-blog-functions.php:473
+#: includes/grve-vce-functions.php:37
+#: single.php:20
+#@ osmosis
+msgid "comments"
+msgstr ""
+
+#: comments.php:51
+#@ osmosis
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:67
+#@ osmosis
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:68
+#@ osmosis
+msgid "Leave a Reply to"
+msgstr ""
+
+#: comments.php:69
+#@ osmosis
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:70
+#@ osmosis
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:74
+#@ osmosis
+msgid "Your Comment Here..."
+msgstr ""
+
+#: comments.php:78
+#@ osmosis
+msgid "You must be"
+msgstr ""
+
+#: comments.php:79
+#@ osmosis
+msgid "logged in"
+msgstr ""
+
+#: comments.php:79
+#@ osmosis
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:82
+#@ osmosis
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:84
+#@ osmosis
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:84
+#@ osmosis
+msgid "Log out"
+msgstr ""
+
+#: comments.php:88
+#@ osmosis
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:99
+#: includes/admin/grve-testimonial-meta.php:47
+#@ osmosis
+msgid "Name"
+msgstr ""
+
+#: comments.php:99
+#: comments.php:105
+#@ osmosis
+msgid "(required)"
+msgstr ""
+
+#: comments.php:105
+#@ osmosis
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:111
+#@ osmosis
+msgid "Website"
+msgstr ""
+
+#: content-none.php:13
+#@ osmosis
+msgid "Hey there mate!<br/>Your lost treasure is not found here..."
+msgstr ""
+
+#: content-none.php:16
+#@ osmosis
+msgid "Check again your spelling and rewrite the content you are seeking for in the search field."
+msgstr ""
+
+#: functions.php:166
+#@ osmosis
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:167
+#@ osmosis
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:241
+#@ osmosis
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:242
+#@ osmosis
+msgid "Main Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:251
+#@ osmosis
+msgid "Single Portfolio"
+msgstr ""
+
+#: functions.php:252
+#@ osmosis
+msgid "Single Portfolio Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:263
+#@ osmosis
+msgid "Shop Overview Page"
+msgstr ""
+
+#: functions.php:264
+#@ osmosis
+msgid "Shop Overview Widget Area"
+msgstr ""
+
+#: functions.php:272
+#@ osmosis
+msgid "Shop Product Pages"
+msgstr ""
+
+#: functions.php:273
+#@ osmosis
+msgid "Shop Product Widget Area"
+msgstr ""
+
+#: functions.php:283
+#: includes/admin/grve-redux-framework-config.php:146
+#@ osmosis
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:284
+#@ osmosis
+msgid "Footer 1 Widget Area"
+msgstr ""
+
+#: functions.php:292
+#: includes/admin/grve-redux-framework-config.php:147
+#@ osmosis
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:293
+#@ osmosis
+msgid "Footer 2 Widget Area"
+msgstr ""
+
+#: functions.php:301
+#: includes/admin/grve-redux-framework-config.php:148
+#@ osmosis
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:302
+#@ osmosis
+msgid "Footer 3 Widget Area"
+msgstr ""
+
+#: functions.php:310
+#: includes/admin/grve-redux-framework-config.php:149
+#@ osmosis
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:311
+#@ osmosis
+msgid "Footer 4 Widget Area"
+msgstr ""
+
+#: functions.php:323
+#: includes/admin/grve-admin-custom-sidebars.php:104
+#@ osmosis
+msgid "Custom Sidebar"
+msgstr ""
+
+#: functions.php:342
+#: includes/grve-woocommerce-functions.php:52
+#@ osmosis
+msgid "Search for ..."
+msgstr ""
+
+#: functions.php:515
+#@ osmosis
+msgid "at"
+msgstr ""
+
+#: functions.php:517
+#@ osmosis
+msgid "REPLY"
+msgstr ""
+
+#: functions.php:518
+#@ osmosis
+msgid "EDIT"
+msgstr ""
+
+#: functions.php:521
+#@ osmosis
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:39
+#: includes/admin/grve-admin-custom-sidebars.php:40
+#: includes/admin/grve-admin-custom-sidebars.php:53
+#@ osmosis
+msgid "Sidebars"
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:57
+#@ osmosis
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:61
+#: includes/admin/grve-portfolio-post-type.php:31
+#: includes/admin/grve-testimonial-post-type.php:29
+#@ osmosis
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:64
+#@ osmosis
+msgid "Field must not be empty!"
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:67
+#@ osmosis
+msgid "Sidebar with this name already exists!"
+msgstr ""
+
+#: includes/admin/grve-admin-custom-sidebars.php:102
+#: includes/admin/grve-admin-feature-functions.php:155
+#: includes/admin/grve-admin-feature-functions.php:262
+#: includes/admin/grve-admin-feature-functions.php:398
+#: includes/admin/grve-admin-media-functions.php:268
+#@ osmosis
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:157
+#: includes/admin/grve-admin-feature-functions.php:264
+#: includes/admin/grve-admin-feature-functions.php:400
+#: includes/admin/grve-admin-feature-functions.php:962
+#@ osmosis
+msgid "Edit Settings"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:161
+#@ osmosis
+msgid "Map Point"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:168
+#@ osmosis
+msgid "Latitude"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:174
+#@ osmosis
+msgid "Longtitude"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:180
+#@ osmosis
+msgid "Marker"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:183
+#: includes/admin/grve-admin-feature-functions.php:951
+#@ osmosis
+msgid "Insert Marker"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:184
+#: includes/admin/grve-admin-feature-functions.php:952
+#: includes/admin/grve-admin-feature-functions.php:976
+#: includes/admin/grve-admin-feature-functions.php:985
+#: includes/admin/grve-admin-feature-functions.php:994
+#: includes/admin/grve-admin-feature-functions.php:1003
+#: includes/admin/grve-portfolio-meta.php:522
+#: includes/admin/grve-portfolio-meta.php:539
+#: includes/admin/grve-portfolio-meta.php:554
+#: includes/admin/grve-post-meta.php:408
+#: includes/admin/grve-post-meta.php:425
+#: includes/admin/grve-post-meta.php:440
+#: includes/admin/grve-post-meta.php:506
+#: includes/admin/grve-post-meta.php:521
+#: includes/admin/grve-post-meta.php:536
+#@ osmosis
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:190
+#@ osmosis
+msgid "Title / Info Text"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:191
+#: includes/admin/grve-admin-feature-functions.php:280
+#: includes/admin/grve-admin-feature-functions.php:417
+#: includes/admin/grve-admin-feature-functions.php:507
+#: includes/admin/grve-admin-feature-functions.php:602
+#: includes/admin/grve-admin-feature-functions.php:851
+#: includes/admin/grve-admin-feature-functions.php:857
+#: includes/admin/grve-portfolio-post-type.php:119
+#: includes/admin/grve-testimonial-post-type.php:89
+#@ osmosis
+msgid "Title"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:191
+#: includes/admin/grve-admin-feature-functions.php:417
+#: includes/admin/grve-admin-feature-functions.php:507
+#@ osmosis
+msgid "Type the title."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:192
+#@ osmosis
+msgid "Info Text"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:192
+#@ osmosis
+msgid "Type the info text."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:193
+#: includes/admin/grve-meta-functions.php:49
+#: includes/admin/grve-redux-framework-config.php:1978
+#@ osmosis
+msgid "Button"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:194
+#: includes/admin/grve-admin-feature-functions.php:298
+#: includes/admin/grve-admin-feature-functions.php:307
+#: includes/admin/grve-admin-feature-functions.php:435
+#: includes/admin/grve-admin-feature-functions.php:444
+#: includes/admin/grve-admin-feature-functions.php:521
+#: includes/admin/grve-admin-feature-functions.php:530
+#@ osmosis
+msgid "Button Text"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:194
+#: includes/admin/grve-admin-feature-functions.php:298
+#: includes/admin/grve-admin-feature-functions.php:307
+#: includes/admin/grve-admin-feature-functions.php:435
+#: includes/admin/grve-admin-feature-functions.php:444
+#: includes/admin/grve-admin-feature-functions.php:521
+#: includes/admin/grve-admin-feature-functions.php:530
+#@ osmosis
+msgid "Type the button text."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:195
+#: includes/admin/grve-admin-feature-functions.php:299
+#: includes/admin/grve-admin-feature-functions.php:308
+#: includes/admin/grve-admin-feature-functions.php:436
+#: includes/admin/grve-admin-feature-functions.php:445
+#: includes/admin/grve-admin-feature-functions.php:522
+#: includes/admin/grve-admin-feature-functions.php:531
+#@ osmosis
+msgid "Button URL"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:195
+#: includes/admin/grve-admin-feature-functions.php:299
+#: includes/admin/grve-admin-feature-functions.php:308
+#: includes/admin/grve-admin-feature-functions.php:436
+#: includes/admin/grve-admin-feature-functions.php:445
+#: includes/admin/grve-admin-feature-functions.php:522
+#: includes/admin/grve-admin-feature-functions.php:531
+#@ osmosis
+msgid "Type the button URL."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:196
+#: includes/admin/grve-admin-feature-functions.php:300
+#: includes/admin/grve-admin-feature-functions.php:309
+#: includes/admin/grve-admin-feature-functions.php:437
+#: includes/admin/grve-admin-feature-functions.php:446
+#: includes/admin/grve-admin-feature-functions.php:523
+#: includes/admin/grve-admin-feature-functions.php:532
+#@ osmosis
+msgid "Button Target"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:196
+#: includes/admin/grve-admin-feature-functions.php:300
+#: includes/admin/grve-admin-feature-functions.php:309
+#: includes/admin/grve-admin-feature-functions.php:437
+#: includes/admin/grve-admin-feature-functions.php:446
+#: includes/admin/grve-admin-feature-functions.php:523
+#: includes/admin/grve-admin-feature-functions.php:532
+#@ osmosis
+msgid "Select the button target."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:197
+#: includes/admin/grve-admin-feature-functions.php:301
+#: includes/admin/grve-admin-feature-functions.php:310
+#: includes/admin/grve-admin-feature-functions.php:438
+#: includes/admin/grve-admin-feature-functions.php:447
+#: includes/admin/grve-admin-feature-functions.php:524
+#: includes/admin/grve-admin-feature-functions.php:533
+#@ osmosis
+msgid "Button Color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:197
+#: includes/admin/grve-admin-feature-functions.php:301
+#: includes/admin/grve-admin-feature-functions.php:310
+#: includes/admin/grve-admin-feature-functions.php:438
+#: includes/admin/grve-admin-feature-functions.php:447
+#: includes/admin/grve-admin-feature-functions.php:524
+#: includes/admin/grve-admin-feature-functions.php:533
+#@ osmosis
+msgid "Select the button color."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:268
+#: includes/admin/grve-admin-feature-functions.php:603
+#: includes/admin/grve-admin-media-functions.php:270
+#: vc_extend/grve-shortcodes-vc-add.php:130
+#@ osmosis
+msgid "Image"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:279
+#: includes/admin/grve-admin-feature-functions.php:416
+#: includes/admin/grve-admin-feature-functions.php:506
+#@ osmosis
+msgid "Title / Caption"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:280
+#@ osmosis
+msgid "Type the image title."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:281
+#: includes/admin/grve-admin-feature-functions.php:508
+#: includes/admin/grve-admin-feature-functions.php:863
+#@ osmosis
+msgid "Caption"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:281
+#@ osmosis
+msgid "Type the image caption."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:282
+#: includes/admin/grve-admin-feature-functions.php:419
+#: includes/admin/grve-admin-feature-functions.php:509
+#: includes/admin/grve-admin-feature-functions.php:869
+#: includes/admin/grve-redux-framework-config.php:3099
+#: includes/admin/grve-redux-framework-config.php:3187
+#: includes/admin/grve-redux-framework-config.php:3285
+#@ osmosis
+msgid "Title Color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:282
+#: includes/admin/grve-admin-feature-functions.php:419
+#: includes/admin/grve-admin-feature-functions.php:509
+#@ osmosis
+msgid "Select the title color."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:283
+#: includes/admin/grve-admin-feature-functions.php:510
+#: includes/admin/grve-admin-feature-functions.php:875
+#@ osmosis
+msgid "Caption Color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:283
+#: includes/admin/grve-admin-feature-functions.php:420
+#: includes/admin/grve-admin-feature-functions.php:510
+#@ osmosis
+msgid "Select the caption color."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:284
+#: includes/admin/grve-admin-feature-functions.php:421
+#: includes/admin/grve-admin-feature-functions.php:511
+#@ osmosis
+msgid "Title / Caption Style"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:284
+#: includes/admin/grve-admin-feature-functions.php:421
+#@ osmosis
+msgid "Select the title / caption style."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:285
+#: includes/admin/grve-admin-feature-functions.php:422
+#: includes/admin/grve-admin-feature-functions.php:512
+#: includes/admin/grve-admin-feature-functions.php:898
+#@ osmosis
+msgid "Alignment"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:285
+#: includes/admin/grve-admin-feature-functions.php:422
+#@ osmosis
+msgid "Select the content alignment."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:286
+#: includes/admin/grve-admin-feature-functions.php:423
+#: includes/admin/grve-admin-feature-functions.php:513
+#: includes/admin/grve-admin-feature-functions.php:909
+#@ osmosis
+msgid "Animation"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:286
+#: includes/admin/grve-admin-feature-functions.php:423
+#@ osmosis
+msgid "Select the title / caption animation."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:288
+#: includes/admin/grve-redux-framework-config.php:94
+#: includes/admin/grve-redux-framework-config.php:3179
+#@ osmosis
+msgid "Background"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:289
+#: includes/admin/grve-admin-feature-functions.php:426
+#@ osmosis
+msgid "Background Position"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:289
+#: includes/admin/grve-admin-feature-functions.php:426
+#@ osmosis
+msgid "Select the background position of the image."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:290
+#@ osmosis
+msgid "Background Effect"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:290
+#@ osmosis
+msgid "Select the background effect of the image."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:292
+#: includes/admin/grve-admin-feature-functions.php:429
+#: includes/admin/grve-admin-feature-functions.php:515
+#@ osmosis
+msgid "Overlay"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:293
+#: includes/admin/grve-admin-feature-functions.php:430
+#: includes/admin/grve-admin-feature-functions.php:516
+#@ osmosis
+msgid "Pattern Overlay"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:293
+#: includes/admin/grve-admin-feature-functions.php:430
+#: includes/admin/grve-admin-feature-functions.php:516
+#@ osmosis
+msgid "Select the pattern overlay."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:294
+#: includes/admin/grve-admin-feature-functions.php:431
+#: includes/admin/grve-admin-feature-functions.php:517
+#@ osmosis
+msgid "Color Overlay"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:294
+#: includes/admin/grve-admin-feature-functions.php:431
+#: includes/admin/grve-admin-feature-functions.php:517
+#@ osmosis
+msgid "Select the color overlay."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:295
+#: includes/admin/grve-admin-feature-functions.php:432
+#: includes/admin/grve-admin-feature-functions.php:518
+#@ osmosis
+msgid "Opacity Overlay"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:295
+#: includes/admin/grve-admin-feature-functions.php:432
+#: includes/admin/grve-admin-feature-functions.php:518
+#@ osmosis
+msgid "Select the opacity overlay."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:297
+#: includes/admin/grve-admin-feature-functions.php:434
+#: includes/admin/grve-admin-feature-functions.php:520
+#@ osmosis
+msgid "First Button"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:302
+#: includes/admin/grve-admin-feature-functions.php:311
+#: includes/admin/grve-admin-feature-functions.php:439
+#: includes/admin/grve-admin-feature-functions.php:448
+#: includes/admin/grve-admin-feature-functions.php:525
+#: includes/admin/grve-admin-feature-functions.php:534
+#@ osmosis
+msgid "Button Size"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:302
+#: includes/admin/grve-admin-feature-functions.php:311
+#: includes/admin/grve-admin-feature-functions.php:439
+#: includes/admin/grve-admin-feature-functions.php:448
+#: includes/admin/grve-admin-feature-functions.php:525
+#: includes/admin/grve-admin-feature-functions.php:534
+#@ osmosis
+msgid "Select the button size."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:303
+#: includes/admin/grve-admin-feature-functions.php:312
+#: includes/admin/grve-admin-feature-functions.php:440
+#: includes/admin/grve-admin-feature-functions.php:449
+#: includes/admin/grve-admin-feature-functions.php:526
+#: includes/admin/grve-admin-feature-functions.php:535
+#@ osmosis
+msgid "Button Shape"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:303
+#: includes/admin/grve-admin-feature-functions.php:312
+#: includes/admin/grve-admin-feature-functions.php:440
+#: includes/admin/grve-admin-feature-functions.php:449
+#: includes/admin/grve-admin-feature-functions.php:526
+#: includes/admin/grve-admin-feature-functions.php:535
+#@ osmosis
+msgid "Select the button shape."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:304
+#: includes/admin/grve-admin-feature-functions.php:313
+#: includes/admin/grve-admin-feature-functions.php:441
+#: includes/admin/grve-admin-feature-functions.php:450
+#: includes/admin/grve-admin-feature-functions.php:527
+#: includes/admin/grve-admin-feature-functions.php:536
+#@ osmosis
+msgid "Button Type"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:304
+#: includes/admin/grve-admin-feature-functions.php:313
+#: includes/admin/grve-admin-feature-functions.php:441
+#: includes/admin/grve-admin-feature-functions.php:450
+#: includes/admin/grve-admin-feature-functions.php:527
+#: includes/admin/grve-admin-feature-functions.php:536
+#@ osmosis
+msgid "Select the button type."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:306
+#: includes/admin/grve-admin-feature-functions.php:443
+#: includes/admin/grve-admin-feature-functions.php:529
+#@ osmosis
+msgid "Second Button"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:315
+#: includes/admin/grve-admin-feature-functions.php:452
+#: includes/admin/grve-admin-feature-functions.php:538
+#@ osmosis
+msgid "Extras"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:316
+#: includes/admin/grve-admin-feature-functions.php:453
+#: includes/admin/grve-admin-feature-functions.php:539
+#: includes/admin/grve-admin-feature-functions.php:920
+#@ osmosis
+msgid "Extra Class"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:316
+#: includes/admin/grve-admin-feature-functions.php:453
+#: includes/admin/grve-admin-feature-functions.php:539
+#@ osmosis
+msgid "Type class name."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:397
+#@ osmosis
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:404
+#: includes/admin/grve-admin-feature-functions.php:682
+#@ osmosis
+msgid "Slide"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:418
+#: includes/admin/grve-page-meta.php:163
+#: includes/admin/grve-portfolio-meta.php:202
+#@ osmosis
+msgid "Description"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:418
+#: includes/admin/grve-admin-feature-functions.php:508
+#@ osmosis
+msgid "Type the caption."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:420
+#: includes/admin/grve-redux-framework-config.php:3196
+#: includes/admin/grve-redux-framework-config.php:3294
+#@ osmosis
+msgid "Description Color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:425
+#@ osmosis
+msgid "Header / Background Position"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:427
+#: includes/admin/grve-admin-feature-functions.php:759
+#@ osmosis
+msgid "Header Style"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:427
+#: includes/admin/grve-admin-feature-functions.php:761
+#@ osmosis
+msgid "With this option you can change the coloring of your header."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:511
+#@ osmosis
+msgid "Select the title / caption style"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:512
+#@ osmosis
+msgid "Select the content alignment"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:513
+#@ osmosis
+msgid "Select the title / caption animation"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:593
+#@ osmosis
+msgid "Feature Element"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:595
+#@ osmosis
+msgid "Select feature section element."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:601
+#: includes/admin/grve-admin-media-functions.php:32
+#: includes/admin/grve-admin-media-functions.php:117
+#: includes/admin/grve-meta-functions.php:19
+#: includes/admin/grve-page-meta.php:229
+#: includes/admin/grve-portfolio-meta.php:269
+#: includes/admin/grve-portfolio-meta.php:504
+#: includes/admin/grve-post-meta.php:200
+#: includes/admin/grve-product-meta.php:110
+#: includes/admin/grve-redux-framework-config.php:93
+#: includes/admin/grve-redux-framework-config.php:116
+#: includes/admin/grve-redux-framework-config.php:135
+#: includes/admin/grve-redux-framework-config.php:1078
+#: vc_extend/grve-shortcodes-vc-add.php:128
+#: vc_extend/grve-shortcodes-vc-add.php:242
+#: vc_extend/grve-shortcodes-vc-add.php:386
+#@ osmosis
+msgid "None"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:604
+#: includes/admin/grve-admin-feature-functions.php:966
+#@ osmosis
+msgid "Video"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:605
+#: includes/admin/grve-portfolio-meta.php:501
+#: includes/admin/grve-post-meta.php:277
+#@ osmosis
+msgid "Slider"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:606
+#: includes/admin/grve-admin-feature-functions.php:932
+#@ osmosis
+msgid "Map"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:613
+#: includes/admin/grve-portfolio-meta.php:574
+#@ osmosis
+msgid "Slideshow Speed"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:623
+#@ osmosis
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:633
+#: includes/admin/grve-portfolio-meta.php:584
+#@ osmosis
+msgid "Navigation Buttons"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:639
+#: includes/admin/grve-admin-media-functions.php:44
+#: includes/admin/grve-portfolio-meta.php:590
+#@ osmosis
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:642
+#: includes/admin/grve-admin-media-functions.php:45
+#: includes/admin/grve-portfolio-meta.php:593
+#@ osmosis
+msgid "Style 2"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:645
+#: includes/admin/grve-admin-media-functions.php:46
+#: includes/admin/grve-portfolio-meta.php:596
+#@ osmosis
+msgid "Style 3"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:648
+#: includes/admin/grve-admin-media-functions.php:47
+#: includes/admin/grve-portfolio-meta.php:599
+#@ osmosis
+msgid "Style 4"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:651
+#: includes/admin/grve-portfolio-meta.php:602
+#@ osmosis
+msgid "No Navigation"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:659
+#@ osmosis
+msgid "Navigation color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:665
+#: includes/admin/grve-admin-media-functions.php:17
+#: includes/admin/grve-admin-media-functions.php:28
+#: includes/admin/grve-admin-media-functions.php:34
+#: includes/admin/grve-redux-framework-config.php:126
+#: includes/admin/grve-redux-framework-config.php:137
+#: vc_extend/grve-shortcodes-vc-add.php:78
+#: vc_extend/grve-shortcodes-vc-add.php:244
+#@ osmosis
+msgid "Light"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:668
+#: includes/admin/grve-admin-media-functions.php:16
+#: includes/admin/grve-admin-media-functions.php:27
+#: includes/admin/grve-admin-media-functions.php:33
+#: includes/admin/grve-redux-framework-config.php:125
+#: includes/admin/grve-redux-framework-config.php:136
+#: vc_extend/grve-shortcodes-vc-add.php:77
+#: vc_extend/grve-shortcodes-vc-add.php:243
+#@ osmosis
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:676
+#@ osmosis
+msgid "Transition"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:685
+#@ osmosis
+msgid "Fade"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:688
+#@ osmosis
+msgid "Back Slide"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:691
+#@ osmosis
+msgid "Go Down"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:699
+#@ osmosis
+msgid "Feature Size"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:701
+#@ osmosis
+msgid "With Custom Size option you can select the feature height."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:707
+#@ osmosis
+msgid "Full Screen"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:708
+#@ osmosis
+msgid "Custom Size"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:711
+#@ osmosis
+msgid "Height"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:719
+#@ osmosis
+msgid "Feature/Header Position"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:721
+#@ osmosis
+msgid "With this option header will be shown above or below feature section."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:728
+#@ osmosis
+msgid "Header above Feature"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:731
+#@ osmosis
+msgid "Header below Feature"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:739
+#@ osmosis
+msgid "Header Integration"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:741
+#@ osmosis
+msgid "With this option feature section will be integrated into the header."
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:748
+#: includes/admin/grve-admin-media-functions.php:51
+#: includes/admin/grve-redux-framework-config.php:909
+#: includes/admin/grve-redux-framework-config.php:956
+#: includes/admin/grve-redux-framework-config.php:969
+#: vc_extend/grve-shortcodes-vc-add.php:20
+#: vc_extend/grve-shortcodes-vc-add.php:113
+#@ osmosis
+msgid "No"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:751
+#: includes/admin/grve-admin-media-functions.php:52
+#: includes/admin/grve-redux-framework-config.php:910
+#: includes/admin/grve-redux-framework-config.php:957
+#: includes/admin/grve-redux-framework-config.php:970
+#: vc_extend/grve-shortcodes-vc-add.php:114
+#@ osmosis
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:774
+#@ osmosis
+msgid "Enable Title Parallax Effect"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:784
+#@ osmosis
+msgid "Enable Bottom Arrow"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:794
+#@ osmosis
+msgid "Feature Image"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:799
+#: includes/admin/grve-admin-feature-functions.php:801
+#: includes/admin/grve-admin-functions.php:61
+#: includes/admin/grve-admin-functions.php:62
+#@ osmosis
+msgid "Insert Image"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:808
+#@ osmosis
+msgid "Feature Slider"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:811
+#@ osmosis
+msgid "Insert Images to Slider"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:817
+#@ osmosis
+msgid "Feature Video"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:824
+#@ osmosis
+msgid "Feature Map"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:827
+#@ osmosis
+msgid "Insert Point to Map"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:881
+#: includes/admin/grve-redux-framework-config.php:2001
+#: includes/admin/grve-redux-framework-config.php:2176
+#: includes/admin/grve-redux-framework-config.php:2351
+#: includes/admin/grve-redux-framework-config.php:2524
+#: includes/admin/grve-redux-framework-config.php:2698
+#: includes/admin/grve-redux-framework-config.php:2906
+#: includes/admin/grve-redux-framework-config.php:2974
+#: includes/admin/grve-redux-framework-config.php:3042
+#: includes/admin/grve-redux-framework-config.php:3091
+#: includes/admin/grve-redux-framework-config.php:3121
+#: includes/admin/grve-redux-framework-config.php:3218
+#: includes/admin/grve-redux-framework-config.php:3276
+#: includes/admin/grve-redux-framework-config.php:3316
+#@ osmosis
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:887
+#@ osmosis
+msgid "Style"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:938
+#@ osmosis
+msgid "Single Point Zoom"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:948
+#@ osmosis
+msgid "Global Marker"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:972
+#: includes/admin/grve-portfolio-meta.php:511
+#: includes/admin/grve-post-meta.php:397
+#: vc_extend/grve-shortcodes-vc-add.php:186
+#@ osmosis
+msgid "WebM File URL"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:975
+#: includes/admin/grve-admin-feature-functions.php:984
+#: includes/admin/grve-admin-feature-functions.php:993
+#: includes/admin/grve-portfolio-meta.php:521
+#: includes/admin/grve-portfolio-meta.php:538
+#: includes/admin/grve-portfolio-meta.php:553
+#: includes/admin/grve-post-meta.php:407
+#: includes/admin/grve-post-meta.php:424
+#: includes/admin/grve-post-meta.php:439
+#: includes/admin/grve-post-meta.php:505
+#: includes/admin/grve-post-meta.php:520
+#: includes/admin/grve-post-meta.php:535
+#@ osmosis
+msgid "Upload Media"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:981
+#: includes/admin/grve-portfolio-meta.php:528
+#: includes/admin/grve-post-meta.php:414
+#: vc_extend/grve-shortcodes-vc-add.php:199
+#@ osmosis
+msgid "MP4 File URL"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:990
+#: includes/admin/grve-portfolio-meta.php:545
+#: includes/admin/grve-post-meta.php:431
+#: vc_extend/grve-shortcodes-vc-add.php:212
+#@ osmosis
+msgid "OGV File URL"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:999
+#@ osmosis
+msgid "Fallback Image"
+msgstr ""
+
+#: includes/admin/grve-admin-feature-functions.php:1002
+#@ osmosis
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/grve-admin-functions.php:43
+#: includes/admin/grve-admin-functions.php:44
+#: includes/admin/grve-portfolio-meta.php:612
+#@ osmosis
+msgid "Insert Images"
+msgstr ""
+
+#: includes/admin/grve-admin-functions.php:49
+#: includes/admin/grve-admin-functions.php:50
+#@ osmosis
+msgid "Replace Image"
+msgstr ""
+
+#: includes/admin/grve-admin-functions.php:55
+#: includes/admin/grve-admin-functions.php:56
+#@ osmosis
+msgid "Insert Media"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:10
+#: includes/admin/grve-redux-framework-config.php:88
+#: includes/admin/grve-redux-framework-config.php:1263
+#: includes/admin/grve-redux-framework-config.php:1369
+#@ osmosis
+msgid "Left"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:11
+#: includes/admin/grve-redux-framework-config.php:89
+#: includes/admin/grve-redux-framework-config.php:1264
+#: includes/admin/grve-redux-framework-config.php:1370
+#@ osmosis
+msgid "Right"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:12
+#: includes/admin/grve-redux-framework-config.php:1265
+#: includes/admin/grve-redux-framework-config.php:1371
+#@ osmosis
+msgid "Center"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:18
+#: includes/admin/grve-admin-media-functions.php:35
+#: includes/admin/grve-admin-media-functions.php:64
+#: includes/admin/grve-redux-framework-config.php:127
+#: includes/admin/grve-redux-framework-config.php:138
+#: vc_extend/grve-shortcodes-vc-add.php:79
+#: vc_extend/grve-shortcodes-vc-add.php:245
+#@ osmosis
+msgid "Primary 1"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:19
+#: includes/admin/grve-admin-media-functions.php:36
+#: includes/admin/grve-admin-media-functions.php:65
+#: includes/admin/grve-redux-framework-config.php:128
+#: includes/admin/grve-redux-framework-config.php:139
+#: vc_extend/grve-shortcodes-vc-add.php:80
+#: vc_extend/grve-shortcodes-vc-add.php:246
+#@ osmosis
+msgid "Primary 2"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:20
+#: includes/admin/grve-admin-media-functions.php:37
+#: includes/admin/grve-admin-media-functions.php:66
+#: includes/admin/grve-redux-framework-config.php:129
+#: includes/admin/grve-redux-framework-config.php:140
+#: vc_extend/grve-shortcodes-vc-add.php:81
+#: vc_extend/grve-shortcodes-vc-add.php:247
+#@ osmosis
+msgid "Primary 3"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:21
+#: includes/admin/grve-admin-media-functions.php:38
+#: includes/admin/grve-admin-media-functions.php:67
+#: includes/admin/grve-redux-framework-config.php:130
+#: includes/admin/grve-redux-framework-config.php:141
+#: vc_extend/grve-shortcodes-vc-add.php:82
+#: vc_extend/grve-shortcodes-vc-add.php:248
+#@ osmosis
+msgid "Primary 4"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:22
+#: includes/admin/grve-admin-media-functions.php:39
+#: includes/admin/grve-admin-media-functions.php:68
+#: includes/admin/grve-redux-framework-config.php:131
+#: includes/admin/grve-redux-framework-config.php:142
+#: vc_extend/grve-shortcodes-vc-add.php:83
+#: vc_extend/grve-shortcodes-vc-add.php:249
+#@ osmosis
+msgid "Primary 5"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:26
+#: includes/admin/grve-admin-media-functions.php:43
+#: includes/admin/grve-admin-media-functions.php:56
+#: includes/admin/grve-admin-media-functions.php:95
+#: includes/admin/grve-meta-functions.php:21
+#: includes/admin/grve-meta-functions.php:47
+#: includes/admin/grve-meta-functions.php:75
+#: includes/admin/grve-meta-functions.php:105
+#: includes/admin/grve-page-meta.php:228
+#: includes/admin/grve-portfolio-meta.php:268
+#: includes/admin/grve-post-meta.php:199
+#: includes/admin/grve-product-meta.php:109
+#: vc_extend/grve-shortcodes-vc-add.php:76
+#: vc_extend/grve-shortcodes-vc-add.php:170
+#@ osmosis
+msgid "Default"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:57
+#: vc_extend/grve-shortcodes-vc-add.php:22
+#@ osmosis
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:58
+#: vc_extend/grve-shortcodes-vc-add.php:23
+#@ osmosis
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:59
+#: vc_extend/grve-shortcodes-vc-add.php:24
+#@ osmosis
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:60
+#: vc_extend/grve-shortcodes-vc-add.php:25
+#@ osmosis
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:69
+#@ osmosis
+msgid "Green"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:70
+#@ osmosis
+msgid "Orange"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:71
+#@ osmosis
+msgid "Red"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:72
+#@ osmosis
+msgid "Blue"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:73
+#@ osmosis
+msgid "Aqua"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:74
+#@ osmosis
+msgid "Purple"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:75
+#@ osmosis
+msgid "Black"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:76
+#@ osmosis
+msgid "Grey"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:77
+#@ osmosis
+msgid "White"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:81
+#@ osmosis
+msgid "Extra Small"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:82
+#@ osmosis
+msgid "Small"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:83
+#@ osmosis
+msgid "Medium"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:84
+#@ osmosis
+msgid "Large"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:85
+#@ osmosis
+msgid "Extra Large"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:89
+#@ osmosis
+msgid "Square"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:90
+#@ osmosis
+msgid "Round"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:91
+#@ osmosis
+msgid "Extra Round"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:96
+#@ osmosis
+msgid "Outline"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:100
+#@ osmosis
+msgid "Same Page"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:101
+#@ osmosis
+msgid "New page"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:105
+#@ osmosis
+msgid "Left Top"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:106
+#@ osmosis
+msgid "Left Center"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:107
+#@ osmosis
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:108
+#@ osmosis
+msgid "Center Top"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:109
+#@ osmosis
+msgid "Center Center"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:110
+#@ osmosis
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:111
+#@ osmosis
+msgid "Right Top"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:112
+#@ osmosis
+msgid "Right Center"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:113
+#@ osmosis
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/admin/grve-admin-media-functions.php:118
+#@ osmosis
+msgid "Zoom"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:48
+#: includes/admin/grve-redux-framework-config.php:688
+#: includes/admin/grve-redux-framework-config.php:1977
+#@ osmosis
+msgid "Simple"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:50
+#: includes/admin/grve-redux-framework-config.php:1979
+#@ osmosis
+msgid "Box"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:51
+#: includes/admin/grve-redux-framework-config.php:1980
+#@ osmosis
+msgid "Hidden"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:76
+#: includes/admin/grve-redux-framework-config.php:82
+#@ osmosis
+msgid "Full Width"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:77
+#: includes/admin/grve-redux-framework-config.php:83
+#@ osmosis
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/admin/grve-meta-functions.php:78
+#: includes/admin/grve-redux-framework-config.php:84
+#@ osmosis
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/admin/grve-modal-template-data.php:9
+#: includes/admin/grve-modal-template-data.php:10
+#@ osmosis
+msgid "Close"
+msgstr ""
+
+#: includes/admin/grve-modal-template-data.php:18
+#@ osmosis
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/grve-modal-template-data.php:19
+#@ osmosis
+msgid "Save"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:120
+#: includes/admin/grve-redux-framework-config.php:1210
+#@ osmosis
+msgid "Page Options"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:127
+#: includes/admin/grve-portfolio-meta.php:162
+#@ osmosis
+msgid "Feature Section"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:165
+#@ osmosis
+msgid "Enter your page description."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:176
+#: includes/admin/grve-portfolio-meta.php:228
+#: includes/admin/grve-post-meta.php:159
+#: includes/admin/grve-product-meta.php:69
+#@ osmosis
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:178
+#@ osmosis
+msgid "Select page content and sidebar alignment."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:181
+#: includes/admin/grve-product-meta.php:73
+#@ osmosis
+msgid "Default: Right Sidebar"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:183
+#: includes/admin/grve-page-meta.php:202
+#@ osmosis
+msgid "Default is configured in Theme Options - Page Options."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:195
+#: includes/admin/grve-portfolio-meta.php:243
+#: includes/admin/grve-post-meta.php:174
+#: includes/admin/grve-product-meta.php:84
+#@ osmosis
+msgid "Sidebar"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:197
+#@ osmosis
+msgid "Select page sidebar."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:200
+#@ osmosis
+msgid "Default: Shop Overview Page"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:214
+#: includes/admin/grve-portfolio-meta.php:258
+#: includes/admin/grve-post-meta.php:189
+#: includes/admin/grve-product-meta.php:99
+#@ osmosis
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:216
+#: includes/admin/grve-portfolio-meta.php:260
+#: includes/admin/grve-post-meta.php:191
+#: includes/admin/grve-product-meta.php:101
+#@ osmosis
+msgid "Select sidebar background color."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:219
+#: includes/admin/grve-product-meta.php:103
+#@ osmosis
+msgid "Default: None"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:221
+#@ osmosis
+msgid "Default is configured in Appearance - Customize - Colors - Sidebars - Page Sidebar Background Color."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:237
+#: includes/admin/grve-portfolio-meta.php:277
+#: includes/admin/grve-post-meta.php:208
+#: includes/admin/grve-product-meta.php:118
+#@ osmosis
+msgid "Fixed Sidebar"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:239
+#: includes/admin/grve-portfolio-meta.php:279
+#: includes/admin/grve-post-meta.php:210
+#: includes/admin/grve-product-meta.php:120
+#@ osmosis
+msgid "If selected, sidebar will be fixed."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:250
+#@ osmosis
+msgid "Anchor Navigation Menu"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:252
+#@ osmosis
+msgid "Select page anchor navigation menu."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:254
+#@ osmosis
+msgid "Only first level will be displayed."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:265
+#: includes/admin/grve-portfolio-meta.php:290
+#@ osmosis
+msgid "Main Navigation Menu"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:267
+#: includes/admin/grve-portfolio-meta.php:292
+#@ osmosis
+msgid "Select alternative main navigation menu."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:269
+#: includes/admin/grve-portfolio-meta.php:294
+#@ osmosis
+msgid "Default: Menus - Theme Locations - Header Menu."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:280
+#: includes/admin/grve-portfolio-meta.php:305
+#@ osmosis
+msgid "Main Navigation Menu Type"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:282
+#: includes/admin/grve-portfolio-meta.php:307
+#@ osmosis
+msgid "Select main navigation menu type."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:284
+#: includes/admin/grve-portfolio-meta.php:309
+#@ osmosis
+msgid "Default is configured in Appearance - Customize - Logo Background & Menu Type - Menu Type"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:295
+#: includes/admin/grve-portfolio-meta.php:320
+#@ osmosis
+msgid "Disable Main Menu"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:297
+#: includes/admin/grve-portfolio-meta.php:322
+#@ osmosis
+msgid "If selected, main menu will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:308
+#: includes/admin/grve-portfolio-meta.php:333
+#@ osmosis
+msgid "Disable Main Menu Items"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:310
+#: includes/admin/grve-portfolio-meta.php:335
+#@ osmosis
+msgid "If selected, main menu items will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:321
+#: includes/admin/grve-portfolio-meta.php:346
+#@ osmosis
+msgid "Disable Title/Description"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:323
+#: includes/admin/grve-portfolio-meta.php:348
+#@ osmosis
+msgid "If selected, title and decription will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:334
+#: includes/admin/grve-portfolio-meta.php:359
+#@ osmosis
+msgid "Disable Safe Button"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:336
+#: includes/admin/grve-portfolio-meta.php:361
+#@ osmosis
+msgid "If selected, safe button will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:347
+#: includes/admin/grve-portfolio-meta.php:372
+#@ osmosis
+msgid "Disable Top Bar"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:349
+#: includes/admin/grve-portfolio-meta.php:374
+#@ osmosis
+msgid "If selected, top bar will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:363
+#@ osmosis
+msgid "Disable Content Area"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:365
+#@ osmosis
+msgid "If selected, content area will be hidden (including sidebar and comments)."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:377
+#: includes/admin/grve-portfolio-meta.php:424
+#: includes/admin/grve-post-meta.php:221
+#: includes/admin/grve-product-meta.php:131
+#@ osmosis
+msgid "Disable Bottom Bar"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:379
+#: includes/admin/grve-portfolio-meta.php:426
+#: includes/admin/grve-post-meta.php:223
+#: includes/admin/grve-product-meta.php:133
+#@ osmosis
+msgid "If selected, bottom bar will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:390
+#: includes/admin/grve-portfolio-meta.php:437
+#: includes/admin/grve-post-meta.php:234
+#: includes/admin/grve-product-meta.php:144
+#@ osmosis
+msgid "Disable Footer Widgets"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:392
+#: includes/admin/grve-portfolio-meta.php:439
+#: includes/admin/grve-post-meta.php:236
+#: includes/admin/grve-product-meta.php:146
+#@ osmosis
+msgid "If selected, footer widgets will be hidden."
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:403
+#: includes/admin/grve-portfolio-meta.php:450
+#@ osmosis
+msgid "Disable Footer Copyright"
+msgstr ""
+
+#: includes/admin/grve-page-meta.php:405
+#: includes/admin/grve-portfolio-meta.php:452
+#@ osmosis
+msgid "If selected, footer copyright area will be hidden."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:149
+#: includes/admin/grve-redux-framework-config.php:1291
+#@ osmosis
+msgid "Portfolio Options"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:155
+#@ osmosis
+msgid "Portfolio Media"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:204
+#@ osmosis
+msgid "Enter your portfolio description."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:215
+#: includes/grve-portfolio-functions.php:183
+#@ osmosis
+msgid "Project Details"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:217
+#@ osmosis
+msgid "Enter your project details."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:230
+#@ osmosis
+msgid "Select portfolio content and sidebar alignment."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:232
+#: includes/admin/grve-portfolio-meta.php:247
+#@ osmosis
+msgid "Default is configured in Theme Options - Portfolio Options."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:245
+#@ osmosis
+msgid "Select portfolio sidebar."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:262
+#@ osmosis
+msgid "Default is configured in Appearance - Customize - Colors - Sidebars - Portfolio Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:385
+#@ osmosis
+msgid "Disable Fields Bar"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:387
+#@ osmosis
+msgid "If selected, fields bar will be hidden."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:398
+#@ osmosis
+msgid "Disable Recent Entries"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:400
+#@ osmosis
+msgid "If selected, recent entries will be hidden."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:411
+#@ osmosis
+msgid "Disable Comments"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:413
+#@ osmosis
+msgid "If selected, comments will be hidden."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:488
+#@ osmosis
+msgid "Media Selection"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:490
+#@ osmosis
+msgid "Choose your portfolio media."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:492
+#@ osmosis
+msgid "In overview only Featured Image is displayed."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:498
+#: includes/admin/grve-portfolio-post-type.php:118
+#@ osmosis
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:499
+#@ osmosis
+msgid "Classic Gallery"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:500
+#@ osmosis
+msgid "Vertical Gallery"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:502
+#: includes/admin/grve-post-meta.php:389
+#@ osmosis
+msgid "YouTube/Vimeo Video"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:503
+#@ osmosis
+msgid "HMTL5 Video"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:513
+#: includes/admin/grve-post-meta.php:399
+#@ osmosis
+msgid "Upload the .webm video file."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:515
+#: includes/admin/grve-portfolio-meta.php:532
+#: includes/admin/grve-post-meta.php:401
+#: includes/admin/grve-post-meta.php:418
+#@ osmosis
+msgid "This Format must be included for HTML5 Video."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:530
+#: includes/admin/grve-post-meta.php:416
+#@ osmosis
+msgid "Upload the .mp4 video file."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:547
+#: includes/admin/grve-post-meta.php:433
+#@ osmosis
+msgid "Upload the .ogv video file (optional)."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:560
+#: includes/admin/grve-post-meta.php:446
+#@ osmosis
+msgid "Vimeo/YouTube URL"
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:562
+#: includes/admin/grve-post-meta.php:448
+#@ osmosis
+msgid "Enter the full URL of your video from Vimeo or YouTube."
+msgstr ""
+
+#: includes/admin/grve-portfolio-meta.php:609
+#@ osmosis
+msgid "Media Items"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:29
+#@ osmosis
+msgctxt "Portfolio General Name"
+msgid "Portfolio Items"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:30
+#@ osmosis
+msgctxt "Portfolio Singular Name"
+msgid "Portfolio Item"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:32
+#@ osmosis
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:33
+#@ osmosis
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:34
+#@ osmosis
+msgid "New Portfolio Item"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:35
+#@ osmosis
+msgid "View Portfolio Item"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:36
+#@ osmosis
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:37
+#@ osmosis
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:38
+#@ osmosis
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:43
+#: includes/admin/grve-portfolio-post-type.php:90
+#: includes/admin/grve-portfolio-post-type.php:121
+#@ osmosis
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:44
+#@ osmosis
+msgid "Portfolio Category"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:45
+#@ osmosis
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:46
+#@ osmosis
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:47
+#@ osmosis
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:48
+#@ osmosis
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:49
+#@ osmosis
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:50
+#@ osmosis
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:51
+#@ osmosis
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:52
+#@ osmosis
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:56
+#: includes/admin/grve-portfolio-post-type.php:104
+#: includes/admin/grve-portfolio-post-type.php:122
+#@ osmosis
+msgid "Portfolio Fields"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:57
+#@ osmosis
+msgid "Portfolio Field"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:58
+#@ osmosis
+msgid "Search Portfolio Fields"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:59
+#@ osmosis
+msgid "All Portfolio Fields"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:60
+#@ osmosis
+msgid "Parent Portfolio Field"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:61
+#@ osmosis
+msgid "Parent Portfolio Field:"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:62
+#@ osmosis
+msgid "Edit Portfolio Field"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:63
+#@ osmosis
+msgid "Update Portfolio Field"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:64
+#@ osmosis
+msgid "Add New Portfolio Field"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:65
+#@ osmosis
+msgid "New Portfolio Field Name"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:120
+#: includes/admin/grve-testimonial-post-type.php:90
+#@ osmosis
+msgid "Author"
+msgstr ""
+
+#: includes/admin/grve-portfolio-post-type.php:123
+#: includes/admin/grve-testimonial-post-type.php:92
+#@ osmosis
+msgid "Date"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:104
+#@ osmosis
+msgid "Gallery Format Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:110
+#@ osmosis
+msgid "Link Format Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:116
+#@ osmosis
+msgid "Quote Format Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:122
+#@ osmosis
+msgid "Video Format Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:128
+#@ osmosis
+msgid "Audio Format Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:135
+#@ osmosis
+msgid "Post Options"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:161
+#@ osmosis
+msgid "Select post content and sidebar alignment."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:163
+#: includes/admin/grve-post-meta.php:178
+#@ osmosis
+msgid "Default is configured in Theme Options - Blog Options - Single Post."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:176
+#@ osmosis
+msgid "Select post sidebar."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:193
+#@ osmosis
+msgid "Default is configured in Appearance - Customize - Colors - Sidebars - Post Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:268
+#@ osmosis
+msgid "Gallery Mode"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:270
+#@ osmosis
+msgid "Select Gallery mode."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:276
+#@ osmosis
+msgid "Gallery"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:283
+#@ osmosis
+msgid "Images"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:286
+#@ osmosis
+msgid "Insert Images to Gallery/Slider"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:311
+#@ osmosis
+msgid "Add your text in the content area. The text will be wrapped with a link."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:317
+#@ osmosis
+msgid "Link URL"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:319
+#@ osmosis
+msgid "Enter the full URL of your link."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:330
+#@ osmosis
+msgid "Open Link in new window"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:332
+#@ osmosis
+msgid "If selected, link will open in a new window."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:353
+#@ osmosis
+msgid "Simply add some text in the content area. This text will automatically displayed as quote."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:375
+#@ osmosis
+msgid "Select one of the choices below for the featured video."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:381
+#@ osmosis
+msgid "Video Mode"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:383
+#@ osmosis
+msgid "Select your Video Mode"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:390
+#@ osmosis
+msgid "HTML5 Video"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:475
+#@ osmosis
+msgid "Select one of the choices below for the featured audio."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:481
+#@ osmosis
+msgid "Audio Mode"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:483
+#@ osmosis
+msgid "Select your Audio Mode"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:489
+#@ osmosis
+msgid "Embed Audio"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:490
+#@ osmosis
+msgid "HTML5 Audio"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:497
+#@ osmosis
+msgid "MP3 File URL"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:499
+#@ osmosis
+msgid "Upload the .mp3 audio file."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:512
+#@ osmosis
+msgid "OGG File URL"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:514
+#@ osmosis
+msgid "Upload the .ogg audio file."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:527
+#@ osmosis
+msgid "WAV File URL"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:529
+#@ osmosis
+msgid "Upload the .wav audio file (optional)."
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:542
+#@ osmosis
+msgid "Audio embed code"
+msgstr ""
+
+#: includes/admin/grve-post-meta.php:544
+#@ osmosis
+msgid "Type your audio embed code."
+msgstr ""
+
+#: includes/admin/grve-product-meta.php:45
+#@ osmosis
+msgid "Product Layout Options"
+msgstr ""
+
+#: includes/admin/grve-product-meta.php:71
+#@ osmosis
+msgid "Select product content and sidebar alignment."
+msgstr ""
+
+#: includes/admin/grve-product-meta.php:86
+#@ osmosis
+msgid "Select product sidebar."
+msgstr ""
+
+#: includes/admin/grve-product-meta.php:88
+#@ osmosis
+msgid "Default: Shop Product Pages"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:95
+#@ osmosis
+msgid "Stretched Background"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:99
+#: includes/admin/grve-redux-framework-config.php:106
+#: includes/admin/grve-redux-framework-config.php:110
+#@ osmosis
+msgid "Search"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:100
+#: includes/admin/grve-redux-framework-config.php:111
+#@ osmosis
+msgid "Language selector (WPML Required)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:101
+#: includes/admin/grve-redux-framework-config.php:107
+#: includes/admin/grve-redux-framework-config.php:112
+#@ osmosis
+msgid "Newsletter"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:105
+#@ osmosis
+msgid "Shopping Cart (WooCommerce Required)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:117
+#@ osmosis
+msgid "Fade in"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:118
+#@ osmosis
+msgid "Fade in Up"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:119
+#@ osmosis
+msgid "Fade in Down"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:120
+#@ osmosis
+msgid "Fade in Left"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:121
+#@ osmosis
+msgid "Fade in Right"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:150
+#@ osmosis
+msgid "Footer 5"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:151
+#@ osmosis
+msgid "Footer 6"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:152
+#@ osmosis
+msgid "Footer 7"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:153
+#@ osmosis
+msgid "Footer 8"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:154
+#@ osmosis
+msgid "Footer 9"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:194
+#@ osmosis
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:201
+#@ osmosis
+msgid "Favicon"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:203
+#@ osmosis
+msgid "Upload your site favicon."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:208
+#@ osmosis
+msgid "Smooth Scroll"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:209
+#@ osmosis
+msgid "Enable or Disable Smooth Scroll."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:211
+#: includes/admin/grve-redux-framework-config.php:220
+#: includes/admin/grve-redux-framework-config.php:255
+#: includes/admin/grve-redux-framework-config.php:280
+#: includes/admin/grve-redux-framework-config.php:312
+#: includes/admin/grve-redux-framework-config.php:346
+#: includes/admin/grve-redux-framework-config.php:378
+#: includes/admin/grve-redux-framework-config.php:490
+#: includes/admin/grve-redux-framework-config.php:575
+#: includes/admin/grve-redux-framework-config.php:615
+#: includes/admin/grve-redux-framework-config.php:632
+#: includes/admin/grve-redux-framework-config.php:679
+#: includes/admin/grve-redux-framework-config.php:813
+#: includes/admin/grve-redux-framework-config.php:841
+#: includes/admin/grve-redux-framework-config.php:864
+#: includes/admin/grve-redux-framework-config.php:890
+#: includes/admin/grve-redux-framework-config.php:947
+#: includes/admin/grve-redux-framework-config.php:1001
+#: includes/admin/grve-redux-framework-config.php:1089
+#: includes/admin/grve-redux-framework-config.php:1108
+#: includes/admin/grve-redux-framework-config.php:1117
+#: includes/admin/grve-redux-framework-config.php:1177
+#: includes/admin/grve-redux-framework-config.php:1186
+#: includes/admin/grve-redux-framework-config.php:1239
+#: includes/admin/grve-redux-framework-config.php:1336
+#: includes/admin/grve-redux-framework-config.php:1345
+#: includes/admin/grve-redux-framework-config.php:3491
+#@ osmosis
+msgid "On"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:212
+#: includes/admin/grve-redux-framework-config.php:221
+#: includes/admin/grve-redux-framework-config.php:256
+#: includes/admin/grve-redux-framework-config.php:281
+#: includes/admin/grve-redux-framework-config.php:313
+#: includes/admin/grve-redux-framework-config.php:347
+#: includes/admin/grve-redux-framework-config.php:379
+#: includes/admin/grve-redux-framework-config.php:491
+#: includes/admin/grve-redux-framework-config.php:576
+#: includes/admin/grve-redux-framework-config.php:616
+#: includes/admin/grve-redux-framework-config.php:633
+#: includes/admin/grve-redux-framework-config.php:680
+#: includes/admin/grve-redux-framework-config.php:814
+#: includes/admin/grve-redux-framework-config.php:842
+#: includes/admin/grve-redux-framework-config.php:865
+#: includes/admin/grve-redux-framework-config.php:891
+#: includes/admin/grve-redux-framework-config.php:948
+#: includes/admin/grve-redux-framework-config.php:1002
+#: includes/admin/grve-redux-framework-config.php:1090
+#: includes/admin/grve-redux-framework-config.php:1109
+#: includes/admin/grve-redux-framework-config.php:1118
+#: includes/admin/grve-redux-framework-config.php:1178
+#: includes/admin/grve-redux-framework-config.php:1187
+#: includes/admin/grve-redux-framework-config.php:1240
+#: includes/admin/grve-redux-framework-config.php:1337
+#: includes/admin/grve-redux-framework-config.php:1346
+#: includes/admin/grve-redux-framework-config.php:3492
+#@ osmosis
+msgid "Off"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:217
+#@ osmosis
+msgid "Back to Top"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:218
+#@ osmosis
+msgid "Enable or Disable the Back to Top button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:226
+#@ osmosis
+msgid "Replace Admin Logo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:227
+#@ osmosis
+msgid "Select if you want to replace admin logo with company logo."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:233
+#@ osmosis
+msgid "Tracking ID"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:234
+#@ osmosis
+msgid "Type your Google Analytics Tracking ID e.g: UA-XXXXXXXX-X."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:241
+#@ osmosis
+msgid "Top Bar Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:252
+#@ osmosis
+msgid "Top Bar Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:253
+#@ osmosis
+msgid "Enable or Disable TopBar Area to show above your header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:262
+#@ osmosis
+msgid "Top Bar Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:263
+#@ osmosis
+msgid "Enter the Top Bar height in px (Default is 50)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:271
+#@ osmosis
+msgid "Left Top Bar Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:277
+#@ osmosis
+msgid "Left Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:278
+#@ osmosis
+msgid "Enable or Disable the Left TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:287
+#@ osmosis
+msgid "Left Area Elements"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:288
+#@ osmosis
+msgid "Enable / Disable the elements you like to show in the Left TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:298
+#@ osmosis
+msgid "Left Area Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:299
+#@ osmosis
+msgid "Place the text you wish for your Left TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:309
+#@ osmosis
+msgid "Left Area Social Icons Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:310
+#@ osmosis
+msgid "Enable and add social icons for the Left TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:322
+#@ osmosis
+msgid "Left Area Social Icons"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:323
+#: includes/admin/grve-redux-framework-config.php:389
+#: includes/admin/grve-redux-framework-config.php:849
+#: includes/admin/grve-redux-framework-config.php:1033
+#@ osmosis
+msgid "Select your social icons."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:337
+#@ osmosis
+msgid "Right Top Bar Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:343
+#@ osmosis
+msgid "Right Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:344
+#@ osmosis
+msgid "Enable or Disable the Right TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:353
+#@ osmosis
+msgid "Right Area Elements"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:354
+#@ osmosis
+msgid "Enable / Disable the elements you like to show in the Right TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:364
+#@ osmosis
+msgid "Right Area Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:365
+#@ osmosis
+msgid "Place the text you wish for your Right TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:375
+#@ osmosis
+msgid "Right Area Social Icons Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:376
+#@ osmosis
+msgid "Enable and add social icons for the Right TopBar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:388
+#@ osmosis
+msgid "Right Area Social Icons"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:403
+#@ osmosis
+msgid "Header Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:415
+#@ osmosis
+msgid "Header Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:416
+#@ osmosis
+msgid "Enter Header height in px (Default is 70)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:423
+#@ osmosis
+msgid "Logo options for the Default Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:429
+#: includes/admin/grve-redux-framework-config.php:746
+#: includes/admin/grve-redux-framework-config.php:783
+#@ osmosis
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:432
+#@ osmosis
+msgid "Upload your logo here."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:438
+#@ osmosis
+msgid "Retina Logo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:441
+#@ osmosis
+msgid "Upload the retina version (2x) of your logo."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:447
+#@ osmosis
+msgid "Logo Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:448
+#@ osmosis
+msgid "Select the position of your logo."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:457
+#@ osmosis
+msgid "Menu options for the Default Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:463
+#@ osmosis
+msgid "Menu Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:464
+#@ osmosis
+msgid "Select the position of your menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:472
+#@ osmosis
+msgid "Sub Menu Animation"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:473
+#@ osmosis
+msgid "Choose animation effect for the submenu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:482
+#@ osmosis
+msgid "Safe Button options for the Default Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:487
+#@ osmosis
+msgid "Safe Button"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:488
+#@ osmosis
+msgid "Enable or disable the Safe Button. Then select the elements you wish to include into this."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:497
+#@ osmosis
+msgid "Safe Button Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:498
+#@ osmosis
+msgid "Set the alignment of your Safe Button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:508
+#@ osmosis
+msgid "Safe Button Size"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:509
+#@ osmosis
+msgid "Enter Safe Button size in px (Default is 50)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:517
+#: includes/admin/grve-redux-framework-config.php:529
+#@ osmosis
+msgid "Safe Button Space"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:518
+#@ osmosis
+msgid "Enter Safe Button right space in px (Default is 20)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:530
+#@ osmosis
+msgid "Enter Safe Button left space in px (Default is 20)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:540
+#@ osmosis
+msgid "Safe Button Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:541
+#@ osmosis
+msgid "Enable / Disable any of the safe button options besides."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:548
+#@ osmosis
+msgid "Safe Button Search Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:549
+#@ osmosis
+msgid "Type text for the search option."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:556
+#@ osmosis
+msgid "Safe Button Language Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:557
+#@ osmosis
+msgid "Type text for the language selector option."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:564
+#@ osmosis
+msgid "Safe Button Newsletter Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:565
+#@ osmosis
+msgid "Type text for the newsletter option."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:572
+#@ osmosis
+msgid "Safe Button Social Icons Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:573
+#@ osmosis
+msgid "Enable and add social icons to be placed in the safe button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:582
+#@ osmosis
+msgid "Safe Button Social Icons Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:583
+#@ osmosis
+msgid "Type text for the social icons option."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:593
+#@ osmosis
+msgid "Safe Button Social Icons"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:594
+#@ osmosis
+msgid "Select your safe button social icons."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:607
+#@ osmosis
+msgid "Menu Elements options for the Default Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:612
+#@ osmosis
+msgid "Menu Elements"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:613
+#@ osmosis
+msgid "Enable or disable the use of various elements in your header like shop cart, socials, search, language selector and newsletter."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:621
+#@ osmosis
+msgid "Menu Elements Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:622
+#@ osmosis
+msgid "Enable / Disable various menu elements options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:629
+#@ osmosis
+msgid "Menu Social Icons Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:630
+#@ osmosis
+msgid "Enable and add social icons in your header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:639
+#@ osmosis
+msgid "Menu Social Icons"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:640
+#@ osmosis
+msgid "Select the social icons."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:653
+#@ osmosis
+msgid "Various Elements Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:654
+#@ osmosis
+msgid "Set the alignment of your header elements."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:664
+#@ osmosis
+msgid "Sticky Header Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:676
+#@ osmosis
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:677
+#@ osmosis
+msgid "Enable the Sticky Header when scrolling down the page."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:685
+#@ osmosis
+msgid "Sticky Header Type"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:686
+#@ osmosis
+msgid "Select the type for the Sticky Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:689
+#@ osmosis
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:690
+#@ osmosis
+msgid "Shrink"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:700
+#@ osmosis
+msgid "Logo Settings for the Sticky Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:707
+#@ osmosis
+msgid "Logo Sticky Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:710
+#@ osmosis
+msgid "Upload your logo for the Sticky Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:717
+#@ osmosis
+msgid "Retina Logo Sticky Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:720
+#@ osmosis
+msgid "Upload the retina version (2x) of your logo in the sticky header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:727
+#@ osmosis
+msgid "Light Header Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:729
+#@ osmosis
+msgid "Notice that, there is no need to use the Light Header if you do not intend to integrate the Feature Section with the Header in pages and single portfolio items (where Osmosis provides the Feature Section)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:740
+#@ osmosis
+msgid "Logo Settings for the Light Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:749
+#@ osmosis
+msgid "Upload your logo for the Light Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:755
+#@ osmosis
+msgid "Retina Logo Light Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:758
+#@ osmosis
+msgid "Upload the retina version (2x) of your logo in the Light Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:764
+#@ osmosis
+msgid "Dark Header Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:766
+#@ osmosis
+msgid "Notice that, there is no need to use the Dark Header if you do not intend to integrate the Feature Section with the Header in pages and single portfolio items (where Osmosis provides the Feature Section)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:777
+#@ osmosis
+msgid "Logo Settings for the Dark Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:786
+#@ osmosis
+msgid "Upload your logo for the Dark Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:792
+#@ osmosis
+msgid "Retina Logo Dark Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:795
+#@ osmosis
+msgid "Upload the retina version (2x) of your logo in the Dark Header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:803
+#@ osmosis
+msgid "Bottom Bar Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:810
+#@ osmosis
+msgid "Bottom Bar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:811
+#@ osmosis
+msgid "Enable or Disable Bottom Bar Area to show above your footer."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:825
+#: includes/admin/grve-redux-framework-config.php:925
+#: includes/admin/grve-redux-framework-config.php:985
+#@ osmosis
+msgid "Spacing"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:826
+#@ osmosis
+msgid "Set the spacing of the Bottom Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:827
+#: includes/admin/grve-redux-framework-config.php:927
+#: includes/admin/grve-redux-framework-config.php:987
+#@ osmosis
+msgid "Set spacing Top, Bottom in px."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:838
+#@ osmosis
+msgid "Bottom Bar Social Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:839
+#@ osmosis
+msgid "Enable and add socials for the Bottom Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:848
+#@ osmosis
+msgid "Bottom Bar Socials"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:861
+#@ osmosis
+msgid "Bottom Bar Newsletter"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:862
+#@ osmosis
+msgid "Enable the newsletter form in the Bottom Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:874
+#@ osmosis
+msgid "Footer Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:882
+#@ osmosis
+msgid "Footer Widgets Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:887
+#@ osmosis
+msgid "Footer Widgets Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:888
+#@ osmosis
+msgid "Enable the Footer Area to show the widget areas of the footer."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:897
+#@ osmosis
+msgid "Footer Column Layout"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:898
+#@ osmosis
+msgid "Select Footer column layout."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:906
+#@ osmosis
+msgid "Footer Full Width"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:907
+#@ osmosis
+msgid "Select Yes if you like a full-width Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:926
+#@ osmosis
+msgid "Set the spacing of Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:939
+#@ osmosis
+msgid "Footer Bar Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:944
+#@ osmosis
+msgid "Footer Bar Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:945
+#@ osmosis
+msgid "Enable the Footer Bar Area for the copyright, bottom menu and socials."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:953
+#@ osmosis
+msgid "Footer Bar Full Width"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:954
+#@ osmosis
+msgid "Select Yes if you like a full-width Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:966
+#@ osmosis
+msgid "Footer Bar Center"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:967
+#@ osmosis
+msgid "Select if the Footer Bar elements will be centered."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:986
+#@ osmosis
+msgid "Set the spacing of Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:998
+#@ osmosis
+msgid "Footer Copyright Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:999
+#@ osmosis
+msgid "Enable the Footer Copyright Area. Edit it as you wish."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1008
+#@ osmosis
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1009
+#@ osmosis
+msgid "Type your copyright text or anything else you want."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1019
+#@ osmosis
+msgid "Second Footer Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1020
+#@ osmosis
+msgid "This is the second position in the Footer Bar Area. You can easily add the Bottom Menu or socials."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1022
+#@ osmosis
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1023
+#@ osmosis
+msgid "Menu"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1024
+#@ osmosis
+msgid "Socials"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1032
+#@ osmosis
+msgid "Footer Social items"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1048
+#@ osmosis
+msgid "Blog Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1049
+#@ osmosis
+msgid "Changes here will affect the settings for the assigned blog page in case you have set a Static Page as blog page in Settings > Reading > Front Page Displays"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1057
+#@ osmosis
+msgid "Blog Layout"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1058
+#@ osmosis
+msgid "Select the layout for the assigned blog page. Choose among Full Width, Left Sidebar or Right Sidebar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1065
+#@ osmosis
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1066
+#@ osmosis
+msgid "Select the sidebar for the assigned blog page."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1074
+#@ osmosis
+msgid "Blog Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1075
+#@ osmosis
+msgid "Select if you want to use the site name and tagline as blog title or hide it."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1077
+#@ osmosis
+msgid "Site Title / Tagline"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1086
+#@ osmosis
+msgid "Auto Excerpt"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1087
+#@ osmosis
+msgid "Adds automatic excerpt to all posts. If auto excerpt is off, blog will show all content, a desired 'cut-off' can be inserted in each post with more quicktag."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1097
+#@ osmosis
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1098
+#@ osmosis
+msgid "Type how many words you want to display in your post excerpts (Default is 55)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1105
+#@ osmosis
+msgid "Read More"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1106
+#@ osmosis
+msgid "Adds a read more button after the excerpt or more quicktag."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1114
+#: includes/admin/grve-redux-framework-config.php:1236
+#: includes/admin/grve-redux-framework-config.php:1342
+#@ osmosis
+msgid "Comments Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1124
+#@ osmosis
+msgid "Single Post Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1137
+#@ osmosis
+msgid "Post Layout"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1138
+#@ osmosis
+msgid "Select the layout for the single post format. Choose among Full Width, Left Sidebar or Right Sidebar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1145
+#@ osmosis
+msgid "Post Sidebar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1146
+#@ osmosis
+msgid "Select the sidebar for the single posts."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1155
+#@ osmosis
+msgid "Post Style"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1156
+#@ osmosis
+msgid "Select the style for the single post"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1158
+#@ osmosis
+msgid "Osmosis"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1159
+#@ osmosis
+msgid "Classic"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1166
+#: includes/admin/grve-redux-framework-config.php:1325
+#@ osmosis
+msgid "Social Share"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1167
+#@ osmosis
+msgid "Enable / Disable post social shares for the single posts."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1174
+#@ osmosis
+msgid "Author Info Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1175
+#@ osmosis
+msgid "Enable / Disable the Author Info field."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1183
+#@ osmosis
+msgid "Related Posts Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1184
+#@ osmosis
+msgid "Enable / Disable the visibility of the related posts."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1193
+#@ osmosis
+msgid "Single Post Title Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1194
+#@ osmosis
+msgid "Set the style for the default single post title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1201
+#@ osmosis
+msgid "Enter the Post title height in px (Default is 350px)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1211
+#@ osmosis
+msgid "You can find the basic settings for the pages here."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1219
+#@ osmosis
+msgid "Page Layout"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1220
+#@ osmosis
+msgid "Select the layout for the pages. Choose among Full Width, Left Sidebar or Right Sidebar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1227
+#@ osmosis
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1228
+#@ osmosis
+msgid "Select the default sidebar for the pages in case you do not use full width layout."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1237
+#@ osmosis
+msgid "Easily disable the comments for all pages."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1246
+#@ osmosis
+msgid "Page Title Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1247
+#@ osmosis
+msgid "Set the style for the default page title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1254
+#@ osmosis
+msgid "Enter Page title height in px (Default is 200)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1260
+#@ osmosis
+msgid "Page Title Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1261
+#@ osmosis
+msgid "Select your alignment for the default page title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1274
+#@ osmosis
+msgid "Anchor Menu Bar Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1275
+#@ osmosis
+msgid "Define your preferences for the Anchor Menu Bar where you can place a custom sticky menu per page."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1282
+#@ osmosis
+msgid "Enter Anchor Menu height in px (Default is 70)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1299
+#@ osmosis
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1300
+#@ osmosis
+msgid "Enter Portfolio Slug (Default is 'portfolio')."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1301
+#@ osmosis
+msgid "Slug must not be used anywhere else (e.g: category, page, post)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1308
+#@ osmosis
+msgid "Portfolio Layout"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1309
+#@ osmosis
+msgid "Select the default layout for the Portfolio (single portfolio items). Choose among Full Width, Left Sidebar or Right Sidebar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1316
+#@ osmosis
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1317
+#@ osmosis
+msgid "Select the default sidebar for the single portfolio items."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1326
+#@ osmosis
+msgid "Enable / Disable the social shares you like in the single portfolio items."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1333
+#@ osmosis
+msgid "Recent Items Visibility"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1334
+#@ osmosis
+msgid "Easily disable the recent items carousel."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1343
+#@ osmosis
+msgid "Easily disable the comments of your portfolio."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1352
+#@ osmosis
+msgid "Portfolio Title Settings"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1353
+#@ osmosis
+msgid "Set the style for the single default portfolio title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1360
+#@ osmosis
+msgid "Enter Portfolio title height in px (Default is 200px)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1366
+#@ osmosis
+msgid "Portfolio Title Alignment"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1367
+#@ osmosis
+msgid "Select the alignment for the title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1381
+#@ osmosis
+msgid "Typography Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1393
+#@ osmosis
+msgid "Main Body Fonts"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1398
+#@ osmosis
+msgid "Body Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1399
+#@ osmosis
+msgid "Specify the body font properties."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1414
+#@ osmosis
+msgid "Main Menu Fonts"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1419
+#@ osmosis
+msgid "Menu Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1420
+#@ osmosis
+msgid "Specify the menu font properties."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1436
+#@ osmosis
+msgid "Submenu Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1437
+#@ osmosis
+msgid "Specify the submenu font properties."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1454
+#@ osmosis
+msgid "Headers Fonts"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1459
+#@ osmosis
+msgid "H1 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1460
+#@ osmosis
+msgid "Specify the H1 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1476
+#@ osmosis
+msgid "H2 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1477
+#@ osmosis
+msgid "Specify the H2 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1493
+#@ osmosis
+msgid "H3 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1494
+#@ osmosis
+msgid "Specify the H3 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1510
+#@ osmosis
+msgid "H4 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1511
+#@ osmosis
+msgid "Specify the H4 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1527
+#@ osmosis
+msgid "H5 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1528
+#@ osmosis
+msgid "Specify the H5 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1544
+#@ osmosis
+msgid "H6 Font"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1545
+#@ osmosis
+msgid "Specify the H6 font."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1562
+#@ osmosis
+msgid "Page Typography"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1567
+#@ osmosis
+msgid "Page Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1568
+#@ osmosis
+msgid "Specify the font for the default page titles."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1584
+#@ osmosis
+msgid "Page Description"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1585
+#@ osmosis
+msgid "Specify font for the page description."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1603
+#@ osmosis
+msgid "Single Post Typography"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1608
+#@ osmosis
+msgid "Single Post Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1609
+#@ osmosis
+msgid "Specify the font for the single post titles."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1626
+#@ osmosis
+msgid "Portfolio Typography"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1631
+#@ osmosis
+msgid "Portfolio Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1632
+#@ osmosis
+msgid "Specify the font for the default single portfolio titles."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1648
+#@ osmosis
+msgid "Portfolio Description"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1649
+#@ osmosis
+msgid "Specify the font for the default single portfolio description."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1667
+#@ osmosis
+msgid "Feature Section Typography"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1672
+#@ osmosis
+msgid "Custom Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1673
+#@ osmosis
+msgid "Specify the font for the custom title in the feature section.<br>(Custom Title, Custom Size Slider Title)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1689
+#@ osmosis
+msgid "Custom Description"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1690
+#@ osmosis
+msgid "Specify the font for the custom description in the feature section.<br>(Custom Description, Custom Size Slider Description)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1707
+#@ osmosis
+msgid "Custom Title for Fullscreen Section"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1708
+#@ osmosis
+msgid "Specify the font for the custom title in the feature section in case you use full screen mode.<br>(Custom Title, Custom Size Slider Title)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1724
+#@ osmosis
+msgid "Custom Description for Fullscreen Section"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1725
+#@ osmosis
+msgid "Specify the font for the custom description in the feature section in case you use full screen mode.<br>(Custom Description, Custom Size Slider Description)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1743
+#@ osmosis
+msgid "Special Text Typography"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1748
+#@ osmosis
+msgid "Leader Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1749
+#@ osmosis
+msgid "Specify the style for the leader text.<br> This is used in various elements (Text block, Testimonial...)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1765
+#@ osmosis
+msgid "Subtitle Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1766
+#@ osmosis
+msgid "Specify the style for the subtitle text.<br> This is used in various elements (Slogan Subtitle...)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1782
+#@ osmosis
+msgid "Small Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1783
+#@ osmosis
+msgid "Specify the style for the small text.<br>This is used in various elements (Tags, Post Meta...)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1819
+#@ osmosis
+msgid "CSS / JS Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1827
+#@ osmosis
+msgid "CSS"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1832
+#@ osmosis
+msgid "CSS Code"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1833
+#@ osmosis
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1843
+#@ osmosis
+msgid "JS"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1850
+#@ osmosis
+msgid "JS Code"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1851
+#@ osmosis
+msgid "Add your custom JavaScript code here. Please do not include any script tags."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1861
+#@ osmosis
+msgid "Style Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1862
+#, php-format
+#@ osmosis
+msgid "To customize the color scheme, please use the <a href=\"%s\">Live Color Customizer</a>."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1869
+#@ osmosis
+msgid "Skin Presets"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3364
+#@ osmosis
+msgid "Social Media"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3371
+#@ osmosis
+msgid "Social Icons"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3372
+#@ osmosis
+msgid "Define and reorder your social icons. Clear the input field for any social icon you do not wish to display."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3383
+#@ osmosis
+msgid "Map Options"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3390
+#@ osmosis
+msgid "Enable Hue"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3391
+#@ osmosis
+msgid "Select if hue is used."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3397
+#@ osmosis
+msgid "Hue color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3398
+#@ osmosis
+msgid "Pick a color as Hue"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3407
+#@ osmosis
+msgid "Saturation"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3408
+#@ osmosis
+msgid "Saturation of map."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3409
+#: includes/admin/grve-redux-framework-config.php:3422
+#@ osmosis
+msgid "Min: -100, max: 100, default value: 0"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3420
+#@ osmosis
+msgid "Lightness"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3421
+#@ osmosis
+msgid "Lightness of map."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3433
+#@ osmosis
+msgid "Gamma"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3434
+#@ osmosis
+msgid "Gamma of map."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3435
+#@ osmosis
+msgid "Min: -100, max: 100, default value: 1.0"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3449
+#@ osmosis
+msgid "404 Page"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3450
+#@ osmosis
+msgid "You can find the settings for the 404 page here."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3457
+#@ osmosis
+msgid "Page 404 Content"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3458
+#@ osmosis
+msgid "Type the content of your 404 page, you can use also shortcodes."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3464
+#@ osmosis
+msgid "Show Search Box"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3465
+#@ osmosis
+msgid "Select if you want to show a search box."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3471
+#@ osmosis
+msgid "Show Back to home Button"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3472
+#@ osmosis
+msgid "Select if you want to show a back to home button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3481
+#@ osmosis
+msgid "Theme Update"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3488
+#@ osmosis
+msgid "Enable Theme Update"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3489
+#@ osmosis
+msgid "Toggle Theme update on or off."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3497
+#@ osmosis
+msgid "Themeforest username"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3498
+#@ osmosis
+msgid "Enter your Themeforest username here"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3505
+#@ osmosis
+msgid "Secret API Key"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3506
+#@ osmosis
+msgid "Enter your API Key here"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1893
+#@ osmosis
+msgid "Colors - Top Bar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1903
+#@ osmosis
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1913
+#@ osmosis
+msgid "Top Bar Font Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1923
+#@ osmosis
+msgid "Top Bar Link Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1933
+#@ osmosis
+msgid "Top Bar Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1943
+#: includes/admin/grve-redux-framework-config.php:2743
+#: includes/admin/grve-redux-framework-config.php:3019
+#: includes/admin/grve-redux-framework-config.php:3157
+#: includes/admin/grve-redux-framework-config.php:3254
+#: includes/admin/grve-redux-framework-config.php:3352
+#@ osmosis
+msgid "Border Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1956
+#@ osmosis
+msgid "Logo Background & Menu Type"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1965
+#@ osmosis
+msgid "Logo Background"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1974
+#@ osmosis
+msgid "Menu Type"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1975
+#@ osmosis
+msgid "Select the type of the default Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1991
+#@ osmosis
+msgid "Colors - Default Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2010
+#: includes/admin/grve-redux-framework-config.php:2185
+#: includes/admin/grve-redux-framework-config.php:2360
+#: includes/admin/grve-redux-framework-config.php:2533
+#@ osmosis
+msgid "Background Opacity"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2019
+#: includes/admin/grve-redux-framework-config.php:2194
+#: includes/admin/grve-redux-framework-config.php:2369
+#: includes/admin/grve-redux-framework-config.php:2542
+#@ osmosis
+msgid "Logo Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2020
+#: includes/admin/grve-redux-framework-config.php:2195
+#@ osmosis
+msgid "Pick a background color for the logo."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2029
+#: includes/admin/grve-redux-framework-config.php:2204
+#: includes/admin/grve-redux-framework-config.php:2378
+#: includes/admin/grve-redux-framework-config.php:2551
+#@ osmosis
+msgid "Menu Text Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2047
+#: includes/admin/grve-redux-framework-config.php:2222
+#: includes/admin/grve-redux-framework-config.php:2396
+#: includes/admin/grve-redux-framework-config.php:2569
+#@ osmosis
+msgid "Menu Active Background Color (Button and Box menu types only)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2056
+#: includes/admin/grve-redux-framework-config.php:2231
+#: includes/admin/grve-redux-framework-config.php:2405
+#: includes/admin/grve-redux-framework-config.php:2578
+#@ osmosis
+msgid "Menu Active Text Color (Button and Box menu types only)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2065
+#: includes/admin/grve-redux-framework-config.php:2240
+#: includes/admin/grve-redux-framework-config.php:2414
+#: includes/admin/grve-redux-framework-config.php:2587
+#@ osmosis
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2074
+#: includes/admin/grve-redux-framework-config.php:2249
+#: includes/admin/grve-redux-framework-config.php:2423
+#: includes/admin/grve-redux-framework-config.php:2596
+#@ osmosis
+msgid "Sub Menu Text Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2083
+#: includes/admin/grve-redux-framework-config.php:2258
+#: includes/admin/grve-redux-framework-config.php:2432
+#: includes/admin/grve-redux-framework-config.php:2605
+#@ osmosis
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2092
+#: includes/admin/grve-redux-framework-config.php:2441
+#: includes/admin/grve-redux-framework-config.php:2614
+#@ osmosis
+msgid "Sub Menu Active Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2101
+#: includes/admin/grve-redux-framework-config.php:2276
+#: includes/admin/grve-redux-framework-config.php:2450
+#: includes/admin/grve-redux-framework-config.php:2623
+#@ osmosis
+msgid "Sub Menu Border Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2111
+#: includes/admin/grve-redux-framework-config.php:2286
+#: includes/admin/grve-redux-framework-config.php:2460
+#: includes/admin/grve-redux-framework-config.php:2633
+#@ osmosis
+msgid "Safe Button Icon Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2129
+#: includes/admin/grve-redux-framework-config.php:2304
+#: includes/admin/grve-redux-framework-config.php:2478
+#: includes/admin/grve-redux-framework-config.php:2651
+#@ osmosis
+msgid "Safe Button Background Opacity"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2137
+#: includes/admin/grve-redux-framework-config.php:2312
+#: includes/admin/grve-redux-framework-config.php:2486
+#: includes/admin/grve-redux-framework-config.php:2659
+#@ osmosis
+msgid "Safe Button Icon Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2155
+#: includes/admin/grve-redux-framework-config.php:2330
+#: includes/admin/grve-redux-framework-config.php:2504
+#: includes/admin/grve-redux-framework-config.php:2677
+#@ osmosis
+msgid "Safe Button Background Hover Opacity"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2166
+#@ osmosis
+msgid "Colors - Sticky Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2267
+#@ osmosis
+msgid "Sub Menu Background Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2341
+#@ osmosis
+msgid "Colors - Light Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2342
+#@ osmosis
+msgid "Notice that, there is no need to style the Light Header if you do not intend to integrate the Feature Section with the Header in pages and single portfolio items (where Osmosis provides the Feature Section). Upload logo for the Light Header in Theme Options > Header Options > Dark Header Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2514
+#@ osmosis
+msgid "Colors - Dark Header"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2515
+#@ osmosis
+msgid "Notice that, there is no need to style the Dark Header if you do not intend to integrate the Feature Section with the Header in pages and single portfolio items (where Osmosis provides the Feature Section). Upload logo for the Dark Header in Theme Options > Header Options > Dark Header Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2686
+#@ osmosis
+msgid "Colors - Main Content"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2688
+#@ osmosis
+msgid "Set your color preferences for the main content area of your site."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2707
+#@ osmosis
+msgid "Headings Text Color (h1-h6)"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2716
+#: includes/admin/grve-redux-framework-config.php:2915
+#@ osmosis
+msgid "Text Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2717
+#@ osmosis
+msgid "Pick a color for the text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2725
+#: includes/admin/grve-redux-framework-config.php:2924
+#: includes/admin/grve-redux-framework-config.php:3001
+#: includes/admin/grve-redux-framework-config.php:3060
+#@ osmosis
+msgid "Link Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2734
+#: includes/admin/grve-redux-framework-config.php:2933
+#: includes/admin/grve-redux-framework-config.php:3010
+#: includes/admin/grve-redux-framework-config.php:3069
+#: includes/admin/grve-redux-framework-config.php:3139
+#: includes/admin/grve-redux-framework-config.php:3334
+#@ osmosis
+msgid "Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2752
+#@ osmosis
+msgid "Primary 1 Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2761
+#@ osmosis
+msgid "Primary 1 Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2770
+#@ osmosis
+msgid "Primary 2 Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2779
+#@ osmosis
+msgid "Primary 2 Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2788
+#@ osmosis
+msgid "Primary 3 Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2797
+#@ osmosis
+msgid "Primary 3 Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2806
+#@ osmosis
+msgid "Primary 4 Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2815
+#@ osmosis
+msgid "Primary 4 Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2824
+#@ osmosis
+msgid "Primary 5 Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2833
+#@ osmosis
+msgid "Primary 5 Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2843
+#@ osmosis
+msgid "Colors - Sidebars"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2845
+#@ osmosis
+msgid "Set the background colors for the sidebars. Notice that you can override these in pages, single posts and single portfolios."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2855
+#@ osmosis
+msgid "Blog Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2856
+#@ osmosis
+msgid "Select the background color for the sidebar of the assigned blog page."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2864
+#@ osmosis
+msgid "Post Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2865
+#@ osmosis
+msgid "Select the background color of your sidebar in single posts."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2873
+#@ osmosis
+msgid "Page Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2882
+#@ osmosis
+msgid "Portfolio Sidebar Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2893
+#@ osmosis
+msgid "Colors - Bottom Bar Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2895
+#@ osmosis
+msgid "Set your color preferences for the Bottom Bar Area (the area above the footer). Define this area in Theme Options > Bottom Bar Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2942
+#@ osmosis
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2951
+#@ osmosis
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2961
+#@ osmosis
+msgid "Colors - Footer Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2963
+#@ osmosis
+msgid "Set your color preferences for the Footer Area. Define the Footer Area in Theme Options > Footer Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2983
+#@ osmosis
+msgid "Headings Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2992
+#: includes/admin/grve-redux-framework-config.php:3051
+#: includes/admin/grve-redux-framework-config.php:3130
+#: includes/admin/grve-redux-framework-config.php:3227
+#: includes/admin/grve-redux-framework-config.php:3325
+#: vc_extend/grve-shortcodes-vc-add.php:64
+#@ osmosis
+msgid "Font Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3029
+#@ osmosis
+msgid "Colors - Footer Bar Area"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3079
+#@ osmosis
+msgid "Colors - Post Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3081
+#@ osmosis
+msgid "Set the background color for the single post title area and the color of the post title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3109
+#@ osmosis
+msgid "Colors - Post Fields Bar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3111
+#@ osmosis
+msgid "Set the background color for the single post fields bar (post meta, socials and navigation)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3148
+#: includes/admin/grve-redux-framework-config.php:3343
+#@ osmosis
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3167
+#@ osmosis
+msgid "Colors - Page Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3169
+#@ osmosis
+msgid "Set the background color for the predefined page title area and the color of the page title. Notice that you can disable it and create custom page title (via feature section)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3206
+#@ osmosis
+msgid "Colors - Page Anchor Menu"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3208
+#@ osmosis
+msgid "Set your color preferences for the Page Anchor Menu in case you use one in any of your pages."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3236
+#@ osmosis
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3245
+#@ osmosis
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3264
+#@ osmosis
+msgid "Colors - Portfolio Title"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3266
+#@ osmosis
+msgid "Set the background color for the single portfolio title area and the color of the portfolio title and description. Notice that you can disable it and create custom portfolio title (via feature section)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3304
+#@ osmosis
+msgid "Colors - Portfolio Fields Bar"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3306
+#@ osmosis
+msgid "Set your color preferences for the Portfolio Fields Bar (socials and navigation)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3537
+#: includes/admin/grve-redux-framework-config.php:3538
+#@ osmosis
+msgid "Theme Options"
+msgstr ""
+
+#: includes/admin/grve-testimonial-meta.php:27
+#@ osmosis
+msgid "Testimonial Options"
+msgstr ""
+
+#: includes/admin/grve-testimonial-meta.php:49
+#@ osmosis
+msgid "Type the name."
+msgstr ""
+
+#: includes/admin/grve-testimonial-meta.php:60
+#@ osmosis
+msgid "Identity"
+msgstr ""
+
+#: includes/admin/grve-testimonial-meta.php:62
+#@ osmosis
+msgid "Type the identity"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:27
+#@ osmosis
+msgctxt "Testimonial General Name"
+msgid "Testimonial Items"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:28
+#@ osmosis
+msgctxt "Testimonial Singular Name"
+msgid "Testimonial Item"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:30
+#@ osmosis
+msgid "Add New Testimonial Item"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:31
+#@ osmosis
+msgid "Edit Testimonial Item"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:32
+#@ osmosis
+msgid "New Testimonial Item"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:33
+#@ osmosis
+msgid "View Testimonial Item"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:34
+#@ osmosis
+msgid "Search Testimonial Items"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:35
+#@ osmosis
+msgid "No Testimonial Items found"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:36
+#@ osmosis
+msgid "No Testimonial Items found in Trash"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:41
+#: includes/admin/grve-testimonial-post-type.php:75
+#: includes/admin/grve-testimonial-post-type.php:91
+#@ osmosis
+msgid "Testimonial Categories"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:42
+#@ osmosis
+msgid "Testimonial Category"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:43
+#@ osmosis
+msgid "Search Testimonial Categories"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:44
+#@ osmosis
+msgid "All Testimonial Categories"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:45
+#@ osmosis
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:46
+#@ osmosis
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:47
+#@ osmosis
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:48
+#@ osmosis
+msgid "Update Testimonial Category"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:49
+#@ osmosis
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: includes/admin/grve-testimonial-post-type.php:50
+#@ osmosis
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:23
+#@ osmosis
+msgid "To enable theme update notifications, please enter your Envato Marketplace credentials via:"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:23
+#@ osmosis
+msgid "Theme Options - Theme Update"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:51
+#@ osmosis
+msgid "Theme Updater Error:"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:58
+#@ osmosis
+msgid "New version of Osmosis theme is available!"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:59
+#@ osmosis
+msgid "View"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:61
+#@ osmosis
+msgid "changelog"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:62
+#@ osmosis
+msgid "It is recommended to make a backup before performing an update."
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:63
+#@ osmosis
+msgid "To update click"
+msgstr ""
+
+#: includes/admin/grve-update-functions.php:65
+#@ osmosis
+msgid "here"
+msgstr ""
+
+#: includes/grve-blog-functions.php:24
+#: includes/grve-excerpt.php:44
+#: includes/grve-vce-functions.php:21
+#@ osmosis
+msgid "read more"
+msgstr ""
+
+#: includes/grve-blog-functions.php:90
+#: includes/grve-vce-functions.php:41
+#@ osmosis
+msgid "By:"
+msgstr ""
+
+#: includes/grve-blog-functions.php:244
+#@ osmosis
+msgid "Post Tags:"
+msgstr ""
+
+#: includes/grve-blog-functions.php:256
+#@ osmosis
+msgid "Posted In:"
+msgstr ""
+
+#: includes/grve-blog-functions.php:309
+#@ osmosis
+msgid "You might also like"
+msgstr ""
+
+#: includes/grve-header-functions.php:76
+#@ osmosis
+msgid "Search Results for :"
+msgstr ""
+
+#: includes/grve-header-functions.php:98
+#@ osmosis
+msgid "Posts Tagged :"
+msgstr ""
+
+#: includes/grve-header-functions.php:104
+#@ osmosis
+msgid "Posts By :"
+msgstr ""
+
+#: includes/grve-header-functions.php:108
+#@ osmosis
+msgid "Daily Archives :"
+msgstr ""
+
+#: includes/grve-header-functions.php:112
+#@ osmosis
+msgid "Monthly Archives :"
+msgstr ""
+
+#: includes/grve-header-functions.php:116
+#@ osmosis
+msgid "Yearly Archives :"
+msgstr ""
+
+#: includes/grve-header-functions.php:123
+#@ osmosis
+msgid "Archives"
+msgstr ""
+
+#: includes/grve-portfolio-functions.php:276
+#@ osmosis
+msgid "Recent Entries"
+msgstr ""
+
+#: includes/grve-vce-functions.php:17
+#@ osmosis
+msgid "All"
+msgstr ""
+
+#: includes/grve-vce-functions.php:25
+#@ osmosis
+msgid "in"
+msgstr ""
+
+#: includes/grve-woocommerce-functions.php:84
+#@ osmosis
+msgid "This page is assigned from WooCommerce: Product Archive / Shop Page"
+msgstr ""
+
+#: includes/grve-woocommerce-functions.php:86
+#@ osmosis
+msgid "This page is assigned from WooCommerce: Cart Page"
+msgstr ""
+
+#: includes/grve-woocommerce-functions.php:88
+#@ osmosis
+msgid "This page is assigned from WooCommerce: Checkout Page"
+msgstr ""
+
+#: includes/grve-woocommerce-functions.php:90
+#@ osmosis
+msgid "This page is assigned from WooCommerce: My Account Page"
+msgstr ""
+
+#: includes/grve-woocommerce-functions.php:131
+#@ osmosis
+msgid "Add to cart"
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+#@ envato
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+#@ envato
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+#@ envato
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+#@ envato
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:283
+#@ envato
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: includes/plugins/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:294
+#@ envato
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:196
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:117
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:197
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:118
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:198
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:119
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:199
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:200
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:121
+#, php-format
+#@ osmosis
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:201
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:122
+#, php-format
+#@ osmosis
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:202
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:123
+#, php-format
+#@ osmosis
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:203
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:124
+#, php-format
+#@ osmosis
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:204
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:125
+#, php-format
+#@ osmosis
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:205
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:126
+#, php-format
+#@ osmosis
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:206
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:127
+#, php-format
+#@ osmosis
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:207
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:128
+#, php-format
+#@ osmosis
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:208
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:129
+#@ osmosis
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:209
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:130
+#@ osmosis
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:210
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:131
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:211
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:212
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1942
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:132
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:214
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:215
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:541
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2159
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1171
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1174
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1179
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1182
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1182
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1185
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1187
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1287
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1395
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1309
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1396
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1358
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1374
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1375
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1376
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1377
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1505
+#@ tgmpa
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1610
+#@ tgmpa
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1632
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:213
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1925
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1926
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1927
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1928
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1929
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1930
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1941
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2055
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2056
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2056
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2065
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2056
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2065
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2057
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2062
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2063
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2064
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2065
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2066
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2067
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:120
+#@ tgmpa
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins/tgm-plugin-activation/register-plugins.php:133
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:20
+#@ osmosis
+msgid "A widget that displays contact info"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:27
+#@ osmosis
+msgid "Contact Info"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:115
+#: includes/widgets/grve-widget-latest-combo.php:197
+#: includes/widgets/grve-widget-latest-comments.php:117
+#: includes/widgets/grve-widget-latest-portfolio.php:134
+#: includes/widgets/grve-widget-latest-posts.php:128
+#: includes/widgets/grve-widget-social.php:313
+#@ osmosis
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:120
+#@ osmosis
+msgid "Address:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:124
+#@ osmosis
+msgid "Phone:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:128
+#@ osmosis
+msgid "Mobile Phone:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:132
+#@ osmosis
+msgid "Fax:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:136
+#@ osmosis
+msgid "Mail:"
+msgstr ""
+
+#: includes/widgets/grve-widget-contact-info.php:140
+#@ osmosis
+msgid "Website:"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:21
+#@ osmosis
+msgid "A widget that displays latest posts/comments in tabs."
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:28
+#@ osmosis
+msgid "Latest Combo"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:54
+#@ osmosis
+msgid "Posts"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:55
+#@ osmosis
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:109
+#: includes/widgets/grve-widget-latest-posts.php:95
+#@ osmosis
+msgid "No Posts Found!"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:160
+#: includes/widgets/grve-widget-latest-comments.php:85
+#@ osmosis
+msgid "No Comments Found!"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:202
+#: includes/widgets/grve-widget-latest-comments.php:122
+#@ osmosis
+msgid "Number of comments:"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-combo.php:219
+#: includes/widgets/grve-widget-latest-comments.php:139
+#@ osmosis
+msgid "Show Avatar:"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-comments.php:21
+#@ osmosis
+msgid "A widget that displays latest comments"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-comments.php:28
+#@ osmosis
+msgid "Latest Comments"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:21
+#@ osmosis
+msgid "A widget that displays latest portfolio items."
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:28
+#@ osmosis
+msgid "Latest Portfolio"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:99
+#@ osmosis
+msgid "No Portfolio Items Found!"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:139
+#@ osmosis
+msgid "Number of Portfolio Items:"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:156
+#@ osmosis
+msgid "Categories:"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-portfolio.php:158
+#@ osmosis
+msgid "Choose Categories ..."
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-posts.php:20
+#@ osmosis
+msgid "A widget that displays latest posts"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-posts.php:27
+#@ osmosis
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/widgets/grve-widget-latest-posts.php:133
+#@ osmosis
+msgid "Number of Posts:"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:20
+#@ osmosis
+msgid "A widget that displays social networking links"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:27
+#@ osmosis
+msgid "Social Networking"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:234
+#@ osmosis
+msgid "Twitter"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:238
+#@ osmosis
+msgid "Facebook"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:242
+#@ osmosis
+msgid "Google+"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:246
+#@ osmosis
+msgid "RSS"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:250
+#@ osmosis
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:254
+#@ osmosis
+msgid "YouTube"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:258
+#@ osmosis
+msgid "Flickr"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:262
+#@ osmosis
+msgid "Pinterest"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:266
+#@ osmosis
+msgid "Dribbble"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:270
+#@ osmosis
+msgid "Tumblr"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:274
+#@ osmosis
+msgid "GitHub"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:317
+#@ osmosis
+msgid "Note: Make sure you include the full URL (i.e. http://www.samplesite.com)"
+msgstr ""
+
+#: includes/widgets/grve-widget-social.php:319
+#@ osmosis
+msgid "If you do not want a social to be visible, simply delete the supplied URL."
+msgstr ""
+
+#: single.php:65
+#@ osmosis
+msgid "AUTHOR"
+msgstr ""
+
+#: single.php:68
+#@ osmosis
+msgid "All stories by:"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:16
+#@ osmosis
+msgid "CSS Animation"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:21
+#@ osmosis
+msgid "Fade In"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:27
+#@ osmosis
+msgid "Select type of animation if you want this element to be animated when it enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:32
+#@ osmosis
+msgid "Css Animation Delay"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:35
+#@ osmosis
+msgid "Add delay in milliseconds."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:40
+#: vc_extend/grve-shortcodes-vc-add.php:302
+#@ osmosis
+msgid "Bottom margin"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:42
+#: vc_extend/grve-shortcodes-vc-add.php:282
+#: vc_extend/grve-shortcodes-vc-add.php:295
+#: vc_extend/grve-shortcodes-vc-add.php:304
+#@ osmosis
+msgid "You can use px, em, %, etc. or enter just number and it will use pixels."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:47
+#@ osmosis
+msgid "Extra class name"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:49
+#@ osmosis
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:55
+#@ osmosis
+msgid "Section ID"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:57
+#@ osmosis
+msgid "If you wish you can type an id to use it as bookmark."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:66
+#@ osmosis
+msgid "Select font color"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:73
+#@ osmosis
+msgid "Heading Color"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:85
+#@ osmosis
+msgid "Select heading color"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:95
+#@ osmosis
+msgid "Section Type"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:98
+#@ osmosis
+msgid "Full Width Background"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:99
+#@ osmosis
+msgid "In Container"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:100
+#@ osmosis
+msgid "Full Width Element"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:102
+#@ osmosis
+msgid "Select section type"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:103
+#: vc_extend/grve-shortcodes-vc-add.php:117
+#: vc_extend/grve-shortcodes-vc-add.php:133
+#: vc_extend/grve-shortcodes-vc-add.php:147
+#: vc_extend/grve-shortcodes-vc-add.php:161
+#: vc_extend/grve-shortcodes-vc-add.php:180
+#: vc_extend/grve-shortcodes-vc-add.php:193
+#: vc_extend/grve-shortcodes-vc-add.php:206
+#: vc_extend/grve-shortcodes-vc-add.php:219
+#: vc_extend/grve-shortcodes-vc-add.php:233
+#: vc_extend/grve-shortcodes-vc-add.php:256
+#: vc_extend/grve-shortcodes-vc-add.php:270
+#: vc_extend/grve-shortcodes-vc-add.php:283
+#: vc_extend/grve-shortcodes-vc-add.php:296
+#: vc_extend/grve-shortcodes-vc-add.php:305
+#: vc_extend/grve-shortcodes-vc-add.php:315
+#: vc_extend/grve-shortcodes-vc-add.php:325
+#@ osmosis
+msgid "Section Options"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:110
+#@ osmosis
+msgid "Section Window Height"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:116
+#@ osmosis
+msgid "Select if you want your section height to be equal with the window height"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:124
+#@ osmosis
+msgid "Background Type"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:126
+#@ osmosis
+msgid "Select Background type"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:129
+#@ osmosis
+msgid "Color"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:131
+#@ osmosis
+msgid "Hosted Video"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:140
+#@ osmosis
+msgid "Custom Background Color"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:142
+#@ osmosis
+msgid "Select backgound color for your row"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:154
+#@ osmosis
+msgid "Background Image"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:156
+#@ osmosis
+msgid "Select background image for your row. Used also as fallback for video."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:167
+#@ osmosis
+msgid "Background Image Type"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:171
+#@ osmosis
+msgid "Fixed"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:172
+#@ osmosis
+msgid "Parallax"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:173
+#@ osmosis
+msgid "Animated"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:175
+#@ osmosis
+msgid "Select how a background image will be displayed"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:188
+#@ osmosis
+msgid "Fill WebM and mp4 format for browser compatibility"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:201
+#@ osmosis
+msgid "Fill mp4 format URL"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:214
+#@ osmosis
+msgid "Fill OGV format URL ( optional )"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:225
+#@ osmosis
+msgid "Pattern overlay"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:227
+#@ osmosis
+msgid "If selected, a pattern will be added."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:228
+#@ osmosis
+msgid "Add pattern"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:239
+#@ osmosis
+msgid "Color overlay"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:255
+#@ osmosis
+msgid "A color overlay for the media"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:262
+#@ osmosis
+msgid "Opacity overlay"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:265
+#@ osmosis
+msgid "Opacity of the overlay"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:276
+#@ osmosis
+msgid "Top padding"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:289
+#@ osmosis
+msgid "Bottom padding"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:311
+#@ osmosis
+msgid "Header Section"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:313
+#@ osmosis
+msgid "Use this option if first section ( no gap from header )"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:314
+#@ osmosis
+msgid "Header section"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:321
+#@ osmosis
+msgid "Footer Section"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:323
+#@ osmosis
+msgid "Use this option if last section ( no gap from footer )"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:324
+#@ osmosis
+msgid "Footer section"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:332
+#: vc_extend/grve-shortcodes-vc-add.php:343
+#@ osmosis
+msgid "Responsive Column"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:335
+#: vc_extend/grve-shortcodes-vc-add.php:346
+#@ osmosis
+msgid "Responsive column on tablets"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:336
+#: vc_extend/grve-shortcodes-vc-add.php:347
+#@ js_composer
+msgid "Width & Responsiveness"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:356
+#@ osmosis
+msgid "Toggle"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:358
+#@ osmosis
+msgid "If selected, accordion will be displayed as toggle."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:359
+#@ osmosis
+msgid "Convert to toggle."
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:366
+#@ osmosis
+msgid "Initial State"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:370
+#@ osmosis
+msgid "First Open"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:371
+#@ osmosis
+msgid "All Closed"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:373
+#@ osmosis
+msgid "Accordion Initial State"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:383
+#@ osmosis
+msgid "Text Style"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:387
+#@ osmosis
+msgid "Leader"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:388
+#@ osmosis
+msgid "Subtitle"
+msgstr ""
+
+#: vc_extend/grve-shortcodes-vc-add.php:390
+#@ osmosis
+msgid "Select your text style"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1115
+#@ osmosis
+msgid "Easily disable the comments of your blog."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1200
+#@ osmosis
+msgid "Post Title Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1253
+#@ osmosis
+msgid "Page Title Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1359
+#@ osmosis
+msgid "Portfolio Title Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1894
+#@ osmosis
+msgid "Set your color preferences for the TopBar (you will see the changes in the live preview only if TopBar is enabled)."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1957
+#@ osmosis
+msgid "Here, you can select, if you like, to use background for your logo and the type of the main menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1992
+#@ osmosis
+msgid "Set your color preferences for the Default Header. Keep in mind that the basic settings for the Default Header are in Theme Options > Header Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2038
+#: includes/admin/grve-redux-framework-config.php:2213
+#: includes/admin/grve-redux-framework-config.php:2387
+#: includes/admin/grve-redux-framework-config.php:2560
+#@ osmosis
+msgid "Menu Text Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2120
+#: includes/admin/grve-redux-framework-config.php:2295
+#: includes/admin/grve-redux-framework-config.php:2469
+#: includes/admin/grve-redux-framework-config.php:2642
+#@ osmosis
+msgid "Safe Button Background Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2146
+#: includes/admin/grve-redux-framework-config.php:2321
+#: includes/admin/grve-redux-framework-config.php:2495
+#: includes/admin/grve-redux-framework-config.php:2668
+#@ osmosis
+msgid "Safe Button Background Hover Color"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2167
+#@ osmosis
+msgid "Set your color preferences for the Sticky Header. You can enable/disable, select the type and logo for the sticky header in Theme Options > Header Options > Sticky Header Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3031
+#@ osmosis
+msgid "Set your color preferences for the Footer Bar Area(copyright area). Define the Footer Bar Area in Theme Options > Footer Options."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1281
+#@ osmosis
+msgid "Anchor Menu Height"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1875
+#@ osmosis
+msgid "Select your Skin"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1877
+#@ osmosis
+msgid "The presets are created based on the content of the demos. However, you can use them as you wish in order to customize your color scheme."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1879
+#@ osmosis
+msgid "Main Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1880
+#@ osmosis
+msgid "Corporate Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1881
+#@ osmosis
+msgid "Blog Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1882
+#@ osmosis
+msgid "Interior Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1883
+#@ osmosis
+msgid "Photography Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1884
+#@ osmosis
+msgid "One Page Demo"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1904
+#@ osmosis
+msgid "Background color for your Top Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1914
+#@ osmosis
+msgid "Font color for your Top Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1924
+#@ osmosis
+msgid "Link color for your Top Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1934
+#@ osmosis
+msgid "Hover color for your Top Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1944
+#@ osmosis
+msgid "Border color for your Top Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1966
+#@ osmosis
+msgid "Select the background type of the logo."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2002
+#: includes/admin/grve-redux-framework-config.php:2177
+#: includes/admin/grve-redux-framework-config.php:2352
+#: includes/admin/grve-redux-framework-config.php:2525
+#@ osmosis
+msgid "Pick a background color for the header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2011
+#: includes/admin/grve-redux-framework-config.php:2186
+#: includes/admin/grve-redux-framework-config.php:2361
+#: includes/admin/grve-redux-framework-config.php:2534
+#@ osmosis
+msgid "Select opacity for the background of the header."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2030
+#: includes/admin/grve-redux-framework-config.php:2205
+#: includes/admin/grve-redux-framework-config.php:2379
+#: includes/admin/grve-redux-framework-config.php:2552
+#@ osmosis
+msgid "Pick a color for the menu text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2039
+#: includes/admin/grve-redux-framework-config.php:2214
+#: includes/admin/grve-redux-framework-config.php:2388
+#: includes/admin/grve-redux-framework-config.php:2561
+#@ osmosis
+msgid "Pick a color for the hover menu text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2048
+#: includes/admin/grve-redux-framework-config.php:2223
+#: includes/admin/grve-redux-framework-config.php:2397
+#: includes/admin/grve-redux-framework-config.php:2570
+#@ osmosis
+msgid "Pick a background color for the active menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2057
+#: includes/admin/grve-redux-framework-config.php:2232
+#: includes/admin/grve-redux-framework-config.php:2406
+#: includes/admin/grve-redux-framework-config.php:2579
+#@ osmosis
+msgid "Pick a color for the active menu text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2066
+#: includes/admin/grve-redux-framework-config.php:2241
+#: includes/admin/grve-redux-framework-config.php:2415
+#: includes/admin/grve-redux-framework-config.php:2588
+#@ osmosis
+msgid "Pick a color for the sub menu text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2075
+#: includes/admin/grve-redux-framework-config.php:2250
+#: includes/admin/grve-redux-framework-config.php:2424
+#: includes/admin/grve-redux-framework-config.php:2597
+#@ osmosis
+msgid "Pick a color for the hover sub menu text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2084
+#: includes/admin/grve-redux-framework-config.php:2259
+#: includes/admin/grve-redux-framework-config.php:2433
+#: includes/admin/grve-redux-framework-config.php:2606
+#@ osmosis
+msgid "Pick a background color for the sub menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2093
+#: includes/admin/grve-redux-framework-config.php:2442
+#: includes/admin/grve-redux-framework-config.php:2615
+#@ osmosis
+msgid "Pick a background color for the active sub menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2102
+#: includes/admin/grve-redux-framework-config.php:2277
+#: includes/admin/grve-redux-framework-config.php:2451
+#: includes/admin/grve-redux-framework-config.php:2624
+#@ osmosis
+msgid "Pick a border color for the sub menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2112
+#: includes/admin/grve-redux-framework-config.php:2287
+#: includes/admin/grve-redux-framework-config.php:2461
+#: includes/admin/grve-redux-framework-config.php:2634
+#@ osmosis
+msgid "Pick a color for the safe button icon."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2121
+#: includes/admin/grve-redux-framework-config.php:2296
+#: includes/admin/grve-redux-framework-config.php:2470
+#: includes/admin/grve-redux-framework-config.php:2643
+#@ osmosis
+msgid "Pick a background color for the safe button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2130
+#: includes/admin/grve-redux-framework-config.php:2305
+#: includes/admin/grve-redux-framework-config.php:2479
+#: includes/admin/grve-redux-framework-config.php:2652
+#@ osmosis
+msgid "Select opacity for the safe button background."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2138
+#: includes/admin/grve-redux-framework-config.php:2313
+#: includes/admin/grve-redux-framework-config.php:2487
+#: includes/admin/grve-redux-framework-config.php:2660
+#@ osmosis
+msgid "Pick a color for the hover safe button icon."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2147
+#: includes/admin/grve-redux-framework-config.php:2322
+#: includes/admin/grve-redux-framework-config.php:2496
+#: includes/admin/grve-redux-framework-config.php:2669
+#@ osmosis
+msgid "Pick a background color for the hover safe button."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2156
+#: includes/admin/grve-redux-framework-config.php:2331
+#: includes/admin/grve-redux-framework-config.php:2505
+#: includes/admin/grve-redux-framework-config.php:2678
+#@ osmosis
+msgid "Select opacity for the hover safe button background."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2268
+#@ osmosis
+msgid "Pick a background color for the hover sub menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2699
+#@ osmosis
+msgid "Pick a background color for the text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2708
+#@ osmosis
+msgid "Pick a color for headings text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2726
+#@ osmosis
+msgid "Pick a color for the links."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2735
+#@ osmosis
+msgid "Pick a color for hover text."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2744
+#@ osmosis
+msgid "Pick a border color."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2753
+#@ osmosis
+msgid "Pick a color for primary 1."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2762
+#@ osmosis
+msgid "Pick a color for primary 1 hover."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2771
+#@ osmosis
+msgid "Pick a color for primary 2."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2780
+#@ osmosis
+msgid "Pick a color for primary 2 hover."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2789
+#@ osmosis
+msgid "Pick a color for primary 3."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2798
+#@ osmosis
+msgid "Pick a color for primary 3 hover."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2807
+#@ osmosis
+msgid "Pick a color for primary 4."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2816
+#@ osmosis
+msgid "Pick a color for primary 4 hover."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2825
+#@ osmosis
+msgid "Pick a color for primary 5."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2834
+#@ osmosis
+msgid "Pick a color for primary 5 hover."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2874
+#@ osmosis
+msgid "Select the background color for your sidebar in pages."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2883
+#@ osmosis
+msgid "Select the background color for the sidebar in portfolio items."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2907
+#@ osmosis
+msgid "Background color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2916
+#@ osmosis
+msgid "Text color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2925
+#@ osmosis
+msgid "Link color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2934
+#@ osmosis
+msgid "Hover color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2943
+#@ osmosis
+msgid "Button background color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2952
+#@ osmosis
+msgid "Button background hover color for your Bottom Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2975
+#@ osmosis
+msgid "Background color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2984
+#@ osmosis
+msgid "Headings color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:2993
+#@ osmosis
+msgid "Font color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3002
+#@ osmosis
+msgid "Link color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3011
+#@ osmosis
+msgid "Hover color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3020
+#@ osmosis
+msgid "Border color for your Footer Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3043
+#@ osmosis
+msgid "Background color for your Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3052
+#@ osmosis
+msgid "Font color for your Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3061
+#@ osmosis
+msgid "Link color for your Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3070
+#@ osmosis
+msgid "Hover color for your Footer Bar Area."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3092
+#@ osmosis
+msgid "Background color for your post title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3100
+#@ osmosis
+msgid "Color for your post title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3122
+#@ osmosis
+msgid "Background color for your Post Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3131
+#@ osmosis
+msgid "Font color for your Post Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3140
+#@ osmosis
+msgid "Hover color for your Post Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3149
+#@ osmosis
+msgid "Background hover color for your Post Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3158
+#@ osmosis
+msgid "Border color for your Post Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3180
+#@ osmosis
+msgid "Background color for your page title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3188
+#@ osmosis
+msgid "Color for your page title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3197
+#@ osmosis
+msgid "Color for your page description."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3219
+#@ osmosis
+msgid "Background color for your Page Anchor Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3228
+#@ osmosis
+msgid "Font color for your Page Anchor Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3237
+#@ osmosis
+msgid "Hover color for your Page Anchor Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3246
+#@ osmosis
+msgid "Hover background color for your Page Anchor Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3255
+#@ osmosis
+msgid "Border color for your Page Anchor Menu."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3277
+#@ osmosis
+msgid "Background color for your portfolio title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3286
+#@ osmosis
+msgid "Color for your portfolio title."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3295
+#@ osmosis
+msgid "Color for your portfolio description."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3317
+#@ osmosis
+msgid "Background color for your Portfolio Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3326
+#@ osmosis
+msgid "Font color for your Portfolio Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3335
+#@ osmosis
+msgid "Hover color for your Portfolio Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3344
+#@ osmosis
+msgid "Background hover color for your Portfolio Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:3353
+#@ osmosis
+msgid "Border color for your Portfolio Fields Bar."
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1799
+#@ osmosis
+msgid "Link Text"
+msgstr ""
+
+#: includes/admin/grve-redux-framework-config.php:1800
+#@ osmosis
+msgid "Specify the style for the link text.<br>This is used in various elements (Buttons, Read More...)"
+msgstr ""
+

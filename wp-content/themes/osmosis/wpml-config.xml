@@ -1,0 +1,123 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">grve_page_description</custom-field>
+		<custom-field action="copy">grve_page_layout</custom-field>
+		<custom-field action="copy">grve_page_sidebar</custom-field>
+		<custom-field action="copy">grve_sidebar_bg_color</custom-field>
+		<custom-field action="copy">grve_fixed_sidebar</custom-field>
+		<custom-field action="copy">grve_page_navigation_menu</custom-field>
+		<custom-field action="copy">grve_main_navigation_menu</custom-field>
+		<custom-field action="copy">grve_main_navigation_menu_type</custom-field>
+		<custom-field action="copy">grve_disable_menu</custom-field>
+		<custom-field action="copy">grve_disable_menu_items</custom-field>
+		<custom-field action="copy">grve_disable_title</custom-field>
+		<custom-field action="copy">grve_disable_safe_button</custom-field>
+		<custom-field action="copy">grve_disable_top_bar</custom-field>
+		<custom-field action="copy">grve_disable_content</custom-field>
+		<custom-field action="copy">grve_disable_bottom_bar</custom-field>
+		<custom-field action="copy">grve_disable_footer</custom-field>
+		<custom-field action="copy">grve_disable_copyright</custom-field>
+		<custom-field action="copy">grve_page_feature_element</custom-field>
+		<custom-field action="copy">grve_page_feature_size</custom-field>
+        <custom-field action="copy">grve_page_feature_height</custom-field>
+		<custom-field action="copy">grve_page_feature_header_integration</custom-field>
+		<custom-field action="copy">grve_page_feature_header_position</custom-field>
+		<custom-field action="copy">grve_page_feature_header_style</custom-field>
+		<custom-field action="copy">grve_page_feature_effect</custom-field>
+		<custom-field action="copy">grve_page_feature_go_to_section</custom-field>
+        <custom-field action="copy">grve_page_slider_items</custom-field>
+		<custom-field action="copy">grve_page_slider_settings</custom-field>
+		<custom-field action="copy">grve_page_map_items</custom-field>
+		<custom-field action="copy">grve_page_map_settings</custom-field>
+		<custom-field action="copy">grve_page_image_item</custom-field>
+		<custom-field action="copy">grve_page_title_item</custom-field>
+		<custom-field action="copy">grve_page_video_item</custom-field>
+		<custom-field action="copy">grve_post_layout</custom-field>
+		<custom-field action="copy">grve_post_sidebar</custom-field>
+		<custom-field action="copy">grve_post_type_gallery_mode</custom-field>
+        <custom-field action="copy">grve_post_slider_height</custom-field>
+        <custom-field action="copy">grve_post_slider_items</custom-field>
+		<custom-field action="copy">grve_post_link_url</custom-field>
+		<custom-field action="copy">grve_post_link_new_window</custom-field>
+        <custom-field action="copy">grve_post_audio_embed</custom-field>
+		<custom-field action="copy">grve_post_audio_mp3</custom-field>
+		<custom-field action="copy">grve_post_audio_ogg</custom-field>
+		<custom-field action="copy">grve_post_audio_wav</custom-field>
+		<custom-field action="copy">grve_post_type_video_mode</custom-field>
+        <custom-field action="copy">grve_post_video_embed</custom-field>
+        <custom-field action="copy">grve_post_video_mp4</custom-field>
+        <custom-field action="copy">grve_post_video_ogv</custom-field>
+        <custom-field action="copy">grve_post_video_webm</custom-field>
+        <custom-field action="translate">grve_portfolio_description</custom-field>
+        <custom-field action="translate">grve_portfolio_details</custom-field>
+		<custom-field action="copy">grve_portfolio_layout</custom-field>
+		<custom-field action="copy">grve_portfolio_sidebar</custom-field>
+		<custom-field action="copy">grve_disable_portfolio_fields_bar</custom-field>
+		<custom-field action="copy">grve_disable_portfolio_recent</custom-field>
+		<custom-field action="copy">grve_portfolio_media_selection</custom-field>
+		<custom-field action="copy">grve_portfolio_video_webm</custom-field>
+		<custom-field action="copy">grve_portfolio_video_mp4</custom-field>
+		<custom-field action="copy">grve_portfolio_video_ogv</custom-field>
+		<custom-field action="copy">grve_portfolio_video_embed</custom-field>
+		<custom-field action="copy">grve_portfolio_slider_items</custom-field>
+		<custom-field action="copy">grve_portfolio_slider_settings</custom-field>
+        <custom-field action="translate">grve_testimonial_name</custom-field>
+        <custom-field action="translate">grve_testimonial_identity</custom-field>
+    </custom-fields>
+    <custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">portfolio_fields</taxonomy>
+		<taxonomy translate="1">testimonial_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="grve_osmosis_options">
+            <key name="page_404_content" />
+			<key name="safe_button_option_search_text" />
+			<key name="safe_button_option_language_text" />
+			<key name="safe_button_option_newsletter_text" />
+			<key name="safe_button_option_social_text" />
+			<key name="footer_copyright_text" />
+        </key>
+    </admin-texts>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">0</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>
+</wpml-config>
+
+
