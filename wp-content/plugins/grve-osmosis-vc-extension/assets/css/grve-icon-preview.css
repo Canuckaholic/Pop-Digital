@@ -1,0 +1,39 @@
+.grve-modal-select-icon-container{
+    border: 1px solid #AAAAAA;
+    height: 183px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.grve-modal-select-icon-container.grve-subset{
+    height: 60px;
+}
+
+.grve-modal-icon-preview {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E1E1E1;
+    color: #494949;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    transition: all 0.1s ease-out 0s;
+    width: 1.5em;
+}
+.grve-modal-icon-preview:hover {
+	color:#278AB7;
+	z-index: 3;
+	-webkit-transform:scale(1.3);
+	-o-transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	transform:scale(1.3);
+}
+.grve-modal-icon-preview.grve-selected,
+.grve-modal-icon-preview.grve-selected:hover {
+	color:#D54E21;
+}

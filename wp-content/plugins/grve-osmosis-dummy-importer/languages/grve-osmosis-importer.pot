@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osmosis Demo Data Importer v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-08 19:36:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: grve-osmosis-dummy-importer.php:84
+#@ grve-osmosis-importer
+msgid ""
+"You are about to import dummy data!\n"
+"It is recommended to clear your data first.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:165
+#@ grve-osmosis-importer
+msgid "Dummy Content: File empty ot not existing!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:175
+#@ grve-osmosis-importer
+msgid "Dummy Content: Error During Import!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:214
+#@ grve-osmosis-importer
+msgid "Dummy Content: imported!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:226
+#@ grve-osmosis-importer
+msgid "Theme Options: file empty ot not existing!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:230
+#@ grve-osmosis-importer
+msgid "Theme Options: imported!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:241
+#@ grve-osmosis-importer
+msgid "Widgets: no widgets available for this Demo!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:245
+#@ grve-osmosis-importer
+msgid "Widgets: imported!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:254
+#@ grve-osmosis-importer
+msgid "Import finished!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:255
+#: grve-osmosis-dummy-importer.php:264
+#@ grve-osmosis-importer
+msgid "Visit Site"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:258
+#@ grve-osmosis-importer
+msgid "No options selected, please select some options and press the import button!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:263
+#@ grve-osmosis-importer
+msgid "Import finished with errors!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:510
+#: grve-osmosis-dummy-importer.php:519
+#: grve-osmosis-dummy-importer.php:567
+#: grve-osmosis-dummy-importer.php:571
+#: grve-osmosis-dummy-importer.php:580
+#@ grve-osmosis-importer
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:511
+#@ grve-osmosis-importer
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:572
+#, php-format
+#@ grve-osmosis-importer
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:588
+#, php-format
+#@ grve-osmosis-importer
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:613
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:663
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import category %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:703
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:750
+#: grve-osmosis-dummy-importer.php:965
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:800
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:824
+#, php-format
+#@ grve-osmosis-importer
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:930
+#, php-format
+#@ grve-osmosis-importer
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1097
+#@ grve-osmosis-importer
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1106
+#, php-format
+#@ grve-osmosis-importer
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1171
+#@ grve-osmosis-importer
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1188
+#@ grve-osmosis-importer
+msgid "Invalid file type"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1257
+#@ grve-osmosis-importer
+msgid "Remote server did not respond"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1263
+#, php-format
+#@ grve-osmosis-importer
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1270
+#@ grve-osmosis-importer
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1275
+#@ grve-osmosis-importer
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1281
+#, php-format
+#@ grve-osmosis-importer
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1381
+#@ grve-osmosis-importer
+msgid "Import Osmosis Demos"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1398
+#@ grve-osmosis-importer
+msgid "Please note the following points:"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1400
+#@ grve-osmosis-importer
+msgid "The import process will work best on a clean installation. You can use a plugin such as WordPress Reset to clear your data first."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1401
+#@ grve-osmosis-importer
+msgid "Ensure all needed plugins are already installed and activated, e.g. WPBakery Visual Composer, Osmosis Visual Composer Extension, WooCommerce, Contact Form 7 etc."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1409
+#@ grve-osmosis-importer
+msgid "Importing..."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1427
+#@ grve-osmosis-importer
+msgid "Dummy Content"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1430
+#@ grve-osmosis-importer
+msgid "Theme Options"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1433
+#@ grve-osmosis-importer
+msgid "Widgets"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1438
+#@ grve-osmosis-importer
+msgid "Import"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1512
+#@ grve-osmosis-importer
+msgid "Import Osmosis Demos, Dummy Content, Theme Options and Widgets."
+msgstr ""
+
+#: parsers.php:42
+#: parsers.php:72
+#: parsers.php:80
+#@ grve-osmosis-importer
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: parsers.php:43
+#@ grve-osmosis-importer
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: parsers.php:84
+#: parsers.php:89
+#: parsers.php:279
+#: parsers.php:468
+#@ grve-osmosis-importer
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:268
+#@ grve-osmosis-importer
+msgid "Osmosis Theme is not activated! Osmosis Theme needs to be installed and activated!"
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1402
+#@ grve-osmosis-importer
+msgid "To import one of our Demos, select all or some of the options of any demo and press the import button."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1403
+#@ grve-osmosis-importer
+msgid "Keep in mind not to run importer twice without clearing your data first. You might end up with duplicate data e.g duplicate menu items and/or widgets."
+msgstr ""
+
+#: grve-osmosis-dummy-importer.php:1404
+#@ grve-osmosis-importer
+msgid "Once you start the process, please leave it running and uninterrupted! After the import, a status will be displayed with the results!"
+msgstr ""
+

@@ -1,0 +1,2453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osmosis Visual Composer Extension v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-29 21:10:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/grve-add-param.php:19
+#@ grve-osmosis-vc-extension
+msgid "CSS Animation"
+msgstr ""
+
+#: includes/grve-add-param.php:23
+#: shortcodes/grve_gallery.php:233
+#: shortcodes/grve_image_text.php:162
+#: shortcodes/grve_portfolio.php:402
+#@ grve-osmosis-vc-extension
+msgid "No"
+msgstr ""
+
+#: includes/grve-add-param.php:24
+#@ grve-osmosis-vc-extension
+msgid "Fade In"
+msgstr ""
+
+#: includes/grve-add-param.php:25
+#@ grve-osmosis-vc-extension
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/grve-add-param.php:26
+#@ grve-osmosis-vc-extension
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/grve-add-param.php:27
+#@ grve-osmosis-vc-extension
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/grve-add-param.php:28
+#@ grve-osmosis-vc-extension
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/grve-add-param.php:30
+#@ grve-osmosis-vc-extension
+msgid "Select type of animation if you want this element to be animated when it enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: includes/grve-add-param.php:35
+#@ grve-osmosis-vc-extension
+msgid "Css Animation Delay"
+msgstr ""
+
+#: includes/grve-add-param.php:38
+#@ grve-osmosis-vc-extension
+msgid "Add delay in milliseconds."
+msgstr ""
+
+#: includes/grve-add-param.php:43
+#@ grve-osmosis-vc-extension
+msgid "Bottom margin"
+msgstr ""
+
+#: includes/grve-add-param.php:50
+#@ grve-osmosis-vc-extension
+msgid "Extra class name"
+msgstr ""
+
+#: includes/grve-add-param.php:52
+#@ grve-osmosis-vc-extension
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/grve-add-param.php:57
+#@ grve-osmosis-vc-extension
+msgid "Alignment"
+msgstr ""
+
+#: includes/grve-add-param.php:60
+#: shortcodes/grve_image_text.php:152
+#: shortcodes/grve_portfolio.php:373
+#: shortcodes/grve_slider.php:218
+#@ grve-osmosis-vc-extension
+msgid "Left"
+msgstr ""
+
+#: includes/grve-add-param.php:61
+#: shortcodes/grve_callout.php:119
+#: shortcodes/grve_image_text.php:153
+#: shortcodes/grve_portfolio.php:374
+#: shortcodes/grve_slider.php:220
+#@ grve-osmosis-vc-extension
+msgid "Right"
+msgstr ""
+
+#: includes/grve-add-param.php:62
+#: shortcodes/grve_portfolio.php:375
+#: shortcodes/grve_slider.php:219
+#@ grve-osmosis-vc-extension
+msgid "Center"
+msgstr ""
+
+#: includes/grve-add-param.php:70
+#@ grve-osmosis-vc-extension
+msgid "Button type"
+msgstr ""
+
+#: includes/grve-add-param.php:73
+#: shortcodes/grve_divider.php:61
+#: shortcodes/grve_icon_box.php:202
+#: shortcodes/grve_slider.php:190
+#: shortcodes/grve_slogan.php:134
+#: shortcodes/grve_slogan.php:172
+#: shortcodes/grve_slogan.php:257
+#: shortcodes/grve_title.php:90
+#@ grve-osmosis-vc-extension
+msgid "Simple"
+msgstr ""
+
+#: includes/grve-add-param.php:74
+#: shortcodes/grve_icon_box.php:203
+#: shortcodes/grve_slogan.php:173
+#: shortcodes/grve_slogan.php:258
+#@ grve-osmosis-vc-extension
+msgid "Outline"
+msgstr ""
+
+#: includes/grve-add-param.php:76
+#: shortcodes/grve_slogan.php:175
+#: shortcodes/grve_slogan.php:260
+#@ grve-osmosis-vc-extension
+msgid "Select button type."
+msgstr ""
+
+#: includes/grve-add-param.php:77
+#: includes/grve-add-param.php:101
+#: includes/grve-add-param.php:111
+#: includes/grve-add-param.php:121
+#: includes/grve-add-param.php:137
+#: includes/grve-add-param.php:151
+#: includes/grve-add-param.php:160
+#: includes/grve-add-param.php:168
+#: shortcodes/grve_button.php:62
+#: shortcodes/grve_callout.php:123
+#@ grve-osmosis-vc-extension
+msgid "Button"
+msgstr ""
+
+#: includes/grve-add-param.php:82
+#@ grve-osmosis-vc-extension
+msgid "Button Color"
+msgstr ""
+
+#: includes/grve-add-param.php:85
+#: shortcodes/grve_counter.php:139
+#: shortcodes/grve_counter.php:180
+#: shortcodes/grve_dropcap.php:94
+#: shortcodes/grve_icon_box.php:228
+#: shortcodes/grve_message_box.php:89
+#: shortcodes/grve_progress_bar.php:106
+#: shortcodes/grve_slider.php:204
+#: shortcodes/grve_slogan.php:183
+#: shortcodes/grve_slogan.php:268
+#@ grve-osmosis-vc-extension
+msgid "Primary 1"
+msgstr ""
+
+#: includes/grve-add-param.php:86
+#: shortcodes/grve_counter.php:140
+#: shortcodes/grve_counter.php:181
+#: shortcodes/grve_dropcap.php:95
+#: shortcodes/grve_icon_box.php:229
+#: shortcodes/grve_message_box.php:90
+#: shortcodes/grve_progress_bar.php:107
+#: shortcodes/grve_slider.php:205
+#: shortcodes/grve_slogan.php:184
+#: shortcodes/grve_slogan.php:269
+#@ grve-osmosis-vc-extension
+msgid "Primary 2"
+msgstr ""
+
+#: includes/grve-add-param.php:87
+#: shortcodes/grve_counter.php:141
+#: shortcodes/grve_counter.php:182
+#: shortcodes/grve_dropcap.php:96
+#: shortcodes/grve_icon_box.php:230
+#: shortcodes/grve_message_box.php:91
+#: shortcodes/grve_progress_bar.php:108
+#: shortcodes/grve_slider.php:206
+#: shortcodes/grve_slogan.php:185
+#: shortcodes/grve_slogan.php:270
+#@ grve-osmosis-vc-extension
+msgid "Primary 3"
+msgstr ""
+
+#: includes/grve-add-param.php:88
+#: shortcodes/grve_counter.php:142
+#: shortcodes/grve_counter.php:183
+#: shortcodes/grve_dropcap.php:97
+#: shortcodes/grve_icon_box.php:231
+#: shortcodes/grve_message_box.php:92
+#: shortcodes/grve_progress_bar.php:109
+#: shortcodes/grve_slider.php:207
+#: shortcodes/grve_slogan.php:186
+#: shortcodes/grve_slogan.php:271
+#@ grve-osmosis-vc-extension
+msgid "Primary 4"
+msgstr ""
+
+#: includes/grve-add-param.php:89
+#: shortcodes/grve_counter.php:143
+#: shortcodes/grve_counter.php:184
+#: shortcodes/grve_dropcap.php:98
+#: shortcodes/grve_icon_box.php:232
+#: shortcodes/grve_message_box.php:93
+#: shortcodes/grve_progress_bar.php:110
+#: shortcodes/grve_slider.php:208
+#: shortcodes/grve_slogan.php:187
+#: shortcodes/grve_slogan.php:272
+#@ grve-osmosis-vc-extension
+msgid "Primary 5"
+msgstr ""
+
+#: includes/grve-add-param.php:90
+#: shortcodes/grve_counter.php:144
+#: shortcodes/grve_counter.php:185
+#: shortcodes/grve_icon_box.php:233
+#: shortcodes/grve_message_box.php:94
+#: shortcodes/grve_progress_bar.php:111
+#: shortcodes/grve_slogan.php:188
+#: shortcodes/grve_slogan.php:273
+#@ grve-osmosis-vc-extension
+msgid "Green"
+msgstr ""
+
+#: includes/grve-add-param.php:91
+#: shortcodes/grve_counter.php:145
+#: shortcodes/grve_counter.php:186
+#: shortcodes/grve_icon_box.php:234
+#: shortcodes/grve_message_box.php:95
+#: shortcodes/grve_progress_bar.php:112
+#: shortcodes/grve_slogan.php:189
+#: shortcodes/grve_slogan.php:274
+#@ grve-osmosis-vc-extension
+msgid "Orange"
+msgstr ""
+
+#: includes/grve-add-param.php:92
+#: shortcodes/grve_counter.php:146
+#: shortcodes/grve_counter.php:187
+#: shortcodes/grve_icon_box.php:235
+#: shortcodes/grve_message_box.php:96
+#: shortcodes/grve_progress_bar.php:113
+#: shortcodes/grve_slogan.php:190
+#: shortcodes/grve_slogan.php:275
+#@ grve-osmosis-vc-extension
+msgid "Red"
+msgstr ""
+
+#: includes/grve-add-param.php:93
+#: shortcodes/grve_counter.php:147
+#: shortcodes/grve_counter.php:188
+#: shortcodes/grve_icon_box.php:236
+#: shortcodes/grve_message_box.php:97
+#: shortcodes/grve_progress_bar.php:114
+#: shortcodes/grve_slogan.php:191
+#: shortcodes/grve_slogan.php:276
+#@ grve-osmosis-vc-extension
+msgid "Blue"
+msgstr ""
+
+#: includes/grve-add-param.php:94
+#: shortcodes/grve_counter.php:148
+#: shortcodes/grve_counter.php:189
+#: shortcodes/grve_icon_box.php:237
+#: shortcodes/grve_message_box.php:98
+#: shortcodes/grve_progress_bar.php:115
+#: shortcodes/grve_slogan.php:192
+#: shortcodes/grve_slogan.php:277
+#@ grve-osmosis-vc-extension
+msgid "Aqua"
+msgstr ""
+
+#: includes/grve-add-param.php:95
+#: shortcodes/grve_counter.php:149
+#: shortcodes/grve_counter.php:190
+#: shortcodes/grve_icon_box.php:238
+#: shortcodes/grve_message_box.php:99
+#: shortcodes/grve_progress_bar.php:116
+#: shortcodes/grve_slogan.php:193
+#: shortcodes/grve_slogan.php:278
+#@ grve-osmosis-vc-extension
+msgid "Purple"
+msgstr ""
+
+#: includes/grve-add-param.php:96
+#: shortcodes/grve_counter.php:150
+#: shortcodes/grve_counter.php:191
+#: shortcodes/grve_icon_box.php:239
+#: shortcodes/grve_message_box.php:100
+#: shortcodes/grve_progress_bar.php:117
+#: shortcodes/grve_slogan.php:194
+#: shortcodes/grve_slogan.php:279
+#@ grve-osmosis-vc-extension
+msgid "Black"
+msgstr ""
+
+#: includes/grve-add-param.php:97
+#: shortcodes/grve_counter.php:151
+#: shortcodes/grve_counter.php:192
+#: shortcodes/grve_icon_box.php:240
+#: shortcodes/grve_message_box.php:101
+#: shortcodes/grve_progress_bar.php:118
+#: shortcodes/grve_slogan.php:195
+#: shortcodes/grve_slogan.php:280
+#@ grve-osmosis-vc-extension
+msgid "Grey"
+msgstr ""
+
+#: includes/grve-add-param.php:98
+#: shortcodes/grve_counter.php:152
+#: shortcodes/grve_counter.php:193
+#: shortcodes/grve_icon_box.php:241
+#: shortcodes/grve_message_box.php:102
+#: shortcodes/grve_slogan.php:196
+#: shortcodes/grve_slogan.php:281
+#@ grve-osmosis-vc-extension
+msgid "White"
+msgstr ""
+
+#: includes/grve-add-param.php:100
+#: shortcodes/grve_slogan.php:198
+#: shortcodes/grve_slogan.php:283
+#@ grve-osmosis-vc-extension
+msgid "Color of the button."
+msgstr ""
+
+#: includes/grve-add-param.php:106
+#: includes/grve-add-param.php:116
+#@ grve-osmosis-vc-extension
+msgid "Button Text"
+msgstr ""
+
+#: includes/grve-add-param.php:110
+#: includes/grve-add-param.php:120
+#@ grve-osmosis-vc-extension
+msgid "Text of the button."
+msgstr ""
+
+#: includes/grve-add-param.php:126
+#@ grve-osmosis-vc-extension
+msgid "Button Size"
+msgstr ""
+
+#: includes/grve-add-param.php:129
+#: shortcodes/grve_slogan.php:214
+#: shortcodes/grve_slogan.php:299
+#@ grve-osmosis-vc-extension
+msgid "Extra Small"
+msgstr ""
+
+#: includes/grve-add-param.php:130
+#: shortcodes/grve_icon_box.php:167
+#: shortcodes/grve_slogan.php:215
+#: shortcodes/grve_slogan.php:300
+#@ grve-osmosis-vc-extension
+msgid "Small"
+msgstr ""
+
+#: includes/grve-add-param.php:131
+#: shortcodes/grve_icon_box.php:166
+#: shortcodes/grve_slogan.php:216
+#: shortcodes/grve_slogan.php:301
+#@ grve-osmosis-vc-extension
+msgid "Medium"
+msgstr ""
+
+#: includes/grve-add-param.php:132
+#: shortcodes/grve_icon_box.php:165
+#: shortcodes/grve_slogan.php:217
+#: shortcodes/grve_slogan.php:302
+#@ grve-osmosis-vc-extension
+msgid "Large"
+msgstr ""
+
+#: includes/grve-add-param.php:133
+#: shortcodes/grve_slogan.php:218
+#: shortcodes/grve_slogan.php:303
+#@ grve-osmosis-vc-extension
+msgid "Extra Large"
+msgstr ""
+
+#: includes/grve-add-param.php:142
+#: shortcodes/grve_slogan.php:311
+#@ grve-osmosis-vc-extension
+msgid "Button Shape"
+msgstr ""
+
+#: includes/grve-add-param.php:145
+#: shortcodes/grve_icon_box.php:178
+#: shortcodes/grve_slogan.php:229
+#: shortcodes/grve_slogan.php:314
+#@ grve-osmosis-vc-extension
+msgid "Square"
+msgstr ""
+
+#: includes/grve-add-param.php:146
+#: shortcodes/grve_icon_box.php:179
+#: shortcodes/grve_slogan.php:230
+#: shortcodes/grve_slogan.php:315
+#@ grve-osmosis-vc-extension
+msgid "Round"
+msgstr ""
+
+#: includes/grve-add-param.php:147
+#: shortcodes/grve_slogan.php:231
+#: shortcodes/grve_slogan.php:316
+#@ grve-osmosis-vc-extension
+msgid "Extra Round"
+msgstr ""
+
+#: includes/grve-add-param.php:156
+#@ grve-osmosis-vc-extension
+msgid "Button Link"
+msgstr ""
+
+#: includes/grve-add-param.php:159
+#: shortcodes/grve_icon_box.php:298
+#: shortcodes/grve_single_image.php:158
+#: shortcodes/grve_team.php:219
+#@ grve-osmosis-vc-extension
+msgid "Enter link."
+msgstr ""
+
+#: includes/grve-add-param.php:165
+#@ grve-osmosis-vc-extension
+msgid "Button class name"
+msgstr ""
+
+#: includes/grve-add-param.php:167
+#: shortcodes/grve_slogan.php:249
+#: shortcodes/grve_slogan.php:334
+#@ grve-osmosis-vc-extension
+msgid "If you wish to style your button differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/grve-add-param.php:173
+#@ grve-osmosis-vc-extension
+msgid "Order By"
+msgstr ""
+
+#: includes/grve-add-param.php:176
+#@ grve-osmosis-vc-extension
+msgid "Date"
+msgstr ""
+
+#: includes/grve-add-param.php:177
+#@ grve-osmosis-vc-extension
+msgid "Last modified date"
+msgstr ""
+
+#: includes/grve-add-param.php:178
+#@ grve-osmosis-vc-extension
+msgid "Number of comments"
+msgstr ""
+
+#: includes/grve-add-param.php:179
+#: shortcodes/grve_callout.php:93
+#: shortcodes/grve_counter.php:200
+#: shortcodes/grve_icon_box.php:269
+#: shortcodes/grve_image_text.php:176
+#: shortcodes/grve_media_box.php:238
+#: shortcodes/grve_pricing_table.php:102
+#: shortcodes/grve_slider.php:169
+#: shortcodes/grve_slogan.php:114
+#: shortcodes/grve_title.php:61
+#: shortcodes/grve_title.php:70
+#@ grve-osmosis-vc-extension
+msgid "Title"
+msgstr ""
+
+#: includes/grve-add-param.php:180
+#@ grve-osmosis-vc-extension
+msgid "Author"
+msgstr ""
+
+#: includes/grve-add-param.php:181
+#@ grve-osmosis-vc-extension
+msgid "Random"
+msgstr ""
+
+#: includes/grve-add-param.php:189
+#@ grve-osmosis-vc-extension
+msgid "Order"
+msgstr ""
+
+#: includes/grve-add-param.php:192
+#@ grve-osmosis-vc-extension
+msgid "Descending"
+msgstr ""
+
+#: includes/grve-add-param.php:193
+#@ grve-osmosis-vc-extension
+msgid "Ascending"
+msgstr ""
+
+#: includes/grve-add-param.php:202
+#: shortcodes/grve_blog.php:309
+#: shortcodes/grve_gallery.php:295
+#: shortcodes/grve_portfolio.php:457
+#@ grve-osmosis-vc-extension
+msgid "Slideshow Speed"
+msgstr ""
+
+#: includes/grve-add-param.php:205
+#: shortcodes/grve_blog.php:312
+#: shortcodes/grve_gallery.php:298
+#: shortcodes/grve_portfolio.php:460
+#@ grve-osmosis-vc-extension
+msgid "Slideshow Speed in ms."
+msgstr ""
+
+#: includes/grve-add-param.php:210
+#: shortcodes/grve_blog.php:324
+#: shortcodes/grve_gallery.php:310
+#: shortcodes/grve_portfolio.php:472
+#@ grve-osmosis-vc-extension
+msgid "Navigation Type"
+msgstr ""
+
+#: includes/grve-add-param.php:213
+#: shortcodes/grve_blog.php:327
+#: shortcodes/grve_dropcap.php:76
+#: shortcodes/grve_gallery.php:313
+#: shortcodes/grve_portfolio.php:475
+#: shortcodes/grve_team.php:160
+#@ grve-osmosis-vc-extension
+msgid "Style 1"
+msgstr ""
+
+#: includes/grve-add-param.php:214
+#: shortcodes/grve_blog.php:328
+#: shortcodes/grve_dropcap.php:77
+#: shortcodes/grve_gallery.php:314
+#: shortcodes/grve_portfolio.php:476
+#: shortcodes/grve_team.php:161
+#@ grve-osmosis-vc-extension
+msgid "Style 2"
+msgstr ""
+
+#: includes/grve-add-param.php:215
+#: shortcodes/grve_blog.php:329
+#: shortcodes/grve_gallery.php:315
+#: shortcodes/grve_portfolio.php:477
+#@ grve-osmosis-vc-extension
+msgid "Style 3"
+msgstr ""
+
+#: includes/grve-add-param.php:216
+#: shortcodes/grve_blog.php:330
+#: shortcodes/grve_gallery.php:316
+#: shortcodes/grve_portfolio.php:478
+#@ grve-osmosis-vc-extension
+msgid "Style 4"
+msgstr ""
+
+#: includes/grve-add-param.php:217
+#: shortcodes/grve_blog.php:331
+#: shortcodes/grve_gallery.php:317
+#: shortcodes/grve_portfolio.php:479
+#@ grve-osmosis-vc-extension
+msgid "No Navigation"
+msgstr ""
+
+#: includes/grve-add-param.php:219
+#: shortcodes/grve_blog.php:333
+#: shortcodes/grve_gallery.php:319
+#: shortcodes/grve_portfolio.php:481
+#@ grve-osmosis-vc-extension
+msgid "Select your Navigation type."
+msgstr ""
+
+#: includes/grve-add-param.php:224
+#: shortcodes/grve_blog.php:338
+#: shortcodes/grve_gallery.php:324
+#: shortcodes/grve_portfolio.php:486
+#@ grve-osmosis-vc-extension
+msgid "Navigation Color"
+msgstr ""
+
+#: includes/grve-add-param.php:227
+#: shortcodes/grve_blog.php:341
+#: shortcodes/grve_gallery.php:270
+#: shortcodes/grve_gallery.php:327
+#: shortcodes/grve_portfolio.php:443
+#: shortcodes/grve_portfolio.php:489
+#: shortcodes/grve_slider.php:203
+#: shortcodes/grve_slider.php:251
+#: shortcodes/grve_team.php:238
+#@ grve-osmosis-vc-extension
+msgid "Light"
+msgstr ""
+
+#: includes/grve-add-param.php:228
+#: shortcodes/grve_blog.php:342
+#: shortcodes/grve_gallery.php:269
+#: shortcodes/grve_gallery.php:328
+#: shortcodes/grve_portfolio.php:442
+#: shortcodes/grve_portfolio.php:490
+#: shortcodes/grve_slider.php:202
+#: shortcodes/grve_slider.php:250
+#: shortcodes/grve_team.php:237
+#@ grve-osmosis-vc-extension
+msgid "Dark"
+msgstr ""
+
+#: includes/grve-add-param.php:230
+#: shortcodes/grve_blog.php:344
+#: shortcodes/grve_gallery.php:330
+#: shortcodes/grve_portfolio.php:492
+#@ grve-osmosis-vc-extension
+msgid "Select the background Navigation color."
+msgstr ""
+
+#: includes/grve-add-param.php:235
+#@ grve-osmosis-vc-extension
+msgid "Auto Height"
+msgstr ""
+
+#: includes/grve-add-param.php:237
+#@ grve-osmosis-vc-extension
+msgid "Select if you want smooth auto height"
+msgstr ""
+
+#: includes/grve-functions.php:95
+#@ grve-osmosis-vc-extension
+msgid "No Pricing Tables Found"
+msgstr ""
+
+#: includes/grve-functions.php:108
+#: includes/grve-functions.php:154
+#: includes/grve-functions.php:171
+#@ grve-osmosis-vc-extension
+msgid "All Categories"
+msgstr ""
+
+#: includes/grve-functions.php:127
+#: shortcodes/grve_portfolio.php:135
+#@ grve-osmosis-vc-extension
+msgid "All"
+msgstr ""
+
+#: includes/grve-functions.php:376
+#: includes/grve-functions.php:384
+#@ grve-osmosis-vc-extension
+msgid "read more"
+msgstr ""
+
+#: includes/grve-functions.php:659
+#@ grve-osmosis-vc-extension
+msgid "in"
+msgstr ""
+
+#: includes/grve-functions.php:685
+#@ grve-osmosis-vc-extension
+msgid "no comments"
+msgstr ""
+
+#: includes/grve-functions.php:686
+#@ grve-osmosis-vc-extension
+msgid "1 comment"
+msgstr ""
+
+#: includes/grve-functions.php:687
+#@ grve-osmosis-vc-extension
+msgid "comments"
+msgstr ""
+
+#: includes/grve-functions.php:730
+#@ grve-osmosis-vc-extension
+msgid "Posted by"
+msgstr ""
+
+#: shortcodes/grve_blog.php:219
+#@ grve-osmosis-vc-extension
+msgid "Blog"
+msgstr ""
+
+#: shortcodes/grve_blog.php:220
+#@ grve-osmosis-vc-extension
+msgid "Display a Blog element in multiple styles"
+msgstr ""
+
+#: shortcodes/grve_blog.php:224
+#: shortcodes/grve_button.php:67
+#: shortcodes/grve_callout.php:89
+#: shortcodes/grve_counter.php:95
+#: shortcodes/grve_divider.php:53
+#: shortcodes/grve_dropcap.php:69
+#: shortcodes/grve_gallery.php:195
+#: shortcodes/grve_gmap.php:70
+#: shortcodes/grve_go_pricing.php:17
+#: shortcodes/grve_icon_box.php:158
+#: shortcodes/grve_image_text.php:132
+#: shortcodes/grve_list.php:42
+#: shortcodes/grve_media_box.php:159
+#: shortcodes/grve_message_box.php:66
+#: shortcodes/grve_portfolio.php:309
+#: shortcodes/grve_pricing_table.php:98
+#: shortcodes/grve_progress_bar.php:90
+#: shortcodes/grve_promo.php:76
+#: shortcodes/grve_quote.php:63
+#: shortcodes/grve_single_image.php:118
+#: shortcodes/grve_slider.php:134
+#: shortcodes/grve_slogan.php:110
+#: shortcodes/grve_social.php:91
+#: shortcodes/grve_team.php:153
+#: shortcodes/grve_testimonial.php:124
+#: shortcodes/grve_title.php:66
+#: shortcodes/grve_video.php:55
+#@ js_composer
+msgid "Content"
+msgstr ""
+
+#: shortcodes/grve_blog.php:228
+#: shortcodes/grve_dropcap.php:73
+#: shortcodes/grve_portfolio.php:313
+#@ grve-osmosis-vc-extension
+msgid "Style"
+msgstr ""
+
+#: shortcodes/grve_blog.php:232
+#@ grve-osmosis-vc-extension
+msgid "Large Media"
+msgstr ""
+
+#: shortcodes/grve_blog.php:233
+#@ grve-osmosis-vc-extension
+msgid "Small Media"
+msgstr ""
+
+#: shortcodes/grve_blog.php:234
+#: shortcodes/grve_gallery.php:204
+#: shortcodes/grve_portfolio.php:319
+#@ grve-osmosis-vc-extension
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/grve_blog.php:235
+#: shortcodes/grve_gallery.php:202
+#: shortcodes/grve_portfolio.php:317
+#@ grve-osmosis-vc-extension
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/grve_blog.php:236
+#: shortcodes/grve_gallery.php:205
+#: shortcodes/grve_portfolio.php:320
+#@ grve-osmosis-vc-extension
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/grve_blog.php:238
+#@ grve-osmosis-vc-extension
+msgid "Select your Blog Style."
+msgstr ""
+
+#: shortcodes/grve_blog.php:242
+#: shortcodes/grve_gallery.php:221
+#: shortcodes/grve_portfolio.php:326
+#@ grve-osmosis-vc-extension
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/grve_blog.php:246
+#@ grve-osmosis-vc-extension
+msgid "Select your Blog Columns."
+msgstr ""
+
+#: shortcodes/grve_blog.php:251
+#@ grve-osmosis-vc-extension
+msgid "Auto excerpt"
+msgstr ""
+
+#: shortcodes/grve_blog.php:253
+#@ grve-osmosis-vc-extension
+msgid "Adds automatic excerpt to all posts in Large Media style. If auto excerpt is not selected, blog will show all content, a desired 'cut-off' point can be inserted in each post with more quicktag."
+msgstr ""
+
+#: shortcodes/grve_blog.php:254
+#@ grve-osmosis-vc-extension
+msgid "Activate auto excerpt."
+msgstr ""
+
+#: shortcodes/grve_blog.php:259
+#@ grve-osmosis-vc-extension
+msgid "Excerpt length"
+msgstr ""
+
+#: shortcodes/grve_blog.php:261
+#@ grve-osmosis-vc-extension
+msgid "Type how many words you want to display in your post excerpts."
+msgstr ""
+
+#: shortcodes/grve_blog.php:267
+#@ grve-osmosis-vc-extension
+msgid "Read more"
+msgstr ""
+
+#: shortcodes/grve_blog.php:269
+#@ grve-osmosis-vc-extension
+msgid "Adds a read more button after the excerpt or more quicktag"
+msgstr ""
+
+#: shortcodes/grve_blog.php:270
+#@ grve-osmosis-vc-extension
+msgid "Add more button"
+msgstr ""
+
+#: shortcodes/grve_blog.php:275
+#: shortcodes/grve_portfolio.php:382
+#@ grve-osmosis-vc-extension
+msgid "Disable Pagination"
+msgstr ""
+
+#: shortcodes/grve_blog.php:277
+#: shortcodes/grve_portfolio.php:384
+#@ grve-osmosis-vc-extension
+msgid "If selected, pagination will not be shown."
+msgstr ""
+
+#: shortcodes/grve_blog.php:278
+#: shortcodes/grve_portfolio.php:385
+#@ grve-osmosis-vc-extension
+msgid "Disable Pagination."
+msgstr ""
+
+#: shortcodes/grve_blog.php:283
+#@ grve-osmosis-vc-extension
+msgid "Hide Comments"
+msgstr ""
+
+#: shortcodes/grve_blog.php:285
+#@ grve-osmosis-vc-extension
+msgid "If selected, blog overview will not show comments."
+msgstr ""
+
+#: shortcodes/grve_blog.php:286
+#@ grve-osmosis-vc-extension
+msgid "Hide Comments."
+msgstr ""
+
+#: shortcodes/grve_blog.php:291
+#@ grve-osmosis-vc-extension
+msgid "Posts per Page"
+msgstr ""
+
+#: shortcodes/grve_blog.php:294
+#@ grve-osmosis-vc-extension
+msgid "Enter how many posts per page you want to display."
+msgstr ""
+
+#: shortcodes/grve_blog.php:301
+#: shortcodes/grve_gallery.php:287
+#: shortcodes/grve_portfolio.php:390
+#@ grve-osmosis-vc-extension
+msgid "Items per page"
+msgstr ""
+
+#: shortcodes/grve_blog.php:304
+#@ grve-osmosis-vc-extension
+msgid "Number of items per page"
+msgstr ""
+
+#: shortcodes/grve_blog.php:317
+#: shortcodes/grve_gallery.php:303
+#: shortcodes/grve_portfolio.php:465
+#: shortcodes/grve_slider.php:227
+#: shortcodes/grve_testimonial.php:136
+#@ grve-osmosis-vc-extension
+msgid "Pause on Hover"
+msgstr ""
+
+#: shortcodes/grve_blog.php:319
+#: shortcodes/grve_gallery.php:305
+#: shortcodes/grve_portfolio.php:467
+#@ grve-osmosis-vc-extension
+msgid "If selected, carousel will be paused on hover"
+msgstr ""
+
+#: shortcodes/grve_blog.php:353
+#: shortcodes/grve_blog.php:358
+#: shortcodes/grve_portfolio.php:358
+#: shortcodes/grve_testimonial.php:160
+#@ grve-osmosis-vc-extension
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/grve_blog.php:356
+#: shortcodes/grve_portfolio.php:356
+#: shortcodes/grve_testimonial.php:158
+#@ grve-osmosis-vc-extension
+msgid "Select all or multiple categories."
+msgstr ""
+
+#: shortcodes/grve_button.php:63
+#@ grve-osmosis-vc-extension
+msgid "Several styles, sizes and colors for your buttons"
+msgstr ""
+
+#: shortcodes/grve_callout.php:84
+#@ grve-osmosis-vc-extension
+msgid "Callout"
+msgstr ""
+
+#: shortcodes/grve_callout.php:85
+#@ grve-osmosis-vc-extension
+msgid "Two different styles for interesting callouts"
+msgstr ""
+
+#: shortcodes/grve_callout.php:96
+#: shortcodes/grve_image_text.php:179
+#: shortcodes/grve_media_box.php:241
+#: shortcodes/grve_slider.php:172
+#@ grve-osmosis-vc-extension
+msgid "Enter your title."
+msgstr ""
+
+#: shortcodes/grve_callout.php:101
+#: shortcodes/grve_dropcap.php:83
+#: shortcodes/grve_icon_box.php:277
+#: shortcodes/grve_image_text.php:184
+#: shortcodes/grve_media_box.php:246
+#: shortcodes/grve_message_box.php:78
+#: shortcodes/grve_promo.php:92
+#: shortcodes/grve_quote.php:67
+#: shortcodes/grve_slogan.php:150
+#@ grve-osmosis-vc-extension
+msgid "Text"
+msgstr ""
+
+#: shortcodes/grve_callout.php:104
+#: shortcodes/grve_image_text.php:187
+#: shortcodes/grve_media_box.php:249
+#: shortcodes/grve_promo.php:95
+#@ grve-osmosis-vc-extension
+msgid "Enter your text."
+msgstr ""
+
+#: shortcodes/grve_callout.php:109
+#@ grve-osmosis-vc-extension
+msgid "Leader Text"
+msgstr ""
+
+#: shortcodes/grve_callout.php:111
+#@ grve-osmosis-vc-extension
+msgid "If selected, text will be shown as leader"
+msgstr ""
+
+#: shortcodes/grve_callout.php:112
+#@ grve-osmosis-vc-extension
+msgid "Make text leader"
+msgstr ""
+
+#: shortcodes/grve_callout.php:116
+#@ grve-osmosis-vc-extension
+msgid "Button Position"
+msgstr ""
+
+#: shortcodes/grve_callout.php:120
+#@ grve-osmosis-vc-extension
+msgid "Bottom"
+msgstr ""
+
+#: shortcodes/grve_callout.php:122
+#@ grve-osmosis-vc-extension
+msgid "Select the position of the button."
+msgstr ""
+
+#: shortcodes/grve_counter.php:90
+#@ grve-osmosis-vc-extension
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/grve_counter.php:91
+#@ grve-osmosis-vc-extension
+msgid "Add a counter with icon and title"
+msgstr ""
+
+#: shortcodes/grve_counter.php:99
+#@ grve-osmosis-vc-extension
+msgid "Counter Start Number"
+msgstr ""
+
+#: shortcodes/grve_counter.php:102
+#@ grve-osmosis-vc-extension
+msgid "Enter counter start number."
+msgstr ""
+
+#: shortcodes/grve_counter.php:107
+#@ grve-osmosis-vc-extension
+msgid "Counter End Number"
+msgstr ""
+
+#: shortcodes/grve_counter.php:110
+#@ grve-osmosis-vc-extension
+msgid "Enter counter end number."
+msgstr ""
+
+#: shortcodes/grve_counter.php:115
+#@ grve-osmosis-vc-extension
+msgid "Counter Decimal Points"
+msgstr ""
+
+#: shortcodes/grve_counter.php:118
+#@ grve-osmosis-vc-extension
+msgid "Number of decimal points."
+msgstr ""
+
+#: shortcodes/grve_counter.php:122
+#@ grve-osmosis-vc-extension
+msgid "Counter Prefix"
+msgstr ""
+
+#: shortcodes/grve_counter.php:125
+#@ grve-osmosis-vc-extension
+msgid "Enter counter prefix."
+msgstr ""
+
+#: shortcodes/grve_counter.php:129
+#@ grve-osmosis-vc-extension
+msgid "Counter Suffix"
+msgstr ""
+
+#: shortcodes/grve_counter.php:132
+#@ grve-osmosis-vc-extension
+msgid "Enter counter suffix."
+msgstr ""
+
+#: shortcodes/grve_counter.php:136
+#@ grve-osmosis-vc-extension
+msgid "Counter Color"
+msgstr ""
+
+#: shortcodes/grve_counter.php:154
+#@ grve-osmosis-vc-extension
+msgid "Color of the counter."
+msgstr ""
+
+#: shortcodes/grve_counter.php:158
+#: shortcodes/grve_icon_box.php:187
+#@ grve-osmosis-vc-extension
+msgid "Icon type"
+msgstr ""
+
+#: shortcodes/grve_counter.php:161
+#@ grve-osmosis-vc-extension
+msgid "No Icon"
+msgstr ""
+
+#: shortcodes/grve_counter.php:162
+#: shortcodes/grve_counter.php:169
+#: shortcodes/grve_icon_box.php:190
+#: shortcodes/grve_icon_box.php:217
+#: shortcodes/grve_list.php:46
+#: shortcodes/grve_message_box.php:70
+#@ grve-osmosis-vc-extension
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/grve_counter.php:172
+#: shortcodes/grve_icon_box.php:220
+#: shortcodes/grve_list.php:50
+#: shortcodes/grve_message_box.php:73
+#@ grve-osmosis-vc-extension
+msgid "Select an icon."
+msgstr ""
+
+#: shortcodes/grve_counter.php:177
+#@ grve-osmosis-vc-extension
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/grve_counter.php:195
+#@ grve-osmosis-vc-extension
+msgid "Color of the icon."
+msgstr ""
+
+#: shortcodes/grve_counter.php:203
+#@ grve-osmosis-vc-extension
+msgid "Enter counter title."
+msgstr ""
+
+#: shortcodes/grve_divider.php:48
+#@ grve-osmosis-vc-extension
+msgid "Divider"
+msgstr ""
+
+#: shortcodes/grve_divider.php:49
+#@ grve-osmosis-vc-extension
+msgid "Insert dividers, just spaces or different lines"
+msgstr ""
+
+#: shortcodes/grve_divider.php:57
+#: shortcodes/grve_slider.php:186
+#: shortcodes/grve_slogan.php:130
+#: shortcodes/grve_title.php:86
+#@ grve-osmosis-vc-extension
+msgid "Line type"
+msgstr ""
+
+#: shortcodes/grve_divider.php:60
+#@ grve-osmosis-vc-extension
+msgid "Space"
+msgstr ""
+
+#: shortcodes/grve_divider.php:62
+#: shortcodes/grve_slider.php:191
+#: shortcodes/grve_slogan.php:135
+#: shortcodes/grve_title.php:91
+#@ grve-osmosis-vc-extension
+msgid "Double"
+msgstr ""
+
+#: shortcodes/grve_divider.php:63
+#@ grve-osmosis-vc-extension
+msgid "Dashed"
+msgstr ""
+
+#: shortcodes/grve_divider.php:64
+#@ grve-osmosis-vc-extension
+msgid "Back to Top"
+msgstr ""
+
+#: shortcodes/grve_divider.php:71
+#@ grve-osmosis-vc-extension
+msgid "Back to Top Title"
+msgstr ""
+
+#: shortcodes/grve_divider.php:79
+#@ grve-osmosis-vc-extension
+msgid "Top padding"
+msgstr ""
+
+#: shortcodes/grve_divider.php:85
+#@ grve-osmosis-vc-extension
+msgid "Bottom padding"
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:64
+#@ grve-osmosis-vc-extension
+msgid "Dropcap"
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:65
+#@ grve-osmosis-vc-extension
+msgid "Two separate styles for your dropcaps"
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:79
+#@ grve-osmosis-vc-extension
+msgid "Style of the dropcap."
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:86
+#@ grve-osmosis-vc-extension
+msgid "Type your dropcap text."
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:91
+#@ grve-osmosis-vc-extension
+msgid "Dropcap Color"
+msgstr ""
+
+#: shortcodes/grve_dropcap.php:100
+#@ grve-osmosis-vc-extension
+msgid "First character background color"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:190
+#@ grve-osmosis-vc-extension
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:191
+#@ grve-osmosis-vc-extension
+msgid "Numerous styles, multiple columns for galleries"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:199
+#@ grve-osmosis-vc-extension
+msgid "Gallery type"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:203
+#: shortcodes/grve_portfolio.php:318
+#@ grve-osmosis-vc-extension
+msgid "Multi Grid"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:207
+#@ grve-osmosis-vc-extension
+msgid "Select your gallery type."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:214
+#: shortcodes/grve_slider.php:140
+#@ grve-osmosis-vc-extension
+msgid "Attach Images"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:216
+#@ grve-osmosis-vc-extension
+msgid "Select your gallery images."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:224
+#@ grve-osmosis-vc-extension
+msgid "Select number of columns."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:229
+#: shortcodes/grve_portfolio.php:398
+#@ grve-osmosis-vc-extension
+msgid "Gutter between images"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:232
+#: shortcodes/grve_image_text.php:163
+#: shortcodes/grve_portfolio.php:401
+#@ grve-osmosis-vc-extension
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:235
+#: shortcodes/grve_portfolio.php:404
+#@ grve-osmosis-vc-extension
+msgid "Add gutter among images."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:240
+#: shortcodes/grve_slider.php:155
+#@ grve-osmosis-vc-extension
+msgid "Hide Image Title"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:242
+#: shortcodes/grve_slider.php:157
+#@ grve-osmosis-vc-extension
+msgid "If selected, image title will be hidden"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:247
+#: shortcodes/grve_slider.php:162
+#@ grve-osmosis-vc-extension
+msgid "Hide Image Caption"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:249
+#: shortcodes/grve_slider.php:164
+#@ grve-osmosis-vc-extension
+msgid "If selected, image caption will be hidden"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:254
+#: shortcodes/grve_portfolio.php:428
+#: shortcodes/grve_slider.php:236
+#: shortcodes/grve_team.php:223
+#@ grve-osmosis-vc-extension
+msgid "Image Zoom Effect"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:257
+#: shortcodes/grve_portfolio.php:431
+#: shortcodes/grve_slider.php:239
+#: shortcodes/grve_team.php:226
+#@ grve-osmosis-vc-extension
+msgid "Zoom In"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:258
+#: shortcodes/grve_portfolio.php:432
+#: shortcodes/grve_slider.php:240
+#: shortcodes/grve_team.php:227
+#@ grve-osmosis-vc-extension
+msgid "Zoom Out"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:259
+#: shortcodes/grve_icon_box.php:177
+#: shortcodes/grve_icon_box.php:287
+#: shortcodes/grve_portfolio.php:433
+#: shortcodes/grve_slider.php:189
+#: shortcodes/grve_slider.php:241
+#: shortcodes/grve_slogan.php:133
+#: shortcodes/grve_slogan.php:161
+#: shortcodes/grve_team.php:228
+#: shortcodes/grve_testimonial.php:147
+#: shortcodes/grve_title.php:89
+#@ grve-osmosis-vc-extension
+msgid "None"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:261
+#: shortcodes/grve_portfolio.php:435
+#: shortcodes/grve_slider.php:243
+#: shortcodes/grve_team.php:230
+#@ grve-osmosis-vc-extension
+msgid "Choose the image zoom effect."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:266
+#: shortcodes/grve_portfolio.php:439
+#: shortcodes/grve_slider.php:247
+#: shortcodes/grve_team.php:234
+#@ grve-osmosis-vc-extension
+msgid "Overlay Color"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:272
+#: shortcodes/grve_portfolio.php:445
+#: shortcodes/grve_slider.php:253
+#: shortcodes/grve_team.php:240
+#@ grve-osmosis-vc-extension
+msgid "Choose the image color overlay."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:277
+#: shortcodes/grve_portfolio.php:449
+#: shortcodes/grve_slider.php:257
+#: shortcodes/grve_team.php:244
+#@ grve-osmosis-vc-extension
+msgid "Overlay Opacity"
+msgstr ""
+
+#: shortcodes/grve_gallery.php:281
+#: shortcodes/grve_portfolio.php:453
+#: shortcodes/grve_slider.php:261
+#: shortcodes/grve_team.php:248
+#@ grve-osmosis-vc-extension
+msgid "Choose the opacity for the overlay."
+msgstr ""
+
+#: shortcodes/grve_gallery.php:290
+#: shortcodes/grve_portfolio.php:393
+#@ grve-osmosis-vc-extension
+msgid "Number of images per page"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:65
+#@ grve-osmosis-vc-extension
+msgid "Google Map"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:66
+#@ grve-osmosis-vc-extension
+msgid "Freely place your Google Map"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:74
+#: shortcodes/grve_media_box.php:198
+#@ grve-osmosis-vc-extension
+msgid "Map Latitude"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:77
+#: shortcodes/grve_media_box.php:201
+#@ grve-osmosis-vc-extension
+msgid "Type map Latitude."
+msgstr ""
+
+#: shortcodes/grve_gmap.php:82
+#: shortcodes/grve_media_box.php:206
+#@ grve-osmosis-vc-extension
+msgid "Map Longtitude"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:85
+#: shortcodes/grve_media_box.php:209
+#@ grve-osmosis-vc-extension
+msgid "Type map Longtitude."
+msgstr ""
+
+#: shortcodes/grve_gmap.php:90
+#: shortcodes/grve_media_box.php:214
+#@ grve-osmosis-vc-extension
+msgid "Map Zoom"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:94
+#: shortcodes/grve_media_box.php:218
+#@ grve-osmosis-vc-extension
+msgid "Zoom of the map."
+msgstr ""
+
+#: shortcodes/grve_gmap.php:99
+#: shortcodes/grve_media_box.php:223
+#@ grve-osmosis-vc-extension
+msgid "Map Height"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:102
+#: shortcodes/grve_media_box.php:226
+#@ grve-osmosis-vc-extension
+msgid "Type map height."
+msgstr ""
+
+#: shortcodes/grve_gmap.php:106
+#: shortcodes/grve_media_box.php:231
+#@ grve-osmosis-vc-extension
+msgid "Custom marker"
+msgstr ""
+
+#: shortcodes/grve_gmap.php:108
+#: shortcodes/grve_media_box.php:233
+#@ grve-osmosis-vc-extension
+msgid "Select an icon for custom marker."
+msgstr ""
+
+#: shortcodes/grve_go_pricing.php:12
+#@ grve-osmosis-vc-extension
+msgid "Go Pricing"
+msgstr ""
+
+#: shortcodes/grve_go_pricing.php:13
+#@ grve-osmosis-vc-extension
+msgid "Go Pricing Table"
+msgstr ""
+
+#: shortcodes/grve_go_pricing.php:21
+#@ grve-osmosis-vc-extension
+msgid "Table ID"
+msgstr ""
+
+#: shortcodes/grve_go_pricing.php:25
+#@ grve-osmosis-vc-extension
+msgid "Select Pricing Table."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:153
+#@ grve-osmosis-vc-extension
+msgid "Icon Box"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:154
+#@ grve-osmosis-vc-extension
+msgid "Add an icon, character or image with title and text"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:162
+#@ grve-osmosis-vc-extension
+msgid "Icon size"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:174
+#@ grve-osmosis-vc-extension
+msgid "Icon shape"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:180
+#@ grve-osmosis-vc-extension
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:191
+#: shortcodes/grve_image_text.php:136
+#: shortcodes/grve_media_box.php:166
+#: shortcodes/grve_media_box.php:176
+#: shortcodes/grve_promo.php:80
+#: shortcodes/grve_single_image.php:125
+#: shortcodes/grve_single_image.php:135
+#: shortcodes/grve_team.php:168
+#@ grve-osmosis-vc-extension
+msgid "Image"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:192
+#: shortcodes/grve_icon_box.php:261
+#@ grve-osmosis-vc-extension
+msgid "Character"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:199
+#@ grve-osmosis-vc-extension
+msgid "Shape type"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:205
+#@ grve-osmosis-vc-extension
+msgid "Select shape type."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:210
+#@ grve-osmosis-vc-extension
+msgid "Enable Advanced Hover"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:212
+#@ grve-osmosis-vc-extension
+msgid "If selected, you will have advanced hover."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:225
+#@ grve-osmosis-vc-extension
+msgid "Box Color"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:243
+#@ grve-osmosis-vc-extension
+msgid "Color of the icon box."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:247
+#@ grve-osmosis-vc-extension
+msgid "Icon Image"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:249
+#@ grve-osmosis-vc-extension
+msgid "Select an icon image."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:254
+#@ grve-osmosis-vc-extension
+msgid "Retina Icon Image"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:256
+#@ grve-osmosis-vc-extension
+msgid "Select a 2x icon."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:264
+#@ grve-osmosis-vc-extension
+msgid "Type a single character."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:272
+#@ grve-osmosis-vc-extension
+msgid "Enter icon box title."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:280
+#: shortcodes/grve_message_box.php:81
+#@ grve-osmosis-vc-extension
+msgid "Enter your content."
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:284
+#: shortcodes/grve_slogan.php:158
+#: shortcodes/grve_testimonial.php:144
+#@ grve-osmosis-vc-extension
+msgid "Text Style"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:288
+#: shortcodes/grve_slogan.php:162
+#: shortcodes/grve_testimonial.php:148
+#@ grve-osmosis-vc-extension
+msgid "Leader"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:289
+#: shortcodes/grve_slogan.php:163
+#: shortcodes/grve_testimonial.php:149
+#@ grve-osmosis-vc-extension
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/grve_icon_box.php:295
+#: shortcodes/grve_single_image.php:155
+#: shortcodes/grve_team.php:216
+#@ grve-osmosis-vc-extension
+msgid "Link"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:127
+#@ grve-osmosis-vc-extension
+msgid "Image Text"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:128
+#@ grve-osmosis-vc-extension
+msgid "Combine image or video with text and button"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:138
+#: shortcodes/grve_media_box.php:178
+#: shortcodes/grve_promo.php:82
+#: shortcodes/grve_single_image.php:137
+#: shortcodes/grve_team.php:170
+#@ grve-osmosis-vc-extension
+msgid "Select an image."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:142
+#: shortcodes/grve_media_box.php:183
+#: shortcodes/grve_promo.php:86
+#: shortcodes/grve_single_image.php:141
+#@ grve-osmosis-vc-extension
+msgid "Retina Image"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:144
+#: shortcodes/grve_media_box.php:185
+#: shortcodes/grve_promo.php:88
+#: shortcodes/grve_single_image.php:143
+#@ grve-osmosis-vc-extension
+msgid "Select a 2x image."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:148
+#@ grve-osmosis-vc-extension
+msgid "Image align"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:150
+#@ grve-osmosis-vc-extension
+msgid "Set the alignment of your image"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:158
+#@ grve-osmosis-vc-extension
+msgid "Video popup"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:160
+#@ grve-osmosis-vc-extension
+msgid "If selected, a video popup will be appear on click."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:168
+#: shortcodes/grve_media_box.php:190
+#: shortcodes/grve_single_image.php:147
+#: shortcodes/grve_video.php:59
+#@ grve-osmosis-vc-extension
+msgid "Video Link"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:171
+#: shortcodes/grve_media_box.php:193
+#: shortcodes/grve_single_image.php:150
+#@ grve-osmosis-vc-extension
+msgid "Type video URL e.g Vimeo/YouTube."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:191
+#: shortcodes/grve_media_box.php:260
+#@ grve-osmosis-vc-extension
+msgid "Read More Title"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:194
+#: shortcodes/grve_media_box.php:263
+#: shortcodes/grve_portfolio.php:349
+#@ grve-osmosis-vc-extension
+msgid "Enter your title for your link."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:206
+#@ grve-osmosis-vc-extension
+msgid "Read More Link"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:209
+#@ grve-osmosis-vc-extension
+msgid "Enter read more link."
+msgstr ""
+
+#: shortcodes/grve_list.php:37
+#: shortcodes/grve_list.php:55
+#@ grve-osmosis-vc-extension
+msgid "List"
+msgstr ""
+
+#: shortcodes/grve_list.php:38
+#@ grve-osmosis-vc-extension
+msgid "Select among several different styles"
+msgstr ""
+
+#: shortcodes/grve_list.php:58
+#@ grve-osmosis-vc-extension
+msgid "Insert your unordered list here."
+msgstr ""
+
+#: shortcodes/grve_media_box.php:154
+#@ grve-osmosis-vc-extension
+msgid "Media Box"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:155
+#@ grve-osmosis-vc-extension
+msgid "Image, Video or Map combined with text"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:163
+#@ grve-osmosis-vc-extension
+msgid "Media type"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:167
+#@ grve-osmosis-vc-extension
+msgid "Image - Video Popup"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:168
+#: shortcodes/grve_video.php:50
+#@ grve-osmosis-vc-extension
+msgid "Video"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:169
+#@ grve-osmosis-vc-extension
+msgid "Map"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:171
+#@ grve-osmosis-vc-extension
+msgid "Select your media type."
+msgstr ""
+
+#: shortcodes/grve_media_box.php:253
+#@ grve-osmosis-vc-extension
+msgid "Title Link"
+msgstr ""
+
+#: shortcodes/grve_media_box.php:256
+#@ grve-osmosis-vc-extension
+msgid "Enter title link."
+msgstr ""
+
+#: shortcodes/grve_message_box.php:61
+#@ grve-osmosis-vc-extension
+msgid "Message Box"
+msgstr ""
+
+#: shortcodes/grve_message_box.php:62
+#@ grve-osmosis-vc-extension
+msgid "Info text with icons"
+msgstr ""
+
+#: shortcodes/grve_message_box.php:86
+#@ grve-osmosis-vc-extension
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/grve_message_box.php:104
+#@ grve-osmosis-vc-extension
+msgid "Background color of the box."
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:304
+#@ grve-osmosis-vc-extension
+msgid "Portfolio"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:305
+#@ grve-osmosis-vc-extension
+msgid "Display Portfolio element in multiple styles"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:322
+#@ grve-osmosis-vc-extension
+msgid "Select a style for your portfolio"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:330
+#@ grve-osmosis-vc-extension
+msgid "Select your Porfolio Columns."
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:335
+#@ grve-osmosis-vc-extension
+msgid "Link Type"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:339
+#@ grve-osmosis-vc-extension
+msgid "Classic Portfolio"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:340
+#@ grve-osmosis-vc-extension
+msgid "Gallery Usage"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:342
+#@ grve-osmosis-vc-extension
+msgid "Select the link type of your portfolio items."
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:346
+#@ grve-osmosis-vc-extension
+msgid "Link Type Title"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:353
+#@ grve-osmosis-vc-extension
+msgid "Portfolio Categories"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:362
+#@ grve-osmosis-vc-extension
+msgid "Filter"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:364
+#@ grve-osmosis-vc-extension
+msgid "If selected, an isotope filter will be displayed."
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:365
+#@ grve-osmosis-vc-extension
+msgid "Enable Portfolio Filter ( Only for All or Multiple Categories )"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:370
+#@ grve-osmosis-vc-extension
+msgid "Filter Alignment"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:409
+#: shortcodes/grve_testimonial.php:128
+#@ grve-osmosis-vc-extension
+msgid "Items to show"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:412
+#@ grve-osmosis-vc-extension
+msgid "Maximum Portfolio Items to Show"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:416
+#@ grve-osmosis-vc-extension
+msgid "Hide Portfolio Title"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:418
+#@ grve-osmosis-vc-extension
+msgid "If selected, portfolio title will be hidden"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:422
+#@ grve-osmosis-vc-extension
+msgid "Hide Portfolio Description"
+msgstr ""
+
+#: shortcodes/grve_portfolio.php:424
+#@ grve-osmosis-vc-extension
+msgid "If selected, portfolio description will be hidden"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:93
+#@ grve-osmosis-vc-extension
+msgid "Pricing Table"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:94
+#@ grve-osmosis-vc-extension
+msgid "Stylish pricing tables"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:105
+#: shortcodes/grve_slogan.php:117
+#: shortcodes/grve_title.php:73
+#@ grve-osmosis-vc-extension
+msgid "Enter your title here."
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:110
+#@ grve-osmosis-vc-extension
+msgid "Price"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:113
+#@ grve-osmosis-vc-extension
+msgid "Enter your price here. eg $80."
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:118
+#@ grve-osmosis-vc-extension
+msgid "Interval"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:121
+#@ grve-osmosis-vc-extension
+msgid "Enter interval period here. e.g: /month, per month, per year."
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:125
+#@ grve-osmosis-vc-extension
+msgid "Attributes"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:127
+#@ grve-osmosis-vc-extension
+msgid "Input attribute values. Divide values with linebreaks (Enter). Example: 100|Users."
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:132
+#@ grve-osmosis-vc-extension
+msgid "Featured"
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:134
+#@ grve-osmosis-vc-extension
+msgid "If selected, element will be shown as feature."
+msgstr ""
+
+#: shortcodes/grve_pricing_table.php:135
+#@ grve-osmosis-vc-extension
+msgid "Show as featured"
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:85
+#@ grve-osmosis-vc-extension
+msgid "Progress Bar"
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:86
+#@ grve-osmosis-vc-extension
+msgid "Create horizontal progress bar"
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:94
+#@ grve-osmosis-vc-extension
+msgid "Bar values"
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:96
+#@ grve-osmosis-vc-extension
+msgid "Input bar values here. Divide values with linebreaks (Enter). Example: 90|Development|black."
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:97
+#@ grve-osmosis-vc-extension
+msgid "Available colors: primary-1, green, orange, red, blue, aqua, purple, black, white."
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:103
+#@ grve-osmosis-vc-extension
+msgid "Bars Color"
+msgstr ""
+
+#: shortcodes/grve_progress_bar.php:120
+#@ grve-osmosis-vc-extension
+msgid "Use single color for all bars ( If not specified in Bar values )"
+msgstr ""
+
+#: shortcodes/grve_promo.php:71
+#@ grve-osmosis-vc-extension
+msgid "Advanced Promo"
+msgstr ""
+
+#: shortcodes/grve_promo.php:72
+#@ grve-osmosis-vc-extension
+msgid "Advanced, impressive promotion for whatever you like"
+msgstr ""
+
+#: shortcodes/grve_quote.php:58
+#@ grve-osmosis-vc-extension
+msgid "Quote"
+msgstr ""
+
+#: shortcodes/grve_quote.php:59
+#@ grve-osmosis-vc-extension
+msgid "Easily create your Quote Text"
+msgstr ""
+
+#: shortcodes/grve_quote.php:70
+#@ grve-osmosis-vc-extension
+msgid "Type your quote."
+msgstr ""
+
+#: shortcodes/grve_single_image.php:113
+#@ grve-osmosis-vc-extension
+msgid "Single Image"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:114
+#@ grve-osmosis-vc-extension
+msgid "Image or Video popup in various uses"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:122
+#@ grve-osmosis-vc-extension
+msgid "Type"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:126
+#@ grve-osmosis-vc-extension
+msgid "Image Link"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:127
+#@ grve-osmosis-vc-extension
+msgid "Image Popup"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:128
+#@ grve-osmosis-vc-extension
+msgid "Image Video Popup"
+msgstr ""
+
+#: shortcodes/grve_single_image.php:130
+#@ grve-osmosis-vc-extension
+msgid "Select your image type."
+msgstr ""
+
+#: shortcodes/grve_slider.php:129
+#@ grve-osmosis-vc-extension
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/grve_slider.php:130
+#@ grve-osmosis-vc-extension
+msgid "Create a simple slider"
+msgstr ""
+
+#: shortcodes/grve_slider.php:142
+#@ grve-osmosis-vc-extension
+msgid "Select your slider images."
+msgstr ""
+
+#: shortcodes/grve_slider.php:146
+#@ grve-osmosis-vc-extension
+msgid "Slider Title & Caption"
+msgstr ""
+
+#: shortcodes/grve_slider.php:149
+#@ grve-osmosis-vc-extension
+msgid "Default Image Title & Caption"
+msgstr ""
+
+#: shortcodes/grve_slider.php:150
+#@ grve-osmosis-vc-extension
+msgid "Custom Title"
+msgstr ""
+
+#: shortcodes/grve_slider.php:178
+#@ grve-osmosis-vc-extension
+msgid "Caption"
+msgstr ""
+
+#: shortcodes/grve_slider.php:181
+#@ grve-osmosis-vc-extension
+msgid "Enter your caption."
+msgstr ""
+
+#: shortcodes/grve_slider.php:192
+#: shortcodes/grve_slogan.php:136
+#: shortcodes/grve_title.php:92
+#@ grve-osmosis-vc-extension
+msgid "Double Bottom"
+msgstr ""
+
+#: shortcodes/grve_slider.php:199
+#@ grve-osmosis-vc-extension
+msgid "Title & Caption Color"
+msgstr ""
+
+#: shortcodes/grve_slider.php:210
+#@ grve-osmosis-vc-extension
+msgid "Color of title and caption."
+msgstr ""
+
+#: shortcodes/grve_slider.php:215
+#@ grve-osmosis-vc-extension
+msgid "Slider Title & Caption Align"
+msgstr ""
+
+#: shortcodes/grve_slider.php:229
+#@ grve-osmosis-vc-extension
+msgid "If selected, slider will be paused on hover"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:105
+#@ grve-osmosis-vc-extension
+msgid "Slogan"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:106
+#@ grve-osmosis-vc-extension
+msgid "Create easily appealing slogans"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:122
+#: shortcodes/grve_title.php:78
+#@ grve-osmosis-vc-extension
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:126
+#@ grve-osmosis-vc-extension
+msgid "Heading size of the title"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:138
+#@ grve-osmosis-vc-extension
+msgid "Line Type of the title."
+msgstr ""
+
+#: shortcodes/grve_slogan.php:142
+#@ grve-osmosis-vc-extension
+msgid "Sub-Title"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:145
+#@ grve-osmosis-vc-extension
+msgid "Enter your sub-title here."
+msgstr ""
+
+#: shortcodes/grve_slogan.php:153
+#@ grve-osmosis-vc-extension
+msgid "Type your text."
+msgstr ""
+
+#: shortcodes/grve_slogan.php:169
+#@ grve-osmosis-vc-extension
+msgid "First Button type"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:176
+#: shortcodes/grve_slogan.php:199
+#: shortcodes/grve_slogan.php:207
+#: shortcodes/grve_slogan.php:222
+#: shortcodes/grve_slogan.php:235
+#: shortcodes/grve_slogan.php:243
+#: shortcodes/grve_slogan.php:250
+#@ grve-osmosis-vc-extension
+msgid "First Button"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:180
+#@ grve-osmosis-vc-extension
+msgid "First Button Color"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:203
+#@ grve-osmosis-vc-extension
+msgid "First Button Text"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:206
+#: shortcodes/grve_slogan.php:291
+#@ grve-osmosis-vc-extension
+msgid "Leave this field empty if you don't want to show this button."
+msgstr ""
+
+#: shortcodes/grve_slogan.php:211
+#@ grve-osmosis-vc-extension
+msgid "First Button Size"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:226
+#@ grve-osmosis-vc-extension
+msgid "First Button Shape"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:239
+#@ grve-osmosis-vc-extension
+msgid "First Button Link"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:242
+#: shortcodes/grve_slogan.php:327
+#@ grve-osmosis-vc-extension
+msgid "Enter a link for your button."
+msgstr ""
+
+#: shortcodes/grve_slogan.php:247
+#@ grve-osmosis-vc-extension
+msgid "First Button class name"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:254
+#@ grve-osmosis-vc-extension
+msgid "Second Button type"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:261
+#: shortcodes/grve_slogan.php:284
+#: shortcodes/grve_slogan.php:292
+#: shortcodes/grve_slogan.php:307
+#: shortcodes/grve_slogan.php:320
+#: shortcodes/grve_slogan.php:328
+#: shortcodes/grve_slogan.php:335
+#@ grve-osmosis-vc-extension
+msgid "Second Button"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:265
+#@ grve-osmosis-vc-extension
+msgid "Second Button Color"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:288
+#@ grve-osmosis-vc-extension
+msgid "Second Button Text"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:296
+#@ grve-osmosis-vc-extension
+msgid "Second Button Size"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:324
+#@ grve-osmosis-vc-extension
+msgid "Second Button Link"
+msgstr ""
+
+#: shortcodes/grve_slogan.php:332
+#@ grve-osmosis-vc-extension
+msgid "Second Button class name"
+msgstr ""
+
+#: shortcodes/grve_social.php:86
+#@ grve-osmosis-vc-extension
+msgid "Social"
+msgstr ""
+
+#: shortcodes/grve_social.php:87
+#@ grve-osmosis-vc-extension
+msgid "Place your preferred social"
+msgstr ""
+
+#: shortcodes/grve_social.php:95
+#: shortcodes/grve_team.php:188
+#@ grve-osmosis-vc-extension
+msgid "Facebook"
+msgstr ""
+
+#: shortcodes/grve_social.php:97
+#@ grve-osmosis-vc-extension
+msgid "Share in Facebook"
+msgstr ""
+
+#: shortcodes/grve_social.php:98
+#@ grve-osmosis-vc-extension
+msgid "Show Facebook social share"
+msgstr ""
+
+#: shortcodes/grve_social.php:102
+#: shortcodes/grve_team.php:195
+#@ grve-osmosis-vc-extension
+msgid "Twitter"
+msgstr ""
+
+#: shortcodes/grve_social.php:104
+#@ grve-osmosis-vc-extension
+msgid "Share in Twitter"
+msgstr ""
+
+#: shortcodes/grve_social.php:105
+#@ grve-osmosis-vc-extension
+msgid "Show Twitter social share"
+msgstr ""
+
+#: shortcodes/grve_social.php:109
+#: shortcodes/grve_team.php:202
+#@ grve-osmosis-vc-extension
+msgid "Linkedin"
+msgstr ""
+
+#: shortcodes/grve_social.php:111
+#@ grve-osmosis-vc-extension
+msgid "Share in Linkedin"
+msgstr ""
+
+#: shortcodes/grve_social.php:112
+#@ grve-osmosis-vc-extension
+msgid "Show Linkedin social share"
+msgstr ""
+
+#: shortcodes/grve_social.php:116
+#@ grve-osmosis-vc-extension
+msgid "Google +"
+msgstr ""
+
+#: shortcodes/grve_social.php:118
+#@ grve-osmosis-vc-extension
+msgid "Share in Google +"
+msgstr ""
+
+#: shortcodes/grve_social.php:119
+#@ grve-osmosis-vc-extension
+msgid "Show Google + social share"
+msgstr ""
+
+#: shortcodes/grve_social.php:123
+#@ grve-osmosis-vc-extension
+msgid "reddit"
+msgstr ""
+
+#: shortcodes/grve_social.php:125
+#@ grve-osmosis-vc-extension
+msgid "Submit in reddit"
+msgstr ""
+
+#: shortcodes/grve_social.php:126
+#@ grve-osmosis-vc-extension
+msgid "Show reddit social share"
+msgstr ""
+
+#: shortcodes/grve_team.php:148
+#@ grve-osmosis-vc-extension
+msgid "Team"
+msgstr ""
+
+#: shortcodes/grve_team.php:149
+#@ grve-osmosis-vc-extension
+msgid "Show your team members"
+msgstr ""
+
+#: shortcodes/grve_team.php:157
+#@ grve-osmosis-vc-extension
+msgid "Team style"
+msgstr ""
+
+#: shortcodes/grve_team.php:163
+#@ grve-osmosis-vc-extension
+msgid "Select your team style."
+msgstr ""
+
+#: shortcodes/grve_team.php:174
+#@ grve-osmosis-vc-extension
+msgid "Name"
+msgstr ""
+
+#: shortcodes/grve_team.php:177
+#@ grve-osmosis-vc-extension
+msgid "Enter your team name."
+msgstr ""
+
+#: shortcodes/grve_team.php:181
+#@ grve-osmosis-vc-extension
+msgid "Identity"
+msgstr ""
+
+#: shortcodes/grve_team.php:184
+#@ grve-osmosis-vc-extension
+msgid "Enter your team identity/profession e.g: Designer"
+msgstr ""
+
+#: shortcodes/grve_team.php:191
+#@ grve-osmosis-vc-extension
+msgid "Enter facebook URL. Clear input if you don't want to display."
+msgstr ""
+
+#: shortcodes/grve_team.php:198
+#@ grve-osmosis-vc-extension
+msgid "Enter twitter URL. Clear input if you don't want to display."
+msgstr ""
+
+#: shortcodes/grve_team.php:205
+#@ grve-osmosis-vc-extension
+msgid "Enter linkedin URL. Clear input if you don't want to display."
+msgstr ""
+
+#: shortcodes/grve_team.php:209
+#@ grve-osmosis-vc-extension
+msgid "Email"
+msgstr ""
+
+#: shortcodes/grve_team.php:212
+#@ grve-osmosis-vc-extension
+msgid "Enter your email. Clear input if you don't want to display."
+msgstr ""
+
+#: shortcodes/grve_testimonial.php:119
+#@ grve-osmosis-vc-extension
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes/grve_testimonial.php:120
+#@ grve-osmosis-vc-extension
+msgid "Add a captivating testimonial slider"
+msgstr ""
+
+#: shortcodes/grve_testimonial.php:131
+#@ grve-osmosis-vc-extension
+msgid "Maximum Testimonial Items to Show"
+msgstr ""
+
+#: shortcodes/grve_testimonial.php:138
+#@ grve-osmosis-vc-extension
+msgid "If selected, testimonial will be paused on hover"
+msgstr ""
+
+#: shortcodes/grve_testimonial.php:155
+#@ grve-osmosis-vc-extension
+msgid "Testimonial Categories"
+msgstr ""
+
+#: shortcodes/grve_title.php:62
+#@ grve-osmosis-vc-extension
+msgid "Add a title in many and diverse ways"
+msgstr ""
+
+#: shortcodes/grve_title.php:82
+#@ grve-osmosis-vc-extension
+msgid "Heading size"
+msgstr ""
+
+#: shortcodes/grve_video.php:51
+#@ grve-osmosis-vc-extension
+msgid "Embed YouTube/Vimeo player"
+msgstr ""
+
+#: shortcodes/grve_video.php:62
+#@ grve-osmosis-vc-extension
+msgid "Type Vimeo/YouTube URL."
+msgstr ""
+
+#: includes/grve-add-param.php:45
+#: shortcodes/grve_divider.php:81
+#: shortcodes/grve_divider.php:87
+#@ grve-osmosis-vc-extension
+msgid "You can use px, em, %, etc. or enter just number and it will use pixels."
+msgstr ""
+
+#: shortcodes/grve_divider.php:74
+#@ grve-osmosis-vc-extension
+msgid "Set Back to top title."
+msgstr ""
+
+#: shortcodes/grve_image_text.php:199
+#@ grve-osmosis-vc-extension
+msgid "Read More Link Class"
+msgstr ""
+
+#: shortcodes/grve_image_text.php:202
+#@ grve-osmosis-vc-extension
+msgid "Enter extra class name for your link."
+msgstr ""
+
