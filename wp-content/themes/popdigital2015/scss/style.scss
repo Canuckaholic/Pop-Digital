@@ -10,4 +10,15 @@ Version: 1.0
 
 @import "compass/css3";
 
+.dark-text {
+	color: #000000;
+}
 
+div.wpcf7-validation-errors {
+	background-color: #F00;
+	border-color: #999;
+}
+
+div.wpcf7-response-output {
+	margin: 0 1em 2em 0;
+}
